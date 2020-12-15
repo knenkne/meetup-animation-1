@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/knenkne/meetup-animation-1#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "lottie-web": "^5.7.3"
   },
   "devDependencies": {
