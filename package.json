@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enkztw/meetup-animation.git"
+    "url": "git+https://github.com/knenkne/meetup-animation-1.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/enkztw/meetup-animation/issues"
+    "url": "https://github.com/knenkne/meetup-animation-1/issues"
   },
-  "homepage": "https://github.com/enkztw/meetup-animation#readme",
+  "homepage": "https://github.com/knenkne/meetup-animation-1#readme",
   "dependencies": {
     "lottie-web": "^5.7.3"
   },
