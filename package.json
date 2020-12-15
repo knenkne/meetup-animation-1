@@ -4,7 +4,7 @@
   "description": "Инкапсулированный пример анимации на lottie",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "node index.js",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

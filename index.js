@@ -1,4 +1,8 @@
-var express = require('express');
-var app = express();
+const PORT = process.env.PORT || 5000
 
-app.use(express.static('dist'));
+var express = require('express');
+
+
+express()
+  .use(express.static('dist'))
+  .listen(PORT, () => console.log(`Listening on ${PORT}`));
