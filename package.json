@@ -1,0 +1,29 @@
+{
+  "name": "meetup-animation",
+  "version": "1.0.0",
+  "description": "Анимация — способ создания иллюзии путём быстрой смены изображений. Анимация появилась намного раньше, чем компьютер, и прошла длинный путь от роликов из 10–20 кадров до полнометражных фильмов, созданных с помощью компьютерной графики.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkztw/meetup-animation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enkztw/meetup-animation/issues"
+  },
+  "homepage": "https://github.com/enkztw/meetup-animation#readme",
+  "dependencies": {
+    "lottie-web": "^5.7.3"
+  },
+  "devDependencies": {
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  }
+}
