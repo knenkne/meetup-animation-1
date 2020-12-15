@@ -1,12 +1,12 @@
 {
-  "name": "meetup-animation",
+  "name": "meetup-animation-1",
   "version": "1.0.0",
-  "description": "Анимация — способ создания иллюзии путём быстрой смены изображений. Анимация появилась намного раньше, чем компьютер, и прошла длинный путь от роликов из 10–20 кадров до полнометражных фильмов, созданных с помощью компьютерной графики.",
+  "description": "Инкапсулированный пример анимации на lottie",
   "main": "index.js",
   "scripts": {
     "heroku-prebuild": "npm install --dev",
-    "start": "webpack-dev-server",
-    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
