@@ -10,7 +10,7 @@ const lottieSettings = {
     autoplay: false,
     animationData: HolyJSON,
     rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice',
+        preserveAspectRatio: 'xMidYMax slice',
         progressiveLoad: true
         
     }
