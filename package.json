@@ -4,9 +4,7 @@
   "description": "Инкапсулированный пример анимации на lottie",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "npm install --dev",
-    "dev": "webpack-dev-server",
-    "start": "webpack",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
