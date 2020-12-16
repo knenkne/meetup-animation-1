@@ -1,0 +1,158 @@
+module.exports = {
+    type: 'CoreFieldset',
+    title: 'У Fieldset есть форматы',
+    description: 'Надстройки над типами для кастомизации средств ввода',
+    fields: [
+        {
+            id: 'numeric:fieldset:integer',
+            value: '',
+            type: 'text',
+            format: 'integer',
+            title: 'Целочисленный ввод',
+        },
+        {
+            id: 'numeric:fieldset:decimal',
+            value: '',
+            type: 'text',
+            format: 'decimal',
+            title: 'Дробный ввод',
+        },
+        {
+            id: 'numeric:fieldset:money',
+            value: '',
+            type: 'text',
+            format: 'money',
+            formatConfig: 'RUB',
+            title: 'Выбор суммы',
+            description: '**Внимание!** Валидация (да, markdown тоже есть)',
+        },
+        {
+            id: 'text:formatted:text',
+            type: 'text',
+            format: 'formattedText',
+            formatConfig: '+7 ([000]) [SSs]-[099]-<ВEH> [ [ЫЫ] ] <<А-Я><',
+            value: '123abc945ВЫЫЭ',
+            title: 'Форматированный текст'
+        },
+        {
+            id: 'text:formatted:number',
+            type: 'text',
+            format: 'formattedNumber',
+            formatConfig: '+7 ([000]) [000]-[00]-[00]',
+            value: '9169492677',
+            title: 'Форматированное число'
+        },
+        {
+            id: 'numeric:fieldset:quantity',
+            value: '20',
+            type: 'text',
+            format: 'quantity',
+            formatConfig: '10',
+            title: 'Spinbutton, он же quantity, он же counter',
+        },
+        {
+            id: 'primitive:formats:resource',
+            value: '',
+            type: 'select',
+            format: 'resource',
+            referenceId: 'cards',
+            title: 'Выбор ресурса списания/начисления/итд'
+        },
+        {
+            id: 'formats:snils',
+            value: '12345678964',
+            type: 'text',
+            title: 'Ввод СНИЛС',
+            format: 'snils',
+        },
+        {
+            id: 'formats:inn:fiz',
+            value: '503405168522',
+            type: 'text',
+            title: 'ИНН физлица',
+            format: 'vat',
+            formatConfig: 'person',
+        },
+        {
+            id: 'formats:inn:org',
+            value: '5034051605',
+            type: 'text',
+            title: 'ИНН юрлица',
+            format: 'vat',
+            formatConfig: 'organization',
+        },
+        {
+            id: 'formats:date',
+            value: '2017-10-10T00:00:00.000+03:00',
+            type: 'text',
+            title: 'Ввод даты',
+            format: 'date'
+        },
+        {
+            id: 'formats:year',
+            value: '2017-10-10T00:00:00.000+03:00',
+            type: 'text',
+            title: 'Ввод года',
+            format: 'year',
+        },
+        {
+            id: 'formats:month',
+            value: '2017-10-10T00:00:00.000+03:00',
+            type: 'text',
+            format: 'month',
+            title: 'Ввод месяца',
+        },
+        {
+            id: 'formats:quarter',
+            value: '2017-10-10T00:00:00.000+03:00',
+            type: 'text',
+            format: 'quarter',
+            title: 'И даже квартала',
+        },
+        {
+            id: 'formats:time',
+            value: '2017-10-10T10:30:00.000+03:00',
+            type: 'text',
+            format: 'time',
+            title: 'Времени',
+        },
+        {
+            id: 'formats:email',
+            value: 'awesome@great.mail.ops',
+            type: 'text',
+            format: 'email',
+            title: 'Электронной почты',
+        },
+        {
+            id: 'formats:card',
+            value: '1234567890123456',
+            type: 'text',
+            title: 'Карты',
+            format: 'card',
+        },
+        {
+            id: 'formats:suggest',
+            value: '',
+            type: 'select',
+            referenceId: 'lazySuggestService',
+            title: 'Выбор из справочника (справочники могут обращаться к удаленному сервису)',
+            format: 'suggest',
+        },
+        {
+            id: 'formats:suggest:dictionary',
+            value: 'ITALY:value',
+            type: 'select',
+            referenceId: 'suggestDictionary',
+            title: 'Или работать автономно',
+            format: 'suggest',
+        },
+        {
+            id: 'numeric:fieldset:localPhone',
+            value: '962•••••66',
+            type: 'text',
+            format: 'localPhone',
+            title: 'И ввод российского номера телефона',
+            description: 'На этом перечень форматой не планирует останавливаться'
+        }
+    ]
+}
