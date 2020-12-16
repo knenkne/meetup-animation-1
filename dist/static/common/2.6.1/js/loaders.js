@@ -69,7 +69,7 @@
         animationData: y,
         rendererSettings: {
           progressiveLoad: !0,
-          preserveAspectRatio: "xMidYMax slice",
+          preserveAspectRatio: "xMidYMid slice",
         },
       })
       w.setSubframe(!1), w.play()
