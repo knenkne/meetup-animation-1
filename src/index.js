@@ -5,7 +5,7 @@ const entry = document.querySelector('.root')
 
 const lottieSettings = {
     container: entry,
-    renderer: 'canvas',
+    renderer: 'svg',
     loop: false,
     autoplay: false,
     animationData: HolyJSON,
@@ -18,5 +18,7 @@ const lottieSettings = {
 
 window.addEventListener('resize', lottie.resize)
 
+lottie.setQuality('low')
 const lottieInstance = lottie.loadAnimation(lottieSettings)
+lottieInstance.setSubframe(false)
 lottieInstance.play()
