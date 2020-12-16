@@ -1,0 +1,11 @@
+
+name: jest-config
+description: 'Jest base preset for SBOL projects'
+developers:
+    - Ковалёв Андрей Александрович
+    - Власов Андрей Владимирович
+    - Примаков Александр Александрович
+revision: e3d1a64c8e836660615bd4bad98145f7bef53abf
+build: 92
+version: 1.4.10  
+buildDate: 08.12.2020 - 17:17:24

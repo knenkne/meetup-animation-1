@@ -1,0 +1,16 @@
+{
+    "success": true,
+    "body": {
+        "result": "SUCCESS",
+        "pid": "12345",
+        "flow": "superFlow",
+        "state": "step2",
+        "output": {
+          "screens": [],
+          "events": [ "event1", "event2" ],
+          "references": {}
+        },
+        "history": [ "historyItem1", "historyItem2" ]
+  },
+  "messages": []
+}

@@ -1,0 +1,16 @@
+@import '@sbol/lib.ui/src/utils/styles/offsets.config.css';
+
+.half-width {
+    display: inline-block;
+    width: calc(50% - var(--offset-md));
+    margin-top: var(--offset-md2);
+    vertical-align: top;
+}
+
+.half-width + .half-width {
+    margin-left: var(--offset-lg);
+}
+
+.checkbox {
+    margin-top: var(--offset-md);
+}

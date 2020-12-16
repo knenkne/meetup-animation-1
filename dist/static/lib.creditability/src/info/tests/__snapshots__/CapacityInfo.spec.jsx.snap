@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CapacityInfo /> renders correctly with high chances 1`] = `
+<div
+  className="info"
+>
+  <div
+    className="infoContent"
+  >
+    <h3
+      className="title"
+    >
+      lib.creditability:info.decision.high
+    </h3>
+    <div
+      className="advice"
+    >
+      lib.creditability:info.advice.high
+    </div>
+    <div
+      className="status"
+    >
+      lib.creditability:info.title
+    </div>
+  </div>
+  <div
+    className="infoScaleContainer"
+  >
+    <div
+      className="infoScaleInside"
+    >
+      lib.creditability:info.scale.title
+      <span
+        className="infoScaleSubtitle"
+      >
+        lib.creditability:info.scale.subtitle
+      </span>
+    </div>
+    <CapacityHellScale
+      limits={
+        Object {
+          "low": 90,
+          "medium": 60,
+        }
+      }
+      reserved={0}
+      used={50}
+    />
+  </div>
+</div>
+`;
+
+exports[`<CapacityInfo /> renders correctly with low chances 1`] = `
+<div
+  className="info"
+>
+  <div
+    className="infoContent"
+  >
+    <h3
+      className="title"
+    >
+      lib.creditability:info.decision.low
+    </h3>
+    <div
+      className="advice"
+    >
+      lib.creditability:info.advice.low
+    </div>
+    <div
+      className="status"
+    >
+      lib.creditability:info.title
+    </div>
+  </div>
+  <div
+    className="infoScaleContainer"
+  >
+    <div
+      className="infoScaleInside"
+    >
+      lib.creditability:info.scale.title
+      <span
+        className="infoScaleSubtitle"
+      >
+        lib.creditability:info.scale.subtitle
+      </span>
+    </div>
+    <CapacityHellScale
+      limits={
+        Object {
+          "low": 90,
+          "medium": 60,
+        }
+      }
+      reserved={50}
+      used={50}
+    />
+  </div>
+</div>
+`;
+
+exports[`<CapacityInfo /> renders correctly with medium chances 1`] = `
+<div
+  className="info"
+>
+  <div
+    className="infoContent"
+  >
+    <h3
+      className="title"
+    >
+      some.decision.key
+    </h3>
+    <div
+      className="advice"
+    >
+      some.advice.key
+    </div>
+    <div
+      className="status"
+    >
+      lib.creditability:info.title
+    </div>
+  </div>
+  <div
+    className="infoScaleContainer"
+  >
+    <div
+      className="infoScaleInside"
+    >
+      lib.creditability:info.scale.title
+      <span
+        className="infoScaleSubtitle"
+      >
+        lib.creditability:info.scale.subtitle
+      </span>
+    </div>
+    <CapacityHellScale
+      limits={
+        Object {
+          "low": 90,
+          "medium": 60,
+        }
+      }
+      reserved={20}
+      used={50}
+    />
+  </div>
+</div>
+`;

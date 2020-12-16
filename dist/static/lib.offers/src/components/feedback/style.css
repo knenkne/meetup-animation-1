@@ -1,0 +1,19 @@
+@import '@sbol/lib.ui/core/full-width/style.css';
+@import '@sbol/lib.ui/core/utils/styles/media.config.css';
+
+.feedback {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2;
+    fill: #262626;
+}

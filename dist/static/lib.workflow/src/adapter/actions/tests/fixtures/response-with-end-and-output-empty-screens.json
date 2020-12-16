@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "body": {
+    "result": "END",
+    "output": {
+      "document": {
+        "documentId": "1504273122489"
+      },
+      "screens": []
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "_from": "@sbol/lib.vendor.react-redux@5.0.7",
+  "_id": "@sbol/lib.vendor.react-redux@5.0.7",
+  "_inBundle": false,
+  "_integrity": "sha1-iUYhBDBxe1zqui6NXdyo9q7cFCo=",
+  "_location": "/@sbol/lib.vendor.react-redux",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/lib.vendor.react-redux@5.0.7",
+    "name": "@sbol/lib.vendor.react-redux",
+    "escapedName": "@sbol%2flib.vendor.react-redux",
+    "scope": "@sbol",
+    "rawSpec": "5.0.7",
+    "saveSpec": null,
+    "fetchSpec": "5.0.7"
+  },
+  "_requiredBy": [
+    "/",
+    "/@sbol/lib.analytics/@sbol/lib.app",
+    "/@sbol/lib.app",
+    "/@sbol/lib.creditability/@sbol/lib.app",
+    "/@sbol/lib.offers",
+    "/@sbol/lib.offers/@sbol/lib.app",
+    "/@sbol/promo",
+    "/@sbol/promo/@sbol/lib.app",
+    "/@sbol/region.offers",
+    "/@sbol/region.scaffold",
+    "/@sbol/region.search",
+    "/@sbol/region.search/@sbol/lib.app"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/lib.vendor.react-redux/-/lib.vendor.react-redux-5.0.7.tgz",
+  "_shasum": "8946210430717b5ceaba2e8d5ddca8f6aedc142a",
+  "_spec": "@sbol/lib.vendor.react-redux@5.0.7",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "PJSC Sberbank"
+  },
+  "bundleDependencies": false,
+  "contributors": [],
+  "dependencies": {
+    "react-redux": "5.0.7"
+  },
+  "deprecated": false,
+  "description": "AMD react-redux vendor module",
+  "devDependencies": {
+    "@gfx/zopfli": "^1.0.11",
+    "@sbol/eslint-config": "^2.3.1",
+    "@sbol/karma-config": "0.0.1",
+    "@sbol/lib.vendor.react": "16.8.3",
+    "@sbol/lib.vendor.react-dom": "16.8.3",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "compression-webpack-plugin": "^2.0.0",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.19.1",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "redux": "4.0.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "~4.16.3"
+  },
+  "license": "UNLICENSED",
+  "main": "target/index.js",
+  "name": "@sbol/lib.vendor.react-redux",
+  "peerDependencies": {
+    "@sbol/lib.vendor.react": "16.8.3",
+    "@sbol/lib.vendor.react-dom": "16.8.3",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "redux": "4.0.1"
+  },
+  "publishConfig": {
+    "registry": "http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol-libs/lib.vendor.react-redux.git"
+  },
+  "scripts": {
+    "build": "npm run development && npm run production",
+    "development": "npx cross-env NODE_ENV=development node src/build.js",
+    "production": "npx cross-env NODE_ENV=production node src/build.js",
+    "test": "npx karma start --single-run --browserNoActivityTimeout 60000 karma.config.js && exit 0"
+  },
+  "version": "5.0.7"
+}

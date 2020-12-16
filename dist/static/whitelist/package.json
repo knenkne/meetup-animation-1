@@ -1,0 +1,81 @@
+{
+  "_from": "@sbol/whitelist@latest",
+  "_id": "@sbol/whitelist@0.9.4",
+  "_inBundle": false,
+  "_integrity": "sha1-lO6eZTZTAGq5u/ffg0HCzVrVgXo=",
+  "_location": "/@sbol/whitelist",
+  "_phantomChildren": {
+    "glob": "7.1.6"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@sbol/whitelist@latest",
+    "name": "@sbol/whitelist",
+    "escapedName": "@sbol%2fwhitelist",
+    "scope": "@sbol",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/whitelist/-/whitelist-0.9.4.tgz",
+  "_shasum": "94ee9e653653006ab9bbf7df8341c2cd5ad5817a",
+  "_spec": "@sbol/whitelist@latest",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "ПАО Сбербанк"
+  },
+  "bin": {
+    "whitelist": "./bin/whitelist"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Tupitskiy.I.Ni@sberbank.ru"
+    }
+  ],
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.14.1",
+    "license-checker": "^20.1.0",
+    "lodash": "^4.17.5",
+    "request": "~2.88.0",
+    "request-promise": "~4.2.2",
+    "rimraf": "~3.0.0",
+    "semver": "^6.3.0"
+  },
+  "deprecated": false,
+  "description": "Utils for checking projects with whitelists",
+  "devDependencies": {
+    "@sbol/eslint-config": "~2.4.1",
+    "eslint": "~4.13.1",
+    "jest": "~23.6.0"
+  },
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "name": "@sbol/whitelist",
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.243:8878/sbtsbol/whitelist.git"
+  },
+  "scripts": {
+    "advisories": "node scripts/save-npm-advisories",
+    "eslint": "node ./node_modules/eslint/bin/eslint.js . --ext .js",
+    "test": "jest",
+    "wla": "node ./bin/whitelist -l npmAudit",
+    "wlall": "node ./bin/whitelist",
+    "wldv": "node ./bin/whitelist --root -l depVersions",
+    "wldv:fix": "node ./bin/whitelist --root -l depVersions --fix",
+    "wldv:fix-force": "node ./bin/whitelist --root -l depVersions --fix-force",
+    "wll": "node ./bin/whitelist --root -l license",
+    "wlr": "node ./bin/whitelist -l require"
+  },
+  "version": "0.9.4"
+}

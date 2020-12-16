@@ -1,0 +1,177 @@
+{
+  "_from": "@sbol/lib.workflow@3.9.0",
+  "_id": "@sbol/lib.workflow@3.9.0",
+  "_inBundle": false,
+  "_integrity": "sha1-92yQAhrks4Bk5v8BGbIvy+uRCE4=",
+  "_location": "/@sbol/lib.workflow",
+  "_phantomChildren": {
+    "@babel/runtime": "7.12.5",
+    "@sbol/lib.vendor.axios": "0.18.0",
+    "@sbol/lib.vendor.classnames": "2.2.6",
+    "@sbol/lib.vendor.i18next": "15.0.5",
+    "@sbol/lib.vendor.lodash": "4.17.11",
+    "@sbol/lib.vendor.react": "16.12.0",
+    "@sbol/lib.vendor.react-dom": "16.12.0",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "bignumber.js": "5.0.0",
+    "date-fns": "2.0.0-alpha.7",
+    "eases": "1.0.8",
+    "es6-error": "4.1.1",
+    "i18next-xhr-backend": "1.5.1",
+    "invariant": "2.2.4",
+    "is-promise": "2.2.2",
+    "lodash": "4.17.20",
+    "lodash-es": "4.17.15",
+    "loglevel": "1.6.8",
+    "loose-envify": "1.4.0",
+    "nanoid": "2.1.11",
+    "prop-types": "15.7.2",
+    "raf": "3.4.1",
+    "react": "16.8.3",
+    "react-collapse": "5.0.1",
+    "react-dom": "16.8.3",
+    "react-height": "3.0.1",
+    "react-is": "16.13.1",
+    "react-lifecycles-compat": "3.0.4",
+    "react-modal": "3.4.5",
+    "react-motion": "0.5.2",
+    "react-onclickoutside": "6.9.0",
+    "react-redux": "5.0.7",
+    "redux-form": "7.4.2",
+    "remarkable": "1.7.4",
+    "text-mask-addons": "3.8.0",
+    "text-mask-core": "5.1.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/lib.workflow@3.9.0",
+    "name": "@sbol/lib.workflow",
+    "escapedName": "@sbol%2flib.workflow",
+    "scope": "@sbol",
+    "rawSpec": "3.9.0",
+    "saveSpec": null,
+    "fetchSpec": "3.9.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/lib.workflow/-/lib.workflow-3.9.0.tgz",
+  "_shasum": "f76c90021ae4b38064e6ff0119b22fcbeb91084e",
+  "_spec": "@sbol/lib.workflow@3.9.0",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "JSC SberTech"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Shutov.D.Alek@sberbank.ru"
+    }
+  ],
+  "dependencies": {
+    "@sbol/lib.app": "3.4.1",
+    "@sbol/lib.ui": "4.8.5",
+    "@sbol/lib.vendor.axios": "0.18.0",
+    "@sbol/lib.vendor.classnames": "2.2.6",
+    "@sbol/lib.vendor.i18next": "15.0.5",
+    "@sbol/lib.vendor.lodash": "4.17.11",
+    "@sbol/lib.vendor.react": "16.12.0",
+    "@sbol/lib.vendor.react-dom": "16.12.0",
+    "@sbol/lib.vendor.react-redux": "7.2.0",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "@sbol/lib.vendor.redux-form": "8.3.1",
+    "@sbol/lib.vendor.redux-thunk": "2.3.0",
+    "@sbol/utils": "0.0.6",
+    "history": "^4.7.2",
+    "qs": "6.7.0",
+    "react-display-name": "^0.2.4",
+    "reselect": "^4.0.0",
+    "text-mask-core": "5.1.2"
+  },
+  "deprecated": false,
+  "description": "WEB SBOL UI Workflow",
+  "devDependencies": {
+    "@sbol/common": "2.4.5",
+    "@sbol/dev.server": "0.2.4",
+    "@sbol/eslint-config": "2.6.0",
+    "@sbol/jest-config": "1.4.8",
+    "@sbol/karma-config": "0.0.6",
+    "@sbol/lib.antifraud": "1.2.0",
+    "@sbol/lib.widgets.core": "2.0.13",
+    "@sbol/lib.widgets.web": "1.2.16",
+    "@sbol/region.scaffold": "1.1.1",
+    "@sbol/schemas": "1.1.2",
+    "@sbol/stylelint-config": "~1.0.3",
+    "@sbol/webpack-config": "12.6.0",
+    "@sbol/webpage.provider.bootstrap": "0.14.2",
+    "@sbol/webpage.provider.templates": "0.12.2",
+    "ajv": "^6.10.2",
+    "babel-eslint": "^8.2.6",
+    "bignumber.js": "^8.1.1",
+    "body-parser": "1.19.0",
+    "chai": "^3.5.0",
+    "cross-env": "^4.0.0",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "eslint": "4.17.0",
+    "eslint-import-resolver-webpack": "^0.11.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-react": "7.12.4",
+    "i18next-xhr-backend": "^2.0.1",
+    "mocha": "3.5.3",
+    "moxios": "^0.4.0",
+    "redux-mock-store": "^1.5.3",
+    "request": "2.88.0",
+    "rimraf": "2.6.3",
+    "stylelint": "^8.4.0"
+  },
+  "engines": {
+    "node": ">=8.8.0",
+    "npm": ">=5.0.0"
+  },
+  "jest": {
+    "preset": "@sbol/jest-config",
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,jsx}"
+    ],
+    "moduleNameMapper": {
+      "@sbol/lib.app": "<rootDir>/src/__mocks__/lib.app.jsx",
+      "i18next": "@sbol/jest-config/test/__mocks__/i18next"
+    }
+  },
+  "license": "UNLICENSED",
+  "main": "./src/index.js",
+  "name": "@sbol/lib.workflow",
+  "precommit": [
+    "eslint",
+    "stylelint"
+  ],
+  "prepush": [
+    "whitelist:deps",
+    "test"
+  ],
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "scripts": {
+    "build": "npm run development && npm run production",
+    "clean": "npm i rimraf && rimraf target package-lock.json example/node_modules example/package-lock.json reports node_modules",
+    "development": "npx cross-env VIZUALIZER=true CSS_HASH_MAP=true NODE_ENV=development node node_modules/@sbol/webpack-config/bin/build.js",
+    "eslint": "npx eslint --ext .js,.jsx .",
+    "eslint:errors": "npx eslint --ext .js,.jsx --quiet ./src",
+    "example": "npm start",
+    "production": "npx cross-env CSS_HASH_MAP=true NODE_ENV=production node node_modules/@sbol/webpack-config/bin/build.js",
+    "start": "npx cross-env ENTRY=fixture/src/main.jsx VERSION=master sbol-dev-server --mode development --with-open-browser",
+    "stylelint": "npx stylelint \"src/**/*.css\"",
+    "stylelint:errors": "npx stylelint \"src/**/*.css\" --quiet",
+    "stylelint:fix": "npx stylelint \"src/**/*.css\" --fix",
+    "test": "cross-env NODE_ENV=test PKG_ID=lib.workflow TESTING=true jest --ci --coverage",
+    "test:api": "mocha --recursive ./src/middleware/**/  --reporter spec",
+    "test:update": "npm run test -- -u",
+    "test:watch": "cross-env NODE_ENV=test PKG_ID=lib.workflow TESTING=true jest --watch",
+    "whitelist:deps": "npx whitelist --root --check-list depVersions --lists-path @sbol/whitelist-config/lists"
+  },
+  "version": "3.9.0"
+}

@@ -1,0 +1,288 @@
+{
+    "success": true,
+    "error": {
+        "uuid": "c976e22d474a9779b07b5104f58d8eef",
+        "code": "PBROKERAGE_sssTECH_BREAK_ERROR",
+        "system": "BROKERAGE_INFO",
+        "title": "",
+        "text": "По техническим причинам Вы не можете выполнить данную операцию до 19:21:14 14.02.2020 (МСК). Пожалуйста, повторите попытку позже."
+    },
+    "messages": [
+        {
+            "title": "Повторить загрузку",
+            "text": "Загрузились не все данные",
+            "type": "warning",
+            "code": "WarningIncompleteness",
+            "uuid": "1e8e24bb-2528-4502-91ff-e9559544c80f"
+        }
+    ],
+    "body": {
+        "applicationInvitation": true,
+        "agreements": [
+            {
+                "number": "4BCDHV2",
+                "agreementType": 1
+            },
+            {
+                "number": "4BCDFVH",
+                "agreementType": 1
+            },
+            {
+                "number": "4BCDEWC",
+                "agreementType": 1
+            },
+            {
+                "number": "4BCDEMU",
+                "agreementType": 1
+            },
+            {
+                "number": "4FZW5-S",
+                "agreementType": 1,
+                "total": {
+                    "value": "16735390.04",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "0.01",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "4A9KW",
+                "agreementType": 1
+            },
+            {
+                "number": "4A9KF",
+                "agreementType": 1
+            },
+            {
+                "number": "4A9H8",
+                "agreementType": 1
+            },
+            {
+                "number": "4C3NL-S",
+                "agreementType": 1,
+                "total": {
+                    "value": "3649932.09",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "5700.00",
+                    "currencyCode": "₽"
+                },
+                "mcMarket": "MarginCall"
+            },
+            {
+                "number": "4AAC9-S",
+                "agreementLinkedCode": "SAAC9-S",
+                "agreementType": 1,
+                "total": {
+                    "value": "795.01",
+                    "currencyCode": "₽"
+                },
+                "mcMarket": "ClosePosition"
+            },
+            {
+                "number": "SAAC9-S",
+                "agreementLinkedCode": "4AAC9-S",
+                "agreementType": 2,
+                "total": {
+                    "value": "924.66",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "40001",
+                "agreementType": 1,
+                "total": {
+                    "value": "4960690.70",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "-38455.84",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "415LV",
+                "agreementType": 1,
+                "change": {
+                    "value": "1590919.20",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "41A3F",
+                "agreementType": 1
+            },
+            {
+                "number": "41NN9",
+                "agreementType": 1,
+                "total": {
+                    "value": "66033.00",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "29854520.49",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "41S14",
+                "agreementType": 1,
+                "change": {
+                    "value": "1117313.72",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "42SUN",
+                "agreementType": 1
+            },
+            {
+                "number": "43YEE",
+                "agreementType": 1
+            },
+            {
+                "number": "44BV3",
+                "agreementType": 1
+            },
+            {
+                "number": "4C583",
+                "agreementType": 1
+            },
+            {
+                "number": "4C737",
+                "agreementType": 1
+            },
+            {
+                "number": "47PA5",
+                "agreementType": 1
+            },
+            {
+                "number": "46HNM-S",
+                "agreementType": 1,
+                "total": {
+                    "value": "219012.55",
+                    "currencyCode": "₽"
+                },
+                "mcMarket": "ClosePosition"
+            },
+            {
+                "number": "45FVM",
+                "agreementType": 1,
+                "total": {
+                    "value": "9319371.16",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "36260268.50",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "43E3C",
+                "agreementType": 1,
+                "total": {
+                    "value": "5793474.11",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "1057987.67",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "42ELA-S",
+                "agreementType": 1,
+                "total": {
+                    "value": "0.00",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "42CUE",
+                "agreementType": 1
+            },
+            {
+                "number": "40SC6-S",
+                "agreementType": 1,
+                "total": {
+                    "value": "17513.96",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "-815.00",
+                    "currencyCode": "₽"
+                },
+                "mcMarket": "MarginCall"
+            },
+            {
+                "number": "4A0SD-S",
+                "agreementType": 1,
+                "total": {
+                    "value": "4856149.05",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "17387.00",
+                    "currencyCode": "₽"
+                },
+                "mcMarket": "MarginCall"
+            },
+            {
+                "number": "4MW1Y-S",
+                "agreementType": 1,
+                "total": {
+                    "value": "11949979.56",
+                    "currencyCode": "₽"
+                },
+                "change": {
+                    "value": "36049.55",
+                    "currencyCode": "₽"
+                }
+            },
+            {
+                "number": "4A248",
+                "agreementType": 1
+            }
+        ],
+        "applications": [
+            {
+                "number": "APP1",
+                "applicationType": "InvestmentDocClaim",
+                "status": "DRAFT",
+                "statusCode": "DRAFT",
+                "statusGroup": ""
+            },
+            {
+                "number": "APP11",
+                "applicationType": "InvestmentDocClaim",
+                "status": "VERIFIED",
+                "statusCode": "VERIFIED",
+                "statusGroup": ""
+            },
+            {
+                "number": "APP2",
+                "applicationType": "InvestmentIisAccClaim",
+                "status": "IN_PROCESS",
+                "statusCode": "IN_PROCESS",
+                "statusGroup": ""
+            },
+            {
+                "number": "APP3",
+                "applicationType": "InvestmentDocClaim",
+                "status": "STOPPED",
+                "statusCode": "STOPPED",
+                "statusGroup": ""
+            },
+            {
+                "number": "APP4",
+                "applicationType": "InvestmentIisAccClaim",
+                "status": "DECLINED",
+                "statusCode": "DECLINED",
+                "statusGroup": ""
+            }
+        ]
+    }
+}

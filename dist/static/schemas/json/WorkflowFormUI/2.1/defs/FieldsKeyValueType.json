@@ -1,0 +1,26 @@
+{
+  "id": "WorkflowFormUI/2.0/defs/FieldsKeyValueType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "FieldsKeyValueType": {
+      "description": "Set of key-value pairs to transport business fields",
+      "type": "object",
+      "patternProperties": {
+        "^(?=.{1,256}$)([A-Za-z0-9][A-Za-z0-9:_|-]*)$": {
+          "oneOf": [
+            {
+              "type": "string",
+              "maxLength": 1024
+            },
+            {
+              "$ref": "WorkflowFormUI/2.0/defs/FlatArrayType.json#/definitions/FlatArrayType"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "minProperties": 1,
+      "maxProperties": 1024
+    }
+  }
+}

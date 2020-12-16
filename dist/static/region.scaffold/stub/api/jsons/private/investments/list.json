@@ -1,0 +1,441 @@
+{
+  "success": true,
+  "body": {
+    "personalDataAgreement": false,
+    "newproductavailable": false,
+    "contracts": [
+      {
+        "viewType": "contractPIF",
+        "productCategory": "cat_dy",
+        "groupTitle": "PIF",
+        "WFName": "WelfareAgreementRequest",
+        "screenName": "Информация о фонде",
+        "productCode": "fund_balanced",
+        "productName": "Фонд Еврооблигации",
+        "id": "ks9u3ufbn8c68hp36wigibtey1",
+        "contractNumber": "4128351",
+        "accountNumber": "1030012345",
+        "dateFrom": "29.06.2018",
+        "dateTo": "28.04.2020",
+        "dateRecount": "01.03.2019",
+        "state": {
+          "code": "Выполняется",
+          "title": "995"
+        },
+        "totalAmount": {
+          "title": "Сумма инвестиций",
+          "value": "228112.05",
+          "currency": "RUB"
+        },
+        "profitAmount": {
+          "title": "Доход за все время",
+          "value": "24454.66",
+          "currency": "RUB"
+        },
+        "payoutAmount": {
+          "title": "",
+          "value": "18454.82",
+          "currency": "RUB"
+        },
+        "payoutFrequency": "помесячно",
+        "profitPercent": "8.000000",
+        "warningText": "someWarningText",
+        "nationalSumm": {
+          "title": "Сумма накоплений с учетом дохода в рублях",
+          "value": "2670000",
+          "currency": "RUB"
+        },
+        "isShowInFinance": true,
+        "managementCompany": {
+          "title": "Управляющая компания",
+          "text": "Сбербанк Управление Активами"
+        },
+        "contactNumber": {
+          "title": "Телефон для справок",
+          "text": "+78001003111"
+        },
+        "productDescription": "",
+        "PaymentType": {
+          "title": "Периодичность выплат",
+          "text": "Ежемесячно"
+        },
+        "amountStatus": {
+          "title": "Договор",
+          "text": "На этапе накопления"
+        },
+
+        "message": {}
+      },
+      {
+        "viewType": "contractPIF",
+        "productCategory": "cat_opif",
+        "groupTitle": "Фонд Глобальный долговой рынок",
+        "WFName": "WelfareAgreementRequest",
+        "screenName": "Информация о фонде",
+        "productCode": "globalMarketFund",
+        "productName": "ПИФ Еврооблигации",
+        "id": "ks9u3ufbn8c68hp36wigibtey2",
+        "contractNumber": "769251",
+        "accountNumber": "1030012345",
+        "dateFrom": "29.06.2018",
+        "dateTo": "28.04.2020",
+        "dateRecount": "01.03.2019",
+        "state": {
+          "code": "Выполняется",
+          "title": "995"
+        },
+        "totalAmount": {
+          "title": "Сумма инвестиций",
+          "value": "9324240.34",
+          "currency": "RUB"
+        },
+        "profitAmount": {
+          "title": "Доход за все время",
+          "value": "245343.84",
+          "currency": "RUB"
+        },
+        "payoutAmount": {
+          "title": "",
+          "value": "18454.82",
+          "currency": "RUB"
+        },
+        "payoutFrequency": "помесячно",
+        "profitPercent": "8.000000",
+        "warningText": "someWarningText",
+        "nationalSumm": {
+          "title": "Сумма накоплений с учетом дохода в рублях",
+          "value": "2670000",
+          "currency": "RUB"
+        },
+        "isShowInFinance": true,
+        "managementCompany": {
+          "title": "Управляющая компания",
+          "text": "Сбербанк Управление Активами"
+        },
+        "contactNumber": {
+          "title": "Телефон для справок",
+          "text": "+78001003111"
+        },
+        "lastUpdateDate": {
+          "title": "Данные от",
+          "text": "10.09.2019"
+        },
+        "productDescription": "",
+        "PaymentType": {
+          "title": "Периодичность выплат",
+          "text": "Ежемесячно"
+        },
+        "amountStatus": {
+          "title": "Договор",
+          "text": "На этапе накопления"
+        },
+
+        "message": {}
+      },
+      {
+        "viewType": "contractPIF",
+        "productCategory": "cat_dy",
+        "groupTitle": "Фонд Глобальный долговой рынок",
+        "WFName": "WelfareAgreementRequest",
+        "screenName": "Информация о фонде",
+        "productCode": "globalMarketFund",
+        "productName": "ПИФ Еврооблигации",
+        "id": "ks9u3ufbn8c68hp36wigibtey",
+        "contractNumber": "769251",
+        "accountNumber": "1030012345",
+        "dateFrom": "29.06.2018",
+        "dateTo": "28.04.2020",
+        "dateRecount": "01.03.2019",
+        "state": {
+          "code": "Выполняется",
+          "title": "995"
+        },
+        "totalAmount": {
+          "title": "Сумма инвестиций",
+          "value": "9340.34",
+          "currency": "RUB"
+        },
+        "payoutAmount": {
+          "title": "",
+          "value": "18454.82",
+          "currency": "RUB"
+        },
+        "payoutFrequency": "помесячно",
+        "profitPercent": "8.000000",
+        "warningText": "someWarningText",
+        "nationalSumm": {
+          "title": "Сумма накоплений с учетом дохода в рублях",
+          "value": "2670000",
+          "currency": "RUB"
+        },
+        "isShowInFinance": true,
+        "managementCompany": {
+          "title": "Управляющая компания",
+          "text": "Сбербанк Управление Активами"
+        },
+        "contactNumber": {
+          "title": "Телефон для справок",
+          "text": "+78001003111"
+        },
+        "productDescription": "",
+        "PaymentType": {
+          "title": "Периодичность выплат",
+          "text": "Ежемесячно"
+        },
+        "amountStatus": {
+          "title": "Договор",
+          "text": "На этапе накопления"
+        },
+
+        "message": {}
+      },
+      {
+        "viewType": "contractInsurance",
+        "productCategory": "cat_iis",
+        "groupTitle": "NSG",
+        "WFName": "someWFName",
+        "screenName": "dolor in",
+        "productCode": "millionIpp",
+        "productName": "НСЖ Раньте",
+        "id": "someIdUniq",
+        "contractNumber": "4128351",
+        "accountNumber": "someAccountNumber",
+        "dateFrom": "29.06.2018",
+        "dateTo": "20.05.2019",
+        "dateRecount": "someDateRecount",
+        "state": {
+          "code": "PAYMENT",
+          "title": ""
+        },
+        "totalAmount": {
+          "title": "",
+          "value": "190765.95",
+          "currency": "RUB"
+        },
+        "profitAmount": {
+          "title": "",
+          "value": "12632.63",
+          "currency": "RUB"
+        },
+        "payoutAmount": {
+          "title": "",
+          "value": "18454.82",
+          "currency": "RUB"
+        },
+        "payoutFrequency": "",
+        "profitPercent": "someProfitPercent",
+        "warningText": "someWarningText",
+        "nationalSumm": {
+          "title": "",
+          "value": "",
+          "currency": ""
+        },
+        "isShowInFinance": true,
+        "managementCompany": {
+          "title": "",
+          "text": ""
+        },
+        "contactNumber": {
+          "title": "",
+          "text": ""
+        },
+        "productDescription": "",
+        "PaymentType": {
+          "title": "",
+          "text": ""
+        },
+        "amountStatus": {
+          "title": "",
+          "text": "на этапе выплат"
+        },
+        "message": {}
+      },
+      {
+        "viewType": "contractInsurance",
+        "productCategory": "cat_ali",
+        "groupTitle": "NSG",
+        "WFName": "someWFName",
+        "screenName": "dolor in",
+        "productCode": "millionIpp",
+        "productName": "Сберегательное страхование",
+        "id": "someId1",
+        "contractNumber": "4128351",
+        "accountNumber": "someAccountNumber",
+        "dateFrom": "29.06.2018",
+        "dateTo": "20.05.2019",
+        "dateRecount": "someDateRecount",
+        "state": {
+          "code": "accumulation ",
+          "title": ""
+        },
+        "totalAmount": {
+          "title": "",
+          "value": "70763.57",
+          "currency": "RUB"
+        },
+        "profitAmount": {
+          "title": "",
+          "value": "12632.63",
+          "currency": "RUB"
+        },
+        "payoutAmount": {
+          "title": "",
+          "value": "18454.82",
+          "currency": "RUB"
+        },
+        "payoutFrequency": "",
+        "profitPercent": "someProfitPercent",
+        "warningText": "someWarningText",
+        "nationalSumm": {
+          "title": "",
+          "value": "",
+          "currency": ""
+        },
+        "isShowInFinance": true,
+        "managementCompany": {
+          "title": "",
+          "text": ""
+        },
+        "contactNumber": {
+          "title": "",
+          "text": ""
+        },
+        "productDescription": "",
+        "PaymentType": {
+          "title": "",
+          "text": ""
+        },
+        "amountStatus": {
+          "title": "",
+          "text": ""
+        },
+        "message": {}
+      },
+      {
+        "viewType": "contractInsurance",
+        "productCategory": "cat_ili",
+        "groupTitle": "NSG",
+        "WFName": "someWFName",
+        "screenName": "dolor in",
+        "productCode": "millionIpp",
+        "productName": "НСЖ СмартПолис",
+        "id": "someId2",
+        "contractNumber": "4128351",
+        "accountNumber": "someAccountNumber",
+        "dateFrom": "29.06.2018",
+        "dateTo": "15.09.2020",
+        "dateRecount": "someDateRecount",
+        "state": {
+          "code": "accumulation ",
+          "title": ""
+        },
+        "totalAmount": {
+          "title": "",
+          "value": 69450.982,
+          "currency": "RUB"
+        },
+        "profitAmount": {
+          "title": "",
+          "value": "589.78",
+          "currency": "RUB"
+        },
+        "payoutAmount": {
+          "title": "",
+          "value": "18454.82",
+          "currency": "RUB"
+        },
+        "payoutFrequency": "",
+        "profitPercent": "someProfitPercent",
+        "warningText": "someWarningText",
+        "nationalSumm": {
+          "title": "",
+          "value": "",
+          "currency": ""
+        },
+        "isShowInFinance": true,
+        "managementCompany": {
+          "title": "",
+          "text": ""
+        },
+        "contactNumber": {
+          "title": "",
+          "text": ""
+        },
+        "lastUpdateDate": {
+          "title": "",
+          "text": "18.05.2018"
+        },
+        "productDescription": "",
+        "PaymentType": {
+          "title": "",
+          "text": ""
+        },
+        "amountStatus": {
+          "title": "",
+          "text": ""
+        },
+        "message": {}
+      },
+      {
+        "viewType": "contractInsurance",
+        "productCategory": "cat_ili",
+        "groupTitle": "NSG",
+        "WFName": "someWFName",
+        "screenName": "dolor in",
+        "productCode": "millionIpp",
+        "productName": "НСЖ СмартПолис",
+        "id": "someId",
+        "contractNumber": "4128351",
+        "accountNumber": "someAccountNumber",
+        "dateFrom": "29.06.2018",
+        "dateTo": "15.09.2020",
+        "dateRecount": "someDateRecount",
+        "state": {
+          "code": "accumulation ",
+          "title": ""
+        },
+        "totalAmount": {
+          "title": "",
+          "value": "894366",
+          "currency": "RUB"
+        },
+        "profitAmount": {
+          "title": "",
+          "value": "1569.38",
+          "currency": "RUB"
+        },
+        "payoutAmount": {
+          "title": "",
+          "value": "18454.82",
+          "currency": "RUB"
+        },
+        "payoutFrequency": "",
+        "profitPercent": "someProfitPercent",
+        "warningText": "someWarningText",
+        "nationalSumm": {
+          "title": "",
+          "value": "",
+          "currency": ""
+        },
+        "isShowInFinance": true,
+        "managementCompany": {
+          "title": "",
+          "text": ""
+        },
+        "contactNumber": {
+          "title": "",
+          "text": ""
+        },
+        "productDescription": "",
+        "PaymentType": {
+          "title": "",
+          "text": ""
+        },
+        "amountStatus": {
+          "title": "",
+          "text": ""
+        }
+      }
+    ]
+  }
+}

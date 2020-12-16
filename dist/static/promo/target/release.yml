@@ -1,0 +1,23 @@
+
+name: promo
+description: 'Promo page'
+developers:
+    - tupitskiy.i.ni@sberbank.ru
+revision: e815b68c80ff2ffb86c2297cb0d22e8443723025
+build: 58
+version: 0.2.8  
+buildDate: 27.07.2020 - 17:54:37
+dependencies:
+    - lib.app/3.3.2
+    - lib.offers/0.4.1
+    - lib.ui/4.7.1
+    - lib.vendor.axios/0.18.0
+    - lib.vendor.classnames/2.2.6
+    - lib.vendor.i18next/15.0.5
+    - lib.vendor.lodash/4.17.11
+    - lib.vendor.react/16.8.3
+    - lib.vendor.react-dom/16.8.3
+    - lib.vendor.react-redux/5.0.7
+    - lib.vendor.redux/4.0.1
+    - lib.vendor.redux-form/7.4.2
+    - lib.vendor.redux-thunk/2.3.0

@@ -1,0 +1,44 @@
+@import '../../style.config.css';
+
+.navigation-value {
+    text-transform: capitalize;
+}
+
+.square-button {
+    width: var(--square-button-width);
+    height: var(--square-button-height);
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: var(--square-button-width);
+        height: var(--square-button-height);
+    }
+
+    &::after {
+        bottom: 0;
+    }
+}
+
+.range {
+    &-middle {
+        background-color: var(--green-1);
+        width: var(--square-button-width);
+    }
+
+    &-start-of-line {
+        border-top-left-radius: var(--block-border-radius);
+        border-bottom-left-radius: var(--block-border-radius);
+    }
+
+    &-end-of-line {
+        border-top-right-radius: var(--block-border-radius);
+        border-bottom-right-radius: var(--block-border-radius);
+    }
+
+    &-disabled {
+        font-weight: 400;
+    }
+}

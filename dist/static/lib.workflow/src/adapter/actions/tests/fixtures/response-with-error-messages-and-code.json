@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "12345",
+    "flow": "superFlow",
+    "state": "step2",
+    "output": {
+      "screens": [],
+      "events": [],
+      "references": {}
+    }
+  },
+  "messages": [
+    {
+      "type": "error",
+      "code": "CODE1",
+      "title": "title1",
+      "text": "text1"
+    },
+    {
+      "type": "error",
+      "code": "CODE2",
+      "title": "title2",
+      "text": "text2"
+    }
+  ]
+}

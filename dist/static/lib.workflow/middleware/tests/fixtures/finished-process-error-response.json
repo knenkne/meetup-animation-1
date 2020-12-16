@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "body": {
+    "flow": "/test",
+    "history": [],
+    "output": {},
+    "pid": "<идентификатор процесса>",
+    "result": "SUCCESS",
+    "state": "step1"
+  },
+  "messages": [
+    {
+      "text": "Process does not exist. provided process id is not correct",
+      "title": "Process does not exist. provided process id is not correct",
+      "type": "error",
+      "uuid": "123456789-messageUUID"
+    }
+  ]
+}

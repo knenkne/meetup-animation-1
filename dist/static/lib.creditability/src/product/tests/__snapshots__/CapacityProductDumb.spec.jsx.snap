@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CapacityProduct /> <CapacityProductDumb /> should renders correctly with scale and button 1`] = `
+<Fragment>
+  <div
+    className="header"
+  >
+    <div
+      className="scaleContainer"
+    >
+      <CapacityProductScale
+        available={2000}
+        reserved={250}
+        used={500}
+      />
+    </div>
+    <h3
+      className="title"
+    >
+      Кредитный потенциал рассчитан
+    </h3>
+  </div>
+  <img
+    alt=""
+    className="status femaleDone"
+    role="presentation"
+    src="/common//img/statuses/female-done.png"
+    srcSet="/common//img/statuses/female-done@2x.png 2x, /common//img/statuses/female-done@3x.png 3x"
+  />
+  <div
+    className="advice"
+  >
+    Узнать какая сумма вам одобрена
+  </div>
+  <Link
+    as={[Function]}
+    bold={false}
+    colorScheme="button"
+    external={false}
+    href="/loans/creditability"
+    mode=""
+    onClick={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    size="lg"
+    theme={
+      Object {
+        "link": "button",
+      }
+    }
+  >
+    Узнать
+  </Link>
+</Fragment>
+`;
+
+exports[`<CapacityProduct /> <CapacityProductDumb /> should renders correctly without scale and button 1`] = `
+<Fragment>
+  <div
+    className="header"
+  >
+    <div
+      className="scaleContainer"
+    />
+    <h3
+      className="title"
+    >
+      Кредитный потенциал рассчитан
+    </h3>
+  </div>
+  <img
+    alt=""
+    className="status femaleError"
+    role="presentation"
+    src="/common//img/statuses/female-error.png"
+    srcSet="/common//img/statuses/female-error@2x.png 2x, /common//img/statuses/female-error@3x.png 3x"
+  />
+  <div
+    className="advice"
+  >
+    Узнать результат расчёта
+  </div>
+</Fragment>
+`;

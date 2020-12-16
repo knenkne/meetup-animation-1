@@ -1,0 +1,41 @@
+{
+  "template.page.title": "Sberbank Online",
+
+  "template.header.contacts.title": "Contact center",
+  "template.header.contacts.tooltip.900.description": "Free from cell phone",
+  "template.header.contacts.tooltip.federal.description": "Free calls within Russia",
+  "template.header.contacts.tooltip.international.description": "From anywhere in the world",
+  "template.header.contacts.tooltip.title": "24/7 Help",
+
+  "template.header.chat.tooltip.disabled": "Chat is temporarily unavailable",
+
+  "template.header.user.index.title": "Sberbank Online",
+  "template.header.user.messages.title": "Ask Sberbank Contact center",
+  "template.header.user.name.tooltip": "Settings",
+  "template.header.user.logout.title": "Logout",
+  "template.header.user.logout.tooltip": "Safely close session",
+
+  "template.header.navigation.events.new": "New events",
+  "template.header.navigation.other": "Other",
+  "template.header.navigation.settings": "Settings",
+  "template.header.navigation.possibilities.new": "New features",
+
+  "template.menu.index.title": "Main",
+  "template.menu.other.title": "Other",
+  "template.fastpayments.title": "Fast payments",
+  "template.header.index.title": "Sberbank Online",
+
+  "template.unsupported.content": "<p>Your browser is too old or doesn't support new features of Sberbank Online. Please update your browser or install the latest version of <a href=\"https://www.google.ru/chrome/browser/desktop/\" target=\"_blank\" rel=\"nofollow noopener\">Google Chrome</a>, <a href=\"https://www.microsoft.com/ru-ru/download/internet-explorer-11-for-windows-7-details.aspx\" target=\"_blank\" rel=\"nofollow noopener\">Internet Explorer</a>, <a href=\"http://www.apple.com/ru/safari/\" target=\"_blank\" rel=\"nofollow noopener\">Safari</a>, <a href=\"https://browser.yandex.ru\" target=\"_blank\" rel=\"nofollow noopener\">Yandex Browser</a>, <a href=\"https://www.mozilla.org/ru/firefox/new/\" target=\"blank\" rel=\"nofollow noopener\">Firefox</a> or <a href=\"http://www.opera.com/ru/download\" target=\"blank\" rel=\"nofollow noopener\">Opera</a>.</p>",
+  "template.unsupported.title": "This page could not be displayed",
+
+  "template.footer.sberbank.website.label": "sberbank.ru",
+  "template.footer.help.24.7.label": "24/7 help",
+  "template.footer.helpdesk.email.label": "Mail Sberbank",
+  "template.footer.social.about": "Our social profiles",
+  "template.footer.social.fb.title": "Facebook",
+  "template.footer.social.vk.title": "VKontakte",
+  "template.footer.social.twitter.title": "Twitter",
+  "template.footer.social.ok.title": "Odnoklassniki",
+  "template.footer.social.youtube.title": "Youtube",
+  "template.footer.copyright": "<p>© 1997 — 2018 PJSC «Sberbank of Russia»</p><p>Russia, Moscow, 117997, Vavilova st., bdg. 19,<br>General banking operations license from 8th Aug 2012<br>Registered as — 1481.<br>Developed by Sberbank-Technologies</p>"
+}

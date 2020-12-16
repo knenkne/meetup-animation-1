@@ -1,0 +1,142 @@
+@import '../utils/styles/semantic-palette.config.css';
+@import '../utils/styles/media.config.css';
+@import '../utils/styles/font-sizes.config.css';
+@import '../styles/shadows.config.css';
+
+:root {
+    --tip-max-width-desktop: 288px;
+    --tip-max-width-mobile: 256px;
+}
+
+.tooltip {
+    outline: none;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    width: auto;
+}
+
+.tool {
+    cursor: pointer;
+    display: inline;
+    font-weight: normal;
+    text-decoration: none;
+    width: 100%;
+}
+
+.tip {
+    width: var(--tip-max-width-desktop);
+    pointer-events: none;
+    color: var(--text-main-color);
+    position: absolute;
+    display: none;
+}
+
+/* Проиоритезация тултипов */
+
+.tip {
+    z-index: 201;
+}
+
+.tooltip:hover .tip {
+    z-index: 202;
+}
+
+.tooltip .tip:hover {
+    z-index: 203;
+}
+
+/* Модификаторы */
+
+.show {
+    display: flex;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.error {
+    color: var(--tip-error-font-color);
+}
+
+/* Наполнение */
+
+.active-zone {
+    pointer-events: auto;
+}
+
+.contents {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 8px 14px;
+    height: auto;
+    max-width: var(--tip-max-width-desktop);
+    border-radius: 18px;
+    font-size: var(--font-size-body-web);
+    line-height: var(--line-height-body-web);
+    letter-spacing: var(--letter-spacing-web);
+    font-weight: 600;
+    background-color: var(--tip-bg-color);
+    box-shadow: var(--common-shadow-hover);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (--media-sm) {
+    .tip,
+    .contents {
+        width: var(--tip-max-width-mobile);
+    }
+}
+
+/* Позиционирование */
+
+.top .active-zone {
+    padding-bottom: 8px;
+}
+
+.bottom .active-zone {
+    padding-top: 8px;
+}
+
+.top {
+    bottom: 100%;
+}
+
+.bottom {
+    top: 100%;
+}
+
+.left {
+    left: 0;
+    justify-content: flex-start;
+}
+
+.center {
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+}
+
+.right {
+    right: 0;
+    justify-content: flex-end;
+}
+
+.top.left .contents {
+    border-bottom-left-radius: 6px;
+}
+
+.top.right .contents {
+    border-bottom-right-radius: 6px;
+}
+
+.bottom.left .contents {
+    border-top-left-radius: 6px;
+}
+
+.bottom.right .contents {
+    border-top-right-radius: 6px;
+}

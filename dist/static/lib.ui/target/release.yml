@@ -1,0 +1,15 @@
+
+name: lib.ui
+description: 'Core application functionality for sbtsbol modules'
+developers:
+    - Tupitskiy.I.Ni@sberbank.ru
+    - Umbras.D.Vi@sberbank.ru
+revision: e4cb09013eb35348c6434341fb5de902ca4d27b4
+build: 675
+version: 4.9.0  
+buildDate: 11.11.2020 - 19:18:43
+dependencies:
+    - lib.vendor.classnames/2.2.6
+    - lib.vendor.lodash/4.17.11
+    - lib.vendor.react/16.12.0
+    - lib.vendor.react-dom/16.12.0

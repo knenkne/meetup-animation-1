@@ -1,0 +1,170 @@
+@import '../style.config.css';
+
+:root {
+    --range-input-width: 144px;
+    --range-input-height: 56px;
+    --range-control-icon-width: 24px;
+    --range-control-icon-height: 24px;
+    --month-control-width: 78px;
+    --years-control-width: 40px;
+}
+
+/* Common wrapper */
+
+.range-wrapper {
+    padding-top: var(--offset-md2);
+}
+
+/* Error wrapper */
+
+.error-wrapper {
+    min-height: 36px;
+    padding: 0 var(--offset-lg);
+
+    span {
+        display: block;
+        border: 1px solid rgba(246, 101, 10, 0.25);
+        background-color: var(--orange-0);
+        border-radius: var(--xs-border-radius);
+        padding: var(--offset-sm) var(--offset-md);
+        text-align: center;
+    }
+}
+
+/* Inputs */
+
+.input {
+    width: var(--range-input-width);
+    padding-left: 24px;
+
+    &s-wrapper {
+        display: flex;
+        position: relative;
+        align-items: flex-start;
+        box-sizing: content-box;
+        justify-content: space-between;
+        padding: 0 var(--offset-lg) var(--offset-md2);
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 1px;
+            background-color: var(--gray-1);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        & > div {
+            flex-grow: 0;
+            display: flex;
+            word-break: break-word;
+            flex-direction: column;
+
+            & > div:first-child {
+                /* todo выпилить это "произведение", когда пофиксится баг с Labeled (title) */
+                margin-bottom: 0;
+            }
+        }
+
+        &-error {
+            padding-bottom: var(--offset-md);
+            &::before {
+                content: none;
+            }
+        }
+    }
+
+    &s-divider {
+        height: var(--range-input-height);
+        width: var(--range-input-width);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &::before {
+            content: '';
+            width: 12px;
+            height: 2px;
+            position: absolute;
+            top: calc(50% - 2px);
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            /* todo заменить на цвет из палитры */
+            background-color: #8c8c91;
+        }
+    }
+}
+
+/* Range controls */
+
+.controls-wrapper {
+    flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-months {
+        margin-bottom: 80px;
+    }
+
+    &-years {
+        margin-bottom: var(--offset-lg);
+    }
+}
+
+.range-control > span {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        content: '';
+        background-color: var(--black-100);
+        transition: var(--default-transition);
+        opacity: 0;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 1;
+        }
+    }
+}
+
+.months-control {
+    min-width: var(--month-control-width);
+    display: flex;
+    justify-content: center;
+}
+
+.years-control {
+    min-width: var(--years-control-width);
+    display: flex;
+    justify-content: center
+}
+
+/* Content area */
+
+.content-wrapper {
+    padding: var(--offset-md2) var(--offset-lg);
+}
+
+/* Bottom buttons */
+
+.bottom-buttons {
+    display: flex;
+    justify-content: flex-end;
+
+    &-between {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}

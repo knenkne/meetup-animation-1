@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="29px"
+     height="29px" viewBox="0 0 29 29" version="1.1">
+    <title>facebook</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1688.000000, -1947.000000)">
+            <g transform="translate(572.000000, 1765.000000)">
+                <g transform="translate(810.000000, 39.000000)">
+                    <g id="Group-39"
+                       transform="translate(114.000000, 106.000000)">
+                        <g id="Group-16"
+                           transform="translate(0.000000, 37.000000)">
+                            <g id="facebook"
+                               transform="translate(192.173913, 0.000000)">
+                                <g id="Group">
+                                    <g id="Bounding">
+                                        <rect x="0" y="0"
+                                              width="28.8"
+                                              height="28.8"/>
+                                    </g>
+                                    <g id="Group-11"
+                                       transform="translate(9.608696, 5.638889)"
+                                       stroke="#FFFFFF"
+                                       stroke-width="2.43692313">
+                                        <ellipse cx="4.91111111"
+                                                 cy="3.93300654"
+                                                 rx="2.89192491"
+                                                 ry="2.71454497"/>
+                                        <path
+                                                d="M0.320289855,9.59558824 C1.28783213,10.5190255 2.78919082,10.9807442 4.82436594,10.9807442 C6.85954106,10.9807442 8.36089976,10.5190255 9.32844203,9.59558824"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"/>
+                                        <path
+                                                d="M0.800724638,16.050062 L4.27365646,12.7103194"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"/>
+                                        <path
+                                                d="M4.80434783,16.050062 L8.27727964,12.7103194"
+                                                id="Line-4-Copy"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                transform="translate(6.540814, 14.380191) scale(-1, 1) translate(-6.540814, -14.380191) "/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

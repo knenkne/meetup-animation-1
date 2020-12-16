@@ -1,0 +1,86 @@
+@import "../styles/colors.config.css";
+@import "../utils/styles/semantic-palette.config.css";
+@import "../utils/styles/standard.config.css";
+@import "../utils/styles/z-index.config.css";
+@import "../utils/styles/media.config.css";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block {
+    &:not(:last-child) {
+        border-bottom: 12px solid var(--gray-0);
+    }
+}
+
+.row {
+    display: flex;
+    min-height: 80px;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray-1);
+    box-sizing: border-box;
+    margin: 0;
+
+    &:last-of-type {
+        border: none;
+    }
+}
+
+.item {
+    width: 100%;
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.margin {
+    margin: 40px 0;
+}
+
+.margin-reset {
+    margin: 0;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+
+.row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    width: 45%;
+}
+
+@media (--media-sm) {
+    .align-right,
+    .align-left {
+        text-align: left;
+    }
+
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .caption p {
+        line-height: 24px;
+        margin: 0;
+    }
+}

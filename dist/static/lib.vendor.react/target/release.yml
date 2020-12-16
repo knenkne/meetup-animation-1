@@ -1,0 +1,9 @@
+
+name: lib.vendor.react
+description: 'AMD react vendor module'
+developers:
+
+revision: ee4a586e985a42081c5255b8c9a4cf68bf459adb
+build: 10
+version: 16.12.0  
+buildDate: 17.01.2020 - 12:23:48

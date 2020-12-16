@@ -1,0 +1,210 @@
+@import '../utils/styles/semantic-palette.config.css';
+@import '../utils/styles/font-sizes.config.css';
+@import '../utils/styles/media.config.css';
+@import '../styles/colors.config.css';
+@import '../styles/semantic.config.css';
+
+:root {
+    --marker-size: 32px;
+}
+
+.empty-step {
+    display: none;
+    list-style: none;
+    flex-shrink: 0;
+}
+
+.scroll {
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.stages {
+    display: flex;
+    margin: 0;
+    padding: 125px 0 56px;
+    position: relative;
+    width: 100%;
+}
+
+.step {
+    list-style: none;
+    position: relative;
+    width: 128px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: var(--font-size-caption-web);
+    line-height: var(--line-height-caption-web);
+    letter-spacing: var(--letter-spacing-web);
+    color: var(--text-main-color);
+
+    &:not(:last-child) {
+        margin-right: 32px;
+    }
+
+    &:not(:first-child)::before {
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: calc(-50% - var(--marker-size) / 2);
+        right: calc(50% + var(--marker-size) / 2);
+        height: 3px;
+        background-color: var(--green-5);
+        border-top: 1px dashed var(--no-color);
+        transition: background-color 0.17s ease-in-out;
+    }
+
+    .avatar {
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
+
+    .tooltip {
+        display: none;
+        padding: 0 8px;
+        position: absolute;
+        top: -45px;
+        transform: translate(-50%);
+        left: 50%;
+        align-items: center;
+        font-size: 12px;
+        line-height: 32px;
+        font-weight: 600;
+        color: var(--text-main-color);
+        border-radius: 5px;
+        background-color: var(--white);
+        box-shadow: 0 4px 10px 0 rgba(60, 60, 67, 0.16);
+        white-space: nowrap;
+        text-align: center;
+
+        &.has-avatar {
+            min-width: 100px;
+            padding-left: 2px;
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: calc(50% - 8px);
+            width: 0;
+            height: 0;
+            border-left: 8px solid var(--no-color);
+            border-right: 8px solid var(--no-color);
+            border-top: 8px solid var(--white);
+        }
+    }
+
+    .title {
+        margin-top: 16px;
+        text-align: center;
+        transition: color 0.17s ease-in-out;
+        max-width: 100%;
+    }
+
+    .marker {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: var(--marker-size);
+        height: var(--marker-size);
+        border-radius: 50%;
+        background-color: var(--green-5);
+        transition: box-shadow 0.17s ease-in-out, border-color 0.17s ease-in-out;
+    }
+
+    .marker-index {
+        display: none;
+        color: var(--white);
+        font-size: 14px;
+    }
+}
+
+.current {
+    .tooltip {
+        display: flex;
+    }
+
+    .marker {
+        background-color: var(--green-5);
+    }
+
+    .check-mark {
+        display: none;
+    }
+
+    .marker-index {
+        display: inline;
+    }
+
+    &::before {
+        background-color: var(--green-5);
+    }
+
+    ~ .step {
+        color: var(--gray-55-alpha);
+
+        &::before {
+            height: 0;
+            top: calc(var(--marker-size) / 2);
+            border-color: var(--common-border-color);
+            background-color: var(--no-color);
+        }
+
+        .marker {
+            background-color: var(--white);
+            border: solid 1px var(--common-border-color);
+
+            & .marker-index {
+                color: var(--gray-55-alpha);
+            }
+        }
+
+        .check-mark {
+            display: none;
+        }
+
+        .marker-index {
+            display: inline;
+        }
+    }
+}
+
+@media (--media-md) {
+    .empty-step {
+        display: block;
+        width: 32px;
+    }
+}
+
+@media (--media-sm) {
+    .empty-step {
+        display: block;
+        width: 32px;
+    }
+
+    .centered {
+        justify-content: center;
+    }
+
+    .step {
+        &:not(:last-child) {
+            margin-right: 0;
+        }
+
+        &:not(:first-child)::before {
+            left: calc(-50% + var(--marker-size) / 2);
+        }
+    }
+}

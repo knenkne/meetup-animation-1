@@ -1,0 +1,161 @@
+{
+  "dummy": {
+    "features": {
+      "demoRequest": {
+        "value": "/api/dummy/init",
+        "options": {
+          "showResult": "true"
+        }
+      }
+    },
+    "options": {
+      "showDemoFlowConfig24": "true"
+    }
+  },
+  "region.scaffold": {
+    "features": {
+      "AccessInsuranceTab": {
+        "value": "true",
+        "options": {
+          "api.contract.list.url": "/private/insurance/contract/list"
+        }
+      },
+      "ShowLoanClaims": {
+        "value": true
+      },
+      "ShowCardClaims": {
+        "value": true,
+        "options": null
+      },
+      "ShowInsuranceClaims": {
+        "value": true,
+        "options": {
+          "api.application.list.url": "/private/insurance/application/list"
+        }
+      },
+      "ShowInsuranceProductDetail": {
+        "value": "2.0"
+      },
+      "AccessIMATab": {
+        "value": true,
+        "options": null
+      },
+      "AccessLoansTab": {
+        "value": "true",
+        "options": null
+      },
+      "AccessAccountsTab": {
+        "value": true,
+        "options": null
+      },
+      "AccessDepoAccTab": {
+        "value": true,
+        "options": null
+      },
+      "AccessTargetsTab": {
+        "value": true,
+        "options": null
+      },
+      "ShowCarLoanDetail": {
+        "value": true,
+        "options": null
+      },
+      "ShowCarLoans": {
+        "value": true,
+        "options": null
+      },
+      "CreditCardClaim": {
+        "value": true,
+        "options": null
+      },
+      "ShowCreditCardGhost": {
+        "value": true,
+        "options": null
+      },
+      "AccessSecurityAccTab": {
+        "value": true,
+        "options": null
+      },
+      "AccessCardsTab": {
+        "value": true,
+        "options": null
+      },
+      "AccessInvestmentTab": {
+        "value": true,
+        "options": null
+      },
+      "ShowConsentProcess": {
+        "value": "2.0"
+      },
+      "NewInsuranceProduct": {
+        "value": true
+      },
+      "AccessVisualRatingCodes": {
+        "value": "true",
+        "options": {
+          "Activate": "3"
+        }
+      },
+      "NewInvestmentProduct": {
+        "value": true,
+        "options": null
+      },
+      "ShowInvestmentConsentProcess": {
+        "value": true,
+        "options": null
+      },
+      "NewSettingsPage": {
+        "value": "true"
+      },
+      "NewLoanService": {
+        "value": true
+      },
+      "ShowMenuChatButton": {
+        "value": "true"
+      },
+      "AccessBrokerageTab": {
+        "value": true,
+        "options": {
+          "full.reload.links": true
+        }
+      },
+      "NewLoansDetailPage": {
+        "value": true
+      },
+      "NewCarLoansDetailPage": {
+        "value": true
+      },
+      "ShowRegionSearch": {
+        "value": true
+      }
+    },
+    "options": {
+      "showBlockedCardsTerm": "5"
+    }
+  },
+  "chat": {
+    "options": {
+      "tryResendMessages": "true",
+      "idleConnectionDuration": "900000",
+      "chatReconectCount": "5",
+      "getTokenSystemName": "messenger",
+      "initialReconnectTimeout": "2000",
+      "reconnectTimeoutMultiplier": "2",
+      "messengerApiVersion": "wc_1",
+      "maxReconnectTimeout": "30000"
+    }
+  },
+  "brokerage": {
+    "features": {
+      "brokerageService": {
+        "value": true
+      },
+      "brokerControlAccountService": {
+        "value": true
+      },
+      "brokerOpenAccountAppUFSService": {
+        "value": true
+      }
+    }
+  }
+}

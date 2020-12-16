@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>brokkr a11y axe</title>
+    <meta charset="utf8">
+    <script>
+        window._report = <% report %>;
+    </script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #errors h2,
+        #warnings h2 {
+            padding: 16px;
+            color: white;
+        }
+
+        #errors h2 {
+            background-color: #901111;
+        }
+        #warnings h2 {
+            background-color: #b37400;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        button {
+            cursor: pointer;
+            color: #058823;
+            border: none;
+            background-color: transparent;
+            padding: 0;
+            border-bottom: 1px #058823 dashed;
+            font-size: 16px;
+        }
+
+        button:hover {
+            color: #0d6b23;
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Brokkr accessibility report</h1>
+    <div id="checks">
+        <h2>Все проверки</h2>
+    </div>
+    <div id="errors">
+        <h2>Errors</h2>
+    </div>
+    <div id="warnings">
+        <h2>Warnings</h2>
+    </div>
+</main><script>
+    ;(function () {
+        function term (name, value, parent, collapse) {
+            var li = document.createElement('li')
+
+            var nameElement = document.createElement(collapse ? 'button' : 'b')
+            nameElement.innerText = name
+
+            if (collapse) {
+                nameElement.addEventListener('click', function () {
+                    li.nextSibling.classList.toggle('hidden')
+                })
+            }
+
+            var def = document.createElement('span')
+            def.innerText = ': '
+
+            li.appendChild(nameElement)
+            li.appendChild(def)
+            if (typeof value === 'string' || typeof value === 'number') {
+                var span = document.createElement('span')
+                span.innerText = value
+                li.appendChild(span)
+            } else {
+                li.appendChild(value)
+            }
+
+            parent.appendChild(li)
+        }
+
+        function subLevel (parent) {
+            var ul = document.createElement('ul')
+            parent.appendChild(ul)
+
+            return ul
+        }
+
+        function link (url, body) {
+            var a = document.createElement('a')
+            a.href = url
+            a.innerText = body
+            a.target = '_blank'
+            a.rel = 'noreferrer noopener'
+
+            return a
+        }
+
+        function createSeverity (severity) {
+            var severityElement = document.createElement('ul')
+            window._report[severity].forEach(function (violation) {
+                term('Идентификатор уязвимости', violation.id, severityElement, true)
+
+                var severityElementDescription = subLevel(severityElement)
+                severityElementDescription.classList.add('hidden')
+
+                term('W3C критичность', violation.impact, severityElementDescription)
+                term('Справка', link(violation.helpUrl, violation.help), severityElementDescription)
+                term('Описание', violation.description, severityElementDescription)
+
+                violation.nodes.forEach(function (node, index) {
+                    term('Элемент', index + 1, severityElementDescription, true)
+
+                    var nodeDescription = subLevel(severityElementDescription)
+
+                    term('Адрес воспроизведения', node.url, nodeDescription)
+                    term('Название фичи', node.featureName, nodeDescription)
+                    term('Название сценария', node.scenarioName, nodeDescription)
+                    term('Номер проверки a11y', node.checkNumber + 1, nodeDescription)
+                    term('Причина уязвимости', node.failureSummary, nodeDescription)
+                    term('HTML уязвимости', node.html, nodeDescription)
+                    term('Селектор уязвимости', node.target.join('; '), nodeDescription)
+
+                    var htmlLi = document.createElement('li')
+                    htmlLi.appendChild(link('./meta/check-' + node.checkNumber + '.html', 'html страницы'))
+                    nodeDescription.appendChild(htmlLi)
+                    var pngLi = document.createElement('li')
+                    pngLi.appendChild(link('./meta/check-' + node.checkNumber + '.png', 'png страницы'))
+                    nodeDescription.appendChild(pngLi)
+                })
+            })
+
+            document.getElementById(severity).appendChild(severityElement)
+        }
+
+        var checks = document.getElementById('checks')
+        var checksList = document.createElement('ul')
+        checks.appendChild(checksList)
+
+        for (var i = 0; i < window._report.checksTotal; i += 1) {
+            var li = document.createElement('li')
+
+            var def = document.createElement('span')
+            def.innerText = 'Проверка ' + (i + 1) + ': '
+            var linkHtml = link('./meta/check-' + i + '.html', 'html')
+            var spl = document.createElement('span')
+            spl.innerText = '; '
+            var linkPng = link('./meta/check-' + i + '.png', 'png')
+
+            li.appendChild(def)
+            li.appendChild(linkHtml)
+            li.appendChild(spl)
+            li.appendChild(linkPng)
+            checksList.appendChild(li)
+        }
+
+        createSeverity('errors')
+        createSeverity('warnings')
+    })();
+</script>
+</body>
+</html>

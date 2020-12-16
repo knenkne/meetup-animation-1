@@ -1,0 +1,11 @@
+<svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+    <g class="repaint-bg" fill="#BEBDD0" fill-rule="evenodd">
+        <rect x="4" y="8" width="28" height="20" rx="2.5"/>
+        <g class="repaint" fill="#485460" transform="translate(13 12)">
+            <rect x="1.5" y="0" width="7" height="8" rx="3.5"/>
+            <rect x="0" y="5" width="10" height="7" rx="2"/>
+        </g>
+        <circle cx="18" cy="15.5" r="1.5"/>
+        <path d="M13 12 H15V17H13Z M21 12 H23V17H21Z M15 16 H21V17H15Z"/>
+    </g>
+</svg>

@@ -1,0 +1,82 @@
+/* Autoprefixed: ie >= 9, last 4 versions */
+
+.content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.content__left, .content__right {
+    min-width: 48px;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-flex-basis: 48px;
+    -ms-flex-preferred-size: 48px;
+    flex-basis: 48px;
+}
+
+.content__left {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+}
+
+.content__right {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+}
+
+.content__center {
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    flex-basis: auto;
+    order: 1;
+    width: 944px;
+    padding: 0;
+    min-height: 10em;
+    position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 1040px) {
+    .content__left .fastpayments {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 944px) {
+    .content__left, .content__right {
+        min-width: 16px;
+        flex-basis: 16px;
+    }
+    .content__center {
+        width: auto;
+    }
+}
+
+@media (min-width: 945px) and (max-width: 1040px) {
+    .content__left, .content__right {
+        min-width: 0;
+        flex-basis: 0;
+    }
+}

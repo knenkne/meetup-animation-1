@@ -8,22 +8,22 @@
         <meta name="format-detection" content="telephone=no" />
         <title>Сбербанк Онлайн</title>
         <link rel="apple-touch-icon" sizes="180x180"
-            href="static/common/2.6.1/img/apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="static/common/2.6.1/img/favicon-32x32.png"
+            href="static/common/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="static/common/img/favicon-32x32.png"
             sizes="32x32">
-        <link rel="icon" type="image/png" href="static/common/2.6.1/img/favicon-16x16.png"
+        <link rel="icon" type="image/png" href="static/common/img/favicon-16x16.png"
             sizes="16x16">
-        <link rel="shortcut icon" href="static/common/2.6.1/img/favicon.ico">
+        <link rel="shortcut icon" href="static/common/img/favicon.ico">
         <meta name="apple-mobile-web-app-title" content="Сбербанк Онлайн">
         <meta name="application-name" content="Сбербанк Онлайн">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage"
-            content="static/common/2.6.1/img/mstile-144x144.png">
-        <meta name="msapplication-config" content="static/common/2.6.1/cfg/browserconfig.xml">
+            content="static/common/img/mstile-144x144.png">
+        <meta name="msapplication-config" content="static/common/cfg/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
-        <link href="static/common/2.6.1/styles.css" rel="stylesheet">
-        <script src="static/common/2.6.1/js/lottie.js" type="text/javascript" crossorigin="anonymous"></script>
-        <script src="static/common/2.6.1/js/loaders.js" type="text/javascript" crossorigin="anonymous"></script>
+        <link href="static/common/styles.css" rel="stylesheet">
+        <script src="static/common/js/lottie.js" type="text/javascript" crossorigin="anonymous"></script>
+        <script src="static/common/js/loaders.js" type="text/javascript" crossorigin="anonymous"></script>
         <script>
             ;(function mobileScale () {
                 // cross-browser fallback of @viewport
@@ -53,7 +53,7 @@
             <div class="scaffold__entry" id="entry" style="position: fixed;"></div>
             <script>
                 var loaders = {"logo-city":{"value":"logo-city"}}
-                var commonPath = "static/common/2.6.1"
+                var commonPath = "static/common"
                 var birthDay = {"lang":"ru-RU","res.url":"http://localhost:4242static","api.url":"/api","mapi.url":"/clientapi","log.url":"/api/log","ping.url":"/ERIB/ping","erib.url":"http://localhost:4242/ERIB","error.500.url":"temporary_unavailable","base.url":"/sbtsbol","base.client.url":"","log.level":"DEBUG","user.id":"8caf496a71330d2a582fc32dde1e8a8b","common.version":"2.6.1","session.cookie.name":"SBTSBOL_SESSION_TIMESTAMP","session.autorenew.events":"click,scroll,wheel","session.autorenew.debounce":"60000","analytics.version":"1.2.3","analytics.yandex.id":null,"analytics.google.id":null,"analytics.yandex.level":null,"analytics.google.level":null,"analytics.segmento.level":null,"isSbolPro":false,"isErib":false,"isPL":true,"ufs.block.root.url":"http://localhost:4242/UFS","ddp.host":"http://localhost:4242/DDP","offers.url":"/api/offers","pfm.block.root.url":"/api/offers","catalog.url":"/api/catalog/items","session.create.url":"/sbtsbol/api/ufs/create/url","analytics.sberbank.url":null,"entry.login.url":"https://online.sberbank.ru","frontend.log.batch.capacity":10,"frontend.log.timeout":10000,"permissions":{"ViewFinance":{"id":"ViewFinance","isUFS":true,"isPL_ERIB":true,"isERIB":true}},"banners":{"index":"/dummy","main":"/main","cards.dashboard":"/cards","cards.debit":"/cards/debit","cards.credit":"/cards/credit","operations":"/operations","brokerage":"/brokerage","dummy":"/dummy","link.dummy.demo":"/dummy/workflow/demo","link.dummy.demo.2.4":"/dummy/workflow/demo-2.4","link.dummy.not.found":"/dummy/not-found","catalog":"/catalog","payments.dashboard":"/payments/main","investments.dashboard":"/investments","entry":"/entry","promo":"/promo","profile":"/profile","settings":"/settings","appeals":"/appeals","link.operations.search":"/operations?search={{search}}","link.payments.dashboard.searchProvider":"/payments/main?searchProvider={{searchProvider}}","deposit.account.open":"/accounts/open","link.cards.details":"/cards/details/{{cardId}}","link.accounts.details":"/accounts/details/{{accountId}}","loans.dashboard":"/loans","targets.select":"/targets","welfare.insurance.dashboard":"/welfare.insurance.dashboard","link.brokerage.contract":"/brokerage#/agreement/{{id}}","brokerage.new.contract":"/brokerage#/management","link.brokerage.new.contract.draft":"/brokerage#/management/application?productCode={{productCode}}&documentId={{id}}","link.payments.payment.repeat":"/payments/payment.do?copying=true&id={{id}}","loans.detail.hash":"/UFS/loans?loanHashId={{loanHashId}}&loanId={{loanId}}","loans.detail":"/ERIB/loans?loanProductType={{loanProductType}}&loanId={{loanId}}","targets.details":"/targets/{{accountId}}","loans.car.details":"/loans/car/details?documentId={{loanId}}","ima.open":"/ima","ima.info":"/ima/{{imaId}}","DEPO":"/depo/open","CERTIFICATES":"/certificates/open","depo.details":"/depo/details/{{depoId}}","security.details":"/security/details/{{securityId}}","payments.tariffs":"/payments/tariffs"},"history":{"UfsLoanClaim":"https://front.greenfield1.online.sberbank.ru/sbtsbol/private/loans/consumer#/calculator?id={0}"}}.birthDay
 
                 var redirectPl = sessionStorage.getItem("redirectPL")
@@ -502,9 +502,7 @@
                 </div>
             </footer>
         </main>
-        <script src="/eribStatic/hashtable.js" crossorigin="anonymous"></script>
-        <script src="/eribStatic/rsa.js" crossorigin="anonymous"></script>
-        <script src="static/webpage.provider.bootstrap/0.15.1/index.js" crossorigin="anonymous"></script>
+        <script src="static/webpage.provider.bootstrap/index.js" crossorigin="anonymous"></script>
         <script>
             bootstrap({
                 regions: {"scaffold-region":{"name":"region.scaffold","version":"1.2.0"}},

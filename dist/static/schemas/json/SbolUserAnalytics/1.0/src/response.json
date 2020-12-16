@@ -1,0 +1,15 @@
+{
+  "id": "SbolUserAnalytics/1.0/response.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Sberbank Analytics standard response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "error": {
+      "$ref": "JAXRSContainer/defs/JAXRSErrorType.json#/definitions/JAXRSErrorType"
+  }
+}

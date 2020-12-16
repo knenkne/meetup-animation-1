@@ -1,0 +1,6 @@
+@import '../../style.config.css';
+@import '../../../styles/colors.config.css';
+
+.offset-top {
+    margin-top: var(--offset-lg);
+}

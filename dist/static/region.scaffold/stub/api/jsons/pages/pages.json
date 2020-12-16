@@ -1,0 +1,607 @@
+{
+    "document": [
+        {
+            "id": 20,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Перевод между своими счетами и картами",
+            "keyWords": "перевод между своими счетами и картами, переводы",
+            "link": "/PhizIC/private/payments/payment.do?form=InternalPayment",
+            "prodListType": null
+        },
+        {
+            "id": 30,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Обмен валюты",
+            "keyWords": "обмен валюты, валюта, купить доллары, продать евро, купить евро, продать доллары, кросс-курс",
+            "link": "/PhizIC/private/payments/payment.do?form=ConvertCurrencyPayment",
+            "prodListType": null
+        },
+        {
+            "id": 40,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Перевод клиенту Сбербанка",
+            "keyWords": "перевод клиенту сбербанка, перевод по номеру телефона, перевод на карту, переводы",
+            "link": "/PhizIC/private/payments/payment.do?form=RurPayment&receiverSubType=ourCard",
+            "prodListType": null
+        },
+        {
+            "id": 50,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Перевод на карту в другом банке",
+            "keyWords": "перевод на карту в другом банке, перевод на карту другого банка, переводы",
+            "link": "/PhizIC/private/payments/payment.do?form=RurPayment&receiverSubType=ourContactToOtherCard",
+            "prodListType": null
+        },
+        {
+            "id": 60,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Перевод для выплаты наличными",
+            "keyWords": "перевод для выплаты наличными, перевод до востребования, переводы",
+            "link": "/sbtsbol/private/payments/ondemand/order",
+            "prodListType": null
+        },
+        {
+            "id": 70,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Перевод на счёт в другой банк в рублях",
+            "keyWords": "перевод на счет в другой банк в рублях, перевод на счёт в другой банк в рублях, перевод в другой банк, переводы",
+            "link": "/PhizIC/private/payments/payment.do?form=RurPayment&receiverSubType=externalAccount",
+            "prodListType": null
+        },
+        {
+            "id": 80,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Перевод на счёт в Яндекс-деньгах",
+            "keyWords": "перевод на счёт в яндекс-деньгах, перевод на счет в яндекс-деньгах, яндекс-деньги, яндекс деньги, переводы",
+            "link": "/PhizIC/private/payments/servicesPayments/edit.do?recipient=101",
+            "prodListType": null
+        },
+        {
+            "id": 90,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Перевод другому человеку за рубеж",
+            "keyWords": "перевод другому человеку за рубеж, перевод за рубеж, перевод за границу, перевод SWIFT, переводы",
+            "link": "/sbtsbol/private/payments/overseas",
+            "prodListType": null
+        },
+        {
+            "id": 100,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Рублевый перевод по России",
+            "keyWords": "рублевый перевод по россии, рублёвый перевод по россии, перевод организации, перевод на счёт, перевод на счет, перевод в рублях, переводы, реквизиты, реквезиты, риквизиты, перевод по реквизитам, перевод по риквизитам, перевод по реквезитам, оплата по реквизитам, оплата по риквизитам, оплата по реквезитам",
+            "link": "/PhizIC/private/payments/jurPayment/edit.do",
+            "prodListType": null
+        },
+        {
+            "id": 110,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Валютный перевод по России",
+            "keyWords": "валютный перевод по россии, валютный перевод, перевод организации, перевод в валюте, переводы",
+            "link": "/sbtsbol/private/payments/overseas",
+            "prodListType": null
+        },
+        {
+            "id": 120,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Перевод организации за рубеж",
+            "keyWords": "перевод организации за рубеж, перевод за рубеж, перевод за границу, перевод в валюте, валютный перевод, переводы",
+            "link": "/sbtsbol/private/payments/overseas",
+            "prodListType": null
+        },
+        {
+            "id": 130,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Подключить автоплатёж",
+            "keyWords": "подключить автоплатеж, подключить автоплатёж, новый автоплатеж, новый автоплатёж, список автоплатежей, автоперевод",
+            "link": "/PhizIC/private/autopayment/select-category-provider.do",
+            "prodListType": null
+        },
+        {
+            "id": 140,
+            "type": "Action",
+            "category": "Переводы и платежи",
+            "action": "Управление автоплатежами",
+            "keyWords": "отключить автоплатеж, отключить автоплатёж, управление автоплатежами, список автоплатежей",
+            "link": "/PhizIC/private/favourite/list/AutoPayments.do",
+            "prodListType": null
+        },
+        {
+            "id": 150,
+            "type": "Category",
+            "category": "История",
+            "action": "История",
+            "keyWords": "история операций, мои операции",
+            "link": "/sbtsbol/private/operations/1/?operationType=ALL",
+            "prodListType": null
+        },
+        {
+            "id": 170,
+            "type": "Action",
+            "category": "Вклады и счета",
+            "action": "Открытие вклада",
+            "keyWords": "открытие вклада, открытие счета, открытие счёта, открыть вклад, открыть счёт, открыть счет, новый вклад, вклады, онлайн, онл@йн, сохраняй, пополняй, управляй",
+            "link": "/PhizIC/private/deposits/products/list.do?form=AccountOpeningClaim",
+            "prodListType": null
+        },
+        {
+            "id": 180,
+            "type": "Action",
+            "category": "Вклады и счета",
+            "action": "Закрытие вклада",
+            "keyWords": "закрытие вклада, закрытие счёта, закрытие счета, закрыть вклад, закрыть счёт, закрыть счет",
+            "link": "/PhizIC/private/payments/payment.do?form=AccountClosingPayment",
+            "prodListType": null
+        },
+        {
+            "id": 190,
+            "type": "Action",
+            "category": "Вклады и счета",
+            "action": "Пополнить вклад",
+            "keyWords": "пополнить вклад, пополнить счёт, пополнить счет",
+            "link": "/PhizIC/private/payments/payment.do?form=InternalPayment",
+            "prodListType": null
+        },
+        {
+            "id": 200,
+            "type": "Action",
+            "category": "Вклады и счета",
+            "action": "Реквизиты вклада",
+            "keyWords": "реквизиты вклада, реквизиты счета, реквизиты счёта, номер счета, номер счёта, мои реквизиты, реквезиты, лицевой счет, риквизиты, показать реквизиты",
+            "link": "/PhizIC/private/accounts/info.do?id={{accountId}}",
+            "prodListType": "ACCOUNTS"
+        },
+        {
+            "id": 210,
+            "type": "Action",
+            "category": "Вклады и счета",
+            "action": "Список копилок",
+            "keyWords": "подключить копилку, копилка, мои копилки, моя копилка, капилка, отключить копилку",
+            "link": "/PhizIC/private/accounts/moneyBoxList.do?id={{accountId}}",
+            "prodListType": "ACCOUNTS"
+        },
+        {
+            "id": 220,
+            "type": "Action",
+            "category": "Цель",
+            "action": "Добавить цель",
+            "keyWords": "добавить цель, мои цели, новая цель, открыть",
+            "link": "/PhizIC/private/finances/targets/selectTarget.do",
+            "prodListType": null
+        },
+        {
+            "id": 230,
+            "type": "Category",
+            "category": "Мои финансы",
+            "action": "Мои финансы",
+            "keyWords": "мои финансы, расходы, доходы, категории расходов, категории доходов, мой помощник, бюджет, зачисления, всего средств, баланс, мои расходы, анализ расходов, расходы за месяц, рассходы, управление расходами, диаграмма, детализация, поступления, зачисление, история зачислений, мои доходы, мои зачисления",
+            "link": "/PhizIC/private/finances/operationCategories.do",
+            "prodListType": null
+        },
+        {
+            "id": 240,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Заказать дебетовую карту",
+            "keyWords": "заказать дебетовую карту, заказать карту, заявка на карту, дебетовая карта, новая карта, card, debit, оформить карту, добавить карту, открыть карту",
+            "link": "/sbtsbol/private/cards/debit",
+            "prodListType": null
+        },
+        {
+            "id": 250,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Заказать цифровую карту",
+            "keyWords": "заказать цифровую карту, заказать карту, заявка на карту, цифровая карта, новая карта",
+            "link": "/sbtsbol/private/cards/virtual",
+            "prodListType": null
+        },
+        {
+            "id": 270,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Перевыпуск карты",
+            "keyWords": "перевыпуск карты, досрочный перевыпуск карты",
+            "link": "/PhizIC/private/payments/payment.do?form=ReIssueCardClaim",
+            "prodListType": null
+        },
+        {
+            "id": 280,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Пополнить карту",
+            "keyWords": "пополнить карту, пополнение карты",
+            "link": "/PhizIC/private/payments/payment.do?form=InternalPayment",
+            "prodListType": null
+        },
+        {
+            "id": 290,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Подключить автопогашение",
+            "keyWords": "подключить автопогашение, автопогашение кредитной карты, автопогашение по кредитной карте, создать автопогашение, создать автоплатеж, автоплатёж, платеж по кредитной карте, кредитная карта погашение",
+            "link": "/PhizIC/private/payments/payment.do?form=CreateP2PAutoTransferClaim&receiverType=apcc",
+            "prodListType": null
+        },
+        {
+            "id": 320,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Заблокировать",
+            "keyWords": "как заблокировать карту, блокировка карты, утеря, компроментация",
+            "link": "/PhizIC/private/payments/payment.do?form=BlockingCardClaim",
+            "prodListType": null
+        },
+        {
+            "id": 330,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Страхование владельца карты",
+            "keyWords": "страхование владельца карты, страхование кредитной карты, страхование карты",
+            "link": "sbtsbol/private/insurance/cardholder#/check",
+            "prodListType": null
+        },
+        {
+            "id": 340,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Приоритетная карта для входящих переводов",
+            "keyWords": "приоритетная карта для входящих переводов, приоритетная карта для переводов, приоритетная карта для перевода, зачисление перевода, перевод на карту, перевод по номеру телефона, переводы",
+            "link": "/PhizIC/private/cards/priority.do",
+            "prodListType": null
+        },
+        {
+            "id": 350,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Своё дело",
+            "keyWords": "своё дело, свое дело, самозанятость, самозанятый",
+            "link": "/PhizIC/private/selfemployed/services.do",
+            "prodListType": null
+        },
+        {
+            "id": 360,
+            "type": "Action",
+            "category": "Карты",
+            "action": "Реквизиты карты",
+            "keyWords": "реквизиты карты, реквизиты счета, мои реквизиты, номер счёта, номер счета, реквезиты карты, лицевой счет, расчетный счет, риквизиты, показать реквизиты, информация о карте",
+            "link": "/PhizIC/private/cards/detail.do?id={{cardId}}",
+            "prodListType": "CARDS"
+        },
+        {
+            "id": 370,
+            "type": "Action",
+            "category": "Кредиты",
+            "action": "Потребительский кредит",
+            "keyWords": "потребительский кредит, взять кредит, получить кредит, нецелевой, на любые цели, заявка на кредит, деньги",
+            "link": "/sbtsbol/private/loans/consumer",
+            "prodListType": null
+        },
+        {
+            "id": 380,
+            "type": "Action",
+            "category": "Кредиты",
+            "action": "Автокредит",
+            "keyWords": "автокредит, кредит на машину, кредит на автомобиль",
+            "link": "/sbtsbol/private/loans/car",
+            "prodListType": null
+        },
+        {
+            "id": 390,
+            "type": "Action",
+            "category": "Кредиты",
+            "action": "Ипотечный кредит",
+            "keyWords": "ипотечный кредит, ипотека",
+            "link": "https://qa.domclick.ru/cas/rest/esa/redirect?redirect_type=calculator&utm_source=sbol&utm_medium=button&utm_campaign=creditpage",
+            "prodListType": null
+        },
+        {
+            "id": 410,
+            "type": "Action",
+            "category": "Кредиты",
+            "action": "Кредитный потенциал",
+            "keyWords": "кредитный потенциал, расчет кредитного потенциала, расчёт кредитного потенциала",
+            "link": "/sbtsbol/private/loans/creditability",
+            "prodListType": null
+        },
+        {
+            "id": 420,
+            "type": "Action",
+            "category": "Кредиты",
+            "action": "Внести платеж",
+            "keyWords": "внести платеж, внести платёж, платеж по кредиту, платёж по кредиту",
+            "link": "/PhizIC/private/payments/payment.do?form=LoanPayment",
+            "prodListType": null
+        },
+        {
+            "id": 430,
+            "type": "Action",
+            "category": "Кредиты",
+            "action": "График",
+            "keyWords": "график погашения",
+            "link": "/PhizIC/private/loans/detail.do?id={{loanId}}",
+            "prodListType": "LOANS"
+        },
+        {
+            "id": 470,
+            "type": "Action",
+            "category": "Счета депо",
+            "action": "Поручение на перевод/приём перевода ценных бумаг",
+            "keyWords": "поручение на перевод, приём перевода ценных бумаг, прием перевода ценных бумаг, ценные бумаги, перевод ценных бумаг, депозитарий, депозитарная операция, счет депо, счёт депо",
+            "link": "/PhizIC/private/payments/securitiesTransfer.do?form=SecuritiesTransferClaim",
+            "prodListType": null
+        },
+        {
+            "id": 480,
+            "type": "Action",
+            "category": "Счета депо",
+            "action": "Заявка на регистрацию ценной бумаги",
+            "keyWords": "заявка на регистрацию ценной бумаги, регистрация ценной бумаги, ценные бумаги, депозитарий, депозитарная операция, счет депо, счёт депо",
+            "link": "/PhizIC/private/payments/payment.do?form=SecurityRegistrationClaim",
+            "prodListType": null
+        },
+        {
+            "id": 490,
+            "type": "Action",
+            "category": "Счета депо",
+            "action": "Корпоративные действия",
+            "keyWords": "корпоративные действия, корпоративное действие, ценные бумаги, депозитарий, депозитарная операция, счет депо, счёт депо",
+            "link": "/PhizIC/private/depo/allCorpActions.do",
+            "prodListType": null
+        },
+        {
+            "id": 510,
+            "type": "Action",
+            "category": "Счета депо",
+            "action": "Анкета депонента",
+            "keyWords": "анкета депонента, ценные бумаги, депозитарий, депозитарная операция, счет депо, счёт депо",
+            "link": "/PhizIC/private/payments/payment.do?form=DepositorFormClaim",
+            "prodListType": null
+        },
+        {
+            "id": 600,
+            "type": "Category",
+            "category": "Сертификаты",
+            "action": "Сертификаты",
+            "keyWords": "сберегательные сертификаты, сберегательный сертификат",
+            "link": "/PhizIC/private/security/list.do",
+            "prodListType": null
+        },
+        {
+            "id": 610,
+            "type": "Action",
+            "category": "Металлические счета",
+            "action": "Открытие обезличенного металлического счета",
+            "keyWords": "открытие обезличенного металлического счета, обезличенный металлический счет, обезличенный металлический счёт, ОМС, золото, серебро, платина, палладий, драгоценные металлы, драгоценный металл",
+            "link": "/PhizIC/private/ima/products/list.do?form=IMAOpeningClaim",
+            "prodListType": null
+        },
+        {
+            "id": 630,
+            "type": "Action",
+            "category": "Металлические счета",
+            "action": "Покупка/продажа металла",
+            "keyWords": "покупка металла, продажа металла, драгоценные металлы, драгоценный металл, золото, серебро, платина, палладий",
+            "link": "/PhizIC/private/payments/payment.do?form=IMAPayment",
+            "prodListType": null
+        },
+        {
+            "id": 640,
+            "type": "Action",
+            "category": "Пенсионные программы",
+            "action": "Выписка из ПФР",
+            "keyWords": "выписка из пфр, пенсионный фонд россии, пенсионный фонд рф, пенсионный счёт, пенсионный счет, лицевой счёт, лицевой счет",
+            "link": "/sbtsbol/private/pension/statement#/",
+            "prodListType": null
+        },
+        {
+            "id": 650,
+            "type": "Action",
+            "category": "Пенсионные программы",
+            "action": "Получайте пенсию через Сбербанк",
+            "keyWords": "получайте пенсию через сбербанк, получение пенсии, заявление на перечисление пенсии, пенсионная карта",
+            "link": "/sbtsbol/private/pension/transfer#/promo",
+            "prodListType": null
+        },
+        {
+            "id": 660,
+            "type": "Action",
+            "category": "Пенсионные программы",
+            "action": "Виды и размеры пенсий",
+            "keyWords": "виды и размеры пенсий, виды пенсий, размеры пенсий, размер пенсии",
+            "link": "/PhizIC/private/pfr/pfrHistoryFull.do",
+            "prodListType": null
+        },
+        {
+            "id": 670,
+            "type": "Category",
+            "category": "Страхование",
+            "action": "Страхование",
+            "keyWords": "страхование, страховые продукты, страховки, страховка, страховой полис, страховые полисы, страхование ипотеки, страхование путешественников, защита дома, защита близких, страхование держателей кредитных карт, страхование заёмщика потребительского кредита, страхование заемщика потребительского кредита, глава семьи, защита банковских карт, защищённый заёмщик, защищенный заемщик",
+            "link": "/sbtsbol/private/insurance/products",
+            "prodListType": null
+        },
+        {
+            "id": 680,
+            "type": "Action",
+            "category": "Страхование",
+            "action": "Мои полисы",
+            "keyWords": "мои полисы, мой полис, страховые полисы, страховой полис",
+            "link": "/sbtsbol/private/insurance/",
+            "prodListType": null
+        },
+        {
+            "id": 690,
+            "type": "Category",
+            "category": "Промо-коды",
+            "action": "Промо-коды",
+            "keyWords": "промо-коды, промо-код, бонусы",
+            "link": "/PhizIC/private/userprofile/promoCodes.do",
+            "prodListType": null
+        },
+        {
+            "id": 700,
+            "type": "Category",
+            "category": "Брокерское обслуживание",
+            "action": "Брокерское обслуживание",
+            "keyWords": "брокерское обслуживание, брокерские операции, брокерские договоры, брокерский договор, брокерский счёт, брокерский счет",
+            "link": "/sbtsbol/private/brokerage",
+            "prodListType": null
+        },
+        {
+            "id": 710,
+            "type": "Action",
+            "category": "Брокерское обслуживание",
+            "action": "Заявки",
+            "keyWords": "брокерские заявки, биржевые заявки, биржа, заявки на бирже, брокерская заявка, заявки на покупку ценных бумаг, заявки на продажу ценных бумаг, заявки на покупку активов, заявки на продажу активов, заявка на покупку ценных бумаг, заявка на продажу ценных бумаг, заявка на покупку активов, заявка на продажу активов",
+            "link": "/sbtsbol/private/brokerage#/order?agreementId={{brokerAccountNumber}}",
+            "prodListType": "BROKERACCOUNTS"
+        },
+        {
+            "id": 720,
+            "type": "Action",
+            "category": "Брокерское обслуживание",
+            "action": "Сделки",
+            "keyWords": "сделки по ценным бумагам, сделки по брокерскому обслуживанию, сделки брокерское обслуживание, биржевые сделки, биржа",
+            "link": "/sbtsbol/private/brokerage#/trade?agreementId={{brokerAccountNumber}}&dateRange={{currentDateMinusSevenDays}}&dateRange={{currentDate}}",
+            "prodListType": "BROKERACCOUNTS"
+        },
+        {
+            "id": 730,
+            "type": "Action",
+            "category": "Брокерское обслуживание",
+            "action": "Зачисления/Списания",
+            "keyWords": "зачисления на брокерский счёт, зачисления на брокерский счет, списания с брокерского счёта, списания с брокерского счета, вывод средств с брокерского счета, пополнение брокерского счета",
+            "link": "/sbtsbol/private/brokerage#/account?agreementId={{brokerAccountNumber}}&dateRange={{currentDateMinusSevenDays}}&dateRange={{currentDate}}",
+            "prodListType": "BROKERACCOUNTS"
+        },
+        {
+            "id": 740,
+            "type": "Action",
+            "category": "Брокерское обслуживание",
+            "action": "Пополнить счёт",
+            "keyWords": "пополнить счёт, пополнить счет, пополнить брокерский счёт, пополнить брокерский счет",
+            "link": "/sbtsbol/private/brokerage#/replenish?_k=zbhodh",
+            "prodListType": null
+        },
+        {
+            "id": 750,
+            "type": "Category",
+            "category": "Выписки и справки",
+            "action": "Выписки и справки",
+            "keyWords": "выписки и справки, справки и выписки, выписка, справка, выписка по вкладу, выписка по счету, выписка по счёту, выписка по кредитной карте, сведения для госслужащих, выписка по дебетовой карте, справка о доступном остатке, реквизиты для перевода, выписки, справки, отчет, реквезиты, реквизиты карты, номер счета, расходы, остаток, мои реквизиты, реквизиты счета, риквизиты, заказать выписку, заказать справку",
+            "link": "/sbtsbol/private/operations/statement",
+            "prodListType": null
+        },
+        {
+            "id": 770,
+            "type": "Category",
+            "category": "Своё дело",
+            "action": "Своё дело",
+            "keyWords": "свое дело, своё дело, самозанятость, самозанятый",
+            "link": "/PhizIC/private/selfemployed/services.do",
+            "prodListType": null
+        },
+        {
+            "id": 790,
+            "type": "Action",
+            "category": "Настройка",
+            "action": "Личная информация",
+            "keyWords": "личная информация, пользователь, личный кабинет, личное меню, мой профиль",
+            "link": "/PhizIC/private/userprofile/userSettings.do",
+            "prodListType": null
+        },
+        {
+            "id": 800,
+            "type": "Action",
+            "category": "Настройка",
+            "action": "Мобильные приложения",
+            "keyWords": "мобильные приложения, мобильное приложение, МП",
+            "link": "/PhizIC/private/mobileApplications/view.do",
+            "prodListType": null
+        },
+        {
+            "id": 810,
+            "type": "Action",
+            "category": "Настройка",
+            "action": "Мобильный банк",
+            "keyWords": "мобильный банк, экономный пакет, полный пакет, sms-запросы, sms-шаблоны, sms запросы, sms шаблоны",
+            "link": "/PhizIC/private/mobilebank/main.do",
+            "prodListType": null
+        },
+        {
+            "id": 820,
+            "type": "Action",
+            "category": "Настройка",
+            "action": "Безопасность и доступы",
+            "keyWords": "безопасность и доступы, смена логина, смена пароля, подтверждение входа, способ подтверждения, выбор способа подтверждения, настройка приватности, приватность, настройка видимости продуктов, видимость продуктов, настройка видимости шаблонов, видимость шаблонов",
+            "link": "/PhizIC/private/userprofile/accountSecurity.do",
+            "prodListType": null
+        },
+        {
+            "id": 830,
+            "type": "Action",
+            "category": "Настройка",
+            "action": "Управление согласиями",
+            "keyWords": "управление согласиями, согласия, согласие, отзыв согласия",
+            "link": "/PhizIC/private/userprofile/accountAgreement.do",
+            "prodListType": null
+        },
+        {
+            "id": 840,
+            "type": "Action",
+            "category": "Настройка",
+            "action": "Лимиты расходов на переводы и платежи",
+            "keyWords": "лимиты расходов на переводы и платежи, персональный лимит, суточный лимит, подтверждение в контактном центре",
+            "link": "/PhizIC/private/userprofile/userLimits.do",
+            "prodListType": null
+        },
+        {
+            "id": 850,
+            "type": "Action",
+            "category": "Настройка",
+            "action": "Оповещения",
+            "keyWords": "оповещения о событиях, события, sms, push, e-mail, уведомления, уведомление, push уведомления, пуш уведомления, push-уведомления, подключить мобильный банк, отключить мобильный банк, подключить уведомления, отключить уведомления, включить пуши, выключить пуши, включить уведомления, выключить уведомления",
+            "link": "/PhizIC/private/userprofile/userNotification.do",
+            "prodListType": null
+        },
+        {
+            "id": 20100,
+            "type": "Category",
+            "category": "Связь с банком",
+            "action": "Связь с банком",
+            "keyWords": "чат со сбербанком, обратная связь, поддержка, помощь, чат, написать в банк, оператор , задать вопрос, нужна помощь, вопросы, консультация, бот, что, где, как, почему, сколько,когда",
+            "link": null,
+            "prodListType":null
+        },
+        {
+            "id": 100300,
+            "type": "Category",
+            "category": "Связь с банком - ДУБЛИРОВАННАЯ ФУНКЦИЯ, ЧТОБЫ ПЕРЕХВАТЫВАТЬ ОШИБКУ ИЗ-ЗА link == null",
+            "action": "Связь с банком",
+            "keyWords": "чат со сбербанком, обратная связь, поддержка, помощь, чат, написать в банк, оператор , задать вопрос, нужна помощь, вопросы, консультация, бот, что, где, как, почему, сколько,когда",
+            "link": null,
+            "prodListType":null
+        },
+        {
+            "id": 860,
+            "type": "Action",
+            "category": "Настройка",
+            "action": "Интерфейс",
+            "keyWords": "порядок продуктов на главной странице",
+            "link": "/PhizIC/private/favourite/list.do",
+            "prodListType": null
+        }
+    ]
+}

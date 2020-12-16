@@ -1,0 +1,5 @@
+export { default as catalog } from './catalog.svg'
+export { default as main } from './main.svg'
+export { default as operations } from './operations.svg'
+export { default as payments } from './payments.svg'
+export { default as chat } from './chat.svg'

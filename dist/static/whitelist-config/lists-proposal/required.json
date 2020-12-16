@@ -1,0 +1,7 @@
+[
+  "@sbol/webpack-config",
+  "eslint",
+  "stylelint",
+  "@sbol/eslint-config",
+  "@sbol/stylelint-config"
+]

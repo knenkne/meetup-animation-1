@@ -1,0 +1,29 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+
+.button {
+    background: var(--no-color);
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #0b8940;
+    margin-top: 32px;
+    cursor: pointer;
+    outline: var(--no-color) solid 2px;
+    outline-offset: 1px;
+
+    span {
+        font-size: 20px;
+        margin-right: 8px;
+    }
+
+    .text {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.43;
+        letter-spacing: -0.3px;
+    }
+
+    body:not(:global(.pointer-events)) &:focus {
+        outline-color: #202429;
+    }
+}

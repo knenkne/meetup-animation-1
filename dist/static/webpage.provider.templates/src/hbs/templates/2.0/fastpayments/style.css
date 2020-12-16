@@ -1,0 +1,86 @@
+/* Autoprefixed: ie >= 9, last 4 versions */
+
+.fastpayments {
+    margin-top: 0;
+    position: relative;
+    width: 110px;
+    min-height: 200px;
+    margin-left: 0;
+    left: 0;
+    transition: margin-left .2s, left .2s;
+    background: #fff;
+    box-shadow: 0 0 16px rgba(0,0,0,.3);
+}
+
+.fastpayments:focus {
+    outline: none;
+}
+
+.fastpayments__title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    color: #483d1e;
+    font-weight: normal;
+    background: #f5efe2;
+    width: 200px;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    line-height: 38px;
+    box-shadow: 0 0 16px rgba(0,0,0,.3);
+}
+
+@media all and (max-width: 1286px) {
+    .fastpayments {
+        margin-left: -110px;
+        transition: margin-left .2s, left .2s;
+    }
+
+    .fastpayments:focus {
+        left: 110px;
+        transition: margin-left .2s, left .2s;
+    }
+}
+
+.fastpayments__item {
+    padding: 5px;
+    text-align: center;
+    background: #fff;
+    position: relative;
+}
+
+.fastpayments__item-link {
+    display: block;
+    padding: 4px 0;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transition: .2s border-color;
+}
+
+.fastpayments__item-link:hover {
+    border-color: #ffc422;
+    transition: .2s border-color;
+}
+
+.fastpayments__item-icon {
+    display: block;
+    margin: 0 auto 10px;
+    height: auto;
+    width: 40px;
+}
+
+.fastpayments__item-link,
+.fastpayments__item-title,
+.fastpayments__item-link:hover .fastpayments__item-title,
+.fastpayments__item-link:focus .fastpayments__item-title {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 11px;
+}

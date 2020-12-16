@@ -1,0 +1,57 @@
+Данный инструмент позволяет:
+* управлять отображением валютных знаков на глобальном уровне (текст, символ, код);
+* специфицировать стили для валютных знаков.
+
+`Currency.setCurrencyDisplayName(code: string, names: oneOf[string, array(3)])` - глобальная функция;
+задает текстовое (приоритетное) отображение валюты. Может быть экранировано mode="symbol" или mode="code"
+
+```jsx live
+
+   
+// rur - код рубля до 1998 года; btc - код биткоина, добавляемый для демонстрации
+var symbols = _.omit(Currency.options.symbols, ['rur', 'btc'])
+
+
+render(<Demo.Titled title="Имеющиеся валютные символы">
+    {_.map(symbols, (symbol, code) => (
+        <div key={code}>
+        {`${_.upperCase(code)} = `}
+        <Currency title={code} mode="symbol" />
+        </div>
+    ))}
+</Demo.Titled>)
+
+```
+
+```jsx live
+class CurrencyStories extends React.Component {
+    constructor (props) {
+        super(props)
+    }
+
+
+    addBtc () { Currency.options.symbols.btc = 'B'; this.forceUpdate() }
+    removeBtc () { delete Currency.options.symbols.btc; this.forceUpdate() }
+    addPlurals () { Currency.setCurrencyDisplayName('btc', ['биткоинов', 'биткоин', 'биткоина']); this.forceUpdate() }
+    addSingle () { Currency.setCurrencyDisplayName('btc', 'bitcoin'); this.forceUpdate() }
+    removeDisplayName () { delete Currency.options.display.btc; this.forceUpdate() }
+
+    render () {
+        return (
+            <div>
+                <Button size="sm" title="Добавить символ для BTC" onClick={this.addBtc.bind(this)} /><br />
+                <Button size="sm" title="Удалить символ для BTC" onClick={this.removeBtc.bind(this)} /><br />
+                <Button size="sm" title="Добавить display name для BTC - plurals" onClick={this.addPlurals.bind(this)} /><br />
+                <Button size="sm" title="Добавить display name для BTC - single" onClick={this.addSingle.bind(this)} /><br />
+                <Button size="sm" title="Удалить display name для BTC" onClick={this.removeDisplayName.bind(this)} /><br />
+                auto (one, 1): <Currency title="BTC" mode="auto" value="1" /><br />
+                auto (some, 2): <Currency title="BTC" mode="auto" value="2" /><br />
+                auto (many, 5): <Currency title="BTC" mode="auto" value="5" /><br />
+                word: <Currency title="BTC" mode="word" /><br />
+                symbol: <Currency title="BTC" mode="symbol" /><br />
+                code: <Currency title="BTC" mode="code" />
+            </div>
+        )
+    }
+}
+```

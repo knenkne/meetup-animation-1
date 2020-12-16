@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "123456789-pid",
+    "flow": "/test",
+    "state": "step1",
+    "output": {
+      "document": {
+        "documentId": "123456789-documentId"
+      },
+      "screens": [
+        {
+          "title": "ФИО",
+          "description": "ФИО",
+          "widgets": [
+            {
+              "type": "FullName",
+              "fields": [
+                {
+                  "id": "transfer:fullName:lastName",
+                  "value": "1",
+                  "type": "text",
+                  "referenceId": "text",
+                  "title": "Фамилия"
+                },
+                {
+                  "id": "transfer:fullName:firstName",
+                  "value": "2",
+                  "type": "text",
+                  "referenceId": "text",
+                  "title": "Имя"
+                },
+                {
+                  "id": "transfer:fullName:middleName",
+                  "value": "",
+                  "type": "text",
+                  "referenceId": "text",
+                  "title": "Отчество"
+                },
+                {
+                  "id": "transfer:fullName:noMiddleName",
+                  "value": "true",
+                  "type": "checkbox",
+                  "referenceId": "text",
+                  "title": "Нет отчества"
+                  
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "name": "next"
+        },
+        {
+          "name": "skip",
+          "type": "skip"
+        }
+      ]
+    },
+    "history": [
+      {
+        "id": "step1",
+        "flow": "/test",
+        "state": "step1",
+        "title": "ФИО",
+        "value": "value",
+        "status": "ACTIVE"
+      }
+    ]
+  }
+}

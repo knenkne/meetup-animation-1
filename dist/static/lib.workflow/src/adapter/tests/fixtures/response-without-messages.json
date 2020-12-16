@@ -1,0 +1,133 @@
+{
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "de9d9380-8f1a-11e7-861c-97ee935a8de4",
+    "flow": "superFlow",
+    "state": "step2",
+    "output": {
+      "document": {
+        "documentId": "1504273122489"
+      },
+      "screens": [
+        {
+          "title": "Параметры поездки",
+          "widgets": [
+            {
+              "type": "Product",
+              "properties": {
+                "src": "https://cdn.zeplin.io/59312e1ebdf1da6fc8d37ffb/assets/4D4A8F1A-C99B-45A1-B971-8AC73814F4A5.png"
+              },
+              "title": "Классическая карта «Аэрофлот»",
+              "description": "Для тех, кто путешествует. Карты позволяют накопить и обменять накопленные мили «Аэрофлот Бонус» на премиальный билет Аэрофлота или авиакомпаний альянса SkyTeam",
+              "fields": []
+            },
+            {
+              "type": "Select",
+              "properties": {},
+              "fields": [
+                {
+                  "id": "insurance:tripDetails:region",
+                  "value": "",
+                  "type": "select",
+                  "referenceId": "regions",
+                  "title": "Регион",
+                  "validators": [
+                    {
+                      "type": "required",
+                      "value": "",
+                      "message": "Обязательное поле, заполни плез"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "DateRange",
+              "properties": {},
+              "fields": [
+                {
+                  "id": "insurance:tripDetails:date:from",
+                  "value": "",
+                  "type": "text",
+                  "referenceId": "",
+                  "title": "Даты поездки",
+                  "validators": [
+                    {
+                      "type": "required",
+                      "value": "",
+                      "message": "Обязательное поле, заполни плез"
+                    }
+                  ]
+                },
+                {
+                  "id": "insurance:tripDetails:date:till",
+                  "value": "",
+                  "type": "text",
+                  "referenceId": "",
+                  "title": "Даты поездки",
+                  "validators": []
+                }
+              ]
+            },
+            {
+              "type": "Text",
+              "properties": {},
+              "fields": [
+                {
+                  "id": "insurance:tripDetails:duration",
+                  "value": "",
+                  "type": "text",
+                  "referenceId": "",
+                  "title": "Срок действия полиса",
+                  "validators": [
+                    {
+                      "type": "maxLength",
+                      "value": "2",
+                      "message": "Не больше 99 дней"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "properties": {}
+        }
+      ],
+      "references": {
+        "regions": {
+          "properties": {},
+          "items": [
+            {
+              "value": "shengen",
+              "title": "Шенген"
+            },
+            {
+              "value": "turkey",
+              "title": "Турция"
+            },
+            {
+              "value": "egypt",
+              "title": "Египет"
+            }
+          ]
+        }
+      },
+      "progress": {
+        "range": 7,
+        "remainder": 6
+      }
+    },
+    "history": [
+      {
+        "id": "de9d9381-8f1a-11e7-861c-97ee935a8de4",
+        "flow": "superFlow",
+        "state": "step1",
+        "title": "Параметры поездки",
+        "value": "value",
+        "status": "ACTIVE"
+      }
+    ]
+  },
+  "messages": []
+}

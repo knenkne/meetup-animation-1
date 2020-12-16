@@ -1,0 +1,172 @@
+{
+  "_from": "@sbol/lib.widgets.web@1.3.0",
+  "_id": "@sbol/lib.widgets.web@1.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-JC9k4DRq6s/bvTDF1JO6BsWW864=",
+  "_location": "/@sbol/lib.widgets.web",
+  "_phantomChildren": {
+    "@babel/runtime": "7.12.5",
+    "@sbol/lib.app": "3.4.0",
+    "@sbol/lib.vendor.axios": "0.18.0",
+    "@sbol/lib.vendor.classnames": "2.2.6",
+    "@sbol/lib.vendor.i18next": "15.0.5",
+    "@sbol/lib.vendor.lodash": "4.17.11",
+    "@sbol/lib.vendor.react": "16.12.0",
+    "@sbol/lib.vendor.react-dom": "16.12.0",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "@sbol/lib.vendor.redux-thunk": "2.3.0",
+    "@sbol/schemas": "1.1.2",
+    "@sbol/utils": "0.0.6",
+    "date-fns": "2.0.0-alpha.7",
+    "eases": "1.0.8",
+    "es6-error": "4.1.1",
+    "history": "4.10.1",
+    "invariant": "2.2.4",
+    "is-promise": "2.2.2",
+    "lodash": "4.17.20",
+    "lodash-es": "4.17.15",
+    "loglevel": "1.6.8",
+    "loose-envify": "1.4.0",
+    "nanoid": "2.1.11",
+    "prop-types": "15.7.2",
+    "qs": "6.7.0",
+    "raf": "3.4.1",
+    "react-collapse": "5.0.1",
+    "react-display-name": "0.2.4",
+    "react-height": "3.0.1",
+    "react-is": "16.13.1",
+    "react-lifecycles-compat": "3.0.4",
+    "react-modal": "3.4.5",
+    "react-motion": "0.5.2",
+    "react-onclickoutside": "6.9.0",
+    "remarkable": "1.7.4",
+    "reselect": "4.0.0",
+    "text-mask-addons": "3.8.0",
+    "text-mask-core": "5.1.2",
+    "uuid": "3.4.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/lib.widgets.web@1.3.0",
+    "name": "@sbol/lib.widgets.web",
+    "escapedName": "@sbol%2flib.widgets.web",
+    "scope": "@sbol",
+    "rawSpec": "1.3.0",
+    "saveSpec": null,
+    "fetchSpec": "1.3.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/lib.widgets.web/-/lib.widgets.web-1.3.0.tgz",
+  "_shasum": "242f64e0346aeacfdbbd30c5d493ba06c596f3ae",
+  "_spec": "@sbol/lib.widgets.web@1.3.0",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "PJSC Sberbank"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Дмитрий Шутов"
+    },
+    {
+      "name": "Дмитрий Кузнецов",
+      "email": "DMKuznetsov.SBT@sberbank.ru"
+    },
+    {
+      "name": "Михаил Реммеле",
+      "email": "MARemmele@sberbank.ru"
+    }
+  ],
+  "dependencies": {
+    "@sbol/lib.app": "3.4.0",
+    "@sbol/lib.ui": "4.9.0",
+    "@sbol/lib.vendor.axios": "0.18.0",
+    "@sbol/lib.vendor.classnames": "2.2.6",
+    "@sbol/lib.vendor.i18next": "15.0.5",
+    "@sbol/lib.vendor.lodash": "4.17.11",
+    "@sbol/lib.vendor.react": "16.12.0",
+    "@sbol/lib.vendor.react-dom": "16.12.0",
+    "@sbol/lib.vendor.react-redux": "7.2.0",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "@sbol/lib.vendor.redux-form": "8.3.1",
+    "@sbol/lib.vendor.redux-thunk": "2.3.0",
+    "@sbol/lib.workflow": "3.7.2",
+    "@sbol/utils": "0.0.6",
+    "react-display-name": "0.2.4"
+  },
+  "deprecated": false,
+  "description": "SBOL UI Widgets WEB",
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
+    "@sbol/brokkr": "0.10.3",
+    "@sbol/common": "2.5.3",
+    "@sbol/eslint-config": "2.6.0",
+    "@sbol/jest-config": "~1.4.0",
+    "@sbol/stylelint-config": "1.0.3",
+    "@sbol/webpack-config": "12.5.1",
+    "@sbol/webpage.provider.bootstrap": "0.14.1",
+    "@sbol/whitelist": "0.9.4",
+    "@sbol/whitelist-config": "0.0.5",
+    "babel-eslint": "10.0.1",
+    "cross-env": "5.2.0",
+    "enzyme": "3.4.1",
+    "enzyme-adapter-react-16": "1.12.1",
+    "eslint": "~4.19.1",
+    "eslint-import-resolver-webpack": "0.10.1",
+    "i18next-xhr-backend": "^1.4.2",
+    "module-replace-webpack-plugin": "~0.0.12",
+    "moxios": "^0.4.0",
+    "pre-commit": "^1.2.2",
+    "pre-push": "^0.1.1",
+    "react-styleguidist": "8.0.6",
+    "redux-mock-store": "~1.5.1",
+    "stylelint": "9.9.0"
+  },
+  "engines": {
+    "node": ">=8.6.0",
+    "npm": ">=5.6.0"
+  },
+  "jest": {
+    "preset": "@sbol/jest-config",
+    "moduleNameMapper": {
+      "@sbol/lib.app": "<rootDir>/src/__mocks__/lib.app.jsx"
+    }
+  },
+  "license": "UNLICENSED",
+  "main": "./src/index.js",
+  "name": "@sbol/lib.widgets.web",
+  "precommit": [
+    "eslint",
+    "stylelint"
+  ],
+  "prepush": [
+    "whitelist:deps",
+    "test"
+  ],
+  "publishConfig": {
+    "registry": "http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol-libs/lib.widgets.web.git"
+  },
+  "scripts": {
+    "build": "npm run demo && npm run development && npm run production",
+    "demo": "npx cross-env NODE_ENV=development CSS_HASH_MAP=true npx styleguidist build",
+    "development": "npx cross-env VIZUALIZER=true CSS_HASH_MAP=true NODE_ENV=development node node_modules/@sbol/webpack-config/bin/build.js",
+    "eslint": "npx eslint --ext .js,.jsx .",
+    "production": "npx cross-env CSS_HASH_MAP=true NODE_ENV=production node node_modules/@sbol/webpack-config/bin/build.js",
+    "start": "npx cross-env NODE_ENV=development npx styleguidist server",
+    "stylelint": "npx stylelint \"src/**/*.css\"",
+    "test": "cross-env PKG_ID=lib.widgets.web NODE_ENV=test TESTING=true jest --ci --coverage",
+    "test:ui": "npx brokkr --chrome-driver-version 2.36 --target",
+    "test:ui:dev": "npx brokkr --debug --chrome-driver-version 2.36 --target",
+    "test:update": "npm run test -- -u",
+    "whitelist:deps": "npx whitelist --root --check-list depVersions --lists-path @sbol/whitelist-config/lists"
+  },
+  "version": "1.3.0"
+}

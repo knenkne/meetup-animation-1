@@ -1,0 +1,32 @@
+```jsx live
+render(
+<ThemeWrapperComponent theme="dark-theme">
+    <ThemedLayout>
+        <PersonalManagerComponent
+            managerStatus={'SUCCESS'}
+            managerList={
+                [
+                    {
+                        id:"3878131017433",
+                        name:"Шолохов Иван Григорьевич",
+                        phone:"+7(495)444-22-33",
+                        email:"sholohov@sberbank.ru",
+                        initials:"ШИ",
+                        type: "region.scaffold:personal.manager.title"
+                    },
+                    {
+                        id:"3878131017434",
+                        name:"Петр Павлович Чехов",
+                        phone:"+7(495)444-22-66",
+                        email:"kek@sberbank.ru",
+                        initials:"ППЧ",
+                        type: "region.scaffold:personal.manager.finance.advice"
+                    }
+                ]
+            }
+            managerType={'SBERBANK1'}
+        />
+    </ThemedLayout>
+</ThemeWrapperComponent>
+)
+```

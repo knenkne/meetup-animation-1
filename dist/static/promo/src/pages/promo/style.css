@@ -1,0 +1,22 @@
+.promo {
+    position: relative;
+}
+
+.safe-area {
+    overflow-x: hidden;
+}
+
+.done {
+    position: fixed;
+    bottom: 0;
+    padding: 28px 0;
+    box-shadow: 0 -4px 8px 0 rgba(210, 219, 224, 0.6);
+    z-index: 1;
+    display: block;
+    width: 100%;
+    background-color: white;
+}
+
+.error-link {
+    margin-top: 32px;
+}

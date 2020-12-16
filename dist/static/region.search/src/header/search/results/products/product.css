@@ -1,0 +1,68 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+@import '@sbol/lib.ui/src/utils/styles/semantic-palette.config.css';
+@import '@sbol/lib.ui/src/utils/styles/media.config.css';
+
+.statement:hover {
+    background-color: var(--gray-1);
+}
+
+.statement {
+    flex: 0 1;
+    min-width: calc(50% - 24px);
+    transition: background-color 0.5s ease 0s;
+    background: var(--no-color);
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: var(--black-100);
+    text-align: left;
+    height: 74px;
+    margin-bottom: 8px;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+
+.operation {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 60px); /* ширина контента (название, сумма, описание продукта) относительно родителя, 60px это кусок, вылезающий за пределы родителя */
+    }
+
+    &-title {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &-description {
+        overflow: hidden;
+    }
+}
+
+.document-block {
+    display: flex;
+}
+
+@media (--media-md) {
+    .statement {
+        min-width: calc(50% - 12px);
+    }
+
+    .operation {
+        margin-right: 12px;
+    }
+}
+
+@media (--media-sm) {
+    .statement {
+        min-width: 100%;
+    }
+}

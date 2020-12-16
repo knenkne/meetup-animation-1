@@ -1,0 +1,25 @@
+@import '../../styles/colors.config.css';
+@import '../input.css';
+
+.eye {
+    cursor: pointer;
+    background-color: var(--no-color);
+    font-size: 20px;
+    height: var(--input-icon-height);
+    width: var(--input-icon-width);
+    position: relative;
+    border: none;
+    padding: 0;
+
+    body:not(:global(.pointer-events)) &:focus {
+        outline: 0;
+        border: solid 2px var(--yellow-7);
+    }
+}
+
+.icon {
+    position: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

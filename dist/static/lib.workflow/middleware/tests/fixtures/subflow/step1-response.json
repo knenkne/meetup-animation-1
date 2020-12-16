@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "123456789-pid",
+    "flow": "/main",
+    "state": "step1",
+    "output": {
+      "document": {
+        "documentId": "123456789-documentId"
+      },
+      "screens": [
+        {
+          "title": "Первый шаг процесса",
+          "widgets": [
+            {
+              "type": "CoreFieldset",
+              "fields": [
+                {
+                  "id": "step1:field1:id",
+                  "value": "",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "name": "next"
+        },
+        {
+          "name": "skip",
+          "type": "skip"
+        }
+      ]
+    },
+    "history": [
+      {
+        "id": "step1",
+        "flow": "/main",
+        "state": "step1",
+        "title": "Первый шаг процесса",
+        "value": "value",
+        "status": "ACTIVE"
+      }
+    ]
+  }
+}

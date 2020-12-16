@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "123456789-pid",
+    "flow": "/test",
+    "state": "step2",
+    "output": {
+      "document": {
+        "documentId": "123456789-documentId"
+      },
+      "screens": [
+        {
+          "title": "Сумма перевода",
+          "description": "Сумма перевода",
+          "widgets": [
+            {
+              "type": "Money",
+              "fields": [
+                {
+                  "id": "transfer:fullName:lastName",
+                  "value": "1",
+                  "type": "text",
+                  "readonly": true,
+                  "referenceId": "text",
+                  "title": "Фамилия"
+                },
+                {
+                  "id": "transfer:amount:value",
+                  "value": "",
+                  "type": "text",
+                  "referenceId": "currenciesAvailable",
+                  "title": "Сумма перевода"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "name": "next"
+        },
+        {
+          "name": "skip",
+          "type": "skip"
+        },
+        {
+          "name": "rollback",
+          "type": "rollback"
+        }
+      ]
+    },
+    "history": [
+      {
+        "flow": "/test",
+        "id": "step2",
+        "state": "step2",
+        "status": "ACTIVE",
+        "title": "Сумма перевода",
+        "value": "value"
+      },
+      {
+        "flow": "/test",
+        "id": "step1",
+        "state": "step1",
+        "status": "ACTIVE",
+        "title": "ФИО",
+        "value": "value"
+      }
+    ]
+  }
+}

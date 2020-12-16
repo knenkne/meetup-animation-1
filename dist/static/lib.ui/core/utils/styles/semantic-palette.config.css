@@ -1,0 +1,152 @@
+@import '../../styles/colors.config.css';
+@import './z-index.config.css';
+
+/* state */
+:root {
+    /* focus */
+    --focus-color: var(--gray-9);
+    --focus-additional-color: var(--yellow-9);
+    --focus-bg-color: var(--gray-0);
+    --focus-bg-additional-color: var(--gray-5);
+    --focus-error-color: var(--red-6);
+
+    /* active */
+
+    /* TODO */
+
+    /* error */
+    --error-color: var(--orange-5);
+    --error-bg-color: var(--red-0);
+    --error-focus-bg-color: var(--white);
+
+    /* disabled */
+    --disabled-color: var(--gray-9);
+    --disabled-bg-color: var(--gray-0);
+    --disabled-border-color: var(--gray-0);
+    --disabled-input-color: var(--gray-7);
+    --disabled-icon-color: var(--gray-7);
+
+    /* selected */
+    --selected-color: var(--white);
+    --selected-border-color: var(--green-9);
+    --selected-bg-color: var(--dark-blue-9);
+    --selected-bg-color-hover: #42565f; /* stylelint-disable-line declaration-property-value-blacklist, comment: математика дизайна */
+    --selected-border-additional-color: #299d37; /* stylelint-disable-line declaration-property-value-blacklist, comment: математика дизайна */
+}
+
+/* pseudo */
+:root {
+    --shadow-color: var(--gray-6);
+    --shadow-additional-color: var(--gray-5);
+}
+
+/* status */
+/* TODO update when palette changed  */
+:root {
+    --status-done-color: var(--green-5);
+    --status-waiting-color: var(--gray-5);
+    --status-error-color: var(--orange-5);
+    --status-draft-color: var(--gray-5);
+    --status-info-color: var(--violet-5);
+}
+
+/* alert */
+:root {
+    --alert-success-border-color: var(--green-1);
+    --alert-success-bg-color: #f5fbf5; /* stylelint-disable-line declaration-property-value-blacklist, comment: математика дизайна */
+    --alert-warning-border-color: var(--yellow-2);
+    --alert-warning-bg-color: #fffcf4; /* stylelint-disable-line declaration-property-value-blacklist, comment: математика дизайна */
+    --alert-info-border-color: var(--dark-blue-2);
+    --alert-info-bg-color: #f8fafb; /* stylelint-disable-line declaration-property-value-blacklist, comment: математика дизайна */
+    --alert-error-border-color: var(--red-1);
+    --alert-error-bg-color: #fdf4f3; /* stylelint-disable-line declaration-property-value-blacklist, comment: математика дизайна */
+}
+
+/* tip */
+:root {
+    --tip-bg-color: var(--white);
+    --tip-error-bg-color: var(--white);
+    --tip-info-bg-color: var(--white);
+    --tip-error-font-color: var(--orange-5);
+}
+
+/* common */
+:root {
+    --sm-border-radius: 4px;
+    --text-main-color: var(--gray-9);
+    --text-caption-color: var(--gray-55-alpha);
+    --text-support-color: var(--gray-70-alpha);
+    --bg-main-color: var(--white);
+    --border-main-color: var(--gray-1);
+}
+
+/* button */
+:root {
+    /* general */
+    --button-general-color: var(--white);
+    --button-general-disabled: var(--green-2);
+    --button-general-border-color: var(--green-5);
+    --button-general-bg-color: var(--green-5);
+    --button-general-bg-color-active: var(--green-6);
+    --button-general-hover-shadow: rgba(13, 169, 78, 0.42);
+    --button-general-bg-color-hover: var(--green-4); /* stylelint-disable-line declaration-property-value-blacklist, comment: +20% black А (математика дизайна) */
+
+    /* secondary */
+    --button-secondary-color: var(--dark-blue-10);
+    --button-secondary-border-color: var(--dark-blue-7);
+    --button-secondary-bg-color: var(--no-color);
+    --button-secondary-bg-color-hover: #edeff0; /* stylelint-disable-line declaration-property-value-blacklist, comment: +20% black А (математика дизайна) */
+
+    /* additional */
+    --button-additional-color: var(--dark-blue-10);
+    --button-additional-border-color: var(--dark-blue-7);
+    --button-additional-bg-color: var(--no-color);
+    --button-additional-bg-color-hover: #edeff0; /* stylelint-disable-line declaration-property-value-blacklist, comment: +20% black А (математика дизайна) */
+
+    /* command-link */
+    --button-command-link-color: var(--dark-blue-10);
+    --button-command-link-underline-color: var(--dark-blue-10);
+    --button-command-link-color-active: var(--green-9);
+
+    /* info-link */
+    --button-info-link-color: var(--gray-70);
+    --button-info-link-underline-color: var(--gray-70);
+    --button-info-link-color-hover: var(--black-100);
+    --button-info-link-color-active: var(--green-9);
+
+    /* link */
+    --link-color: var(--green-6);
+    --link-secondary-color: var(--black-100);
+    --link-underline-color: var(--dark-blue-10);
+    --link-secondary-underline-color: var(--black-100);
+    --link-color-active: var(--green-9);
+
+    /* radio-segmented */
+    --button-radio-sesgmented-color: var(--dark-blue-10);
+    --button-radio-sesgmented-border-color: var(--dark-blue-9);
+    --button-radio-sesgmented-bg-color: var(--white);
+    --button-radio-sesgmented-bg-color-selected: var(--dark-blue-9);
+    --button-radio-sesgmented-color-selected: var(--white);
+    --button-focus-border-color: var(--green-5);
+}
+
+/* input */
+:root {
+    --input-color: var(--gray-9);
+    --input-bg-color: var(--white);
+    --placeholder-color: var(--gray-55-alpha);
+    --input-border-color: var(--main-header);
+    --input-hover-border-color: var(--cool-gray-plus-30);
+    --input-focus-border-color: var(--cool-gray-plus-100);
+    --input-error-border-color: var(--orange-5);
+    --input-focus-error-border-color: var(--orange-5);
+}
+
+/* dropdown */
+:root{
+    --dropdown-text-color: var(--gray-55);
+    --dropdown-border: var(--gray-3);
+    --dropdown-border-hover: var(--gray-5);
+    --dropdown-focus: var(--cool-gray-8);
+    --dropdown-option-hover: var(--green-0);
+}

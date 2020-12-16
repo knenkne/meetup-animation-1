@@ -1,0 +1,56 @@
+{
+  "personalMenu": [{
+    "url": "/default",
+    "title": "К дефолту"
+  }, {
+    "id": "loyality",
+    "url": "http://ya.ru",
+    "title": "loyality - внешняя страница"
+  }],
+  "finances": [{
+    "url": "/default",
+    "title": "К дефолту"
+  }, {
+    "url": "/default",
+    "title": "К дефолту"
+  }],
+  "favorites": [{
+    "url": "/default",
+    "title": "К дефолту"
+  }, {
+    "url": "/default",
+    "title": "К дефолту"
+  }],
+  "favoritesManagement": [{
+    "url": "/default",
+    "title": "К дефолту"
+  }, {
+    "url": "/default",
+    "title": "К дефолту"
+  }],
+  "favoritesComment": "favoritesComment",
+  "templates": [{
+    "url": "/default",
+    "title": "К дефолту"
+  }, {
+    "url": "/default",
+    "title": "К дефолту"
+  }],
+  "templatesManagement": [{
+    "url": "/default",
+    "title": "К дефолту"
+  }, {
+    "url": "/default",
+    "title": "К дефолту"
+  }],
+  "helpElement": {
+    "tooltip": "tooltip",
+    "url": "/default",
+    "title": "title"
+  },
+  "faqElement": {
+    "tooltip": "tooltip",
+    "url": "/default",
+    "title": "title"
+  }
+}

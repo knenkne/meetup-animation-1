@@ -1,0 +1,102 @@
+{
+  "_from": "@sbol/lib.analytics@1.2.3",
+  "_id": "@sbol/lib.analytics@1.2.3",
+  "_inBundle": false,
+  "_integrity": "sha1-x1Ysog/4p1z0Vex/Bblx4rfUmOU=",
+  "_location": "/@sbol/lib.analytics",
+  "_phantomChildren": {
+    "@sbol/lib.vendor.axios": "0.18.0",
+    "@sbol/lib.vendor.classnames": "2.2.6",
+    "@sbol/lib.vendor.i18next": "15.0.5",
+    "@sbol/lib.vendor.lodash": "4.17.11",
+    "@sbol/lib.vendor.react-redux": "5.0.7",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "@sbol/lib.vendor.redux-form": "7.4.2",
+    "bignumber.js": "5.0.0",
+    "i18next-xhr-backend": "1.5.1",
+    "loglevel": "1.6.8",
+    "nanoid": "2.1.11",
+    "react": "16.8.3",
+    "react-dom": "16.8.3"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/lib.analytics@1.2.3",
+    "name": "@sbol/lib.analytics",
+    "escapedName": "@sbol%2flib.analytics",
+    "scope": "@sbol",
+    "rawSpec": "1.2.3",
+    "saveSpec": null,
+    "fetchSpec": "1.2.3"
+  },
+  "_requiredBy": [
+    "/",
+    "/@sbol/region.scaffold",
+    "/@sbol/region.search"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/lib.analytics/-/lib.analytics-1.2.3.tgz",
+  "_shasum": "c7562ca20ff8a75cf455ec7f05b971e2b7d498e5",
+  "_spec": "@sbol/lib.analytics@1.2.3",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "PJSC Sberbank"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Tupitskiy.I.Ni@sberbank.ru"
+    }
+  ],
+  "dependencies": {
+    "@sbol/lib.app": "3.3.2"
+  },
+  "deprecated": false,
+  "description": "Analytics module",
+  "devDependencies": {
+    "@sbol/common": "1.2.5",
+    "@sbol/dev.server": "0.2.3",
+    "@sbol/eslint-config": "2.5.0",
+    "@sbol/karma-config": "0.0.1",
+    "@sbol/lib.ui": "4.7.9",
+    "@sbol/lib.vendor.axios": "0.18.0",
+    "@sbol/lib.vendor.classnames": "2.2.6",
+    "@sbol/lib.vendor.i18next": "15.0.5",
+    "@sbol/lib.vendor.react": "16.8.3",
+    "@sbol/lib.vendor.react-dom": "16.8.3",
+    "@sbol/lib.vendor.react-redux": "5.0.7",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "@sbol/lib.vendor.redux-form": "7.4.2",
+    "@sbol/lib.vendor.redux-thunk": "2.3.0",
+    "@sbol/stylelint-config": "^1.0.3",
+    "@sbol/webpack-config": "12.3.0",
+    "@sbol/webpage.provider.bootstrap": "0.10.6",
+    "@sbol/webpage.provider.templates": "0.9.6",
+    "babel-eslint": "~8.2.6",
+    "cross-env": "~5.1.4",
+    "eslint": "~4.19.1",
+    "eslint-import-resolver-webpack": "~0.9.0",
+    "lodash": "4.17.11"
+  },
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "name": "@sbol/lib.analytics",
+  "publishConfig": {
+    "registry": "http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol-libs/lib.analytics.git"
+  },
+  "scripts": {
+    "build": "npm run development && npm run production",
+    "development": "npx cross-env VIZUALIZER=true CSS_HASH_MAP=true NODE_ENV=development node node_modules/@sbol/webpack-config/bin/build.js",
+    "eslint": "npx eslint --ext .js,.jsx .",
+    "eslint:errors": "npx eslint --ext .js,.jsx --quiet .",
+    "production": "npx cross-env CSS_HASH_MAP=true NODE_ENV=production node node_modules/@sbol/webpack-config/bin/build.js",
+    "start": "npx sbol-dev-server --with-open-browser --env='ENTRY=./example'",
+    "test": "npx karma start --single-run --browsers ChromeHeadless karma.config.js && exit 0"
+  },
+  "version": "1.2.3"
+}

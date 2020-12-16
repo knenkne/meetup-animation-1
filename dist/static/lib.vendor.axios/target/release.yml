@@ -1,0 +1,9 @@
+
+name: lib.vendor.axios
+description: 'AMD axios vendor module'
+developers:
+
+revision: 455f1b739228c14185ffc6661e29048d983fe213
+build: 6
+version: 0.18.0  
+buildDate: 29.04.2019 - 18:57:40

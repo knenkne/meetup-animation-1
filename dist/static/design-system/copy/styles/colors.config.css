@@ -1,0 +1,297 @@
+/* stylelint-disable declaration-property-value-blacklist, comment: Формирование палитры (единственное место использования цветов as is) */
+
+/* Новая палитра. Использовать только эти цвета в дизайне 3.0. */
+
+:root {
+    /* RED */
+
+    --red-9: #280000;
+    --red-8: #510000;
+    --red-7: #7a0000;
+    --red-6: #a30000;
+    --red-5: #cc0000;
+    --red-4: #d63333;
+    --red-3: #e06666;
+    --red-2: #ea9999;
+    --red-1: #f4cccc;
+    --red-0: #f9e5e5;
+
+    /* ORANGE */
+
+    --orange-9: #311402;
+    --orange-8: #622804;
+    --orange-7: #933c06;
+    --orange-6: #c45008;
+    --orange-5: #f6650a;
+    --orange-4: #fe8240;
+    --orange-3: #ff9e69;
+    --orange-2: #ffb992;
+    --orange-1: #ffd4bc;
+    --orange-0: #ffefe6;
+
+    /* YELLOW */
+
+    --yellow-9: #332800;
+    --yellow-8: #665100;
+    --yellow-7: #997a00;
+
+    /* yellow-7 - gold */
+    --yellow-6: #cca300;
+    --yellow-5: #ffcc00;
+    --yellow-4: #ffd633;
+    --yellow-3: #ffe066;
+    --yellow-2: #ffea99;
+    --yellow-1: #fff4cc;
+    --yellow-0: #fff9e5;
+
+    /* LIME */
+
+    --lime-9: #1e280a;
+    --lime-8: #3d5114;
+    --lime-7: #5b7a1e;
+    --lime-6: #7aa328;
+    --lime-5: #99cc33;
+    --lime-4: #add65b;
+    --lime-3: #c1e084;
+    --lime-2: #d6eaad;
+    --lime-1: #eaf4d6;
+    --lime-0: #f4f9ea;
+
+    /* GREEN (BASE) */
+
+    --green-9: #012110;
+    --green-8: #034220;
+    --green-7: #046331;
+    --green-6: #068441;
+    --green-5: #08a652;
+    --green-4: #34b76f;
+    --green-3: #60c78d;
+    --green-2: #8bd8aa;
+    --green-1: #b7e8c8;
+    --green-0: #e3f9e5;
+
+    /* TEAL (ЦЕЛИ) */
+
+    --teal-9: #00281e;
+    --teal-8: #00513d;
+    --teal-7: #007a5b;
+    --teal-6: #00a37a;
+
+    /* teal-5 - основа */
+    --teal-5: #00cc99;
+    --teal-4: #33d6ad;
+    --teal-3: #66e0c1;
+    --teal-2: #99ead6;
+    --teal-1: #ccf4ea;
+    --teal-0: #e5f9f4;
+
+    /* AQUA (ВКЛАДЫ) */
+
+    --aqua-9: #0a2828;
+    --aqua-8: #145151;
+    --aqua-7: #1e7a7a;
+    --aqua-6: #28a3a3;
+
+    /* aqua-5 - основа */
+    --aqua-5: #33cccc;
+    --aqua-4: #5bd6d6;
+    --aqua-3: #84e0e0;
+    --aqua-2: #adeaea;
+    --aqua-1: #d6f4f4;
+    --aqua-0: #eaf9f9;
+
+    /* SKY BLUE (СТРАХОВКИ) */
+
+    --sky-blue-9: #0a2833;
+    --sky-blue-8: #145166;
+    --sky-blue-7: #1e7a99;
+    --sky-blue-6: #28a3cc;
+
+    /* sky-blue-5 - основа */
+    --sky-blue-5: #33ccff;
+    --sky-blue-4: #5bd6ff;
+    --sky-blue-3: #84e0ff;
+    --sky-blue-2: #adeaff;
+    --sky-blue-1: #d6f4ff;
+    --sky-blue-0: #eaf9ff;
+
+    /* BLUE (ПОТРЕБ) */
+
+    --blue-9: #0a0a1e;
+    --blue-8: #14143d;
+    --blue-7: #1e1e5b;
+    --blue-6: #28287a;
+
+    /* blue-5 - основа */
+    --blue-5: #333399;
+    --blue-4: #5b5bad;
+    --blue-3: #8484c1;
+    --blue-2: #adadd6;
+    --blue-1: #d6d6ea;
+    --blue-0: #eaeaf4;
+
+    /* VIOLET (ИНВЕСТИЦИИ) */
+
+    --violet-9: #140028;
+    --violet-8: #280051;
+    --violet-7: #3d007a;
+    --violet-6: #5100a3;
+
+    /* violet-5 - основа */
+    --violet-5: #6600cc;
+    --violet-4: #8433d6;
+    --violet-3: #a366e0;
+    --violet-2: #c199ea;
+    --violet-1: #e0ccf4;
+    --violet-0: #efe5f9;
+
+    /* PURPLE */
+
+    --purple-9: #1e0a1e;
+    --purple-8: #3d143d;
+    --purple-7: #5b1e5b;
+    --purple-6: #7a287a;
+    --purple-5: #993399;
+    --purple-4: #ad5bad;
+    --purple-3: #c184c1;
+    --purple-2: #d6add6;
+    --purple-1: #ead6ea;
+    --purple-0: #f4eaf4;
+
+    /* PINK */
+
+    --pink-9: #280a14;
+    --pink-8: #511428;
+    --pink-7: #7a1e3d;
+    --pink-6: #a32851;
+    --pink-5: #cc3366;
+    --pink-4: #d65b84;
+    --pink-3: #e084a3;
+    --pink-2: #eaadc1;
+    --pink-1: #f4d6e0;
+    --pink-0: #f9eaef;
+
+    /* GRAY */
+
+    --gray-9: #262626;
+    --gray-8: #4d4d4d;
+    --gray-7: #737373;
+
+    /* gray-6 - палладий */
+    --gray-6: #909090;
+
+    /* gray-5 - платина */
+    --gray-5: #adadad;
+    --gray-4: #c2c2c2;
+    --gray-3: #d6d6d6;
+    --gray-2: #e0e0e0;
+    --gray-1: #ebebeb;
+    --gray-0: #f2f2f2;
+
+    /* COOl GRAY */
+
+    --cool-gray-9: #131618;
+    --cool-gray-8: #262c31;
+    --cool-gray-7: #3a424a;
+    --cool-gray-6: #4d5862;
+    --cool-gray-5: #616e7c;
+    --cool-gray-4: #808b95;
+
+    /* cool-gray-3 - серебро */
+    --cool-gray-3: #a0a8b0;
+    --cool-gray-2: #bfc5ca;
+    --cool-gray-1: #dfe2e4;
+    --cool-gray-0: #eff0f1;
+
+    /* GRAPHITE */
+    --graphite-9: #121212;
+    --graphite-8: #1e1e1e;
+    --graphite-7: #222222;
+    --graphite-6: #242424;
+    --graphite-5: #272727;
+    --graphite-4: #2c2c2c;
+    --graphite-3: #2e2e2e;
+    --graphite-2: #323232;
+    --graphite-1: #353535;
+    --graphite-0: #383838;
+
+    /* old blue */
+
+    --dark-blue-10: #4c6470;
+    --dark-blue-9: #5d737e;
+    --dark-blue-8: #70838d;
+    --dark-blue-7: #81929a;
+    --dark-blue-6: #94a2a9;
+    --dark-blue-5: #a5b1b7;
+    --dark-blue-4: #b7c1c6;
+    --dark-blue-3: #c9d0d4;
+    --dark-blue-2: #dbe0e2;
+    --dark-blue-1: #edeff0;
+
+    /* Font */
+
+    /* GRAY PLUS */
+
+    --black-100: #2d2d2d;
+    --gray-70: #6c6c6c;
+    --gray-55: #8c8c8c;
+
+    /* COOL-GRAY PLUS */
+
+    --cool-gray-plus-100: #2d2d30;
+    --cool-gray-plus-90: #4d5967;
+    --cool-gray-plus-80: #5a6a82;
+    --cool-gray-plus-70: #8b8b96;
+    --cool-gray-plus-60: #a4a5a9;
+    --cool-gray-plus-30: #95a6af;
+    --cool-gray-plus-20: #c0c9cd;
+    --cool-gray-plus-15: #d2dbe0;
+    --cool-gray-plus-10: #e3ebee;
+    --cool-gray-plus-5: #eaeaf2;
+    --cool-gray-plus-3: #f9fafb;
+
+    --no-color: rgba(255, 255, 255, 0);
+    --white: #ffffff;
+    --white-90-a: color(var(--white) a(90%));
+    --white-80-a: color(var(--white) a(80%));
+    --white-70-a: color(var(--white) a(70%));
+    --white-60-a: color(var(--white) a(60%));
+    --white-50-a: color(var(--white) a(50%));
+    --white-40-a: color(var(--white) a(40%));
+    --white-30-a: color(var(--white) a(30%));
+    --white-20-a: color(var(--white) a(20%));
+    --white-10-a: color(var(--white) a(10%));
+
+    /* BW with transparency */
+    --white-5-alpha: color(var(--white) a(5%));
+    --white-12-alpha: color(var(--white) a(12%));
+    --white-16-alpha: color(var(--white) a(16%));
+    --white-32-alpha: color(var(--white) a(32%));
+    --white-47-alpha: color(var(--white) a(47%));
+    --white-67-alpha: color(var(--white) a(67%));
+    --white-74-alpha: color(var(--white) a(74%));
+    --black: #000000;
+    --black-2-alpha: color(var(--black) a(2%));
+    --black-4-alpha: color(var(--black) a(4%));
+    --black-8-alpha: color(var(--black) a(8%));
+    --black-12-alpha: color(var(--black) a(12%));
+    --black-16-alpha: color(var(--black) a(16%));
+    --black-24-alpha: color(var(--black) a(24%));
+    --black-32-alpha: color(var(--black) a(32%));
+
+    --gray-70-alpha: color(var(--gray-9) a(70%));
+    --gray-55-alpha: color(var(--gray-9) a(55%));
+
+    /* Gradients */
+
+    --narnia-bottom: #f3f4f8;
+    --narnia-head-gradient: linear-gradient(to bottom, var(--cool-gray-plus-15), var(--narnia-bottom));
+    --head-gradient: linear-gradient(to bottom, var(--cool-gray-plus-15), var(--white));
+
+    /* MAIN */
+
+    /* left bar */
+    --dashboard-product-background: #303947;
+    --dashboard-background: linear-gradient(to bottom, #515b68, #313d4d);
+    --main-header: #d0dbe1;
+}

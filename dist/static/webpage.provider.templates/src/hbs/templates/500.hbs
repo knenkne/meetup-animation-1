@@ -1,0 +1,6 @@
+{{#ifEq design "3.0"}}
+    {{>"3.0/500.hbs"}}
+{{/ifEq}}
+{{#ifNotEq design "3.0"}}
+    {{>"2.0/500.hbs"}}
+{{/ifNotEq}}

@@ -1,0 +1,93 @@
+@import '../../style.config.css';
+
+.days-table {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--offset-lg);
+    margin-bottom: 18px;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+
+    &-header {
+        text-align: center;
+        position: relative;
+        padding-bottom: 26px;
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 1px;
+            background-color: var(--gray-1);
+            position: absolute;
+            bottom: 14px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        tr {
+            display: flex;
+        }
+
+        &-item {
+            color: #8c8c91;
+            font-size: 14px;
+            line-height: 1.29;
+            text-align: center;
+            text-transform: capitalize;
+            width: var(--block-item-width);
+            height: var(--block-header-height);
+
+            &:nth-child(6),
+            &:nth-child(7) {
+                /* Нет в новой палитре */
+                color: #0b8940;
+            }
+        }
+    }
+}
+
+.item {
+    position: relative;
+    width: var(--block-item-width);
+    height: var(--block-item-circle-width);
+    position: relative;
+    composes: style-main-button;
+
+    &-active {
+        composes: style-main-button-active;
+    }
+
+    &-now {
+        composes: style-main-button-now;
+    }
+
+    &-empty {
+        width: var(--block-item-width);
+        height: var(--block-item-height);
+
+        &-wrapper {
+            padding: 0;
+        }
+    }
+}
+
+.tbody-month {
+    td {
+        position: relative;
+
+        &.pointer {
+            cursor: pointer;
+        }
+
+        padding: 0;
+        margin: 2px 0;
+
+        &.noPadding {
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "JAXRSContainer/response.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "JAX-RS standard container for responses",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "success": {
+      "description": "Result flag",
+      "type": "boolean"
+    },
+    "body": {
+      "description": "Response contents",
+      "type": "object"
+    },
+    "messages": {
+      "description": "Additional messages to display by PL",
+      "type": "array",
+      "items": {
+        "$ref": "JAXRSContainer/defs/JAXRSMessageType.json#/definitions/JAXRSMessageType"
+      },
+      "minItems": 1,
+      "maxItems": 256,
+      "additionalItems": false
+    },
+    "error": {
+      "description": "Error description to display by PL. Should be passed only on success=false",
+      "$ref": "JAXRSContainer/defs/JAXRSErrorType.json#/definitions/JAXRSErrorType"
+    },
+    "alerts": {
+      "description": "Urgent alerts for PL",
+      "type": "array",
+      "items": {
+        "$ref": "JAXRSContainer/defs/JAXRSAlertType.json#/definitions/JAXRSAlertType"
+      },
+      "minItems": 1,
+      "maxItems": 256,
+      "additionalItems": false
+    }
+  },
+  "required": [
+    "success"
+  ]
+}

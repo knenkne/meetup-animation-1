@@ -1,0 +1,47 @@
+
+.document {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 16px;
+}
+
+.caption {
+    width: 100%;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    white-space: nowrap;
+    display: flex;
+}
+
+.title {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description {
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+.description-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (--media-md) {
+    .document {
+        margin-right: 12px;
+    }
+}
+
+@media (--media-sm) {
+    .document {
+        margin-right: 16px;
+    }
+}

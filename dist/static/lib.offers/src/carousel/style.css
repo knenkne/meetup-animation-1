@@ -1,0 +1,230 @@
+@import '@sbol/lib.ui/core/full-width/style.css';
+@import '@sbol/lib.ui/core/styles/colors.config.css';
+@import '@sbol/lib.ui/core/utils/styles/media.config.css';
+@import '../style.config.css';
+
+.offers {
+    position: relative;
+    margin-top: -40px;
+}
+
+.content {
+    width: 100%;
+    white-space: normal;
+    text-decoration: none;
+    display: inline-block;
+
+    &.title-only {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.layout {
+    height: var(--carousel-height);
+    background-size: contain;
+    background-position: calc(var(--text-width) + 128px) center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+    .title-only & {
+        justify-content: center;
+    }
+
+    /* временное решение для старых картинок */
+    @media (min-width: 1312px) {
+        margin-right: 64px;
+    }
+
+    @media (--media-lg) and (max-width: 1311.98px) {
+        margin-right: 64px;
+    }
+
+    @media (--media-md) {
+        margin-right: var(--md-short-offset-width-negative);
+        height: var(--carousel-md-height);
+        background-position: 306px center;
+    }
+
+    @media (--media-sm) {
+        background-image: none !important;
+        min-height: 320px;
+        height: auto;
+    }
+}
+
+.caption {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    color: var(--gray-9);
+    width: var(--text-width);
+    position: relative;
+    margin-top: 24px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: auto;
+    hyphens: auto;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    color: var(--gray-9);
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: var(--text-width);
+    position: relative;
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: auto;
+    hyphens: auto;
+}
+
+.link {
+    margin-bottom: 48px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.controls {
+    position: absolute;
+    right: 0;
+    bottom: 48px;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 0 8px;
+}
+
+.button {
+    border-radius: 2px;
+    cursor: pointer;
+    fill: var(--gray-9);
+    padding: 8px 0;
+    line-height: 10px;
+    transition: 0.17s;
+    background-color: var(--no-color);
+}
+
+.dots-wrapper {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.dots {
+    display: flex;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color: var(--gray-3);
+    border-radius: 100%;
+    padding: 0;
+    margin-right: 8px;
+    overflow: visible;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:after {
+        content: '';
+        opacity: 0;
+        width: 4px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &.active {
+        position: relative;
+    }
+
+    &.active:after {
+        content: "";
+        width: 16px;
+        height: 4px;
+        border-radius: 2px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: var(--gray-9);
+        opacity: 1;
+    }
+
+}
+
+@media (--media-md) {
+    .offers {
+        margin-top: -16px;
+        height: var(--carousel-md-height);
+    }
+
+    .controls {
+        bottom: 52px;
+    }
+
+    .content {
+        padding: 0;
+        height: var(--carousel-md-height);
+    }
+
+    .caption {
+        width: var(--text-md-width);
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .description {
+        width: var(--text-md-width);
+        margin-bottom: 20px;
+    }
+}
+
+@media (--media-sm) {
+    .offers {
+        margin-top: -8px;
+    }
+
+    .controls {
+        bottom: 40px;
+    }
+
+    .content,
+    .content.title-only {
+        padding: 0;
+    }
+
+    .caption,
+    .description {
+        width: var(--text-md-width);
+    }
+
+    .caption {
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.5px;
+        margin-top: 8px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 48px;
+    }
+
+    .controls {
+        right: 24px;
+        bottom: 40px;
+    }
+}

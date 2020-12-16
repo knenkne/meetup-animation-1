@@ -1,0 +1,188 @@
+@import '../../utils/styles/semantic-palette.config.css';
+@import '../../styles/colors.config.css';
+@import '../../utils/styles/font-sizes.config.css';
+@import '../../styles/radius.config.css';
+
+.radio {
+    display: flex;
+    position: relative;
+    margin: 0;
+    margin-left: -12px;
+    cursor: auto;
+    padding: 7px 11px;
+    border: 1px dotted var(--no-color);
+    border-radius: var(--xs-border-radius);
+
+    body:not(:global(.pointer-events)) &:focus-within {
+        border-color: var(--focus-color);
+    }
+
+    &:hover {
+        .button {
+            border-color: var(--green-5);
+        }
+
+        .children {
+            color: var(--text-main-color);
+        }
+    }
+}
+
+.button {
+    position: relative;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    border: solid 1px var(--gray-3);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.17s;
+}
+
+.md {
+    margin-top: 2px;
+
+    & + .children {
+        font-size: var(--font-size-body-web);
+        line-height: var(--line-height-body-web);
+        padding-left: 10px;
+    }
+}
+
+.sm {
+    margin-top: 0;
+
+    & + .children {
+        font-size: var(--font-size-caption-web);
+        line-height: var(--line-height-caption-web);
+        padding-left: 12px;
+    }
+}
+
+.children {
+    cursor: pointer;
+    color: var(--gray-55-alpha);
+    letter-spacing: var(--letter-spacing-web);
+
+    &:hover {
+        color: var(--gray-70-alpha);
+    }
+}
+
+.input {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 20px;
+    margin: 0;
+    height: 20px;
+    padding: 0;
+
+    &:checked {
+        ~ .button {
+            cursor: default;
+            border: 5px solid var(--green-5);
+        }
+
+        ~ .children {
+            cursor: default;
+            color: var(--text-main-color);
+        }
+    }
+
+    &:disabled {
+        ~ .button {
+            cursor: default;
+            border-color: var(--gray-2);
+            background: var(--gray-2);
+        }
+
+        ~ .children {
+            color: var(--gray-55-alpha);
+            cursor: default;
+
+            &:hover {
+                color: var(--gray-55-alpha);
+                cursor: default;
+            }
+        }
+    }
+
+    &:checked:disabled + .button {
+        border-color: var(--gray-2);
+        background: var(--white);
+    }
+}
+
+.error .input + .button {
+    border-color: var(--orange-5);
+}
+
+/* Themes */
+
+/* Инвестиции */
+.purple {
+    .input:checked + .button,
+    &:hover .button {
+        border-color: var(--violet-5);
+    }
+}
+
+/* Потреб */
+.blue {
+    .input:checked + .button,
+    &:hover .button {
+        border-color: var(--blue-5);
+    }
+}
+
+/* Цели */
+.green {
+    .input:checked + .button,
+    &:hover .button {
+        border-color: var(--teal-6);
+    }
+}
+
+.pink {
+    .input:checked + .button,
+    &:hover .button {
+        border-color: var(--purple-5);
+    }
+}
+
+/* ExtraThemes for Input.CurrencySelect */
+
+/* Страховки */
+.sky-blue {
+    .input:checked + .button,
+    &:hover .button {
+        border-color: var(--sky-blue-5);
+    }
+}
+
+/* Вклады */
+.aqua {
+    .input:checked + .button,
+    &:hover .button {
+        border-color: var(--aqua-6);
+    }
+}
+
+/* Золото */
+.gold {
+    .input:checked + .button,
+    &:hover .button {
+        border-color: var(--yellow-6);
+    }
+}
+
+/* Иные металлы */
+.metal {
+    .input:checked + .button,
+    &:hover .button {
+        border-color: var(--black-100);
+    }
+}

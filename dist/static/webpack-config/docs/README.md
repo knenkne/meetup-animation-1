@@ -1,0 +1,4 @@
+- [Старт приложения](./GETTING-STARTED.md)
+- [Запуск тестов](./TESTS.md)
+- [Описание конфигурации](./CONFIGURATION.md)
+- [Переменные окружения](./ENVIRONMENT.md)

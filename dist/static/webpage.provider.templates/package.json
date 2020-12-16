@@ -1,0 +1,108 @@
+{
+  "_from": "@sbol/webpage.provider.templates@0.13.1",
+  "_id": "@sbol/webpage.provider.templates@0.13.1",
+  "_inBundle": false,
+  "_integrity": "sha1-/PNTi5IRkekxNG7rE2WTARblIuc=",
+  "_location": "/@sbol/webpage.provider.templates",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/webpage.provider.templates@0.13.1",
+    "name": "@sbol/webpage.provider.templates",
+    "escapedName": "@sbol%2fwebpage.provider.templates",
+    "scope": "@sbol",
+    "rawSpec": "0.13.1",
+    "saveSpec": null,
+    "fetchSpec": "0.13.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/webpage.provider.templates/-/webpage.provider.templates-0.13.1.tgz",
+  "_shasum": "fcf3538b921191e931346eeb1365930116e522e7",
+  "_spec": "@sbol/webpage.provider.templates@0.13.1",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "JSC SberTech"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "glob": "~7.1.2",
+    "hbs": "~4.0.1"
+  },
+  "deprecated": false,
+  "description": "sbol web templates",
+  "devDependencies": {
+    "@sbol/common": "2.4.4",
+    "@sbol/eslint-config": "2.6.0",
+    "@sbol/stylelint-config": "^1.0.3",
+    "@sbol/webpage.provider.bootstrap": "0.13.10",
+    "autoprefixer": "9.6.1",
+    "babel-eslint": "^8.2.6",
+    "cross-env": "5.2.0",
+    "cssnano": "^4.1.8",
+    "del": "^3.0.0",
+    "eslint": "~5.16.0",
+    "express": "~4.16.2",
+    "express-http-proxy": "^1.6.2",
+    "gulp": "4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^8.0.0",
+    "jest": "24.6.0",
+    "jest-junit": "~5.2.0",
+    "nodemon": "1.18.11",
+    "stylelint": "^9.10.1"
+  },
+  "jest": {
+    "transform": {
+      "\\.hbs$": "<rootDir>/tests/hbs-preprocessor.js"
+    },
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,jsx}"
+    ],
+    "coverageDirectory": "<rootDir>/reports/coverage/html",
+    "coverageReporters": [
+      "html",
+      "lcovonly",
+      "cobertura"
+    ]
+  },
+  "jest-junit": {
+    "output": "reports/tests/TESTS-junit.xml",
+    "suiteName": "@sbol/operations",
+    "suiteNameTemplate": "{filepath}",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}",
+    "ancestorSeparator": " › "
+  },
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@sbol/webpage.provider.templates",
+  "optionalDependencies": {
+    "glob": "~7.1.2",
+    "hbs": "~4.0.1"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol/webpage.provider.templates.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "dev": "npm start",
+    "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .js,.jsx . --max-warnings 10",
+    "eslint:errors": "node ./node_modules/eslint/bin/eslint.js --ext .js,.jsx --quiet .",
+    "start": "cross-env NODE_ENV=development PORT=4242 nodemon -e css,js,hbs ./stub/index.js",
+    "stylelint": "node ./node_modules/stylelint/bin/stylelint.js \"src/**/*.css\"",
+    "test": "jest --ci --coverage"
+  },
+  "version": "0.13.1"
+}

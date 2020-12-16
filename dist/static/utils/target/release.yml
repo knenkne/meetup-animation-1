@@ -1,0 +1,11 @@
+
+name: utils
+description: 'WEB SBOL Workflow Utils'
+developers:
+    - Андрей Пономарев <Ponomarev.A.Andr@sberbank.ru>
+revision: 471349be23a97edda0efe865330ab254988db46d
+build: 15
+version: 0.0.6  
+buildDate: 05.02.2019 - 15:53:55
+dependencies:
+    - lib.vendor/4.1.0

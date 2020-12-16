@@ -1,0 +1,6 @@
+[
+  "esnext.promise.all-settled",
+  "esnext.promise.try",
+  "esnext.symbol.observable",
+  "esnext.math.clamp"
+]

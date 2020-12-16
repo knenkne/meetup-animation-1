@@ -1,0 +1,102 @@
+@import '@sbol/lib.ui/src/styles/colors.config.css';
+@import '@sbol/lib.ui/src/utils/styles/media.config.css';
+@import '@sbol/lib.ui/src/utils/styles/offsets.config.css';
+@import '@sbol/lib.ui/src/utils/styles/font-sizes.config.css';
+
+.info {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: var(--offset-lg);
+    height: 200px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-scale-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 138px;
+    width: 138px;
+}
+
+.info-content,
+.info-scale-container {
+    flex: 1;
+}
+
+.title {
+    width: 320px;
+    margin: 0 0 var(--offset-md) 0;
+    font-size: var(--font-size-headline4-web);
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing-second-web);
+}
+
+.advice,
+.status {
+    font-size: var(--offset-md);
+    line-height: 24px;
+    letter-spacing: var(--letter-spacing-web);
+    color: color(var(--gray-9) alpha(70%));
+}
+
+.advice {
+    width: 270px;
+}
+
+.info-scale-inside {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 138px;
+    height: 138px;
+    font-size: var(--font-size-headline4-web);
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing-second-web);
+}
+
+.info-scale-subtitle {
+    font-size: var(--font-size-caption-web);
+    letter-spacing: var(--letter-spacing-web);
+    color: color(var(--gray-9) alpha(70%));
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+@media (--media-sm) {
+    .info {
+        width: 414px;
+        height: 240px;
+        padding: 23px;
+    }
+
+    .info-content {
+        justify-content: start;
+    }
+
+    .info-scale-container {
+        position: absolute;
+        top: 52px;
+        right: calc(var(--offset-md2));
+    }
+
+    .title {
+        margin-top: 9px;
+        margin-bottom: calc(var(--offset-sm));
+    }
+
+    .title,
+    .status,
+    .advice {
+        width: 212px;
+    }
+}

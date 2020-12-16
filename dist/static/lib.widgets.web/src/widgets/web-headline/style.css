@@ -1,0 +1,5 @@
+@import '@sbol/lib.ui/src/utils/styles/offsets.config.css';
+
+.wrapper {
+    margin-bottom: var(--offset-lg);
+}

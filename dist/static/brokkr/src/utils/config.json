@@ -1,0 +1,9 @@
+{
+    "authTimeout": 120000,
+    "waitingElementTimeout": 2000,
+    "loadTimeout": 120000,
+    "waitForTimeout": 10000,
+    "verticalScroll": 2300,
+    "userKeyboardTimeout": 200,
+    "cssHashMapTimeout": 2000
+}

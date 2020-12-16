@@ -1,0 +1,87 @@
+@import '../utils/styles/semantic-palette.config.css';
+@import '../styles/colors.config.css';
+@import '../styles/radius.config.css';
+@import '../utils/styles/font-sizes.config.css';
+@import '../utils/styles/offsets.config.css';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 16px 16px 16px 60px;
+    border-radius: var(--xs-border-radius);
+    min-height: 68px;
+}
+
+.title {
+    margin: 0 0 7px;
+    font-size: var(--font-size-caption-web);
+    line-height: var(--line-height-caption-web);
+    letter-spacing: var(--letter-spacing-web);
+    color: var(--text-main-color);
+    font-weight: 600;
+
+    &.offset {
+        margin-top: 8px;
+    }
+}
+
+.description {
+    font-size: var(--font-size-caption-web);
+    line-height: var(--line-height-caption-web);
+    letter-spacing: var(--letter-spacing-web);
+    text-align: left;
+    color: var(--text-main-color);
+    margin: 0;
+}
+
+.actions {
+    padding: 0;
+    margin-top: var(--offset-md);
+
+    button { /* stylelint-disable-line selector-max-type, comment: предвосхищение специфики использования */
+        margin-right: var(--offset-md);
+    }
+
+    a { /* stylelint-disable-line selector-max-type, comment: предвосхищение специфики использования */
+        margin-right: var(--offset-md);
+    }
+
+    &:last-child {
+        padding-bottom: 0;
+        margin-right: 0;
+    }
+}
+
+.success {
+    background: var(--green-0);
+    border: solid 1px color(var(--green-5) a(25%));
+}
+
+.info {
+    background: var(--violet-0);
+    border: solid 1px color(var(--violet-5) a(25%));
+}
+
+.error {
+    background: var(--orange-0);
+    border: solid 1px color(var(--orange-5) a(25%));
+}
+
+.draft,
+.warning {
+    background: var(--gray-0);
+    border: solid 1px color(var(--gray-5) a(25%));
+}
+
+.icon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}

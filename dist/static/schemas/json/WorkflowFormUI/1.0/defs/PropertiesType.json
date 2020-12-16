@@ -1,0 +1,40 @@
+{
+  "id": "WorkflowFormUI/1.0/defs/PropertiesType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "PropertiesType": {
+      "description": "Set of key-value pairs to transport plain settings",
+      "type": "object",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[A-Za-z]+$": {
+          "oneOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string",
+              "maxLength": 256
+            },
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 64
+              },
+              "maxItems": 128,
+              "additionalItems": false
+            }
+          ]
+        }
+      },
+      "maxProperties": 256
+    }
+  }
+}

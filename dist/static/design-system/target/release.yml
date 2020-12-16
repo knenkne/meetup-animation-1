@@ -1,0 +1,15 @@
+
+name: design-system
+description: 'Core application functionality for sbtsbol modules'
+developers:
+    - Tupitskiy.I.Ni@sberbank.ru
+    - Umbras.D.Vi@sberbank.ru
+revision: 014e8c09c47478c33752a79499b34c26c1794057
+build: 5
+version: 0.0.2  
+buildDate: 28.08.2020 - 22:00:57
+dependencies:
+    - lib.vendor.classnames/2.2.6
+    - lib.vendor.lodash/4.17.11
+    - lib.vendor.react/16.12.0
+    - lib.vendor.react-dom/16.12.0

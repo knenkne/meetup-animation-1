@@ -1,0 +1,19 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+
+.description {
+    margin: 32px 0 0;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px -16px;
+
+    &.titled {
+        margin-top: 24px;
+    }
+}
+
+.description + .fields {
+    margin-top: 16px;
+}

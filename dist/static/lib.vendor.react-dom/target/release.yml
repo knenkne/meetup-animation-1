@@ -1,0 +1,11 @@
+
+name: lib.vendor.react-dom
+description: 'AMD react-dom vendor module'
+developers:
+
+revision: 2ee7b644c9f2a0843a1b885060235c4f0d85424c
+build: 16
+version: 16.12.0  
+buildDate: 17.01.2020 - 13:05:07
+dependencies:
+    - lib.vendor.react/16.8.3

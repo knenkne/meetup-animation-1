@@ -1,0 +1,5 @@
+{
+  "result": "EXTERNAL_RETURN",
+  "pid": "<идентификатор процесса>",
+  "url": "<URL клиентской js-части Workflow>"
+}

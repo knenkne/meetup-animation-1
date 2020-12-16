@@ -1,0 +1,10 @@
+@import '../../style.config.css';
+@import '../../../styles/colors.config.css';
+
+.header {
+    display: flex;
+
+    &-month {
+        flex: 1 0 auto;
+    }
+}

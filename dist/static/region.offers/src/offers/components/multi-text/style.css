@@ -1,0 +1,92 @@
+@import '@sbol/lib.ui/core/full-width/style.css';
+@import '@sbol/lib.ui/core/styles/colors.config.css';
+@import '@sbol/lib.ui/core/utils/styles/media.config.css';
+
+.multi-text {
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: auto;
+    hyphens: manual;
+}
+
+.caption {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    color: var(--gray-9);
+    position: relative;
+    margin: 0 0 32px;
+}
+
+.default-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    color: var(--gray-9);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.preview-tag {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.15px;
+    color: #262626;
+    margin-bottom: 8px;
+}
+
+.preview-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    color: rgba(38, 38, 38, 0.7);
+    margin: 8px 0 32px;
+}
+
+.preview-point {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    color: #262626;
+    margin: 4px 0 0;
+    display: flex;
+    align-items: start;
+
+    .img {
+        width: 36px;
+        height: 36px;
+        margin-right: 8px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .point-text {
+        display: inline-block;
+        margin-top: 8px;
+    }
+}
+
+.preview-summary {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    color: #262626;
+    margin: 32px 0 0;
+}
+
+/* margins normalize */
+.caption + .default-text,
+.preview-summary + .preview-subtitle {
+    margin-top: 0;
+}
+
+.caption + .preview-subtitle {
+    margin-top: -32px;
+}

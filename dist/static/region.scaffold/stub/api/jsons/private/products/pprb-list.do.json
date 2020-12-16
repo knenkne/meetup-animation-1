@@ -1,0 +1,351 @@
+{
+  "response": {
+    "cards": {
+      "card": [
+        {
+          "realExpireDate": "08/2023",
+          "smsName": 1969,
+          "isMain": true,
+          "needRqDeliveryStatus": true,
+          "showarrestdetail": true,
+          "imageCode": "vc",
+          "description": "Visa Classic",
+          "type": "debit",
+          "prevCardId": 235544,
+          "issueType": 3,
+          "number": "4006 80\u2022\u2022 \u2022\u2022\u2022\u2022 1969",
+          "availableLimit": {
+            "amount": "0,00",
+            "currency": {
+              "code": "EUR",
+              "name": "\u20ac"
+            }
+          },
+          "tokenExists": false,
+          "name": "Visa Classic",
+          "options": {
+            "setPINAvailable": false,
+            "activationAvailable": true,
+            "closeCardAvailable": false,
+            "setPayrollAvailable": false
+          },
+          "expireDate": "08/2023",
+          "id": 236869,
+          "state": "delivery",
+          "cardAccount": "40817978938260101713",
+          "statusWay4": "H-new"
+        },
+        {
+          "realExpireDate": "08/2023",
+          "smsName": 5325,
+          "isMain": true,
+          "showarrestdetail": true,
+          "imageCode": "ms",
+          "description": "MasterCard Standard",
+          "type": "debit",
+          "prevCardId": 235547,
+          "issueType": 3,
+          "number": "5469 98\u2022\u2022 \u2022\u2022\u2022\u2022 5325",
+          "availableLimit": {
+            "amount": "-20,00",
+            "currency": {
+              "code": "USD",
+              "name": "$"
+            }
+          },
+          "tokenExists": false,
+          "name": "MasterCard Standard",
+          "options": {
+            "isMultiCurrency": false,
+            "setPINAvailable": true,
+            "activationAvailable": false,
+            "closeCardAvailable": false,
+            "multiCurrencyCardAvailable": false,
+            "multiCurrencyCardAvailableCurrencies": "",
+            "setPayrollAvailable": false
+          },
+          "expireDate": "08/2023",
+          "id": 236870,
+          "state": "active",
+          "cardAccount": "40817840138260101492",
+          "statusWay4": "+-active"
+        },
+        {
+          "realExpireDate": "08/2023",
+          "smsName": 8252,
+          "isMain": true,
+          "needRqDeliveryStatus": true,
+          "showarrestdetail": true,
+          "imageCode": "ms",
+          "description": "MasterCard Standard",
+          "type": "debit",
+          "prevCardId": 235546,
+          "issueType": 3,
+          "number": "5469 98\u2022\u2022 \u2022\u2022\u2022\u2022 8252",
+          "availableLimit": {
+            "amount": "-10,00",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "tokenExists": false,
+          "name": "MasterCard Standard",
+          "options": {
+            "setPINAvailable": false,
+            "activationAvailable": true,
+            "closeCardAvailable": false,
+            "setPayrollAvailable": false
+          },
+          "expireDate": "08/2023",
+          "id": 236871,
+          "state": "delivery",
+          "cardAccount": "40817810138260136866",
+          "statusWay4": "H-new"
+        },
+        {
+          "realExpireDate": "06/2023",
+          "smsName": 1807,
+          "isMain": true,
+          "showarrestdetail": true,
+          "imageCode": "vc",
+          "description": "Visa Classic",
+          "type": "debit",
+          "number": "4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 1807",
+          "availableLimit": {
+            "amount": "99760,00",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "tokenExists": false,
+          "productionStatus": "G",
+          "name": "Visa Classic",
+          "options": {
+            "isMultiCurrency": false,
+            "setPINAvailable": true,
+            "activationAvailable": false,
+            "closeCardAvailable": false,
+            "multiCurrencyCardAvailable": false,
+            "multiCurrencyCardAvailableCurrencies": "",
+            "setPayrollAvailable": false
+          },
+          "expireDate": "06/2023",
+          "id": 235542,
+          "state": "active",
+          "statusWay4": "+-КАРТОЧКА ОТКРЫТА"
+        },
+        {
+          "realExpireDate": "06/2023",
+          "smsName": 9282,
+          "isMain": true,
+          "showarrestdetail": true,
+          "imageCode": "ms",
+          "description": "MasterCard Mass",
+          "type": "debit",
+          "number": "5469 38\u2022\u2022 \u2022\u2022\u2022\u2022 9282",
+          "availableLimit": {
+            "amount": "0,00",
+            "currency": {
+              "code": "EUR",
+              "name": "\u20ac"
+            }
+          },
+          "tokenExists": false,
+          "productionStatus": "G",
+          "name": "MasterCard Mass",
+          "options": {
+            "isMultiCurrency": false,
+            "setPINAvailable": true,
+            "activationAvailable": false,
+            "closeCardAvailable": false,
+            "multiCurrencyCardAvailable": false,
+            "multiCurrencyCardAvailableCurrencies": "",
+            "setPayrollAvailable": false
+          },
+          "expireDate": "06/2023",
+          "id": 235548,
+          "state": "active",
+          "cardAccount": "40817978238260101714",
+          "statusWay4": "+-КАРТОЧКА ОТКРЫТА"
+        },
+        {
+          "realExpireDate": "06/2023",
+          "smsName": "0095",
+          "blockInfoReceived": "01.09.2020",
+          "isMain": true,
+          "needRqDeliveryStatus": true,
+          "showarrestdetail": true,
+          "imageCode": "vc",
+          "description": "Visa Classic",
+          "type": "debit",
+          "newCardId": 236869,
+          "number": "4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 0095",
+          "availableLimit": {
+            "amount": "0,00",
+            "currency": {
+              "code": "EUR",
+              "name": "\u20ac"
+            }
+          },
+          "tokenExists": false,
+          "productionStatus": "G",
+          "name": "Visa Classic",
+          "options": {
+            "setPINAvailable": false,
+            "activationAvailable": false,
+            "closeCardAvailable": false,
+            "setPayrollAvailable": false
+          },
+          "expireDate": "06/2023",
+          "id": 235544,
+          "state": "blocked",
+          "cardAccount": "40817978938260101713",
+          "statusWay4": "K-ДЕЙСТ.ПРИОСТАНОВЛЕНО"
+        },
+        {
+          "realExpireDate": "06/2023",
+          "smsName": 3319,
+          "isMain": true,
+          "showarrestdetail": true,
+          "imageCode": "vc",
+          "description": "Visa Classic",
+          "type": "debit",
+          "number": "4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 3319",
+          "availableLimit": {
+            "amount": "0,00",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "tokenExists": false,
+          "productionStatus": "G",
+          "name": "Visa Classic",
+          "options": {
+            "isMultiCurrency": false,
+            "setPINAvailable": true,
+            "activationAvailable": false,
+            "closeCardAvailable": false,
+            "multiCurrencyCardAvailable": false,
+            "multiCurrencyCardAvailableCurrencies": "",
+            "setPayrollAvailable": true
+          },
+          "expireDate": "06/2023",
+          "id": 235545,
+          "state": "active",
+          "cardAccount": "40817810838260136865",
+          "statusWay4": "+-КАРТОЧКА ОТКРЫТА"
+        },
+        {
+          "realExpireDate": "06/2023",
+          "smsName": 4367,
+          "blockInfoReceived": "01.09.2020",
+          "isMain": true,
+          "needRqDeliveryStatus": true,
+          "showarrestdetail": true,
+          "imageCode": "ms",
+          "description": "MasterCard Mass",
+          "type": "debit",
+          "newCardId": 236871,
+          "number": "5469 38\u2022\u2022 \u2022\u2022\u2022\u2022 4367",
+          "availableLimit": {
+            "amount": "0,00",
+            "currency": {
+              "code": "RUB",
+              "name": "руб."
+            }
+          },
+          "tokenExists": false,
+          "productionStatus": "G",
+          "name": "MasterCard Mass",
+          "options": {
+            "setPINAvailable": false,
+            "activationAvailable": false,
+            "closeCardAvailable": false,
+            "setPayrollAvailable": false
+          },
+          "expireDate": "06/2023",
+          "id": 235546,
+          "state": "blocked",
+          "cardAccount": "40817810138260136866",
+          "statusWay4": "L-ПОТЕРЯНА"
+        },
+        {
+          "realExpireDate": "06/2023",
+          "smsName": 4866,
+          "blockInfoReceived": "01.09.2020",
+          "isMain": true,
+          "showarrestdetail": true,
+          "imageCode": "ms",
+          "description": "MasterCard Mass",
+          "type": "debit",
+          "newCardId": 236870,
+          "number": "5469 38\u2022\u2022 \u2022\u2022\u2022\u2022 4866",
+          "availableLimit": {
+            "amount": "0,00",
+            "currency": {
+              "code": "USD",
+              "name": "$"
+            }
+          },
+          "tokenExists": false,
+          "productionStatus": "G",
+          "name": "MasterCard Mass",
+          "options": {
+            "setPINAvailable": false,
+            "activationAvailable": false,
+            "closeCardAvailable": false,
+            "setPayrollAvailable": false
+          },
+          "expireDate": "06/2023",
+          "id": 235547,
+          "state": "blocked",
+          "cardAccount": "40817840138260101492",
+          "statusWay4": "L-ПОТЕРЯНА"
+        },
+        {
+          "realExpireDate": "06/2023",
+          "smsName": 8876,
+          "isMain": true,
+          "showarrestdetail": true,
+          "imageCode": "vc",
+          "description": "Visa Classic",
+          "type": "debit",
+          "number": "4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 8876",
+          "availableLimit": {
+            "amount": "0,00",
+            "currency": {
+              "code": "USD",
+              "name": "$"
+            }
+          },
+          "tokenExists": false,
+          "productionStatus": "G",
+          "name": "Visa Classic",
+          "options": {
+            "isMultiCurrency": false,
+            "setPINAvailable": true,
+            "activationAvailable": false,
+            "closeCardAvailable": false,
+            "multiCurrencyCardAvailable": false,
+            "multiCurrencyCardAvailableCurrencies": "",
+            "setPayrollAvailable": false
+          },
+          "expireDate": "06/2023",
+          "id": 235543,
+          "state": "active",
+          "cardAccount": "40817840838260101491",
+          "statusWay4": "+-КАРТОЧКА ОТКРЫТА"
+        }
+      ],
+      "status": {
+        "code": 0
+      }
+    },
+    "status": {
+      "code": 0
+    }
+  }
+}

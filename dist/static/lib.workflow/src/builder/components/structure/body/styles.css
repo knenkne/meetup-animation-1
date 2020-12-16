@@ -1,0 +1,95 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+@import '@sbol/lib.ui/src/utils/styles/media.config.css';
+@import '@sbol/lib.ui/src/utils/styles/semantic-palette.config.css';
+@import '@sbol/lib.ui/src/utils/styles/offsets.config.css';
+
+.heading {
+    padding: 32px 32px 0;
+    position: relative;
+}
+
+.title {
+    margin: 0;
+    width: calc(100% - 64px);
+}
+
+.description {
+    color: var(--text-caption-color);
+    margin-top: 32px;
+
+    .no-title & {
+        margin-top: 0;
+    }
+}
+
+.markdown-description {
+    color: var(--text-caption-color);
+}
+
+.screen {
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 4px var(--offset-sm) 0 rgba(210, 219, 224, 0.6);
+    background-color: var(--white);
+    transition: box-shadow 0.17s ease-in-out;
+
+    + .screen {
+        margin-top: 24px;
+    }
+}
+
+.active {
+    box-shadow: 0 12px 24px 0 #d2dbe0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+
+    :global(.repaint) {
+        fill: var(--gray-0);
+    }
+}
+
+.alert-success-wrapper {
+    margin-right: 4px;
+}
+
+.expand {
+    display: flex;
+    transition: 0.3s ease-in-out;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: center;
+    width: 10px;
+    height: 14px;
+    transform: rotate(180deg);
+
+    :global(.down-arrow) {
+        fill: var(--gray-0);
+    }
+}
+
+@media (--media-sm) {
+    .body {
+        margin-left: -23px;
+        margin-right: -23px;
+        border-radius: 0;
+    }
+
+    .screen {
+        box-shadow: none;
+    }
+
+    .heading {
+        padding: 32px 23px 0;
+    }
+
+    .icons {
+        right: 23px;
+    }
+}

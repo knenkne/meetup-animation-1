@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Тест асинхронности <AsyncComponentWithOneRequest /> 1`] = `
+<AsyncComponentWithOneRequest>
+  <div>
+    <button
+      id="getNewName"
+      onClick={[Function]}
+    >
+      Get New Name
+    </button>
+    <h1>
+      Nikola
+    </h1>
+  </div>
+</AsyncComponentWithOneRequest>
+`;
+
+exports[`Тест асинхронности <AsyncComponentWithOneRequest /> 2`] = `
+<AsyncComponentWithOneRequest>
+  <div>
+    <button
+      id="getNewName"
+      onClick={[Function]}
+    >
+      Get New Name
+    </button>
+    <h1>
+      John
+    </h1>
+  </div>
+</AsyncComponentWithOneRequest>
+`;
+
+exports[`Тест асинхронности <AsyncComponentWithTwoRequests /> 1`] = `
+<AsyncComponentWithTwoRequests>
+  <div>
+    <button
+      id="getNewPerson"
+      onClick={[Function]}
+    >
+      Get New Person
+    </button>
+    <h1>
+      Nikola Tesla
+    </h1>
+  </div>
+</AsyncComponentWithTwoRequests>
+`;
+
+exports[`Тест асинхронности <AsyncComponentWithTwoRequests /> 2`] = `
+<AsyncComponentWithTwoRequests>
+  <div>
+    <button
+      id="getNewPerson"
+      onClick={[Function]}
+    >
+      Get New Person
+    </button>
+    <h1>
+      John Konstantin
+    </h1>
+  </div>
+</AsyncComponentWithTwoRequests>
+`;

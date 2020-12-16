@@ -1,0 +1,11 @@
+{
+    "core.ru.phone.edit": "Изменить",
+    "details.expand": "Показать",
+    "details.collapse": "Скрыть",
+    "status.doc.number": "Документ №",
+    "total.add.commission": "+ комиссия",
+    "bik.error.length": "БИК должен состоять из 9 цифр",
+    "bik.error.checksum": "Неправильный формат БИК",
+    "account.error.length": "Номер счета должен состоять из 20 цифр",
+    "account.error.checksum": "Неправильное контрольное число"
+}

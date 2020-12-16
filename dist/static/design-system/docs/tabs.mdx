@@ -1,0 +1,233 @@
+```jsx live
+<Demo.Titled title="Табы с размером">
+    <div style={{ width:'360px' }}>
+    <Tabs colorScheme="gold" initialValue="Первый раздел">
+        <Tab title="Первый раздел">
+            <h3>Открывайте премиальные вклады 1</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Название второе">
+            <h3>Открывайте премиальные вклады 2</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+    </Tabs>
+    </div>
+</Demo.Titled>
+```
+
+```jsx live 
+class Example extends React.Component {
+    constructor() {
+      this.state = {
+         additionalTab: true
+      }  
+    }
+    
+    render() {  
+        return( 
+            <Demo.Titled title="Стандартный кейс с табами с опциональным табом">
+                <ButtonPrimary
+                    title={this.state.additionalTab ? 'Скрыть дополнительный таб' : 'Показать дополнительный таб'}
+                    onClick={() => this.setState({ additionalTab: !this.state.additionalTab })}
+                />
+                <Tabs initialValue="Карты">
+                    <Tab title="Вклады">
+                        <h3>Открывайте премиальные вклады</h3>
+                        <p>Вклады - это новые деньги!</p>
+                        <p>Вклады - это имидж!</p>
+                        <p>Вклады - это возможности!</p>
+                    </Tab>
+                    <Tab title="Карты">
+                        <h3>Расплачивайтесь премиальными картами</h3>
+                        <p>Быстро и удобно!</p>
+                        <p>Легко и беззаботно!</p>
+                    </Tab>
+                    <Tab title="Priority Pass" forceOpened>
+                        <h3>Путешествуйте с комфортом</h3>
+                        <p>Карта в подарок! (не топографическая)</p>
+                    </Tab>
+                    {this.state.additionalTab &&
+                        <Tab title="Дополнительный таб">
+                            <h3>Я скрываюсь и показываюсь</h3>
+                            <p>И все по вашему желанию</p>
+                        </Tab>
+                    }
+                </Tabs>
+            </Demo.Titled>
+        ) 
+    }
+}
+```
+
+```jsx live
+class Example extends React.Component {
+    constructor() {
+        this.state = {
+            items: [
+                 {
+                     id: 1,
+                     title: 'Вклады',
+                     contentTitle: 'Открывайте премиальные вклады',
+                     contentText: 'Вклады - это новые деньги!'
+                 },
+                 {
+                     id: 2,
+                     title: 'Карты',
+                     contentTitle: 'Расплачивайтесь премиальными картами',
+                     contentText: 'Быстро и удобно!'
+                 },
+                 {
+                     id: 3,
+                     title: 'Страховые программы',
+                     contentTitle: 'Страхование путешествующих',
+                     contentText: 'Мы о вас позаботимся'
+                 },
+                 {
+                     id: 4,
+                     title: 'Скидки и привилегии',
+                     contentTitle: 'Почувствуйте выгоду',
+                     contentText: 'Например, льготные курсы валют'
+                 }
+            ],
+            selectedItem: 'Карты'
+        }  
+    }
+
+    render() {
+        return (
+            <Demo.Titled title="Табы с управлением состоянием из родителя">
+                <ButtonPrimary
+                    colorScheme="aqua"
+                    title="Переключить на третью вкладку"
+                    onClick={() => this.setState({ selectedItem: 'Страховые программы' })}
+                />
+            
+                <Tabs
+                    selectedItem={this.state.selectedItem}
+                    onSelect={(value) => this.setState({ selectedItem: value })}
+                >
+                    {this.state.items.map(({id, title, contentTitle, contentText}) => (
+                        <Tab key={id} title={title}>
+                            <h3>{contentTitle}</h3>
+                            <p>{contentText}</p>
+                        </Tab>)
+                    )}
+                </Tabs>
+            </Demo.Titled>
+        )
+    }
+}
+```
+
+```jsx live
+<Demo.Titled 
+    title="Доступны цвета: base (основной корпоративный), aqua, black, blue, gold, green, purple, skyblue "
+    description="Также тут представлен mode=[sticky, fullwidth]"
+>
+    <Tabs colorScheme="aqua" initialValue="Вклады" mode={['sticky', 'fullwidth']}>
+        <Tab title="Вклады">
+            <h3>Открывайте премиальные вклады</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Карты">
+            <h3>Расплачивайтесь премиальными картами</h3>
+            <p>Быстро и удобно!</p>
+        </Tab>
+        <Tab title="Priority Pass">
+            <h3>Путешествуйте с комфортом</h3>
+            <p>Карта в подарок! (не топографическая)</p>
+        </Tab>
+        <Tab title="Страховые программы">
+            <h3>Страхование путешествующих</h3>
+            <p>Мы о вас позаботимся</p>
+        </Tab>
+        <Tab title="Скидки и привилегии">
+            <h3>Почувствуйте выгоду</h3>
+            <p>Например, льготные курсы валют</p>
+        </Tab>
+        <Tab title="Условия обслуживания">
+            <h3>Пользуйтесь пакетом услуг бесплатно</h3>
+            <p>Первый два месяца</p>
+        </Tab>
+    </Tabs>
+</Demo.Titled>
+```
+
+```jsx live
+
+const consoleTabSelect = function (title) {
+    console.log(title)
+}
+
+render(<Demo.Titled
+    title="С помощью mode у Tab можно перезаписать цвет таба"
+    description="Также тут представлен скроллинг и mode = fullwidth"
+>
+    <Tabs mode="fullwidth" colorScheme="gold" initialValue="Второй очень длинный раздел" onChange={consoleTabSelect}>
+        <Tab title="Первый раздел" mode="success">
+            <h3>Открывайте премиальные вклады 1</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Второй очень длинный раздел" mode="error">
+            <h3>Открывайте премиальные вклады 2</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Третий еще гораздо длиннее раздел" mode="default">
+            <h3>Открывайте премиальные вклады 3</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Четвертый длинно названный раздел" mode="success">
+            <h3>Открывайте премиальные вклады 4</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Пятый раздел о чем-то очень хорошем" mode="error">
+            <h3>Открывайте премиальные вклады 5</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Шестой раздел, который расширит понимание" mode="default">
+            <h3>Открывайте премиальные вклады 6</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Седьмой раздел" mode="success">
+            <h3>Открывайте премиальные вклады 7</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+    </Tabs>
+</Demo.Titled>)
+```
+
+```jsx live
+<Demo.Titled title="Табы с размером sm">
+    <div style={{ width:'360px' }}>
+    <Tabs size="sm" colorScheme="gold" initialValue="Первый раздел">
+        <Tab title="Первый раздел">
+            <h3>Открывайте премиальные вклады 1</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Название второе">
+            <h3>Открывайте премиальные вклады 2</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+    </Tabs>
+    </div>
+</Demo.Titled>
+```
+
+```jsx live
+<Demo.Titled title="Табы без подчеркивающей линии">
+    <Tabs mode="borderless" size="sm">
+        <Tab title="Первый раздел">
+            <h3>Открывайте премиальные вклады 1</h3>
+            <p>Вклады - это новые деньги!</p>
+        </Tab>
+        <Tab title="Название второе">
+            <h3>Открывайте премиальные вклады 2</h3>
+            <p>Вклады - это имидж!</p>
+        </Tab>
+        <Tab title="Название третье">
+            <h3>Открывайте премиальные вклады 3</h3>
+            <p>Вклады - это возможности!</p>
+        </Tab>
+    </Tabs>
+</Demo.Titled>
+```

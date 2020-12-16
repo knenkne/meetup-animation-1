@@ -1,0 +1,29 @@
+<span
+    class="navigation__item -other {{#ifEq menuSelected 'OTHER'}}-is-active{{/ifEq}}"
+    aria-label="{{message "template.header.navigation.other"}}"
+    data-unit="nav:primary:item"
+    data-node="OTHER"
+>
+    <span class="navigation__item-title">
+        {{message "template.header.navigation.other"}}
+        <svg class="navigation__item-icon" width="16px" height="3px" viewBox="0 0 16 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g stroke="none" stroke-width="1" fill-rule="evenodd" fill="#ffffff">
+                <path d="M 5,0 L 11,0 L 8,3 Z"></path>
+            </g>
+        </svg>
+    </span>
+    {{#if navMap.MAINMENU.secondaryEvents}}
+        <span
+            class="navigation__item-events"
+            title="{{message "template.header.navigation.events.new"}}"
+            data-unit="nav:primary:item:events"
+        >{{ navMap.MAINMENU.secondaryEvents }}</span>
+    {{/if}}
+    {{#if navMap.MAINMENU.secondaryNovelties}}
+        <span
+            class="navigation__item-novelty"
+            title="{{message "template.header.navigation.possibilities.new"}}"
+            data-unit="nav:primary:item:novelty"
+        ></span>
+    {{/if}}
+</span>

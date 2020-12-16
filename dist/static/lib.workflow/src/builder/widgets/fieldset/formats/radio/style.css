@@ -1,0 +1,17 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+@import '@sbol/lib.ui/src/utils/styles/offsets.config.css';
+
+.description {
+    margin-top: var(--offset-sm);
+    color: var(--gray-7);
+}
+
+.radio {
+    &:first-of-type {
+        margin-top: -8px;
+    }
+
+    &:last-of-type {
+        margin-bottom: -8px;
+    }
+}

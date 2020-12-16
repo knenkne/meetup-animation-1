@@ -1,0 +1,67 @@
+{
+  "_from": "@sbol/eslint-plugin-common@^1.2.0",
+  "_id": "@sbol/eslint-plugin-common@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-lroJVXuf6CgNfZDfnO9iHVqknS4=",
+  "_location": "/@sbol/eslint-plugin-common",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@sbol/eslint-plugin-common@^1.2.0",
+    "name": "@sbol/eslint-plugin-common",
+    "escapedName": "@sbol%2feslint-plugin-common",
+    "scope": "@sbol",
+    "rawSpec": "^1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.2.0"
+  },
+  "_requiredBy": [
+    "/@sbol/eslint-config"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/eslint-plugin-common/-/eslint-plugin-common-1.2.0.tgz",
+  "_shasum": "96ba09557b9fe8280d7d90df9cef621d5aa49d2e",
+  "_spec": "@sbol/eslint-plugin-common@^1.2.0",
+  "_where": "/Users/a18338302/git/dummy/node_modules/@sbol/eslint-config",
+  "author": {
+    "name": "JSC SberTech"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "has": "^1.0.1",
+    "jsx-ast-utils": "^2.1.0"
+  },
+  "deprecated": false,
+  "description": "SBTSBOL specific linting rules for ESLint",
+  "devDependencies": {
+    "eslint": "~4.13.1",
+    "mocha": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@sbol/eslint-plugin-common",
+  "peerDependencies": {
+    "eslint": "^3.0.0 || ^4.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol/eslint-plugin.git"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "version": "1.2.0"
+}

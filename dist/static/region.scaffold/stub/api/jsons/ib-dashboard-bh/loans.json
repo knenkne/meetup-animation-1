@@ -1,0 +1,317 @@
+{
+  "success": true,
+  "body": {
+    "headers": [
+      {
+        "id": "2653335346467",
+        "title": "Потребительский кредит",
+        "loanType": "consumerLoan",
+        "isDiffLoanAvailability": false,
+        "annuity": true,
+        "rate": "15,9",
+        "isPaymentsAvailability": true,
+        "isClickable": true,
+        "nextPaymentSum": "48577.35",
+        "nextPaymentDate": "2020-01-28",
+        "totalLoanDebt": "50010.28",
+        "personRole": "BORROWER",
+        "operations": [
+          {
+            "operationType": "EARLY_REPAYMENT",
+            "statusList": [
+              {
+                "statusCode": "0",
+                "iconView": "visible"
+              }
+            ]
+          },
+          {
+            "operationType": "PAYMENT_DATE_CHANGE",
+            "statusList": [
+              {
+                "statusCode": "0",
+                "iconView": "visible"
+              }
+            ]
+          }
+        ],
+        "notifications": [],
+        "currency": "RUR"
+      },
+      {
+        "id": "2597327146921",
+        "title": "Приобретение строящегося жилья",
+        "loanType": "mortgage",
+        "annuity": true,
+        "isDiffLoanAvailability": false,
+        "rate": "10,5",
+        "isPaymentsAvailability": true,
+        "isClickable": true,
+        "nextPaymentSum": "182767.08",
+        "nextPaymentDate": "2020-02-20",
+        "totalLoanDebt": "763168.76",
+        "personRole": "BORROWER",
+        "operations": [
+          {
+            "operationType": "EARLY_REPAYMENT",
+            "statusList": [
+              {
+                "statusCode": "0",
+                "iconView": "visible"
+              }
+            ]
+          },
+          {
+            "operationType": "PAYMENT_DATE_CHANGE",
+            "statusList": [
+              {
+                "statusCode": "0",
+                "iconView": "visible"
+              }
+            ]
+          }
+        ],
+        "notifications": [],
+        "currency": "USD"
+      },
+      {
+        "id": "3134371428100",
+        "title": "Потребительский кредит на рефи",
+        "loanType": "consumerLoan",
+        "annuity": true,
+        "isDiffLoanAvailability": false,
+        "rate": "13,4",
+        "isPaymentsAvailability": true,
+        "isClickable": true,
+        "nextPaymentSum": "60372.40",
+        "nextPaymentDate": "2020-02-06",
+        "totalLoanDebt": "375143.58",
+        "personRole": "BORROWER",
+        "operations": [
+          {
+            "operationType": "EARLY_REPAYMENT",
+            "statusList": [
+              {
+                "statusCode": "0",
+                "iconView": "visible"
+              }
+            ]
+          },
+          {
+            "operationType": "PAYMENT_DATE_CHANGE",
+            "statusList": [
+              {
+                "statusCode": "0",
+                "iconView": "visible"
+              }
+            ]
+          }
+        ],
+        "notifications": [],
+        "currency": "RUR"
+      }
+    ],
+    "applications": [
+      {
+        "draftId": "00p3_00000000000002260333",
+        "date": "2020-01-26",
+        "status": "INITIAL",
+        "statusDescription": "Черновик",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226034",
+        "date": "2020-01-25",
+        "status": "WAITING_OFFER",
+        "statusDescription": "Кредит одобрен",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226035",
+        "date": "2020-01-24",
+        "status": "MORATORY",
+        "statusDescription": "Заявка на кредит отклонена",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226036",
+        "date": "2020-01-23",
+        "status": "REFUSED",
+        "statusDescription": "",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226037",
+        "date": "2020-01-23",
+        "status": "EXECUTED",
+        "statusDescription": "Кредит выдан",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226039",
+        "date": "2020-01-21",
+        "status": "ERROR",
+        "statusDescription": "Не удалось создать заявку по техническим причинам",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226040",
+        "date": "2020-01-20",
+        "status": "FRAUD_DENY",
+        "statusDescription": "Оформление заявки отклонено",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226041",
+        "date": "2020-01-19",
+        "status": "DISPATCHED_ISSUE",
+        "statusDescription": "Заявка обрабатывается",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226042",
+        "date": "2020-01-18",
+        "status": "DISPATCHED",
+        "statusDescription": "Заявка обрабатывается",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226043",
+        "date": "2020-01-17",
+        "status": "RECALLED",
+        "statusDescription": "Заявка была отменена. Отказ клиента",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226044",
+        "date": "2020-01-16",
+        "status": "VISIT_REQUIRED",
+        "statusDescription": "Требуется визит в ВСП",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_00000000000002260",
+        "date": "2020-01-06",
+        "status": "APPROVED",
+        "statusDescription": "Одобрено",
+        "loanType": "educationLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000226049",
+        "etsmId": "99a8a07b0078d86788e922c08f78b0",
+        "sum": "99999.00",
+        "term": "12мес.",
+        "rate": "10,5%",
+        "date": "2020-01-26",
+        "status": "EXECUTED",
+        "statusDescription": "Отказано банком",
+        "loanType": "carLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000218849",
+        "sum": "4444444.00",
+        "term": "22 мес.",
+        "rate": "17,5%",
+        "date": "2020-01-21",
+        "status": "INITIAL",
+        "statusDescription": "Черновик",
+        "loanType": "consumerLoan",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p3_0000000000000208830",
+        "sum": "150000.00",
+        "date": "2020-01-09",
+        "status": "INITIAL",
+        "statusDescription": " ",
+        "loanType": "creditCard",
+        "isClickable": true,
+        "isActionAvailable": true
+      },
+      {
+        "draftId": "00p4_0000000000000208830",
+        "sum": "1234567.00",
+        "term": "60 мес.",
+        "rate": "12,9%",
+        "date": "2020-09-02",
+        "status": "APPROVED",
+        "statusDescription": "Одобрена",
+        "loanType": "consumerLoanSite",
+        "isClickable": false,
+        "isActionAvailable": true
+      }
+    ],
+    "orders": [
+      {
+        "id": "3156350908634",
+        "title": "Оплата кредита бабушки",
+        "orderType": "personOrder",
+        "periodPaymentMessage": "С 27.06.2020 по 19.09.2020",
+        "isClickable": true
+      },
+      {
+        "id": "3156350908635",
+        "title": "Оплата кредита деда",
+        "orderType": "personOrder",
+        "periodPaymentMessage": "До закрытия кредита",
+        "isClickable": true
+      }
+    ],
+    "products": [
+      {
+        "type": "creditPotential"
+      },
+      {
+        "type": "consumerLoanApplication"
+      },
+      {
+        "type": "carLoanApplication"
+      },
+      {
+        "type": "mortgageApplication"
+      },
+      {
+        "type": "creditHistory"
+      },
+      {
+        "type": "creditCardApplication"
+      },
+      {
+        "type": "refinance"
+      },
+      {
+        "type": "restructuring"
+      }
+    ],
+    "banners": [],
+    "loanListReceive": "notReceivedAll",
+    "applicationReceive": "receivedAll"
+  }
+}

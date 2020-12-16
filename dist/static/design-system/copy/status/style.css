@@ -1,0 +1,201 @@
+@import '../styles/colors.config.css';
+@import '../utils/styles/semantic-palette.config.css';
+@import '../styles//radius.config.css';
+
+.status {
+    background-color: var(--bg-main-color);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    transition: width 0.5s, margin 0.5s, border-radius 0.5s, box-shadow 0.5s, z-index 0.5s;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 1px 4px 0 var(--shadow-color);
+    width: 100%;
+
+    &:not(:only-of-type) {
+        border: 1px solid var(--gray-5);
+        border-bottom: none;
+    }
+
+    &:first-of-type {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    &:last-of-type {
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    &:hover {
+        margin: 0 -4px;
+        border-radius: var(--xs-border-radius);
+        z-index: 10;
+        width: calc(100% + 8px);
+
+        .main {
+            width: calc(100% - 8px);
+        }
+    }
+}
+
+.icon-wrap {
+    width: 32px;
+    margin-left: 16px;
+    margin-right: 24px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.status-icon {
+    width: 32px;
+    height: 32px;
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.body {
+    display: flex;
+    width: calc(100% - 128px);
+    padding: 26px 0 24px;
+}
+
+.content {
+    padding: 0 0 16px;
+    font-size: 14px;
+
+    p {
+        margin: 0 0 8px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.additional {
+    width: 100%;
+    list-style: none;
+    margin: -8px -16px 0 0;
+    padding: 0 0 16px;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+
+    &-item {
+        display: inline;
+        padding-right: 16px;
+    }
+}
+
+.actions {
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    display: block;
+    margin: 0 0 16px;
+}
+
+.hatching {
+    margin: 0;
+    background-size: 4px 4px;
+    background-color: var(--bg-main-color);
+}
+
+.vertical {
+    width: 24px;
+    height: auto;
+}
+
+.horizontal {
+    width: auto;
+    height: 24px;
+}
+
+.done {
+    background-image:
+        linear-gradient(
+            to left top,
+            var(--no-color) 48.9%,
+            var(--status-done-color) 51%,
+            var(--status-done-color) 70%,
+            var(--no-color) 72%
+        ),
+        linear-gradient(
+            to left top,
+            var(--status-done-color) 20%,
+            var(--no-color) 22%
+        );
+}
+
+.waiting {
+    background-image:
+        linear-gradient(
+            to left top,
+            var(--no-color) 48.9%,
+            var(--status-waiting-color) 51%,
+            var(--status-waiting-color) 70%,
+            var(--no-color) 72%
+        ),
+        linear-gradient(
+            to left top,
+            var(--status-waiting-color) 20%,
+            var(--no-color) 22%
+        );
+}
+
+.error {
+    background-image:
+        linear-gradient(
+            to left top,
+            var(--no-color) 48.9%,
+            var(--status-error-color) 51%,
+            var(--status-error-color) 70%,
+            var(--no-color) 72%
+        ),
+        linear-gradient(
+            to left top,
+            var(--status-error-color) 20%,
+            var(--no-color) 22%
+        );
+}
+
+.draft {
+    background-image:
+        linear-gradient(
+            to left top,
+            var(--no-color) 48.9%,
+            var(--status-draft-color) 51%,
+            var(--status-draft-color) 70%,
+            var(--no-color) 72%
+        ),
+        linear-gradient(
+            to left top,
+            var(--status-draft-color) 20%,
+            var(--no-color) 22%
+        );
+}
+
+.main {
+    min-width: 0;
+    width: 100%;
+    transition: width 0.5s;
+}
+
+.info {
+    min-width: 200px;
+    text-align: right;
+}

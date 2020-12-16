@@ -1,0 +1,14 @@
+.half-width {
+    display: inline-block;
+    width: calc(50% - 32px);
+    margin: 0 16px;
+    vertical-align: top;
+}
+
+.row {
+    margin: 0 -16px;
+}
+
+.checkbox {
+    margin-top: 16px;
+}

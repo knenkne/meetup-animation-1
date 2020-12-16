@@ -1,0 +1,17 @@
+@import '../../style.config.css';
+
+.loader {
+    position: relative;
+
+    &.carousel {
+        min-height: var(--carousel-height);
+    }
+
+    &.blocks.big {
+        min-height: var(--blocks-bg-height);
+    }
+
+    &.blocks.small {
+        min-height: var(--blocks-sm-height);
+    }
+}

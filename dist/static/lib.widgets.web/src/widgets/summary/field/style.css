@@ -1,0 +1,46 @@
+@import '@sbol/lib.ui/src/utils/styles/semantic-palette.config.css';
+@import '@sbol/lib.ui/src/styles/colors.config.css';
+@import '@sbol/lib.ui/src/utils/styles/media.config.css';
+
+.field {
+    margin: 8px 16px;
+    align-self: start;
+    width: calc(100% - 32px);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: var(--text-main-color);
+}
+
+.half {
+    width: calc(50% - 32px);
+}
+
+.title,
+.description {
+    color: var(--gray-55-alpha);
+}
+
+.value {
+    font-weight: 600;
+    overflow-wrap: break-word;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.error {
+    color: var(--orange-6);
+}
+
+@media (--media-sm) {
+    .field {
+        margin: 8px 0;
+        padding: 0 16px;
+    }
+
+    .half {
+        width: 50%;
+    }
+}

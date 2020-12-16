@@ -1,0 +1,13 @@
+
+name: lib.vendor.react-redux
+description: 'AMD react-redux vendor module'
+developers:
+
+revision: 7d58e8202f7a033f8fa4fde9d7343e291dc37939
+build: 7
+version: 5.0.7  
+buildDate: 29.04.2019 - 20:05:21
+dependencies:
+    - lib.vendor.react/16.8.3
+    - lib.vendor.react-dom/16.8.3
+    - lib.vendor.redux/4.0.1

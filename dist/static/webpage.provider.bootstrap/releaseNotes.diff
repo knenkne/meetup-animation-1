@@ -1,0 +1,16 @@
+##Repo https://sbtatlas.sigma.sbrf.ru/stash/projects/plsbol/repos/webpage.provider.bootstrap
+a9f379f02025d2801de244348224578cdf4af06b:Тупицкий Илья Николаевич<Tupitskiy.I.Ni@sberbank.ru>0.15.1
+7915b241129b2e8c8e76a089d200064d8de1018b:Тупицкий Илья Николаевич<Tupitskiy.I.Ni@sberbank.ru>Pull request #201: DBSBOLUI-3514 - загрузка шрифтов в ЕРИБ
+
+Merge in PLSBOL/webpage.provider.bootstrap from DBSBOLUI-3514 to master
+
+* commit '8409365dfbe8ca1a3bf7b157f0d175f9654b1239':
+  DBSBOLUI-3514
+c85112d1e0c582d9cd14a9e4f7678d412ced0c21:Кузнецов Максим Александрович<MAlKuznetsov@sberbank.ru>Pull request #202: [DBSBOLUI-3556] - callbackintervall fix
+
+Merge in PLSBOL/webpage.provider.bootstrap from DBSBOLUI-3556 to master
+
+* commit '7866e32f9b6b930af0b2ce64bcf4f2d79be0bd6d':
+  [DBSBOLUI-3556] - callbackintervall fix
+7866e32f9b6b930af0b2ce64bcf4f2d79be0bd6d:Кузнецов Максим Александрович<MAlKuznetsov@sberbank.ru>[DBSBOLUI-3556] - callbackintervall fix
+8409365dfbe8ca1a3bf7b157f0d175f9654b1239:Тупицкий Илья Николаевич<Tupitskiy.I.Ni@sberbank.ru>DBSBOLUI-3514

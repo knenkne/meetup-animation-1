@@ -1,0 +1,11 @@
+
+name: lib.vendor.redux-form
+description: 'AMD redux-form vendor module'
+developers:
+
+revision: 4e87a2106fc1ec328ec0cef0783b865e6c108f7f
+build: 5
+version: 7.4.2  
+buildDate: 29.04.2019 - 20:10:36
+dependencies:
+    - lib.vendor.react-redux/5.0.7

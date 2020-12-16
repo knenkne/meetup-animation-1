@@ -1,0 +1,6 @@
+target
+node_modules
+jasmine
+example
+**/*.spec.js
+**/*.spec.jsx

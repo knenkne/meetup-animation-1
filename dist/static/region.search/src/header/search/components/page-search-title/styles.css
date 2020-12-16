@@ -1,0 +1,35 @@
+.page-title-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, -50%);
+    padding: 10px 22px 10px 16px;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    outline: none;
+}
+
+.page-title {
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.title-icon {
+    cursor: pointer;
+    background-color: white;
+
+    & svg path {
+        fill-opacity: 1;
+        fill: #2D2D30;
+    }
+}
+
+.back-icon {
+    transform: rotate(180deg);
+}

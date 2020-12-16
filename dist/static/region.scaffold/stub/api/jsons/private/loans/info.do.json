@@ -1,0 +1,137 @@
+{
+  "response": {
+    "detail": {
+      "repaymentMethod": "дифференцированный",
+      "address": "г.Москва, г.Зеленоград, Савелкинский проезд, 6",
+      "description": "Ипотечный кредит",
+      "nextPayAmount": {
+        "amount": 164653.27,
+        "currency": {
+          "code": "RUB",
+          "name": "руб."
+        }
+      },
+      "termEnd": "28.01.2035T00:00:00",
+      "agreementNumber": 86685,
+      "accountNumber": "45507810238150000152",
+      "balanceAmount": {
+        "amount": 1669814.35,
+        "currency": {
+          "code": "RUB",
+          "name": "руб."
+        }
+      },
+      "termDuration": "26-0-0",
+      "termStart": "28.01.2009T00:00:00",
+      "borrowerFullName": "Старый Старый К.",
+      "remainAmount": {
+        "amount": 1669814.35,
+        "currency": {
+          "code": "RUB",
+          "name": "руб."
+        }
+      },
+      "name": "Ипотечный кредит",
+      "personRole": "заемщик/созаемщик",
+      "nextPayDate": "10.12.2019T00:00:00"
+    },
+    "extDetail": {
+      "rate": 11.9,
+      "remainAmount": {
+        "amount": 1669814.35,
+        "currency": {
+          "code": "RUB",
+          "name": "руб."
+        }
+      },
+      "currentPayment": {
+        "interestsAmount": {
+          "amount": 164653.27,
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "currentPayDate": "10.12.2019T00:00:00",
+        "mainDeptAmount": {
+          "amount": 0,
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPaymentAmount": {
+          "amount": 164653.27,
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        }
+      },
+      "kind": "ДИФФЕРЕНЦИРОВАННЫЙ",
+      "loanInfo": {
+        "repaymentMethod": "дифференцированный",
+        "creditingRate": 11.9,
+        "borrower": "Старый Старый К.",
+        "interestPaymentAmount": {
+          "amount": 157751.64,
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "termEnd": "28.01.2035T00:00:00",
+        "guarantor": "Абдулатип Магомедаминович Г.Вагаршак Дживанович М.",
+        "agreementNumber": 86685,
+        "accountNumber": "45507810238150000152",
+        "termStart": "28.01.2009T00:00:00",
+        "agencyAddress": "г.Москва, г.Зеленоград, Савелкинский проезд, 6",
+        "remainAmount": {
+          "amount": 1669814.35,
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "mainDeptAmount": {
+          "amount": 1512062.71,
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "origianlAmount": {
+          "amount": 2800000,
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        }
+      },
+      "fullName": "Ипотечный кредит",
+      "termEnd": "28.01.2035T00:00:00",
+      "type": "Ипотечный кредит",
+      "origianlAmount": {
+        "amount": 2800000,
+        "currency": {
+          "code": "RUB",
+          "name": "руб."
+        }
+      },
+      "nextPayment": {
+        "infoText": "Ближайший платёж 10 декабря, 164 653,27 руб.. Не хватает 164 653,27 руб. для оплаты.",
+        "nextPaymentAmount": {
+          "amount": 164653.27,
+          "currency": {
+            "code": "RUB",
+            "name": "руб."
+          }
+        },
+        "nextPayDate": "10.12.2019T00:00:00"
+      }
+    },
+    "status": {
+      "code": 0
+    }
+  }
+}

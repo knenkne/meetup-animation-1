@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/perimeter/index.js"],"sourcesContent":["import PerimeterInHoc from './perimeter'\n\nPerimeterInHoc.displayName = 'Perimeter'\n\nexport const Perimeter = PerimeterInHoc\n"],"names":["PerimeterInHoc","displayName","Perimeter"],"mappings":";;;;;;;AAEAA,cAAc,CAACC,WAAf,GAA6B,WAA7B;IAEaC,SAAS,GAAGF;;;;"}

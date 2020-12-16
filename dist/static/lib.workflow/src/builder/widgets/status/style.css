@@ -1,0 +1,94 @@
+.status {
+    position: relative;
+}
+
+.level {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.success .level {
+    background-color: #08a652;
+}
+
+.waiting .level {
+    background-color: #e9b40e;
+}
+
+.error .level {
+    background-color: #f6650a;
+}
+
+.icon {
+    vertical-align: sub;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    color: #2d2d2d;
+    margin: 0;
+    padding: 0;
+    padding-left: 64px;
+}
+
+.divider {
+    height: 64px;
+}
+
+.status-success,
+.status-waiting,
+.status-error {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: 325px auto;
+    }
+}
+
+.status-success::before {
+    background-image: url('../../../assets/workflow-success.png');
+}
+
+.status-waiting::before {
+    background-image: url('../../../assets/workflow-waiting.png');
+}
+
+.status-error::before {
+    background-image: url('../../../assets/workflow-waiting.png');
+}
+
+.additional-container {
+    margin-top: 40px;
+}
+
+.additional-button {
+    margin: 8px 0;
+    height: 52px;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    display: flex;
+    align-items: center;
+}
+
+.additional-icon {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru-RU" class="no-js">
+<head>
+    {{>"3.0/partials/meta.hbs"}}
+    {{>"3.0/script/scale.hbs"}}
+    <style>
+        {{>"3.0/styles/error.css"}}
+    </style>
+</head>
+<body>
+    <article class="error">
+        <a href="/main" class="error-main-url">
+            {{>"3.0/partials/logo.hbs"}}
+        </a>
+        <div class="error-image">
+            <img src="{{design30.resourcesUrl}}/common/{{design30.assetsCommonVersion}}/img/errors/error-404.png" srcSet="{{design30.resourcesUrl}}/common/{{design30.assetsCommonVersion}}/img/errors/error-404_2x.png 2x, {{design30.resourcesUrl}}/common/{{design30.assetsCommonVersion}}/img/errors/error-404_3x.png 3x" role="presentation" alt="">
+        </div>
+        <h1>
+            Страница не найдена
+        </h1>
+        <p>
+            Сервер не может найти данные согласно вашему&nbsp;запросу
+        </p>
+        <a class="error-link" href="/main">Вернуться на главную</a>
+    </article>
+</body>
+</html>

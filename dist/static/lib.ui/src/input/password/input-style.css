@@ -1,0 +1,42 @@
+@import '../input.css';
+@import '../../styles/semantic.config.css';
+
+.password-block {
+    position: relative;
+    width: 100%;
+}
+
+.eye {
+    position: absolute;
+    width: var(--input-icon-width);
+    height: var(--input-icon-height);
+    border: 0;
+    right: 20px;
+    top: calc(50% + var(--common-border-width) - var(--input-icon-height) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding-right: 44px;
+
+    &::-ms-clear, &::-ms-reveal {
+        display: none;
+    }
+
+    &::-webkit-credentials-auto-fill-button {
+        visibility: hidden;
+        display: none;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+    }
+}
+
+.show-password {
+    input {
+        letter-spacing: 5px;
+        font-size: 14px;
+    }
+}

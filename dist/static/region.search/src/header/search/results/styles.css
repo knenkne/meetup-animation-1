@@ -1,0 +1,90 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+
+.link {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 32px;
+    color: #4da558;
+    text-decoration: none;
+}
+
+.results {
+    padding-top: 72px;
+    padding-left: 0;
+    padding-bottom: 24px;
+
+    &-block {
+        border-top: 1px solid #e3ebee;
+        padding: 24px 0 8px 0;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &-title {
+            color: #474747;
+            font-size: 14px;
+            margin-left: 32px;
+            font-weight: normal;
+        }
+    }
+
+    &-block:first-of-type {
+        border-top: none;
+    }
+
+    &-bottom-hidden {
+        padding-bottom: 0;
+    }
+}
+
+.empty-results {
+    font-size: 14px;
+    text-align: center;
+    color: #8c8c91;
+    line-height: 1.43;
+    letter-spacing: -0.3px;
+}
+
+.show-more-button {
+    height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    background: none;
+
+    &-title {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.43;
+        letter-spacing: -0.3px;
+        padding-right: 4px;
+        color: #8c8c91;
+    }
+
+    &-icon {
+        height: 24px;
+        width: 24px;
+    }
+
+    &-icon svg {
+        margin: 9px 7px;
+    }
+
+    &-icon svg path {
+        fill: var(--gray-5);
+    }
+
+    &-reverse-icon svg {
+        transform: rotate(180deg);
+    }
+}

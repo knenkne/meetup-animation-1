@@ -1,0 +1,82 @@
+@import '../../utils/styles/semantic-palette.config.css';
+@import '../../utils/styles/standard.config.css';
+@import '../../styles/semantic.config.css';
+@import '../../styles/shadows.config.css';
+
+.input {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+
+    &[type='radio']:disabled,
+    &[type='radio'][disabled] {
+        cursor: default;
+    }
+}
+
+body:not(:global(.pointer-events)) .input:focus ~ .children {
+    border: 0 none;
+    box-shadow: var(--common-shadow-hover), var(--input-focus-border);
+}
+
+.radio {
+    position: relative;
+    margin: 0;
+
+    .children {
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
+        min-width: 48px;
+        height: 48px;
+        padding: 12px;
+        border: none;
+        line-height: 24px;
+        font-size: 16px;
+        border-radius: 24px;
+        background-color: var(--white);
+        transition: background-color 0.17s ease-in-out, box-shadow 0.17s ease-in-out, border-color 0.17s ease-in-out;
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .input:hover ~ .children {
+        background-color: #f9fafb;
+    }
+
+    .input:checked ~ .children {
+        box-shadow: var(--common-shadow-hover);
+    }
+
+    .input:disabled ~ .children {
+        background-color: #d2dbe0;
+        cursor: auto;
+
+        :global(.icon) {
+            fill: var(--disabled-color);
+        }
+    }
+
+    .input:disabled:checked ~ .children {
+        background-color: #d2dbe0;
+    }
+
+    & + .radio {
+        margin-left: 8px;
+    }
+}
+
+.radio.lg {
+    .children {
+        min-width: 32px;
+        height: 32px;
+        line-height: 22px;
+        border-radius: 16px;
+    }
+
+    & + .radio.lg {
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "WorkflowFormUI/1.0/defs/FieldsKeyValueType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "FieldsKeyValueType": {
+      "description": "Set of key-value pairs to transport business fields",
+      "type": "object",
+      "patternProperties": {
+        "^(?=.{1,256}$)([A-Za-z0-9][A-Za-z0-9:_|-]*)$": {
+          "type": "string",
+          "maxLength": 1024
+        }
+      },
+      "additionalProperties": false,
+      "maxProperties": 1024
+    }
+  }
+}

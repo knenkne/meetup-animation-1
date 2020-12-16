@@ -1,0 +1,47 @@
+{
+  "unexpected.error.happened": "Произошла непредвиденная ошибка",
+  "data.submission.error": "Не удалось отправить данные",
+  "we.already.know": "Мы уже в курсе",
+  "try.to.enter.later": "Попробуйте зайти позднее, наши специалисты уже разбираются с данной проблемой",
+  "we.already.know.try.to.repeat.in.5.minutes": "Мы уже в курсе. Попробуйте зайти позднее, наши специалисты уже разбираются с данной проблемой",
+  "try.to.reload.the.page": "Обновите страницу",
+  "try.to.repeat.in.5.minutes": "Попробуйте повторить через 5 минут",
+  "or.come.later": "или попробуйте зайти позже",
+  "error.code": "Код ошибки: {{code}}",
+  "error": "Ошибка {{code}}",
+  "backward": "Вернуться на главную",
+  "checkbox.checked": "Да",
+  "checkbox.unchecked": "Нет",
+  "confirm.rollback": "Введённые данные будут потеряны. Продолжить?",
+  "multiselect.nooptionsselected": "Не выбрано",
+  "password.show": "Показать пароль",
+  "suggest.nomatches": "Нет совпадений",
+  "suggest.request.error": "Oшибка загрузки. Попробуйте еще раз",
+  "suggest.repeat": "Повторить загрузку",
+  "suggest.request.timeout": "Долгая загрузка",
+  "email.validation.message": "Неверный формат email",
+
+  "next": "Продолжить",
+  "exit": "Выход",
+  "skip": "Пропустить",
+  "rollback": "Назад",
+
+  "multi.add": "Добавить",
+  "multi.close": "Свернуть",
+
+  "accessibility.next.step.default.title": "следующий шаг",
+  "accessibility.change.step": "Вы перешли на шаг ",
+
+  "multi.clean": "Очистить поля",
+  "multi.remove": "Удалить",
+
+  "you.are.here": "Вы здесь",
+  "step.1": "Отступы виджетов",
+  "step.2": "CoreFieldset readonly",
+  "step.3": "WebBanners",
+  "step.4": "format: 'quantity'",
+  "step.5": "select",
+  "step.6": "Fieldset",
+  "step.7": "Email",
+  "step.8": "Summary"
+}
