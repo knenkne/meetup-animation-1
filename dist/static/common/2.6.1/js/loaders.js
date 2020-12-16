@@ -80,7 +80,7 @@
         : (function () {
             var e = new Date().getHours(),
               t = "Доброй ночи!"
-            return 'Добрый вечер, Максим!'
+            return 'Добрый вечер,\nМаксим!'
           })()),
         b.classList.add("greet"),
         g && b.classList.add("birthday"),
