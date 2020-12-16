@@ -76,8 +76,12 @@
       var M = u.options && u.options.greeting,
         b = document.createElement("p")
       ;(b.textContent = M
-        ? 'Добрый вечер,\nМаксим!'
-        : 'Добрый вечер,\nМаксим!',
+        ? a[M]
+        : (function () {
+            var e = new Date().getHours(),
+              t = "Доброй ночи!"
+            return 'Добрый вечер, Максим!'
+          })()),
         b.classList.add("greet"),
         g && b.classList.add("birthday"),
         f.appendChild(b)
