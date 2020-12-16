@@ -1,0 +1,60 @@
+@import '@sbol/lib.ui/src/utils/styles/media.config.css';
+@import '@sbol/lib.ui/src/utils/styles/semantic-palette.config.css';
+
+.coming {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 48px;
+    max-width: 448px;
+}
+
+.field {
+    margin-top: 16px;
+    position: relative;
+    padding-left: 64px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 8px;
+        height: 100%;
+        border-radius: 5px;
+        left: 20px;
+        top: 0;
+        background-color: var(--status-waiting-color);
+
+        [data-status='error'] + .coming & {
+            background-color: var(--status-error-color);
+        }
+
+        [data-status='waiting'] + .coming & {
+            background-color: var(--status-waiting-color);
+        }
+
+        [data-status='done'] + .coming & {
+            background-color: var(--status-done-color);
+        }
+
+        [data-status='info'] + .coming & {
+            background-color: var(--status-info-color);
+        }
+    }
+}
+
+.field:first-child {
+    margin-top: 0;
+}
+
+@media (--media-md) {
+    .coming {
+        max-width: 352px;
+    }
+}
+
+@media (--media-sm) {
+    .coming {
+        max-width: 368px;
+    }
+}

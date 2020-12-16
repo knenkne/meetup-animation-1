@@ -1,0 +1,16 @@
+@import '@sbol/lib.ui/src/utils/styles/font-sizes.config.css';
+@import '@sbol/lib.ui/src/styles/colors.config.css';
+
+.total {
+    position: relative;
+}
+
+.commission {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: var(--font-size-body-web);
+    line-height: var(--line-height-body-web);
+    letter-spacing: var(--letter-spacing-web);
+    color: var(--gray-55-alpha);
+}

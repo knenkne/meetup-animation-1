@@ -1,0 +1,48 @@
+{
+    "success": true,
+    "body": {
+        "agreementState": {
+            "id": "InsuranceConsentObtainIb",
+            "title": "Показать мои страховки",
+            "description": "Чтобы они появились, дайте согласие на обработку персональных данных"
+        },
+        "contracts": [
+            {
+                "id": "52342341qwerty",
+                "status": "active",
+                "title": "Страхование ипотеки",
+                "productTag": "travel_ins",
+                "paymentDate": "2016-05-03",
+                "startDate": "2016-05-05",
+                "endDate": "2016-05-21"
+            },
+            {
+                "id": "5432342ty",
+                "status": "active",
+                "title": "Страхование ипотеки",
+                "productTag": "travel_ins",
+                "paymentDate": "2016-05-03",
+                "startDate": "2016-05-05",
+                "endDate": "2016-05-21"
+            },
+            {
+                "id": "1233224gh",
+                "status": "expired",
+                "title": "Страхование ипотеки",
+                "productTag": "life_zz",
+                "paymentDate": "2016-04-12",
+                "startDate": "2016-05-20",
+                "endDate": "2016-04-20"
+            },
+            {
+                "id": "134234fgh",
+                "status": "awaiting",
+                "title": "Страхование ипотеки",
+                "productTag": "life_zz",
+                "paymentDate": "2016-04-12",
+                "startDate": "2016-05-20",
+                "endDate": "2016-05-20"
+            }
+        ]
+    }
+}

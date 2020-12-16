@@ -1,0 +1,7 @@
+dist
+stories
+node_modules
+stub/api/sbermetrik.js
+reports
+target
+target-dev

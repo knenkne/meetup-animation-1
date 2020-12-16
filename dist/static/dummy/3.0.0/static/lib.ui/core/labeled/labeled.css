@@ -1,0 +1,61 @@
+@import '../styles/colors.config.css';
+@import '../utils/styles/semantic-palette.config.css';
+
+.labeled + .labeled {
+    margin-top: 24px;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.3s ease-in-out;
+    margin: 0;
+
+    &.filled {
+        color: var(--gray-55-alpha);
+    }
+}
+
+.hint {
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headline {
+    margin-bottom: 8px;
+}
+
+.description {
+    margin-top: 8px;
+    color: var(--gray-55-alpha);
+}
+
+.error-text {
+    margin-top: 8px;
+    color: var(--orange-5);
+}
+
+.checkbox,
+.switch {
+    .headline {
+        margin-bottom: 0;
+    }
+
+    .description {
+        margin-top: 0;
+    }
+}
+
+.checkbox {
+    .description {
+        margin-left: 28px;
+    }
+}
+
+.switch {
+    .description {
+        margin-left: 44px;
+    }
+}
+

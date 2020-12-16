@@ -1,0 +1,23 @@
+
+name: lib.offers
+description: 'Lib.offers'
+developers:
+    - kuznetsov.d.mikhaylo@sberbank.ru
+    - tupitskiy.i.ni@sberbank.ru
+revision: e4d6bf56113597019a83f563e337bcd37953158e
+build: 134
+version: 0.4.1  
+buildDate: 13.07.2020 - 12:42:33
+dependencies:
+    - lib.app/3.3.2
+    - lib.ui/4.6.3
+    - lib.vendor.axios/0.18.0
+    - lib.vendor.classnames/2.2.6
+    - lib.vendor.i18next/15.0.5
+    - lib.vendor.lodash/4.17.11
+    - lib.vendor.react/16.8.3
+    - lib.vendor.react-dom/16.8.3
+    - lib.vendor.react-redux/5.0.7
+    - lib.vendor.redux/4.0.1
+    - lib.vendor.redux-form/7.4.2
+    - lib.vendor.redux-thunk/2.3.0

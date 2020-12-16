@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Тесты для компонента SearchComponent Проверить, что условие открытия попапа проставлено, а не написано true && ... (попап закрыт) 1`] = `
+<div
+  className="searchWrapper"
+  onClick={[Function]}
+>
+  <Connect(SearchInput)
+    inputRef={[Function]}
+    isProductFromPages={false}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onSearchClear={[Function]}
+    panelVisible={false}
+    setInputFocus={[Function]}
+    value="query"
+  />
+</div>
+`;
+
+exports[`Тесты для компонента SearchComponent Проверить, что условие открытия попапа проставлено, а не написано true && ... (попап открыт) 1`] = `
+<div
+  className="searchWrapper show"
+  onClick={[Function]}
+>
+  <Connect(SearchInput)
+    inputRef={[Function]}
+    isProductFromPages={false}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onSearchClear={[Function]}
+    panelVisible={true}
+    setInputFocus={[Function]}
+    value="query"
+  />
+  <SearchPanel>
+    <Connect(SearchResults)
+      handleSearchResultClick={[Function]}
+      isProductFromPages={false}
+      isSearchEmpty={false}
+      onCloseSearchResult={[Function]}
+    />
+  </SearchPanel>
+</div>
+`;

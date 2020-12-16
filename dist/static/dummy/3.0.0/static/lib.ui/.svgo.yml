@@ -1,0 +1,6 @@
+plugins:
+  - removeViewBox: false
+  - removeUselessDefs: false
+  - removeHiddenElems: false
+  - removeUnknownsAndDefaults: false
+  - cleanupIDs: false

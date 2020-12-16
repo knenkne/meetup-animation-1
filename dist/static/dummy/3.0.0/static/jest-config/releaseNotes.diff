@@ -1,0 +1,9 @@
+##Repo https://sbtatlas.sigma.sbrf.ru/stash/projects/plsbol/repos/jest-config
+e3d1a64c8e836660615bd4bad98145f7bef53abf:Власов Андрей Владимирович<Vlasov.A.Vladimiro@sberbank.ru>1.4.10
+8820f08609220b2a2de4e7e28812fdf344a92069:Власов Андрей Владимирович<Vlasov.A.Vladimiro@sberbank.ru>Pull request #26: DBWCA-4566 - Обновил transformIgnorePatterns для перехода на design-system
+
+Merge in PLSBOL/jest-config from feature/DBWCA-4566 to master
+
+* commit '877ee74da3690e73b3e6586ace547afbe570eed4':
+  DBWCA-4566 - Обновил transformIgnorePatterns для перехода на design-system
+877ee74da3690e73b3e6586ace547afbe570eed4:Ковалёв Андрей Александрович<Kovalev.An.A@sberbank.ru>DBWCA-4566 - Обновил transformIgnorePatterns для перехода на design-system

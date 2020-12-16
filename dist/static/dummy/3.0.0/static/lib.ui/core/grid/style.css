@@ -1,0 +1,88 @@
+@import '../utils/styles/media.config.css';
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.cell {
+    box-sizing: content-box;
+    flex-grow: 0;
+    flex-shrink: 0;
+    min-height: 1px;
+}
+
+/* stylelint-disable at-rule-no-unknown, comment: @for не воспринимается корректно */
+/* stylelint-disable selector-class-pattern, comment: $i не воспринимается корректно */
+
+@media (--media-lg) {
+    .grid {
+        max-width: var(--lg-width);
+    }
+
+    .col-lg-0 {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        display: none;
+    }
+
+    @for $i from 1 to 29 {
+        .col-lg-$i {
+            width: calc($(i) * var(--lg-column-width));
+        }
+
+        .col-lg-offset-$i {
+            margin-left: calc($(i) * var(--lg-column-width));
+        }
+    }
+}
+
+@media (--media-md) {
+    .grid {
+        max-width: var(--md-width);
+    }
+
+    .col-md-0 {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        display: none;
+    }
+
+    @for $i from 1 to 19 {
+        .col-md-$i {
+            width: calc($(i) * var(--md-column-width));
+        }
+
+        .col-md-offset-$i {
+            margin-left: calc($(i) * var(--md-column-width));
+        }
+    }
+}
+
+@media (--media-sm) {
+    .grid {
+        max-width: var(--sm-width);
+    }
+
+    .col-sm-0 {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        display: none;
+    }
+
+    @for $i from 1 to 23 {
+        .col-sm-$i {
+            width: calc($(i) * var(--sm-column-width));
+        }
+
+        .col-sm-offset-$i {
+            margin-left: calc($(i) * var(--sm-column-width));
+        }
+    }
+}

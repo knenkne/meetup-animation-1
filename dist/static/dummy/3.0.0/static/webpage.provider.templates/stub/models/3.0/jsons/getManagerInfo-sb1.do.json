@@ -1,0 +1,57 @@
+{
+    "response": {
+        "employees": {
+            "employee": [
+                {
+                    "phone": "+79184650003",
+                    "name": "Нестеренко Дмитрий Алексеевич",
+                    "managingCouple": false,
+                    "office": {
+                        "officeName": "Доп.офис №9038/0999",
+                        "schedule": {
+                            "saturday": "10:00 - 17:00",
+                            "tuesday": "9:00  - 19:30",
+                            "wednesday": "9:00  - 19:30",
+                            "thursday": "9:00  - 19:30",
+                            "friday": "9:00  - 19:30",
+                            "monday": "9:00  - 19:30"
+                        },
+                        "vsp": 999,
+                        "postAddress": "г.Москва, Рязанский проспект, д.45, к.1 ,109428",
+                        "tb": 38,
+                        "osb": 9038
+                    },
+                    "assistance": true,
+                    "email": "testforift@mail.ru",
+                    "primary": false
+                },
+                {
+                    "phone": "+79184650002",
+                    "name": "Щербаков Дмитрий Алексеевич",
+                    "managingCouple": false,
+                    "office": {
+                        "officeName": "Доп.офис №9038/0999",
+                        "schedule": {
+                            "saturday": "10:00 - 17:00",
+                            "tuesday": "9:00  - 19:30",
+                            "wednesday": "9:00  - 19:30",
+                            "thursday": "9:00  - 19:30",
+                            "friday": "9:00  - 19:30",
+                            "monday": "9:00  - 19:30"
+                        },
+                        "vsp": 999,
+                        "postAddress": "г.Москва, Рязанский проспект, д.45, к.1 ,109428",
+                        "tb": 38,
+                        "osb": 9038
+                    },
+                    "assistance": false,
+                    "email": "testforift@mail.ru",
+                    "primary": true
+                }
+            ]
+        },
+        "status": {
+            "code": 0
+        }
+    }
+}

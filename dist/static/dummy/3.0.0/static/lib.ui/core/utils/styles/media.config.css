@@ -1,0 +1,35 @@
+:root {
+    --lg-columns: 29;
+    --md-columns: 19;
+    --sm-columns: 23;
+    --lg-column-width: 32px;
+    --md-column-width: 32px;
+    --sm-column-width: 16px;
+    --menu-opened-width: 320px;
+    --menu-closed-width: 64px;
+    --lg-width: calc(var(--lg-columns) * var(--lg-column-width));
+    --md-width: calc(var(--md-columns) * var(--md-column-width));
+    --sm-width: calc(var(--sm-columns) * var(--sm-column-width));
+}
+
+/* Актуальные точки смены режимов */
+@custom-media --media-lg (min-width: 1312px);
+@custom-media --media-md (min-width: 732px) and (max-width: 1311.98px);
+@custom-media --media-sm (max-width: 731.98px);
+
+/* Для совместимости с первой версией гридов 3.0 */
+@custom-media --media-xl-compatible (min-width: 1281px);
+@custom-media --media-lg-compatible (min-width: 1101px) and (max-width: 1280px);
+@custom-media --media-md-compatible (min-width: 701px) and (max-width: 1100px);
+@custom-media --media-sm-compatible (min-width: 375px) and (max-width: 700px);
+@custom-media --media-xs-compatible (max-width: 374px);
+
+/* deprecated: same as lg, md, sm */
+@custom-media --media-desktop (min-width: 1312px);
+@custom-media --media-tablet (min-width: 732px) and (max-width: 1311.98px);
+@custom-media --media-phone (max-width: 731px);
+
+/* deprecated */
+@custom-media --media-mobile (max-width: 767px);
+@custom-media --media-web (min-width: 768px) and (max-width: 1599px);
+@custom-media --media-xl (min-width: 1600px);

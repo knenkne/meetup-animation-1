@@ -1,0 +1,9 @@
+
+name: lib.vendor.redux
+description: 'AMD redux vendor module'
+developers:
+
+revision: 3ca6785a7e0d85525759136f9de30b777168fbd9
+build: 6
+version: 4.0.1  
+buildDate: 29.04.2019 - 19:38:16

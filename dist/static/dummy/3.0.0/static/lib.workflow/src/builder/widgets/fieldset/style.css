@@ -1,0 +1,23 @@
+@import '@sbol/lib.ui/src/utils/styles/media.config.css';
+
+.checkbox {
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+.multiselect {
+    &:first-of-type {
+        margin-top: -8px;
+    }
+
+    &:last-of-type {
+        margin-bottom: -8px;
+    }
+}
+
+@media (--media-md), (--media-lg) {
+    .half-width {
+        display: inline-block;
+        width: calc(50% - 32px);
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "WorkflowFormUI/2.0/defs/ProgressType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "ProgressType": {
+      "description": "Client progress through process",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "range": {
+          "type": "integer",
+					"maximum": 1000,
+					"minimum": 0
+        },
+        "position": {
+          "type": "integer",
+					"maximum": 1000,
+					"minimum": 0
+        }
+      },
+      "required": [
+        "range",
+        "position"
+      ]
+    }
+  }
+}

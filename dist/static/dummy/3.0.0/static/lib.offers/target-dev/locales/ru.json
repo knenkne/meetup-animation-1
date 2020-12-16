@@ -1,0 +1,16 @@
+{
+  "feedback.intrusive": "Навязчиво",
+  "feedback.error": "Уже воспользовался",
+  "feedback.nonInterested": "Неинтересно",
+  "feedback.want": "Хочу",
+  "feedback.next": "Подробнее",
+  "close.feedback": "Закрыть окно отзывов",
+  "open.feedback": "Скрыть предложение",
+  "scroll.forward": "Листать вперед",
+  "scroll.backward": "Листать назад",
+  "carousel.stub": "Скоро здесь будут выгодные для вас предложения",
+  "download.link": "Ссылка на скачивание",
+  "promo": "Подробности",
+  "promo.back": "Назад",
+  "promo.done": "Сервис оформлен"
+}

@@ -1,0 +1,47 @@
+##Repo https://sbtatlas.sigma.sbrf.ru/stash/projects/plsbol-libs/repos/lib.workflow
+845f9879ad016fcc013fddc32afdd7c6bcc2892b:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>3.9.0
+725560a42df77468bc07fde4f89e979a3f56449a:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-2675 up deps
+f70452fe2dc43413106453c36552404b3846f52f:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>Pull request #541: DBSBOLUI-3367
+
+Merge in PLSBOL-LIBS/lib.workflow from DBSBOLUI-3367 to master
+
+* commit '3f048d859c05f8a737e9b8df64ab1b8173226c98':
+  DBSBOLUI-3367
+  DBSBOLUI-3367 fix documentation
+  DBSBOLUI-3367 fix tests
+  DBSBOLUI-3367 fix README, remove some code
+  DBSBOLUI-3367 refactor validation strategy, remove unused hooks
+  DBSBOLUI-3367 strategy
+  DBSBOLUI-3367 customVisibility done
+  DBSBOLUI-3367 strategies
+  DBSBOLUI-3367 add getWidgetByIndex
+  DBSBOLUI-3367 add toggleWidgetVisibility, tests
+  DBSBOLUI-3367 add indexes to widgets in store
+3f048d859c05f8a737e9b8df64ab1b8173226c98:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>Merge branch 'master' into DBSBOLUI-3367
+
+# Conflicts:
+#	fixture/src/routes/flows/index.jsx
+#	package-lock.json
+#	package.json
+#	src/adapter/actions/actions.js
+#	src/builder/workflow.jsx
+bce74a6f3543ddb3670ec59902e21c691f98c4e9:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367
+5fb8dc9e507e80d16b493f945da122fc5b800f8b:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>Merge branch 'master' into DBSBOLUI-3367
+
+# Conflicts:
+#	src/builder/widgets/fieldset/strategy-handlers/strategy-field.jsx
+e55fca2dc0fe9519e66a13145286a4541dbe88f5:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 fix documentation
+342cb04666f6512ceaf880b5a45ce3b0294f4999:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 fix tests
+e0fbfe486b80fc30dd9f550df8a5c2880c083d5e:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>Merge branch 'master' into DBSBOLUI-3367
+
+# Conflicts:
+#	src/adapter/selectors/__tests__/get-dww-offset.spec.js
+#	src/adapter/selectors/__tests__/get-dww-padding-top.spec.js
+a48ee8d9e99bf00d2b8f70f5e9ac77de7310d811:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 fix README, remove some code
+33f7642269769cb22d0b7667e54b2ba9a430eccb:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 refactor validation strategy, remove unused hooks
+adb6ab04465167a637918c96f16b21a56d0806ed:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 strategy
+e11e1b7bb10cd6f958269f1084f4320acc6262fe:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 customVisibility done
+557e01d1b4f0b9c4dc785d7120c4ed069ebc05a5:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 strategies
+97043ff76f1382032b9db21123abf41490173357:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 add getWidgetByIndex
+072875e06716e9a9f8f20d64854966d9ac055210:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 add toggleWidgetVisibility, tests
+ed9b498f61f151b15e697b0116dfa5d5f6e8313d:Шутов Дмитрий Александрович<Shutov.D.Alek@sberbank.ru>DBSBOLUI-3367 add indexes to widgets in store

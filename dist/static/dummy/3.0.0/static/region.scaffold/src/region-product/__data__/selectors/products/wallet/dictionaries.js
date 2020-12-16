@@ -1,0 +1,1 @@
+export const CTACCOUNT = 'ctaccount'

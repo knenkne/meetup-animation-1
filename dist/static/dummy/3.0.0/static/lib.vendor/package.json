@@ -1,0 +1,125 @@
+{
+  "_from": "@sbol/lib.vendor@4.1.0",
+  "_id": "@sbol/lib.vendor@4.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-BXVmiU0YbJe+og7YBH+D8yQxRpc=",
+  "_location": "/@sbol/lib.vendor",
+  "_phantomChildren": {
+    "deep-equal": "1.1.1",
+    "es6-error": "4.1.1",
+    "fbjs": "0.8.17",
+    "follow-redirects": "1.13.0",
+    "history": "4.10.1",
+    "hoist-non-react-statics": "2.5.5",
+    "invariant": "2.2.4",
+    "is-buffer": "1.1.6",
+    "is-promise": "2.2.2",
+    "lodash-es": "4.17.15",
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1",
+    "path-to-regexp": "1.8.0",
+    "prop-types": "15.7.2",
+    "symbol-observable": "1.2.0",
+    "warning": "3.0.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/lib.vendor@4.1.0",
+    "name": "@sbol/lib.vendor",
+    "escapedName": "@sbol%2flib.vendor",
+    "scope": "@sbol",
+    "rawSpec": "4.1.0",
+    "saveSpec": null,
+    "fetchSpec": "4.1.0"
+  },
+  "_requiredBy": [
+    "/@sbol/utils"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/lib.vendor/-/lib.vendor-4.1.0.tgz",
+  "_shasum": "057566894d186c97bea20ed8047f83f324314697",
+  "_spec": "@sbol/lib.vendor@4.1.0",
+  "_where": "/Users/a18338302/git/dummy/node_modules/@sbol/utils",
+  "author": {
+    "name": "JSC SberTech"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Николай Серебренников",
+      "email": "NNSerebrennikov.SBT@sberbank.ru"
+    },
+    {
+      "name": "Станислав Черенков",
+      "email": "SACherenkov.SBT@sberbank.ru"
+    },
+    {
+      "name": "Дмитрий Кузнецов",
+      "email": "DMKuznetsov.SBT@sberbank.ru"
+    }
+  ],
+  "dependencies": {
+    "axios": "0.16.2",
+    "bignumber.js": "4.1.0",
+    "bluebird": "3.5.2",
+    "classlist-polyfill": "1.0.3",
+    "classnames": "2.2.6",
+    "core-js": "2.5.7",
+    "i18next": "8.4.3",
+    "immutable": "3.8.2",
+    "lodash": "4.17.10",
+    "moment": "2.18.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.1",
+    "react-redux": "5.0.7",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "redux": "3.7.2",
+    "redux-form": "7.0.4",
+    "redux-thunk": "2.2.0",
+    "reselect": "3.0.1"
+  },
+  "deprecated": false,
+  "description": "Разделяемые вендорные модули",
+  "devDependencies": {
+    "@sbol/webpack-config": "~11.2.2",
+    "babel-eslint": "^7.2.3",
+    "core-js-builder": "~2.4.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^3.19.0",
+    "git-rev-sync": "~1.8.0",
+    "gulp": "~3.9.1",
+    "gulp-concat": "~2.6.1",
+    "gulp-flatten": "~0.3.1",
+    "gulp-header": "~1.8.8",
+    "gulp-install": "^0.6.0",
+    "gulp-less": "^3.0.5",
+    "gulp-rename": "~1.2.2",
+    "gulp-sourcemaps": "~2.4.0",
+    "gulp-uglify": "~2.0.1",
+    "gulp-util": "^3.0.7",
+    "karma": "~1.7.0",
+    "modernizr": "~3.3.1",
+    "rimraf": "~2.5.4",
+    "run-sequence": "~1.2.2",
+    "webpack": "~2.2.1"
+  },
+  "license": "UNLICENSED",
+  "main": "dist/vendor.min.js",
+  "name": "@sbol/lib.vendor",
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbol_npm_release/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.243:8878/sbtsbol-frontend/lib.vendor.git"
+  },
+  "scripts": {
+    "build": "node node_modules/gulp/bin/gulp production",
+    "clean": "node node_modules/gulp/bin/gulp clean",
+    "prepublish": "node node_modules/cross-env/dist/bin/cross-env NODE_ENV=development node node_modules/gulp/bin/gulp default",
+    "production": "node node_modules/gulp/bin/gulp production",
+    "test": "cross-env NODE_ENV=development TESTING=true TESTING_COVERAGE=true node --max-old-space-size=4096 node_modules/karma/bin/karma start --single-run --browsers Chrome --browserNoActivityTimeout 60000 karma.config.js"
+  },
+  "version": "4.1.0"
+}

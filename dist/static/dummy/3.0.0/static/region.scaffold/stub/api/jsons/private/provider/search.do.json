@@ -1,0 +1,183 @@
+{
+  "response": {
+    "payments": {
+      "payment": [
+        {
+          "provider": {
+            "name": "ООО &#034;ЭЙВОН БЬЮТИ ПРОДАКТС КОМПАНИ&#034;",
+            "id": 8
+          },
+          "isBarSupported": false,
+          "service": {
+            "name": "-красота",
+            "id": 8,
+            "codeService": 6
+          },
+          "autoPaymentSupported": false,
+          "INN": 7708234256,
+          "accountNumber": "40702810900020115522",
+          "category": {
+            "imgURL": {
+              "staticImage": {
+                "url": "https://test.stat.online.sberbank.ru/psi/node1/PhizIC-res/39.0/commonSkin/images/payment_service/prochie.jpg"
+              }
+            },
+            "description": "Страхование и инвестиции",
+            "id": 964,
+            "title": "Страхование и инвестиции"
+          },
+          "billing": 3
+        },
+        {
+          "provider": {
+            "img": {
+              "dbImage": {
+                "id": 289,
+                "updated": "19.06.2013T12:28:11"
+              }
+            },
+            "name": "Ростелеком (Уральский филиал)",
+            "id": 26
+          },
+          "isBarSupported": false,
+          "service": {
+            "img": {
+              "dbImage": {
+                "id": 289,
+                "updated": "19.06.2013T12:28:11"
+              }
+            },
+            "name": "Телефония",
+            "id": 26,
+            "codeService": 38
+          },
+          "autoPaymentSupported": false,
+          "INN": 123456789012,
+          "accountNumber": "40703810249500110095",
+          "category": {
+            "imgURL": {
+              "staticImage": {
+                "url": "https://test.stat.online.sberbank.ru/psi/node1/PhizIC-res/39.0/commonSkin/images/payment_service/swyaz.jpg"
+              }
+            },
+            "description": "Интернет и ТВ",
+            "id": 961,
+            "title": "Интернет и ТВ"
+          },
+          "billing": 4
+        },
+        {
+          "provider": {
+            "img": {
+              "dbImage": {
+                "id": 299,
+                "updated": "18.04.2015T15:51:07"
+              }
+            },
+            "name": "Южная телекоммуникационная компания",
+            "id": 27
+          },
+          "isBarSupported": false,
+          "service": {
+            "img": {
+              "dbImage": {
+                "id": 299,
+                "updated": "18.04.2015T15:51:07"
+              }
+            },
+            "name": "Телефония",
+            "id": 27,
+            "codeService": 41
+          },
+          "autoPaymentSupported": false,
+          "category": {
+            "imgURL": {
+              "staticImage": {
+                "url": "https://test.stat.online.sberbank.ru/psi/node1/PhizIC-res/39.0/commonSkin/images/payment_service/swyaz.jpg"
+              }
+            },
+            "description": "Интернет и ТВ",
+            "id": 961,
+            "title": "Интернет и ТВ"
+          },
+          "billing": 4
+        },
+        {
+          "provider": {
+            "img": {
+              "dbImage": {
+                "id": 290,
+                "updated": "05.06.2013T12:59:21"
+              }
+            },
+            "name": "Северо-Западный Телеком (Новгородский филиал)",
+            "id": 29
+          },
+          "isBarSupported": false,
+          "service": {
+            "img": {
+              "dbImage": {
+                "id": 290,
+                "updated": "05.06.2013T12:59:21"
+              }
+            },
+            "name": "Межрегиональный ТранзитТелеком",
+            "id": 29,
+            "codeService": 203
+          },
+          "autoPaymentSupported": true,
+          "category": {
+            "imgURL": {
+              "staticImage": {
+                "url": "https://test.stat.online.sberbank.ru/psi/node1/PhizIC-res/39.0/commonSkin/images/payment_service/swyaz.jpg"
+              }
+            },
+            "description": "Интернет и ТВ",
+            "id": 961,
+            "title": "Интернет и ТВ"
+          },
+          "billing": 4
+        },
+        {
+          "provider": {
+            "img": {
+              "dbImage": {
+                "id": 290,
+                "updated": "05.06.2013T12:59:21"
+              }
+            },
+            "name": "Северо-Западный Телеком (Псковский филиал)",
+            "id": 30
+          },
+          "isBarSupported": false,
+          "service": {
+            "img": {
+              "dbImage": {
+                "id": 290,
+                "updated": "05.06.2013T12:59:21"
+              }
+            },
+            "name": "Межрегиональный ТранзитТелеком",
+            "id": 30,
+            "codeService": 303
+          },
+          "autoPaymentSupported": false,
+          "category": {
+            "imgURL": {
+              "staticImage": {
+                "url": "https://test.stat.online.sberbank.ru/psi/node1/PhizIC-res/39.0/commonSkin/images/payment_service/swyaz.jpg"
+              }
+            },
+            "description": "Интернет и ТВ",
+            "id": 961,
+            "title": "Интернет и ТВ"
+          },
+          "billing": 4
+        }
+      ]
+    },
+    "status": {
+      "code": 0
+    }
+  }
+}

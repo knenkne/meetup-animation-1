@@ -1,0 +1,32 @@
+{
+  "id": "WorkflowFormUI/1.0/defs/DocumentPropertiesType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "DocumentPropertiesType": {
+      "description": "Set of key-value pairs to transport document system properties",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "documentId": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "templateId": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "srcDocumentId": {
+          "type": "string",
+          "maxLength": 256
+        }
+      },
+      "patternProperties": {
+        "^[A-Za-z]+$": {
+          "type": "string",
+          "maxLength": 256
+        }
+      },
+      "maxProperties": 256
+    }
+  }
+}

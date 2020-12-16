@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "body": {
+    "result": "EXTERNAL_RETURN",
+    "pid": "12345678987654321",
+    "url": "/wf-gate"
+  }
+}

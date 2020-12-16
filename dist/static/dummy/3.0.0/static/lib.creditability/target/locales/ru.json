@@ -1,0 +1,19 @@
+{
+  "info.title": "{{used}}% потенциала будет занято.",
+  "info.decision.high": "Высокая вероятность одобрения",
+  "info.advice.high": "Кредитная нагрузка не превышена.",
+  "info.decision.medium": "Средняя вероятность одобрения",
+  "info.advice.medium": "Рекомендуем уменьшить сумму или увеличить срок.",
+  "info.decision.low": "Низкая вероятность одобрения",
+  "info.advice.low": "Рекомендуем уменьшить сумму или увеличить срок.",
+  "info.scale.title": "{{used}}%",
+  "info.scale.subtitle": "Занято",
+  "product.title": "Узнайте свой кредитный потенциал",
+  "product.text": "Это бесплатно и не является заявкой на кредит",
+  "product.button": "Узнать",
+  "product.analytics.action": "Страница Кредиты",
+  "product.analytics.positive": "{system}/Виджет Кредитного потенциала/{status}_{action}",
+  "product.analytics.negative": "Виджет Кредитного потенциала/Ошибка/{error}_{action}",
+  "product.analytics.show": "Отображение",
+  "product.analytics.click": "Клик"
+}

@@ -1,0 +1,10 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+
+.text {
+    color: var(--black-60-a);
+}
+
+.marked {
+    color: var(--black);
+    font-weight: bold;
+}

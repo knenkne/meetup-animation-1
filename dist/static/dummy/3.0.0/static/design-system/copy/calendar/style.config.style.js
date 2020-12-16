@@ -1,0 +1,12 @@
+export const blockItemCircleWidth = '44px'
+export const blockItemWidth = '48px'
+export const blockItemHeight = '48px'
+export const blockHeaderHeight = '20px'
+export const blockBorderRadius = '5px'
+export const squareButtonWidth = '112px'
+export const squareButtonHeight = '44px'
+export const itemCircleBorderRadius = '50%'
+export const tableRowWidth = '336px'
+export const wrapperBorderRadius = '4px'
+export const wrapperHeight = '405px'
+

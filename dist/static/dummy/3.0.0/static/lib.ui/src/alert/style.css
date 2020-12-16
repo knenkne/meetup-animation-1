@@ -1,0 +1,89 @@
+@import '../utils/styles/semantic-palette.config.css';
+@import '../styles/colors.config.css';
+@import '../utils/styles/media.config.css';
+@import '../utils/styles/font-sizes.config.css';
+@import '../utils/styles/offsets.config.css';
+
+.alert {
+    position: relative;
+    padding: 20px 64px 40px;
+    border-bottom: solid 4px transparent;
+}
+
+.success {
+    border-bottom-color: var(--green-6);
+}
+
+.info {
+    border-bottom-color: var(--violet-5);
+}
+
+.error {
+    border-bottom-color: var(--orange-5);
+}
+
+.only-title {
+    padding-bottom: 20px;
+
+    .title {
+        margin-top: 8px;
+    }
+}
+
+.title {
+    margin: 0 0 8px;
+    font-size: var(--font-size-body-web);
+    line-height: var(--line-height-body-web);
+    letter-spacing: var(--letter-spacing-web);
+    font-weight: bold;
+    color: var(--text-main-color);
+}
+
+.description {
+    margin: 0;
+    text-align: left;
+    font-size: var(--font-size-caption-web);
+    line-height: var(--line-height-caption-web);
+    letter-spacing: var(--letter-spacing-web);
+    color: var(--text-main-color);
+}
+
+.actions {
+    padding: 0;
+    margin-top: var(--offset-md);
+
+    button { /* stylelint-disable-line selector-max-type, comment: предвосхищение специфики использования */
+        margin-right: var(--offset-md);
+    }
+
+    a { /* stylelint-disable-line selector-max-type, comment: предвосхищение специфики использования */
+        margin-right: var(--offset-md);
+    }
+
+    &:last-child {
+        padding-bottom: 0;
+        margin-right: 0;
+    }
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.alert:not(:last-child) {
+    border-bottom: none;
+}
+
+@media (--media-sm) {
+    .alert {
+        padding-left: 0;
+        padding-right: 32px;
+
+        .icon {
+            left: auto;
+            right: 0;
+        }
+    }
+}

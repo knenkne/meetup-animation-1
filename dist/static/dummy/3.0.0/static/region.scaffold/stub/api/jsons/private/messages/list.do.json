@@ -1,0 +1,105 @@
+{
+  "response": {
+    "Messages": {
+      "Message": [
+        {
+          "messageText": "<h3>Заголовок</h3><p>Текст сообщения</p>",
+          "pageKeys": {
+            "pageKey": ["pl-root", "pl-main-page"]
+          },
+          "importance": "hi",
+          "viewType": "top"
+        },
+        {
+          "messageText": "<h3>Только заголовок</h3>",
+          "pageKeys": {
+            "pageKey": "pl-root"
+          },
+          "importance": "medium",
+          "viewType": "top"
+        },
+        {
+          "messageText": "<p>Нет заголовка <a href=\"http://ya.ru\">href</a></p>",
+          "pageKeys": {
+            "pageKey": "pl-root"
+          },
+          "importance": "low",
+          "viewType": "top"
+        },
+        {
+          "messageText": "Никто и никогда",
+          "pageKeys": {
+            "pageKey": "main"
+          },
+          "importance": "LOW",
+          "viewType": "STATIC_MESSAGE"
+        },
+        {
+          "messageText": "Карта МИР",
+          "pageKeys": {
+            "pageKey": "main"
+          },
+          "importance": "HIGH",
+          "viewType": "STATIC_MESSAGE"
+        },
+        {
+          "messageText": "Приветствую тебя, о любезный моему сердцу Волька ибн Алеша!",
+          "pageKeys": {
+            "pageKey": [
+              "main",
+              "pl-main-page"
+            ]
+          },
+          "importance": "MEDIUM",
+          "viewType": "STATIC_MESSAGE"
+        },
+        {
+          "messageText": "Сообщение для проверки ошибки синхронизации",
+          "pageKeys": {
+            "pageKey": [
+              "main",
+              "accounts-list"
+            ]
+          },
+          "importance": "HIGH",
+          "viewType": "STATIC_MESSAGE"
+        },
+        {
+          "messageText": "Ещё не знаете о СберМобайл?",
+          "pageKeys": {
+            "pageKey": "main"
+          },
+          "importance": "LOW",
+          "viewType": "STATIC_MESSAGE"
+        },
+        {
+          "messageText": "Проверка UUID в сообщении",
+          "pageKeys": {
+            "pageKey": [
+              "accounts",
+              "accounts-graphic-abstract",
+              "main",
+              "accounts-payments",
+              "accounts-operations",
+              "accounts-list",
+              "accounts-info"
+            ]
+          },
+          "importance": "MEDIUM",
+          "viewType": "STATIC_MESSAGE"
+        },
+        {
+          "messageText": "ALM",
+          "pageKeys": {
+            "pageKey": "main"
+          },
+          "importance": "HIGH",
+          "viewType": "STATIC_MESSAGE"
+        }
+      ]
+    },
+    "status": {
+      "code": 0
+    }
+  }
+}

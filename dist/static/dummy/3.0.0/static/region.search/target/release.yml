@@ -1,0 +1,22 @@
+
+name: region.search
+description: 'Web UI Header Search region for Sberbank Online service'
+developers:
+    - MLFedorov@sberbank.ru
+revision: 42f7e8dde2bc2358c526c8070a480862a618b039
+build: 8
+version: 1.0.5  
+buildDate: 15.09.2020 - 14:49:31
+dependencies:
+    - lib.analytics/1.2.3
+    - lib.app/3.3.2
+    - lib.ui/4.7.12
+    - lib.vendor.axios/0.18.0
+    - lib.vendor.classnames/2.2.6
+    - lib.vendor.i18next/15.0.5
+    - lib.vendor.lodash/4.17.11
+    - lib.vendor.react/16.8.3
+    - lib.vendor.react-dom/16.8.3
+    - lib.vendor.react-redux/5.0.7
+    - lib.vendor.redux/4.0.1
+    - lib.vendor.redux-thunk/2.3.0

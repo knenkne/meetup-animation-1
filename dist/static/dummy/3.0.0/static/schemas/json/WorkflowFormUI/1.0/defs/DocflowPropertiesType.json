@@ -1,0 +1,40 @@
+{
+  "id": "WorkflowFormUI/1.0/defs/DocflowPropertiesType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "DocflowPropertiesType": {
+      "description": "Set of key-value pairs to transport document flow system properties",
+      "type": "object",
+      "properties": {
+        "flow": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "documentId": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "templateId": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "srcDocumentId": {
+          "type": "string",
+          "maxLength": 256
+        }
+      },
+      "patternProperties": {
+        "^(?=.{1,256}$)[A-Za-z]+$": {
+          "type": "string",
+          "maxLength": 256
+        }
+      },
+      "additionalProperties": false,
+      "maxProperties": 256
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiKey": "ID приложения",
+    "deviceVendor": "Производитель устройства",
+    "deviceModel": "Модель устройства",
+    "deviceMemorySize": "Размер внутренней памяти устройства (в первую очередь актуально для iOS-устройств)",
+    "operationSystem": "Операционная система устройства",
+    "operationSystemVersion": "Версия операционной системы устройства",
+    "platform": "Платформа (мобильное приложение, веб, планшет и прочее)",
+    "systemLanguage": "Язык в ОС",
+    "screenSize": "Размер экрана",
+    "browser": "Тип браузера",
+    "timeStamp": "Время отправки пакета в формате ISO 8601 (YYYYMMDDThhmmss.sss±hhmm)"
+  },
+  "profile": {
+    "deviceId": "ID устройства",
+    "sessionId": "ID сессии",
+    "hashUserLoginId": "Хэш от ID клиента ЕРИБ",
+    "hashEfsId": "Хэш от ID клиента ЕФС",
+    "hashEpkId": "Хэш от ID клиента ЕПК",
+    "clientBlock": "Номер блока клиента",
+    "appVersion": "Версия приложения",
+    "applicationLanguage": "Язык в приложении"
+  },
+  "data": [{
+    "geoLatitude": "Широта геопозиции",
+    "geoLongitude": "Долгота геопозиции",
+    "cellularProvider": "Название оператора сотовой связи",
+    "batteryLevel": "Уровень заряда батареи",
+    "connectionType": "Тип связи (wifi/сотовая связь)",
+    "internalIP": "Внутренний IP",
+    "eventCategory": "Категория действия",
+    "eventAction": "Название действия",
+    "eventType": "Тип пользовательского события (TAP)",
+    "value": "Значение",
+    "timeStamp": "Время срабатывания события в формате ISO 8601 (YYYYMMDDThhmmss.sss±hhmm)"
+  }]
+}

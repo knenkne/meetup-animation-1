@@ -1,0 +1,892 @@
+{
+  "response": {
+    "operations": {
+      "operation": [
+        {
+          "date": "29.01.2020T14:25:04" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000974820&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -222.50 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          },
+          "commission": {
+            "amount": 0.1,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          },
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -222.50 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000974820 ,
+          "state": "EXECUTED" ,
+          "to": "Сберегательный счет 40817810338123157258" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "29.01.2020T08:33:56" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "waitConfirm" ,
+          "description": "Перевод на карту в другом банке" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=WAIT_CONFIRM&id=3000974603&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -444.43 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "id": 3000974603 ,
+          "state": "WAIT_CONFIRM" ,
+          "to": "**** 5196" ,
+          "stateDescription": "Подтвердите в контактном центре" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Подтвердите новый суточный лимит расходов в Контактном центре: 900, для мобильных телефонов; +7 (495) 500-55-50 или 8 800 555-55-50, для мобильных и городских телефонов." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "28.01.2020T16:35:38" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "draft" ,
+          "description": "Перевод клиенту Сбербанка" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=SAVED&id=3000974502&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -1234 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "MIR 2202 20\u2022\u2022 \u2022\u2022\u2022\u2022 5430" ,
+          "id": 3000974502 ,
+          "state": "SAVED" ,
+          "to": "ИЛЬЯ АНДРЕЕВИЧ Р.                                                        5228 60\u2022\u2022 \u2022\u2022\u2022\u2022 5830" ,
+          "stateDescription": "Черновик" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка заполнена частично или полностью и сохранена. Для начала обработки заявки банком ее необходимо подтвердить." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "28.01.2020T15:27:00" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод на карту в другом банке" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=EXECUTED&id=3000974456&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -444.43 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -494.43 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000974456 ,
+          "state": "EXECUTED" ,
+          "to": "**** 5196" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "14.01.2020T12:23:34" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000941297&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -100 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "MIR 2202 20\u2022\u2022 \u2022\u2022\u2022\u2022 5430" ,
+          "nationalAmount": {
+            "amount": -100 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000941297 ,
+          "state": "EXECUTED" ,
+          "to": "Сберегательный счет 40817810638123157262" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "13.01.2020T16:47:45" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000932131&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -1000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -1000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000932131 ,
+          "state": "EXECUTED" ,
+          "to": "Сберегательный счет 40817810438123157268" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "13.01.2020T13:54:05" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "draft" ,
+          "description": "Перевод клиенту Сбербанка" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=SAVED&id=3000931890&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -100 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "MIR 2202 20\u2022\u2022 \u2022\u2022\u2022\u2022 5430" ,
+          "id": 3000931890 ,
+          "state": "SAVED" ,
+          "to": "НАТАЛЬЯ АЛЕКСАНДРОВНА Г.                                                        4274 32\u2022\u2022 \u2022\u2022\u2022\u2022 5269" ,
+          "stateDescription": "Черновик" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка заполнена частично или полностью и сохранена. Для начала обработки заявки банком ее необходимо подтвердить." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "13.01.2020T13:40:57" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "draft" ,
+          "description": "Перевод клиенту Сбербанка" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=SAVED&id=3000931885&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -1000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "MIR 2202 20\u2022\u2022 \u2022\u2022\u2022\u2022 5430" ,
+          "id": 3000931885 ,
+          "state": "SAVED" ,
+          "to": "НАТАЛЬЯ АЛЕКСАНДРОВНА Г.                                                        4274 32\u2022\u2022 \u2022\u2022\u2022\u2022 5269" ,
+          "stateDescription": "Черновик" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка заполнена частично или полностью и сохранена. Для начала обработки заявки банком ее необходимо подтвердить." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "25.12.2019T16:17:50" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод на карту в другом банке" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=EXECUTED&id=3000911974&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -100 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -101 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000911974 ,
+          "state": "EXECUTED" ,
+          "to": "**** 5269" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "20.12.2019T15:07:26" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000906311&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -155.68 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -155.68 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000906311 ,
+          "state": "EXECUTED" ,
+          "to": "Сберегательный счет 40817810338123157258" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "19.12.2019T15:14:25" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000906135&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -300 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -300 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000906135 ,
+          "state": "EXECUTED" ,
+          "to": "Сберегательный счет 40817810338123156974" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "18.11.2019T18:25:53" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод на карту в другом банке" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=EXECUTED&id=3000885353&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -100 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -101 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000885353 ,
+          "state": "EXECUTED" ,
+          "to": "**** 5269" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "18.11.2019T18:23:50" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000885352&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -100 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Сберегательный счет 40817810938123149860" ,
+          "nationalAmount": {
+            "amount": -100 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000885352 ,
+          "state": "EXECUTED" ,
+          "to": "Сберегательный счет 40817810338123156974" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "14.10.2019T15:20:00" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Создание автоперевода" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=CreateP2PAutoTransferClaim&stateCode=EXECUTED&id=3000861345&history=true" ,
+          "copyable": false ,
+          "form": "CreateP2PAutoTransferClaim" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -5000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -5000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000861345 ,
+          "state": "EXECUTED" ,
+          "to": "ДЕНИС АЛИ Ч.                                                        5336 69\u2022\u2022 \u2022\u2022\u2022\u2022 2267" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": false ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "14.10.2019T15:17:00" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод клиенту Сбербанка" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=EXECUTED&id=3000861341&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -25000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -25000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000861341 ,
+          "state": "EXECUTED" ,
+          "to": "ДЕНИС АЛИ Ч.                                                        5336 69\u2022\u2022 \u2022\u2022\u2022\u2022 2267" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "06.08.2019T12:09:36" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "waiting" ,
+          "description": "Создание автоперевода" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=CreateP2PAutoTransferClaim&stateCode=DISPATCHED&id=3000814990&history=true" ,
+          "copyable": false ,
+          "form": "CreateP2PAutoTransferClaim" ,
+          "creationChannel": "mobile" ,
+          "invoiceReminderSupported": false ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "id": 3000814990 ,
+          "state": "DISPATCHED" ,
+          "to": "5469 01\u2022\u2022 \u2022\u2022\u2022\u2022 7307" ,
+          "stateDescription": "Исполняется банком" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": false ,
+          "stateHint": "Заявка подтверждена и исполняется банком." ,
+          "isMobilePayment": true
+        } ,
+        {
+          "date": "06.08.2019T12:09:15" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "draft" ,
+          "description": "Создание автоперевода" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=CreateP2PAutoTransferClaim&stateCode=INITIAL_LONG_OFFER&id=3000814989&history=true" ,
+          "copyable": false ,
+          "form": "CreateP2PAutoTransferClaim" ,
+          "creationChannel": "mobile" ,
+          "invoiceReminderSupported": false ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "id": 3000814989 ,
+          "state": "INITIAL_LONG_OFFER" ,
+          "to": "5469 01\u2022\u2022 \u2022\u2022\u2022\u2022 7307" ,
+          "stateDescription": "Черновик" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": false ,
+          "stateHint": "Заявка заполнена частично или полностью и сохранена. Для начала обработки заявки банком ее необходимо подтвердить." ,
+          "isMobilePayment": true
+        } ,
+        {
+          "date": "26.07.2019T10:24:19" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод клиенту Сбербанка" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=EXECUTED&id=3000802398&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "mobile" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -255 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -255 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000802398 ,
+          "state": "EXECUTED" ,
+          "to": "АЛЕКСАНДР ГРИГОРЬЕВИЧ З.                                                        5469 38\u2022\u2022 \u2022\u2022\u2022\u2022 3026" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": true
+        } ,
+        {
+          "date": "26.07.2019T10:23:37" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000802396&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "mobile" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -150000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -150000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000802396 ,
+          "state": "EXECUTED" ,
+          "to": "Сберегательный счет 40817810938123149860" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": true
+        } ,
+        {
+          "date": "03.06.2019T10:30:50" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000736691&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "mobile" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -5 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -5 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000736691 ,
+          "state": "EXECUTED" ,
+          "to": "MasterCard Mass 5469 01\u2022\u2022 \u2022\u2022\u2022\u2022 7307" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": true
+        } ,
+        {
+          "date": "20.05.2019T12:48:43" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод клиенту Сбербанка" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=RurPayment&stateCode=EXECUTED&id=3000720147&history=true" ,
+          "copyable": true ,
+          "form": "RurPayment" ,
+          "creationChannel": "mobile" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -300 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -300 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000720147 ,
+          "state": "EXECUTED" ,
+          "to": "АЛЕКСАНДР ГРИГОРЬЕВИЧ З.                                                        5469 38\u2022\u2022 \u2022\u2022\u2022\u2022 3026" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": true
+        } ,
+        {
+          "date": "19.04.2019T15:00:59" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000663258&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "mobile" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -5555 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -5555 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000663258 ,
+          "state": "EXECUTED" ,
+          "to": "MIR 2202 20\u2022\u2022 \u2022\u2022\u2022\u2022 5430" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": true
+        } ,
+        {
+          "date": "19.04.2019T14:58:50" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000663255&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "mobile" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -555 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -555 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000663255 ,
+          "state": "EXECUTED" ,
+          "to": "MasterCard Mass 5469 01\u2022\u2022 \u2022\u2022\u2022\u2022 7307" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": true
+        } ,
+        {
+          "date": "10.04.2019T17:51:02" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "executed" ,
+          "description": "Перевод между своими счетами" ,
+          "type": "payment" ,
+          "url": "/PhizIC/private/payments/default-action.do?objectFormName=InternalPayment&stateCode=EXECUTED&id=3000660430&history=true" ,
+          "copyable": true ,
+          "form": "InternalPayment" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "operationAmount": {
+            "amount": -25000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "from": "Visa Classic 4276 38\u2022\u2022 \u2022\u2022\u2022\u2022 4423" ,
+          "nationalAmount": {
+            "amount": -25000 ,
+            "currency": {
+              "code": "RUB" ,
+              "name": "руб."
+            }
+          } ,
+          "id": 3000660430 ,
+          "state": "EXECUTED" ,
+          "to": "MIR 2202 20\u2022\u2022 \u2022\u2022\u2022\u2022 5430" ,
+          "stateDescription": "Исполнен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "" ,
+          "templatable": true ,
+          "stateHint": "Заявка исполнена банком." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "27.03.2019T15:11:03" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "cancel" ,
+          "description": "Госуслуги: Перевод пенсии в Сбербанк" ,
+          "type": "ufsPayment" ,
+          "url": "/sbtsbol/private/history?documentType=UfsStateServicesPensionTransfer&documentId=psi1_0000000000000006173" ,
+          "copyable": false ,
+          "form": "UfsStateServicesPensionTransfer" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "id": 0 ,
+          "state": "ERROR" ,
+          "stateDescription": "Ошибка Срок подтверждения регистрации на портале Госуслуг истёк или превышено количество попыток ввода кода. Чтобы воспользоваться услугой, отправьте новое заявление." ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "psi1_0000000000000006173" ,
+          "templatable": false ,
+          "stateHint": "При подаче заявления произошла ошибка Срок подтверждения регистрации на портале Госуслуг истёк или превышено количество попыток ввода кода. Чтобы воспользоваться услугой, отправьте новое заявление." ,
+          "isMobilePayment": false
+        } ,
+        {
+          "date": "27.03.2019T15:09:07" ,
+          "autopayable": false ,
+          "isArchive": false ,
+          "stateStyle": "cancel" ,
+          "description": "Госуслуги: Перевод пенсии в Сбербанк" ,
+          "type": "ufsPayment" ,
+          "url": "/sbtsbol/private/history?documentType=UfsStateServicesPensionTransfer&documentId=psi1_0000000000000006171" ,
+          "copyable": false ,
+          "form": "UfsStateServicesPensionTransfer" ,
+          "creationChannel": "internet" ,
+          "invoiceReminderSupported": false ,
+          "id": 0 ,
+          "state": "ERROR" ,
+          "stateDescription": "Ошибка процесса. Информации в профиле Госуслуг недостаточно для отправки заявления или она отличается от данных в Сбербанке. Внесите информацию о своем паспорте и номере СНИЛС в профиле Госуслуг и проверьте совпадение данных при повторной подаче заявлен" ,
+          "invoiceSubscriptionSupported": false ,
+          "ufsId": "psi1_0000000000000006171" ,
+          "templatable": false ,
+          "stateHint": "При подаче заявления произошла ошибка процесса. Информации в профиле Госуслуг недостаточно для отправки заявления или она отличается от данных в Сбербанке. Внесите информацию о своем паспорте и номере СНИЛС в профиле Госуслуг и проверьте совпадение данных при повторной подаче заявлен" ,
+          "isMobilePayment": false
+        }
+      ]
+    } ,
+    "status": {
+      "code": 0
+    }
+  }
+}

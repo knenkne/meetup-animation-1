@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CapacityScale /> renders correctly with used 1`] = `
+<svg
+  className="someClass"
+  height={128}
+  viewBox="0 0 128 128"
+  width={128}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <Path
+    color="#000000"
+    filled={100}
+    theme="background"
+  />
+  <Path
+    color="#FF0000"
+    filled={70}
+    theme="filled"
+  />
+</svg>
+`;
+
+exports[`<CapacityScale /> renders correctly with used 2`] = `
+<svg
+  className="someClass"
+  height={128}
+  viewBox="0 0 128 128"
+  width={128}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <Path
+    color="#000000"
+    filled={100}
+    theme="background"
+  />
+</svg>
+`;

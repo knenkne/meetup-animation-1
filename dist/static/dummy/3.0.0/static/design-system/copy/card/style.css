@@ -1,0 +1,102 @@
+@import '../utils/styles/semantic-palette.config.css';
+@import '../styles/colors.config.css';
+@import '../styles/radius.config.css';
+@import '../utils/styles/font-sizes.config.css';
+@import '../utils/styles/offsets.config.css';
+@import '../utils/styles/media.config.css';
+
+.container {
+    display: flex;
+    background-color: var(--white);
+}
+
+.banner {
+    min-height: 152px;
+    padding-right: 24px;
+    border-radius: var(--xs-border-radius);
+    box-shadow: var(--common-shadow);
+
+    &.success {
+        background: var(--green-0);
+    }
+
+    &.warning {
+        background: var(--gray-0);
+    }
+
+    &.error {
+        background: var(--orange-0);
+    }
+
+    &.info {
+        background: var(--violet-0);
+    }
+
+    .content {
+        padding: 32px;
+        flex-grow: 1;
+    }
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.description {
+    margin: 0;
+    margin-top: 16px;
+    text-align: left;
+    font-size: var(--font-size-body-web);
+    line-height: var(--line-height-body-web);
+    letter-spacing: var(--letter-spacing-web);
+    color: var(--text-support-color);
+}
+
+.actions {
+    margin-top: 24px;
+}
+
+.image-container {
+    position: relative;
+    width: 224px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: auto;
+}
+
+@media (--media-sm) {
+    .banner {
+        padding-right: 0;
+        border-radius: 0;
+        box-shadow: none;
+
+        .content {
+            padding-right: 12px;
+        }
+    }
+
+    .image-container {
+        width: 160px;
+    }
+
+    .no-image {
+        .content {
+            padding-right: 32px;
+        }
+
+        .image-container {
+            width: 0;
+            display: none;
+        }
+    }
+}

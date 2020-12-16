@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru-RU" class="no-js">
+<head>
+    {{>"3.0/partials/meta.hbs"}}
+    {{>"3.0/script/scale.hbs"}}
+    <style>
+        {{>"3.0/styles/error.css"}}
+    </style>
+</head>
+<body>
+    <article class="error">
+        <a href="/main" class="error-main-url">
+            {{>"3.0/partials/logo.hbs"}}
+        </a>
+        <div class="error-image">
+            <img src="{{design30.resourcesUrl}}/common/{{design30.assetsCommonVersion}}/img/errors/error-500.png" srcSet="{{design30.resourcesUrl}}/common/{{design30.assetsCommonVersion}}/img/errors/error-500_2x.png 2x, {{design30.resourcesUrl}}/common/{{design30.assetsCommonVersion}}/img/errors/error-500_3x.png 3x" role="presentation" alt="">
+        </div>
+        <h1>
+            Ошибка сервера
+        </h1>
+        <p>
+            При выполнении вашего запроса что&#8209;то&nbsp;пошло&nbsp;не&nbsp;так
+        </p>
+        <button class="error-btn" type="button" onclick="window.location.reload()">Обновите страницу</button>
+        <a class="error-link" href="/main">Вернуться на главную</a>
+    </article>
+</body>
+</html>

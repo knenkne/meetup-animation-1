@@ -1,0 +1,31 @@
+@import './colors.config.css';
+
+/* INPUT */
+:root {
+    /* WIDTH */
+    --common-border-width: 1px;
+    --focus-shadow-width: 1px;
+    --menu-shadow-width: 2px;
+
+    /* STYLE */
+    --common-border-style: solid;
+    --readonly-border-style: dashed;
+
+    /* COLOR */
+    --common-border-color: var(--gray-3);
+    --hover-border-color: var(--gray-5);
+    --focus-border-color: var(--gray-9);
+    --error-border-color: var(--orange-5);
+
+    /* COMMON */
+    /* Сделаное через box-shadow для плавного перехода */
+    --input-border: var(--common-border-width) var(--common-border-style) var(--common-border-color);
+    --input-focus-border: inset 0 0 0 var(--focus-shadow-width) var(--focus-border-color);
+    --list-focus-border: inset 0 0 0 var(--menu-shadow-width) var(--focus-border-color);
+
+    /* ERROR */
+    --input-focus-error-border: inset 0 0 0 var(--focus-shadow-width) var(--error-border-color);
+
+    /* READONLY */
+    --input-readonly-border: var(--common-border-width) var(--readonly-border-style) var(--hover-border-color);
+}

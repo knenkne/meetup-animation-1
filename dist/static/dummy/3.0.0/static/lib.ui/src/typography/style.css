@@ -1,0 +1,149 @@
+@import '../utils/styles/font-sizes.config.css';
+@import '../styles/colors.config.css';
+@import '../utils/styles/semantic-palette.config.css';
+@import '../utils/styles/media.config.css';
+
+:root {
+    --margin-bottom: 8px;
+}
+
+.headline {
+    font-size: var(--font-size-headline1-web);
+    line-height: var(--line-height-headline1-web);
+    letter-spacing: var(--letter-spacing-second-web);
+    margin: 0 0 var(--margin-bottom);
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: var(--font-size-headline2-web);
+    line-height: var(--line-height-headline2-web);
+    letter-spacing: var(--letter-spacing-second-web);
+    font-weight: 600;
+}
+
+.h3 {
+    font-size: var(--font-size-headline3-web);
+    line-height: var(--line-height-headline3-web);
+    font-weight: 600;
+}
+
+.h4 {
+    font-size: var(--font-size-headline4-web);
+    line-height: var(--line-height-headline4-web);
+    font-weight: 600;
+}
+
+.h5 {
+    font-size: var(--font-size-headline5-web);
+    line-height: var(--line-height-headline5-web);
+    font-weight: 600;
+}
+
+.banner {
+    font-size: var(--font-size-headline-banner-web);
+    line-height: var(--line-height-headline-banner-web);
+    letter-spacing: var(--letter-spacing-web);
+    font-weight: bold;
+}
+
+.caption {
+    color: var(--text-main-color);
+    font-size: var(--font-size-caption-web);
+    line-height: var(--line-height-caption-web);
+    letter-spacing: var(--letter-spacing-web);
+    margin: 0;
+
+    &-semibold {
+        composes: caption;
+        font-weight: 600;
+    }
+}
+
+.subheader {
+    color: var(--text-main-color);
+    font-size: var(--font-size-body-web);
+    line-height: var(--line-height-body-web);
+    font-weight: 600;
+    margin: 0 0 var(--margin-bottom);
+}
+
+.uppercase {
+    color: var(--text-main-color);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 var(--margin-bottom);
+}
+
+.body {
+    color: var(--text-main-color);
+    font-size: var(--font-size-body-web);
+    line-height: var(--line-height-body-web);
+    letter-spacing: var(--letter-spacing-web);
+    font-weight: normal;
+
+    &-semibold {
+        composes: body;
+        font-weight: 600;
+    }
+}
+
+.description {
+    color: var(--text-support-color);
+    font-size: var(--font-size-caption-web);
+    line-height: var(--line-height-caption-web);
+    letter-spacing: var(--letter-spacing-web);
+    font-weight: normal;
+}
+
+.bodysmall {
+    color: var(--text-main-color);
+    font-size: var(--font-size-caption-web);
+    line-height: var(--line-height-caption-web);
+}
+
+/* ColorSchemes */
+
+.black {
+    color: var(--text-main-color);
+}
+
+.dark-gray {
+    color: var(--gray-70-alpha);
+}
+
+.gray {
+    color: var(--gray-55-alpha);
+}
+
+.green {
+    color: var(--green-5);
+}
+
+.orange {
+    color: var(--orange-5);
+}
+
+.white {
+    color: var(--white);
+}
+
+.red {
+    color: var(--red-5);
+}
+
+/* неактуальные цвета для 3.0 */
+
+.white-blue {
+    color: var(--grey-steel-lite);
+}
+
+.dark-blue {
+    color: var(--dark-blue-10);
+}
+
+.black-opaque {
+    color: var(--text-caption-color);
+}

@@ -1,0 +1,72 @@
+@import '../../style.config.css';
+
+.quarters {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.item {
+    composes: style-main-button;
+    composes: style-main-button-squared;
+    width: var(--table-row-width);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--offset-lg);
+    transition: color 0s ease;
+    overflow: visible;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &::before {
+        border: 1px solid var(--no-color);
+    }
+
+    &:hover {
+        &:active {
+            &::before {
+                background-color: var(--green-5);
+                border: 1px solid var(--no-color);
+            }
+
+            .month {
+                color: var(--white);
+            }
+        }
+    }
+
+    &-now {
+        &::before {
+            border: 1px solid var(--green-5);
+            opacity: 1;
+        }
+    }
+
+    &-active {
+        composes: style-main-button-active;
+
+        &::before {
+            border: 1px solid var(--no-color);
+        }
+
+        &:hover::before {
+            background-color: var(--green-5);
+            border: 1px solid var(--no-color);
+        }
+
+        .month {
+            color: var(--white);
+        }
+    }
+}
+
+.month {
+    width: 80px;
+    text-transform: capitalize;
+    display: block;
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    pointer-events: none;
+}

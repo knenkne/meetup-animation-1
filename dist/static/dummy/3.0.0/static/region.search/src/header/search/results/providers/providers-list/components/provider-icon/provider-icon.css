@@ -1,0 +1,31 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+
+.icon {
+    display: flex;
+    align-items: center;
+    height: 74px;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 20px;
+}
+
+.default-image {
+    font-size: 34px;
+
+    & svg {
+        width: 32px;
+    }
+}
+
+.merchant-image {
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 50%;
+}
+
+@media (--media-md) {
+    .icon {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}

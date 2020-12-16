@@ -1,0 +1,115 @@
+{
+  "_from": "@sbol/brokkr@0.10.4",
+  "_id": "@sbol/brokkr@0.10.4",
+  "_inBundle": false,
+  "_integrity": "sha1-WjXSli6GysNiziOlCYDugDzcWoA=",
+  "_location": "/@sbol/brokkr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/brokkr@0.10.4",
+    "name": "@sbol/brokkr",
+    "escapedName": "@sbol%2fbrokkr",
+    "scope": "@sbol",
+    "rawSpec": "0.10.4",
+    "saveSpec": null,
+    "fetchSpec": "0.10.4"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/brokkr/-/brokkr-0.10.4.tgz",
+  "_shasum": "5a35d2962e86cac362ce23a50980ee803cdc5a80",
+  "_spec": "@sbol/brokkr@0.10.4",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": "",
+  "bin": {
+    "brokkr": "./bin/brokkr"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "assert": "^1.4.1",
+    "axe-core": "~3.1.2",
+    "chalk": "~2.4.2",
+    "cucumber": "^4.2.1",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "make-dir": "3.0.0",
+    "request-promise": "^4.2.2",
+    "wdio-allure-reporter": "^0.6.0",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-visual-regression-service": "~0.8.0",
+    "webdriverio": "^4.12.0"
+  },
+  "deprecated": false,
+  "description": "SBOL helper for UI, A11Y, integration testing",
+  "devDependencies": {
+    "@sbol/eslint-config": "^2.4.1",
+    "@sbol/jest-config": "~1.2.2",
+    "@sbol/whitelist": "~0.8.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "jest": "~24.9.0",
+    "jest-junit": "~8.0.0"
+  },
+  "engines": {
+    "node": "8.* || 10.*"
+  },
+  "jest": {
+    "preset": "@sbol/jest-config"
+  },
+  "jest-junit": {
+    "outputName": "reports/tests/TESTS-junit.xml",
+    "suiteName": "@sbol/brokkr",
+    "suiteNameTemplate": "{filepath}",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}",
+    "ancestorSeparator": " › "
+  },
+  "license": "ISC",
+  "main": "src/index.js",
+  "name": "@sbol/brokkr",
+  "peerDependencies": {
+    "@sbol/webpack-config": "^10.0.0 || ^11.0.0 || ^12.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol/brokkr.git"
+  },
+  "scripts": {
+    "build": "exit 0",
+    "eslint": "npx eslint --ext .js,.jsx .",
+    "test": "npx jest --coverage",
+    "test:all": "npm run test:visual-regression && npm run test:tag:feature && npm run test:tag:scenario",
+    "test:debug": "node ./bin/brokkr --debug --chrome-driver-version 2.36",
+    "test:dev": "node ./bin/brokkr --chrome-driver-version 2.36",
+    "test:ift:sigma": "node ./bin/brokkr --env ift_sigma --chrome-driver-version 2.36",
+    "test:ift:sigma:server": "node ./bin/brokkr --debug --env ift_sigma --selenium-server=\"http://10.36.9.21:4444/wd/hub\" --chrome-driver-version 2.36 --tag-expression=\"@ift-sigma-tests\"",
+    "test:mocha": "mocha --recursive ./src/**/ --reporter spec",
+    "test:tag:feature": "node ./bin/brokkr --chrome-driver-version 2.36 --tag-expression \"@tag-expression and not @tag-expression-skip-feature\"",
+    "test:tag:scenario": "node ./bin/brokkr --chrome-driver-version 2.36 --tag-expression \"@tag-expression and not @tag-expression-skip-scenario\"",
+    "test:visual-regression": "node ./bin/brokkr --chrome-driver-version 2.36 --tag-expression \"@visual-regression\"",
+    "whitelist:dv": "npx whitelist --root --check-list depVersions"
+  },
+  "scriptsDescription": {
+    "test:visual-regression": {
+      "description": "Проверка исполнения визуальной регрессии",
+      "expected": "7 success, 7 total"
+    },
+    "test:tag:feature": {
+      "description": "Проверка работы тегов на уровне фич",
+      "expected": "0 success, 0 total"
+    },
+    "test:tag:scenario": {
+      "description": "Проверка работы тегов на уровне сценариев",
+      "expected": "2 success, 2 total"
+    }
+  },
+  "version": "0.10.4"
+}

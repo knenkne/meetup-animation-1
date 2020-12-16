@@ -1,0 +1,11 @@
+@import '@sbol/lib.ui/src/utils/styles/colors.config.css';
+
+.panel {
+    background-color: var(--white);
+    border: var(--blue);
+    position: absolute;
+    width: 100%;
+    margin-top: -66px;
+    box-shadow: 0 25px 31px 0 rgba(29, 29, 118, 0.06);
+    border-radius: 5px;
+}

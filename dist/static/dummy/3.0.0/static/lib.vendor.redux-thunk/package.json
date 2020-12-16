@@ -1,0 +1,74 @@
+{
+  "_from": "@sbol/lib.vendor.redux-thunk@2.3.0",
+  "_id": "@sbol/lib.vendor.redux-thunk@2.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-s7CBLNcLgLdMjNvWBuGj+JBAOWo=",
+  "_location": "/@sbol/lib.vendor.redux-thunk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/lib.vendor.redux-thunk@2.3.0",
+    "name": "@sbol/lib.vendor.redux-thunk",
+    "escapedName": "@sbol%2flib.vendor.redux-thunk",
+    "scope": "@sbol",
+    "rawSpec": "2.3.0",
+    "saveSpec": null,
+    "fetchSpec": "2.3.0"
+  },
+  "_requiredBy": [
+    "/",
+    "/@sbol/lib.offers",
+    "/@sbol/lib.widgets.core",
+    "/@sbol/lib.widgets.core/@sbol/lib.workflow",
+    "/@sbol/lib.widgets.web",
+    "/@sbol/lib.widgets.web/@sbol/lib.workflow",
+    "/@sbol/lib.workflow",
+    "/@sbol/promo",
+    "/@sbol/region.offers",
+    "/@sbol/region.scaffold",
+    "/@sbol/region.search"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/lib.vendor.redux-thunk/-/lib.vendor.redux-thunk-2.3.0.tgz",
+  "_shasum": "b3b0812cd70b80b74c8cdbd606e1a3f89040396a",
+  "_spec": "@sbol/lib.vendor.redux-thunk@2.3.0",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "PJSC Sberbank"
+  },
+  "bundleDependencies": false,
+  "contributors": [],
+  "dependencies": {
+    "redux-thunk": "2.3.0"
+  },
+  "deprecated": false,
+  "description": "AMD redux-thunk vendor module",
+  "devDependencies": {
+    "@gfx/zopfli": "^1.0.11",
+    "@sbol/eslint-config": "^2.3.1",
+    "@sbol/karma-config": "git+ssh://git@10.21.25.60:8878/plsbol/karma-config.git#master",
+    "compression-webpack-plugin": "^2.0.0",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.19.1",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "~4.16.3"
+  },
+  "license": "UNLICENSED",
+  "main": "target/index.js",
+  "name": "@sbol/lib.vendor.redux-thunk",
+  "publishConfig": {
+    "registry": "http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol-libs/lib.vendor.react.git"
+  },
+  "scripts": {
+    "build": "npm run development && npm run production",
+    "development": "npx cross-env NODE_ENV=development node src/build.js",
+    "production": "npx cross-env NODE_ENV=production node src/build.js",
+    "test": "npx karma start --single-run --browserNoActivityTimeout 60000 karma.config.js && exit 0"
+  },
+  "version": "2.3.0"
+}

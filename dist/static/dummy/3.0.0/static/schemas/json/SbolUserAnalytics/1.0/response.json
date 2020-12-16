@@ -1,0 +1,48 @@
+{
+  "id": "SbolUserAnalytics/1.0/response.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Sberbank Analytics standard response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "error": {
+    "$ref": "#/definitions/JAXRSErrorType"
+  },
+  "definitions": {
+    "JAXRSErrorType": {
+      "description": "JAX-RS standard container for system errors",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "code": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "system": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "text": {
+          "type": "string",
+          "maxLength": 512
+        }
+      },
+      "required": [
+        "uuid",
+        "code"
+      ]
+    }
+  }
+}

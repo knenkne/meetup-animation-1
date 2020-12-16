@@ -1,0 +1,61 @@
+@import '../../utils/styles/semantic-palette.config.css';
+@import '../../utils/styles/standard.config.css';
+@import '../../styles/radius.config.css';
+@import '../../styles/semantic.config.css';
+
+.text {
+    border-radius: var(--input-border-radius);
+    border: var(--input-border);
+    transition: var(--box-color-transition);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--input-color);
+    height: 56px;
+    padding: 15px;
+    background-color: var(--input-bg-color);
+    width: 100%;
+    display: block;
+    outline: none;
+    font-weight: 600;
+    resize: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    max-height: 100%;
+
+    &::placeholder {
+        color: var(--placeholder-color);
+    }
+
+    &:hover {
+        border-color: var(--hover-border-color);
+    }
+
+    &.error {
+        border-color: var(--error-border-color);
+    }
+
+    body:not(:global(.pointer-events)) &:focus {
+        border-color: var(--focus-border-color);
+        box-shadow: var(--input-focus-border);
+
+        &.error {
+            border-color: var(--error-border-color);
+            box-shadow: var(--input-focus-error-border);
+        }
+    }
+
+    &:disabled {
+        background-color: var(--disabled-bg-color);
+        border: 0 none;
+        color: var(--disabled-input-color);
+    }
+
+    &.readonly {
+        border: var(--input-readonly-border);
+        background-color: var(--input-bg-color);
+        color: var(--input-color);
+
+        /* Readonly safari */
+        -webkit-text-fill-color: var(--input-color);
+    }
+}

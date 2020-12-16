@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "de9d9380-8f1a-11e7-861c-97ee935a8de4",
+    "flow": "superFlow",
+    "state": "step2",
+    "output": {
+      "document": {
+        "documentId": "1504273122489"
+      },
+      "fields": {
+        "some:field": "some:value"
+      }
+    },
+    "history": [
+      {
+        "id": "de9d9381-8f1a-11e7-861c-97ee935a8de4",
+        "flow": "superFlow",
+        "state": "step1",
+        "title": "Параметры поездки",
+        "value": "value",
+        "status": "ACTIVE"
+      }
+    ]
+  }
+}

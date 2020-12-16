@@ -1,0 +1,23 @@
+.queries {
+    padding-top: 35px;
+    margin-block-start: 0;
+    margin-bottom: 0;
+    flex: 1;
+    list-style-type: none;
+    padding-right: 23px;
+    padding-left: 0;
+    border-right: 1px solid #d8d8d8;
+}
+
+.item {
+    margin-top: 16px;
+    cursor: pointer;
+
+    &:last-of-type {
+         margin-bottom: 32px;
+    }
+
+    &:hover {
+         text-decoration: underline;
+    }
+}

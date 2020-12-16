@@ -1,0 +1,24 @@
+
+name: region.offers
+description: 'Region implementation for offers'
+developers:
+    - kuznetsov.d.mikhaylo@sberbank.ru
+    - tupitskiy.i.ni@sberbank.ru
+    - leontyeva.t.vladi@sberbank.ru
+revision: 46d0eb7d1a0bfc64679218e4ba57d88def7db571
+build: 21
+version: 0.0.6  
+buildDate: 06.10.2020 - 11:11:30
+dependencies:
+    - lib.app/3.4.0
+    - lib.ui/4.7.17
+    - lib.vendor.axios/0.18.0
+    - lib.vendor.classnames/2.2.6
+    - lib.vendor.i18next/15.0.5
+    - lib.vendor.lodash/4.17.11
+    - lib.vendor.react/16.12.0
+    - lib.vendor.react-dom/16.12.0
+    - lib.vendor.react-redux/5.0.7
+    - lib.vendor.redux/4.0.1
+    - lib.vendor.redux-form/7.4.2
+    - lib.vendor.redux-thunk/2.3.0

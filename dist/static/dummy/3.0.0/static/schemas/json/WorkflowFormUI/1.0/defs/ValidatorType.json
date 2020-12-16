@@ -1,0 +1,36 @@
+{
+  "id": "WorkflowFormUI/1.0/defs/ValidatorType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "ValidatorType": {
+      "description": "Field validation description",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "regexp",
+            "minLength",
+            "maxLength",
+            "required",
+            "minValue",
+            "maxValue"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "maxLength": 512
+        },
+        "message": {
+          "type": "string",
+          "maxLength": 512
+        }
+      },
+      "required": [
+        "type",
+        "value",
+        "message"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

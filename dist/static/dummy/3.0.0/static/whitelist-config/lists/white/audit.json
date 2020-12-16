@@ -1,0 +1,514 @@
+[
+  {
+    "path": ["@sbol/webpack-config@*", "karma@^1", "debug@^2"],
+    "id": 534
+  },
+  {
+    "path": ["@sbol/webpack-config@*", "karma@^1", "ws@^1"],
+    "id": 550
+  },
+  {
+    "path": ["karma@^1", "lodash@^3"],
+    "id": 577
+  },
+  {
+    "path": ["karma-webpack@*", "lodash@^3"],
+    "id": 577
+  },
+  {
+    "path": ["lodash@^4"],
+    "comment": "Низкая критичность для разработки (отнаследовано от lib.vendor)",
+    "id": 577
+  },
+  {
+    "path": ["lodash@*"],
+    "comment": "Низкая критичность для разработки (отнаследовано от lib.vendor)",
+    "id": 782
+  },
+  {
+    "path": ["karma-coverage@^1", "lodash@^3"],
+    "id": 577
+  },
+  {
+    "path": ["cli-table2@*", "lodash@^3"],
+    "id": 577
+  },
+  {
+    "path": ["@sbol/lib.vendor@*", "lodash@^4"],
+    "comment": "Низкая критичность для разработки",
+    "id": 577
+  },
+  {
+    "path": ["plato@*", "lodash@^4"],
+    "comment": "В сборщике статистики некритично",
+    "id": 577
+  },
+  {
+    "path": ["@sbol/whitelist@*", "lodash@^3"],
+    "comment": "Whitelist не работает с уязвимым функционалом",
+    "id": 577
+  },
+  {
+    "path": ["@sbol/whitelist@*", "lodash@^4"],
+    "comment": "Whitelist не работает с уязвимым функционалом",
+    "id": 577
+  },
+  {
+    "path": ["@sbol/webpack-config@*", "karma@^1", "parsejson@^0"],
+    "id": 528
+  },
+  {
+    "path": ["@sbol/common@*", "gulp@^3", "minimatch@^0"],
+    "comment": "Не влияет на сборку статических ресурсов",
+    "id": 118
+  },
+  {
+    "path": ["@sbol/common@*", "gulp@^3", "minimatch@^2"],
+    "comment": "Не влияет на сборку статических ресурсов",
+    "id": 118
+  },
+  {
+    "path": ["@sbol/lib.vendor@*", "gulp@^3", "minimatch@^0"],
+    "comment": "Не влияет на сборку вендоров",
+    "id": 118
+  },
+  {
+    "path": ["@sbol/lib.vendor@*", "gulp@^3", "minimatch@^2"],
+    "comment": "Не влияет на сборку вендоров",
+    "id": 118
+  },
+  {
+    "path": ["karma-coverage@*", "minimatch@^0"],
+    "comment": "Репорт не страдает",
+    "id": 118
+  },
+  {
+    "path": ["karma-coverage@*", "minimatch@^2"],
+    "comment": "Репорт не страдает",
+    "id": 118
+  },
+  {
+    "path": ["postcss-variables-loader-sbtsbol@*", "minimatch@^0"],
+    "comment": "Лоадер переменных не страдает",
+    "id": 118
+  },
+  {
+    "path": ["postcss-variables-loader-sbtsbol@*", "minimatch@^2"],
+    "comment": "Лоадер переменных не страдает",
+    "id": 118
+  },
+  {
+    "path": ["webpack-visualizer-plugin@*", "minimatch@^0"],
+    "comment": "Визуалайзер не страдает",
+    "id": 118
+  },
+  {
+    "path": ["webpack-visualizer-plugin@*", "minimatch@^2"],
+    "comment": "Визуалайзер не страдает",
+    "id": 118
+  },
+  {
+    "path": ["@sbol/common@*", "gulp@^3", "lodash@^1"],
+    "comment": "Не влияет на сборку статических ресурсов",
+    "id": 577
+  },
+  {
+    "path": ["@sbol/lib.vendor@*", "gulp@^3", "lodash@^1"],
+    "comment": "Не влияет на сборку вендоров",
+    "id": 577
+  },
+  {
+    "path": ["mocha@^3", "growl@^1"],
+    "comment": "Некритично при unit-тестов",
+    "id": 146
+  },
+  {
+    "path": ["webdriverio@*", "rgb2hex@*"],
+    "comment": "Некритично при использовании автотестов",
+    "id": 647
+  },
+  {
+    "path": ["karma@>=1", "tough-cookie@^2"],
+    "comment": "Карма не генерирует зловреные cookies, которые не смог бы мгновенно обработать ее же сервер",
+    "id": 525
+  },
+  {
+    "path": ["@sbol/webpack-config@*", "tough-cookie@^2"],
+    "comment": "Конфиг вебпака не генерирует зловреные cookies, которые не смог бы мгновенно обработать ее же сервер",
+    "id": 525
+  },
+  {
+    "path": ["modernizr@^3", "marked@*"],
+    "comment": "Marked используется только для вывода данных на локальной машине",
+    "id": 101
+  },
+  {
+    "path": ["modernizr@^3", "marked@*"],
+    "comment": "Marked используется только для вывода данных на локальной машине",
+    "id": 531
+  },
+  {
+    "path": ["atob@*"],
+    "comment": "Не используйте node@4, она слишком устарела",
+    "id": 646
+  },
+  {
+    "path": ["npm@^5", "http-proxy-agent@^2"],
+    "comment": "npm не использует уязвимый функционал",
+    "id": 607
+  },
+  {
+    "path": ["npm@^5", "https-proxy-agent@^2"],
+    "comment": "npm не использует уязвимый функционал",
+    "id": 593
+  },
+  {
+    "path": ["plato@*", "lodash@^3"],
+    "comment": "plato не используется в продакшне",
+    "id": 577
+  },
+  {
+    "path": ["npm@^5", "ssri@^4"],
+    "comment": "npm не использует уязвимый функционал",
+    "id": 565
+  },
+  {
+    "path": ["npm@^5", "ssri@^5"],
+    "comment": "npm не использует уязвимый функционал",
+    "id": 565
+  },
+  {
+    "path": ["moment@^2"],
+    "comment": "Сами себе не враги, используется в вендорах, низкая критичность, такую регулярку довольно сложно уронить ненамеренно",
+    "id": 532
+  },
+  {
+    "path": ["debug@*"],
+    "comment": "Низкой критичности уязвимость ReDoS, применяемая преимущественно в бэк-проверках",
+    "id": 534
+  },
+  {
+    "path": ["webpack-dev-server@*", "url-parse@*"],
+    "comment": "Уязвиомсть некритична в dev режиме",
+    "id": 678
+  },
+  {
+    "path": ["react-dev-utils@*", "url-parse@*"],
+    "comment": "Уязвиомсть некритична в dev режиме",
+    "id": 678
+  },
+  {
+    "path": ["hoek@*"],
+    "comment": "Расширение прототипа от Hoek.merge не критичен, ибо применяется в инфрастуктуре",
+    "id": 566
+  },
+  {
+    "path": ["fill-range@*", "randomatic@^1"],
+    "comment": "Предсказуемая рандомность некритична в инсраструктуре",
+    "id": 157
+  },
+  {
+    "path": ["mime@*"],
+    "comment": "ReDoS в инфраструктуре не важен",
+    "id": 535
+  },
+  {
+    "path": ["karma@*", "ws@*"],
+    "comment": "Unit-тесты некритичны",
+    "id": 550
+  },
+  {
+    "path": ["karma@*", "parsejson@0.0.3"],
+    "comment": "Со временем необходимо убрать разрешение. Parsejson нельзя использовать, но его уязвимость некритична",
+    "id": 528
+  },
+  {
+    "path": ["css-loader@*", "uniqid@*", "macaddress@^0"],
+    "comment": "Не используется уязвимый функционал",
+    "id": 654
+  },
+  {
+    "path": ["request@^2", "sshpk@^1"],
+    "comment": "ReDoS в либе, которая на фронт не тянется, то есть относится к инфраструктуре",
+    "id": 606
+  },
+  {
+    "path": ["react-dev-utils@*"],
+    "comment": "Дев утилиты реакта некритичны (Remote Code Execution)",
+    "id": 695
+  },
+  {
+    "path": ["@sbol/webpack-config@*", "stringstream@*"],
+    "comment": "В инфраструктуре некритично, при достижении критичности - быстро фиксится",
+    "id": 664
+  },
+  {
+    "path": ["@sbol/brokkr@*", "stringstream@*"],
+    "comment": "В инфраструктуре некритично, при достижении критичности - быстро фиксится",
+    "id": 664
+  },
+  {
+    "path": ["karma@*", "stringstream@*"],
+    "comment": "В инфраструктуре некритично, при достижении критичности - быстро фиксится",
+    "id": 664
+  },
+  {
+    "path": ["npm@*", "stringstream@*"],
+    "comment": "В инфраструктуре некритично, при достижении критичности - быстро фиксится",
+    "id": 664
+  },
+  {
+    "path": ["deep-extend@*"],
+    "comment": "Расширение прототипа от deepExtend не критичен, ибо применяется в инфрастуктуре",
+    "id": 612
+  },
+  {
+    "path": ["webpack-dev-server@^1", "open@^0"],
+    "comment": "Дев сервер не использует injection",
+    "id": 663
+  },
+  {
+    "path": ["@sbol/webpack-config@*", "tunnel-agent@*"],
+    "comment": "Экспозиция данных в инфрастуктуре доступна в инструментах",
+    "id": 598
+  },
+  {
+    "path": ["@sbol/brokkr@*", "tunnel-agent@*"],
+    "comment": "Экспозиция данных в инфрастуктуре доступна в инструментах",
+    "id": 598
+  },
+  {
+    "path": ["mixin-deep@*"],
+    "comment": "Расширение прототипа от mixinDeep не критичен, ибо применяется в инфрастуктуре",
+    "id": 578
+  },
+  {
+    "path": ["webpack-dev-server@*"],
+    "comment": "Пакет используется для dev разработки в закрытой извне сети",
+    "id": 725
+  },
+  {
+    "path": ["jest@^23", "merge@*"],
+    "comment": "Мердж при тестировании",
+    "id": 722
+  },
+  {
+    "path": ["@sbol/webpack-config@*", "cryptiles@*"],
+    "comment": "Для заглушки. Ей некритичен равномерный разброс рандомных значений",
+    "id": 720
+  },
+  {
+    "path": ["@sbol/brokkr@*", "cryptiles@*"],
+    "comment": "Для автотестов. Им некритичен равномерный разброс рандомных значений",
+    "id": 720
+  },
+  {
+    "path": ["karma@*", "braces@*"],
+    "comment": "Дев.окружение",
+    "id": 786
+  },
+  {
+    "path": ["jest@*", "braces@*"],
+    "comment": "Дев.окружение",
+    "id": 786
+  },
+  {
+    "path": ["stylelint@*", "braces@*"],
+    "comment": "Дев.окружение",
+    "id": 786
+  },
+  {
+    "path": ["jest-enzyme@*", "braces@*"],
+    "comment": "Дев.окружение",
+    "id": 786
+  },
+  {
+    "path": ["jest-junit@*", "braces@*"],
+    "comment": "Дев.окружение",
+    "id": 786
+  },
+  {
+    "path": ["webpack-dev-server@*", "braces@*"],
+    "comment": "Дев.окружение",
+    "id": 786
+  },
+  {
+    "path": ["babel-plugin-istanbul@*", "braces@*"],
+    "comment": "Дев.окружение",
+    "id": 786
+  },
+  {
+    "path": ["@sbol/webpack-config@*", "handlebars@*"],
+    "comment": "Дев.окружение",
+    "id": 755
+  },
+  {
+    "path": ["@sbol/karma-config@*", "handlebars@*"],
+    "comment": "Дев.окружение",
+    "id": 755
+  },
+  {
+    "path": ["@sbol/webpage.provider.templates@*", "handlebars@*"],
+    "comment": "Дев.окружение",
+    "id": 755
+  },
+  {
+    "path": ["jest@*", "handlebars@*"],
+    "comment": "Дев.окружение",
+    "id": 755
+  },
+  {
+    "path": ["conventional-changelog@*", "handlebars@*"],
+    "comment": "Дев.окружение",
+    "id": 755
+  },
+  {
+    "path": ["remarkable@*", "underscore.string@*"],
+    "comment": "Доверяем себе",
+    "id": 745
+  },
+  {
+    "path": ["html-webpack-plugin@*", "clean-css@*"],
+    "comment": "Влияет только на сборку",
+    "id": 785
+  },
+  {
+    "path": ["jest-extended@*", "braces@*"],
+    "comment": "Дев.окружение",
+    "id": 786
+  },
+  {
+    "path": ["lodash@*"],
+    "comment": "defaultsDeep не используем, используем деструктуризацию",
+    "id": 1065
+  },
+  {
+    "path": ["axios@*"],
+    "comment": "Не используем maxContentLength, размеры ответов согласованы",
+    "id": 880
+  },
+  {
+    "path": ["webpack@*", "set-value@*"],
+    "comment": "Вебпак не может быть использован в целях управления уязвимостью, используется только на этапе сборки",
+    "id": 1012
+  },
+  {
+    "path": ["karma@*", "set-value@*"],
+    "comment": "Карма не может быть использован в целях управления уязвимостью, используется только на этапе тестирования",
+    "id": 1012
+  },
+  {
+    "path": ["@sbol/dev.server@*", "set-value@*"],
+    "comment": "Девсервер не может быть использован в целях управления уязвимостью, используется только на этапе разработки",
+    "id": 1012
+  },
+  {
+    "path": ["chokidar@*", "set-value@*"],
+    "comment": "WDIO не может быть использован в целях управления уязвимостью, используется только на этапе тестирования",
+    "id": 1012
+  },
+  {
+    "path": ["webpack@*", "mixin-deep@*"],
+    "comment": "Вебпак не может быть использован в целях управления уязвимостью, используется только на этапе сборки",
+    "id": 1013
+  },
+  {
+    "path": ["@sbol/dev.server@*", "mixin-deep@*"],
+    "comment": "Девсервер не может быть использован в целях управления уязвимостью, используется только на этапе разработки",
+    "id": 1013
+  },
+  {
+    "path": ["karma@*", "mixin-deep@*"],
+    "comment": "Карма не может быть использован в целях управления уязвимостью, используется только на этапе тестирования",
+    "id": 1013
+  },
+  {
+    "path": ["chokidar@*", "mixin-deep@*"],
+    "comment": "WDIO не может быть использован в целях управления уязвимостью, используется только на этапе тестирования",
+    "id": 1013
+  },
+  {
+    "path": ["@sbol/jest-config@*", "set-value@*"],
+    "comment": "Jest не может быть использован в целях управления уязвимостью, используется только на этапе тестирования",
+    "id": 1012
+  },
+  {
+    "path": ["@sbol/jest-config@*", "mixin-deep@*"],
+    "comment": "Jest не может быть использован в целях управления уязвимостью, используется только на этапе тестирования",
+    "id": 1013
+  },
+  {
+    "path": ["svgo@*", "js-yaml@*"],
+    "comment": "svgo использует safe load без уязвимостей",
+    "id": 813
+  },
+  {
+    "path": ["eslint@*", "js-yaml@*"],
+    "id": 813
+  },
+  {
+    "path": ["gulp-postcss@*", "js-yaml@*"],
+    "id": 813
+  },
+  {
+    "path": ["jest@*", "js-yaml@*"],
+    "id": 813
+  },
+  {
+    "path": ["eslint@*", "js-yaml@*"],
+    "id": 788
+  },
+  {
+    "path": ["gulp-postcss@*", "js-yaml@*"],
+    "id": 788
+  },
+  {
+    "path": ["jest@*", "js-yaml@*"],
+    "id": 788
+  },
+  {
+    "path": ["svgo@*", "js-yaml@*"],
+    "comment": "svgo конфигурации в json, yaml не используется, хоть и возможен",
+    "id": 788
+  },
+  {
+    "path": ["istanbul@*", "js-yaml@*"],
+    "id": 813
+  },
+  {
+    "path": ["husky@*", "js-yaml@*"],
+    "id": 813
+  },
+  {
+    "path": ["postcss-loader@*", "js-yaml@*"],
+    "id": 813
+  },
+  {
+    "path": ["postcss-loader@*", "js-yaml@*"],
+    "id": 788
+  },
+  {
+    "path": ["husky@*", "js-yaml@*"],
+    "id": 788
+  },
+  {
+    "path": ["istanbul@*", "js-yaml@*"],
+    "id": 788
+  },
+  {
+    "path": ["webpack-bundle-analyzer@*"],
+    "id": 826
+  },
+  {
+    "path": ["lodash.merge@*"],
+    "id": 1066
+  },
+  {
+    "path": ["tar@*"],
+    "id": 803
+  },
+  {
+    "path": ["jsdoc@*", "marked@*"],
+    "id": 812
+  }
+]

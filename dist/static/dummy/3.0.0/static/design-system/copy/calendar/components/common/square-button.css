@@ -1,0 +1,19 @@
+@import '../../style.config.css';
+
+.item {
+    min-width: 80px;
+    height: 24px;
+    text-transform: capitalize;
+    composes: style-main-button;
+    composes: style-main-button-squared;
+
+    &-active {
+        composes: style-main-button-active;
+        border-radius: var(--block-border-radius);
+    }
+
+    &-now {
+        composes: style-main-button-now;
+        composes: style-main-button-squared;
+    }
+}

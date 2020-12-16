@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stages /> Рендерит children 1`] = `
+<ul
+  className="stages centered"
+>
+  <li
+    translations={
+      Object {
+        "tooltip": "Вы здесь",
+      }
+    }
+    value={1}
+  />
+</ul>
+`;

@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "123456789-pid",
+    "flow": "/main",
+    "state": "step3",
+    "output": {
+      "document": {
+        "documentId": "123456789-documentId"
+      },
+      "screens": [
+        {
+          "title": "Третий шаг процесса",
+          "widgets": [
+            {
+              "type": "CoreFieldset",
+              "fields": [
+                {
+                  "id": "flow:id:three",
+                  "value": "",
+                  "type": "text",
+                  "title": "Филд3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "name": "step2",
+          "type": "rollback"
+        }
+      ]
+    },
+    "history": [
+      {
+        "flow": "/main",
+        "id": "step3",
+        "state": "step3",
+        "status": "ACTIVE",
+        "title": "Третий шаг процесса",
+        "value": "value"
+      },
+      {
+        "flow": "/main",
+        "id": "step2",
+        "state": "step2",
+        "status": "ACTIVE",
+        "title": "Второй шаг процесса",
+        "value": "value"
+      },
+      {
+        "id": "step1",
+        "flow": "/main",
+        "state": "step1",
+        "title": "Первый шаг процесса",
+        "value": "value",
+        "status": "ACTIVE"
+      }
+    ]
+  }
+}

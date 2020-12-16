@@ -1,0 +1,9 @@
+dist
+reports
+node_modules
+stub
+target
+
+**/*.spec.js
+**/*.spec.jsx
+tests

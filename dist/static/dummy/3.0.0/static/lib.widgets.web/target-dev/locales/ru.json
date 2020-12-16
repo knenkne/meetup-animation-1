@@ -1,0 +1,22 @@
+{
+    "action.close": "Закрыть",
+    "checkbox.checked": "Да",
+    "checkbox.unchecked": "Нет",
+    "product.range.from": "от",
+    "product.range.to": "до",
+    "request.error": "Ошибка запроса",
+    "request.no.matches": "Совпадений не найдено",
+    "request.repeat": "Повторить",
+    "request.timeout": "Пожалуйста, подождите или повторите запрос еще раз",
+    "summary.action.collapse": "Скрыть",
+    "summary.action.expand": "Показать",
+    "summary.action.rollback": "Редактировать",
+    "summary.commission.default.error": "Ошибка. Комиссия будет рассчитана позже",
+    "summary.commission.default.none": "Комиссия не взымается",
+    "summary.commission.default.pending": "Идет рассчет комиссии",
+    "summary.commission.default.success": "Включая комиссию",
+    "go.to.vsp": "Обратитесь в офис Сбербанка",
+    "fast.action.timer.wait": "Подождите",
+    "select.from.list": "Выберите из списка",
+    "a11y.show.options": "Показать опции"
+}

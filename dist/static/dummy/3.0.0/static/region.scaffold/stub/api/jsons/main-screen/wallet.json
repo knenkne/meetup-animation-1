@@ -1,0 +1,803 @@
+{
+  "success": true,
+  "body": {
+    "sections": {
+      "insurance": {
+        "title": "Страхование и защита",
+        "order": 2,
+        "data": [],
+        "url": "link.may/be/here",
+        "state": "NOT_REQUESTED"
+      },
+      "wallet": {
+        "title": "Кошелёк",
+        "order": 4,
+        "sectionProductData": {
+          "cards": {
+            "title": "",
+            "url": "link.may/be/here",
+            "order": 1,
+            "state": "SUCCESS",
+            "data": [
+              {
+                "id": 858415,
+                "name": "Visa Classic",
+                "description": "Visa Classic",
+                "number": "4276 38** **** 4256",
+                "selfEmployed": false,
+                "isMain": false,
+                "isCTA": true,
+                "mainCardId": 987654,
+                "type": "debit",
+                "availableLimit": {
+                  "amount": "2342.73",
+                  "currency": {
+                    "code": "RUB",
+                    "name": "руб."
+                  }
+                },
+                "state": "active",
+                "cardAccount": "40817810538260132486",
+                "arrested": false,
+                "showArrestDetail": true,
+                "isc": false,
+                "isAllowedPriorityP2P": true,
+                "tokenExists": false,
+                "expireDate": "08/2022",
+                "statusWay4": "+-null",
+                "options": {
+                  "setPINAvailable": true,
+                  "activationAvailable": false,
+                  "setPayrollAvailable": false,
+                  "closeCardAvailable": false,
+                  "isMultiCurrency": false,
+                  "multiCurrencyCardAvailable": false,
+                  "multiCurrencyCardAvailableCurrencies": ""
+                },
+                "rarelyUsed": false,
+                "realExpiryDate": "08/2022"
+              },
+              {
+                "id": 758415,
+                "name": "Любимая карта",
+                "description": "Любимая карта",
+                "number": "4276 38** **** 4444",
+                "selfEmployed": false,
+                "isMain": false,
+                "isCTA": true,
+                "mainCardId": 987654,
+                "type": "debit",
+                "availableLimit": {
+                  "amount": "2222.22",
+                  "currency": {
+                    "code": "RUB",
+                    "name": "руб."
+                  }
+                },
+                "state": "active",
+                "cardAccount": "40817810538260132486",
+                "arrested": false,
+                "showArrestDetail": true,
+                "isc": false,
+                "isAllowedPriorityP2P": true,
+                "tokenExists": false,
+                "expireDate": "08/2022",
+                "statusWay4": "+-null",
+                "options": {
+                  "setPINAvailable": true,
+                  "activationAvailable": false,
+                  "setPayrollAvailable": false,
+                  "closeCardAvailable": false,
+                  "isMultiCurrency": false,
+                  "multiCurrencyCardAvailable": false,
+                  "multiCurrencyCardAvailableCurrencies": ""
+                },
+                "rarelyUsed": false,
+                "realExpiryDate": "08/2022"
+              },
+              {
+                "realExpireDate": "05/2023",
+                "smsName": 3085,
+                "isMain": false,
+                "mainCardId": 232323,
+                "showarrestdetail": true,
+                "imageCode": "ghostCard",
+                "description": "Нелюбимая карта",
+                "type": "debit",
+                "number": "5555 38\u2022\u2022 \u2022\u2022\u2022\u2022 4242",
+                "tokenExists": false,
+                "name": "Нелюбимая карта",
+                "options": {
+                  "setPINAvailable": false,
+                  "closeCardAvailable": false,
+                  "setPayrollAvailable": false
+                },
+                "expireDate": "05/2023",
+                "id": 323232,
+                "state": "active",
+                "cardAccount": "40817810538260133333",
+                "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+                "isCTA": true
+              },
+              {
+              "id": 858418,
+              "name": "Visa Classic",
+              "description": "Visa Classic",
+              "number": "4276 38** **** 8866",
+              "selfEmployed": false,
+              "isMain": true,
+              "type": "debit",
+              "availableLimit": {
+                "amount": "30000.00",
+                "currency": {
+                  "code": "EUR",
+                  "name": "€"
+                }
+              },
+              "state": "active",
+              "cardAccount": "40817978738251103878",
+              "arrested": false,
+              "showArrestDetail": true,
+              "isc": false,
+              "tokenExists": false,
+              "expireDate": "10/2022",
+              "statusWay4": "+-null",
+              "options": {
+                "setPINAvailable": false,
+                "activationAvailable": false,
+                "setPayrollAvailable": false,
+                "closeCardAvailable": false,
+                "isMultiCurrency": false,
+                "multiCurrencyCardAvailable": false,
+                "multiCurrencyCardAvailableCurrencies": ""
+              },
+              "rarelyUsed": false,
+              "realExpiryDate": "10/2022"
+            },
+              {
+                "id": 858419,
+                "name": "Visa Gold",
+                "description": "Visa Gold",
+                "number": "4279 38** **** 6659",
+                "selfEmployed": false,
+                "isMain": true,
+                "type": "debit",
+                "availableLimit": {
+                  "amount": "-100.05",
+                  "currency": {
+                    "code": "RUB",
+                    "name": "руб."
+                  }
+                },
+                "state": "delivery",
+                "cardAccount": "40817810938251185712",
+                "arrested": false,
+                "showArrestDetail": true,
+                "isc": false,
+                "tokenExists": false,
+                "expireDate": "10/2022",
+                "statusWay4": "H-null",
+                "options": {
+                  "setPINAvailable": false,
+                  "activationAvailable": false,
+                  "setPayrollAvailable": false,
+                  "closeCardAvailable": false,
+                  "isMultiCurrency": false,
+                  "multiCurrencyCardAvailable": false,
+                  "multiCurrencyCardAvailableCurrencies": ""
+                },
+                "rarelyUsed": false,
+                "needRqDeliveryStatus": true,
+                "realExpiryDate": "10/2022"
+              }
+            ]
+          },
+          "ctaccounts": {
+            "title": "",
+            "url": "link.may/be/here",
+            "order": 2,
+            "state": "SUCCESS",
+            "data": [
+              {
+                "id": 987654,
+                "name": "Рублёвый счёт",
+                "description": "Описание счёта",
+                "number": "40817810538260132486",
+                "arrested": false,
+                "balance": {
+                  "amount": "1500000,00",
+                  "currency": {
+                    "code": "RUB",
+                    "name": "руб."
+                  }
+                },
+                "state": "active"
+              },
+              {
+                "id": 232323,
+                "name": "Зарплатный счёт",
+                "smsName": "Зарплатный счёт",
+                "description": "Описание счёта",
+                "number": "40817810538260133333",
+                "arrested": false,
+                "balance": {
+                  "amount": "1500,00",
+                  "currency": {
+                    "code": "RUB",
+                    "name": "руб."
+                  }
+                },
+                "state": "active"
+              },
+              {
+                "id": 242424,
+                "name": "Счёт для штрафов",
+                "smsName": "Счёт для штрафов",
+                "description": "Описание счёта",
+                "number": "40817810538260139876",
+                "arrested": true,
+                "balance": {
+                  "amount": "800,00",
+                  "currency": {
+                    "code": "RUB",
+                    "name": "руб."
+                  }
+                },
+                "state": "active"
+              }
+            ]
+          }
+        },
+        "url": "link.may/be/here",
+        "state": "SUCCESS"
+      },
+      "loans": {
+        "title": "Кредиты",
+        "order": 3,
+        "data": [],
+        "url": "link.may/be/here",
+        "state": "NOT_REQUESTED"
+      },
+      "rates": {
+        "title": "Курсы валют и металлов",
+        "order": 5,
+        "data": [],
+        "url": "link.may/be/here",
+        "state": "NOT_REQUESTED"
+      },
+      "imaccounts": {
+        "title": "Металлы",
+        "order": 8,
+        "data": [
+          {
+            "id": 126599,
+            "name": "Обезлич. мет. счета (платина)",
+            "number": "20309076238250400172",
+            "openDate": "27.01.2020T00:00:00",
+            "closeDate": "10.07.2020T00:00:00",
+            "balance": {
+              "amount": "1.00",
+              "currency": {
+                "code": "PTR",
+                "name": "г"
+              }
+            },
+            "availCash": {
+              "amount": "1.00",
+              "currency": {
+                "code": "PTR",
+                "name": "г"
+              }
+            },
+            "currency": "ПЛАТИНА В ГРАММАХ (PTR)",
+            "agreementNumber": "20309A76238250400172",
+            "state": "opened",
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 127056,
+            "name": "Обезлич. мет. счета (золото)",
+            "number": "20309098038250302322",
+            "openDate": "26.12.2019T00:00:00",
+            "closeDate": "10.07.2020T00:00:00",
+            "balance": {
+              "amount": "7.90",
+              "currency": {
+                "code": "AUR",
+                "name": "г"
+              }
+            },
+            "availCash": {
+              "amount": "7.90",
+              "currency": {
+                "code": "AUR",
+                "name": "г"
+              }
+            },
+            "currency": "ЗОЛОТО В ГРАММАХ (AUR)",
+            "agreementNumber": "20309A98038250302322",
+            "state": "opened",
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 127057,
+            "name": "Обезлич. мет. счета (золото)",
+            "number": "20309098138250302196",
+            "openDate": "21.11.2019T00:00:00",
+            "closeDate": "10.07.2020T00:00:00",
+            "balance": {
+              "amount": "1.40",
+              "currency": {
+                "code": "AUR",
+                "name": "г"
+              }
+            },
+            "availCash": {
+              "amount": "1.40",
+              "currency": {
+                "code": "AUR",
+                "name": "г"
+              }
+            },
+            "currency": "ЗОЛОТО В ГРАММАХ (AUR)",
+            "agreementNumber": "20309A98138250302196",
+            "state": "opened",
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 127058,
+            "name": "Обезлич. мет. счета (серебро)",
+            "number": "20309099038250400650",
+            "openDate": "25.11.2019T00:00:00",
+            "closeDate": "10.07.2020T00:00:00",
+            "balance": {
+              "amount": "30.00",
+              "currency": {
+                "code": "ARG",
+                "name": "г"
+              }
+            },
+            "availCash": {
+              "amount": "30.00",
+              "currency": {
+                "code": "ARG",
+                "name": "г"
+              }
+            },
+            "currency": "СЕРЕБРО В ГРАММАХ (ARG)",
+            "agreementNumber": "20309A99038250400650",
+            "state": "opened",
+            "arrested": false,
+            "showArrestDetail": true
+          }
+        ],
+        "state": "SUCCESS"
+      },
+      "telecoms": {
+        "title": "Мобильная связь",
+        "order": 10,
+        "data": [],
+        "state": "NOT_REQUESTED"
+      },
+      "accounts": {
+        "title": "Вклады и счета",
+        "order": 1,
+        "data": [
+          {
+            "id": 1435501,
+            "name": "Сберегательный счет",
+            "rate": "1.00",
+            "closeDate": "01.01.2099",
+            "number": "40817810338250127876",
+            "balance": {
+              "amount": "1970.99",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "availCash": {
+              "amount": "1970.99",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "state": "OPENED",
+            "moneyBoxAvailable": true,
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 1438644,
+            "name": "Сохраняй ОнЛ@йн 1г - 2г (руб.)",
+            "rate": "9.40",
+            "closeDate": "25.11.2020",
+            "number": "42306810838251139665",
+            "balance": {
+              "amount": "1060.16",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "availCash": {
+              "amount": "60.16",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "state": "OPENED",
+            "moneyBoxAvailable": false,
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 1440166,
+            "name": "Накопительный счет +",
+            "rate": "0.01",
+            "closeDate": "01.01.2099",
+            "number": "40817810738251182106",
+            "balance": {
+              "amount": "2078.93",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "availCash": {
+              "amount": "2078.93",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "state": "OPENED",
+            "moneyBoxAvailable": false,
+            "arrested": false,
+            "showArrestDetail": true,
+            "accountType": "AccumulativeAccountPlus"
+          },
+          {
+            "id": 1437456,
+            "name": "Пополняй ОнЛ@йн 1г - 2г (руб.)",
+            "rate": "9.20",
+            "closeDate": "25.10.2020",
+            "number": "42305810638251109317",
+            "balance": {
+              "amount": "4895.29",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "availCash": {
+              "amount": "190.79",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "state": "OPENED",
+            "moneyBoxAvailable": true,
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 1437457,
+            "name": "Сберегательный счет",
+            "rate": "0.01",
+            "closeDate": "01.01.2099",
+            "number": "40817810838250144786",
+            "balance": {
+              "amount": "0.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "availCash": {
+              "amount": "0.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "state": "OPENED",
+            "moneyBoxAvailable": true,
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 1437459,
+            "name": "Сберегательный счет",
+            "rate": "1.10",
+            "closeDate": "01.01.2099",
+            "number": "40817810138251182117",
+            "balance": {
+              "amount": "53288.77",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "availCash": {
+              "amount": "53288.77",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "state": "OPENED",
+            "moneyBoxAvailable": true,
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 1437460,
+            "name": "Сберегательный счет",
+            "rate": "0.01",
+            "closeDate": "01.01.2099",
+            "number": "40817810638250127877",
+            "balance": {
+              "amount": "0.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "availCash": {
+              "amount": "0.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "state": "OPENED",
+            "moneyBoxAvailable": true,
+            "arrested": false,
+            "showArrestDetail": true
+          },
+          {
+            "id": 1437453,
+            "name": "Управляй ОнЛ@йн 6м - 1г (вал.)",
+            "rate": "0.50",
+            "closeDate": "25.10.2020",
+            "number": "42305840438251101352",
+            "balance": {
+              "amount": "1022.79",
+              "currency": {
+                "code": "USD",
+                "name": "$"
+              }
+            },
+            "availCash": {
+              "amount": "22.79",
+              "currency": {
+                "code": "USD",
+                "name": "$"
+              }
+            },
+            "state": "OPENED",
+            "moneyBoxAvailable": true,
+            "arrested": false,
+            "showArrestDetail": true
+          }
+        ],
+        "url": "url",
+        "state": "SUCCESS"
+      },
+      "finances": {
+        "title": "Мои финансы",
+        "order": 6,
+        "data": [],
+        "state": "NOT_REQUESTED"
+      },
+      "investments": {
+        "title": "Инвестиции и пенсии",
+        "order": 7,
+        "data": [],
+        "url": "link.may/be/here",
+        "state": "NOT_REQUESTED"
+      },
+      "targets": {
+        "title": "Цели",
+        "order": 9,
+        "data": [
+          {
+            "type": "AUTO",
+            "id": 18239,
+            "name": "Автомобиль",
+            "comment": "Nissan Qashqai",
+            "date": "30.11.2020",
+            "amount": {
+              "amount": "100000.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "status": "accountEnabled",
+            "account": {
+              "id": 1439366,
+              "rate": "0.01",
+              "value": {
+                "amount": "0.00",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "availCash": {
+                "amount": "0.00",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "arrested": false,
+              "showArrestDetail": true
+            },
+            "statusDescription": "Информация о вкладе недоступна. Возможны две причины: задержка получения данных или вклад Вами был закрыт."
+          },
+          {
+            "type": "ESTATE",
+            "id": 17696,
+            "name": "Недвижимость",
+            "date": "30.04.2022",
+            "amount": {
+              "amount": "1000000.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "status": "claimNotConfirmed",
+            "statusDescription": "Для открытия вклада Вам необходимо подтвердить заявку."
+          },
+          {
+            "type": "OTHER",
+            "id": 17630,
+            "name": "Другая цель",
+            "date": "23.04.2020",
+            "amount": {
+              "amount": "3433.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "status": "claimNotConfirmed",
+            "statusDescription": "Для открытия вклада Вам необходимо подтвердить заявку."
+          },
+          {
+            "type": "HOLIDAYS",
+            "id": 17627,
+            "name": "Праздник",
+            "date": "23.04.2020",
+            "amount": {
+              "amount": "111.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "status": "claimNotConfirmed",
+            "statusDescription": "Для открытия вклада Вам необходимо подтвердить заявку."
+          },
+          {
+            "type": "OTHER",
+            "id": 17359,
+            "name": "Подгузники",
+            "date": "17.07.2020",
+            "amount": {
+              "amount": "100000.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "status": "accountEnabled",
+            "account": {
+              "id": 1435497,
+              "rate": "0.01",
+              "value": {
+                "amount": "150.00",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "availCash": {
+                "amount": "150.00",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "arrested": false,
+              "showArrestDetail": true
+            },
+            "statusDescription": "Информация о вкладе недоступна. Возможны две причины: задержка получения данных или вклад Вами был закрыт."
+          },
+          {
+            "type": "AUTO",
+            "id": 16861,
+            "name": "Автомобиль",
+            "comment": "Садовая тачка",
+            "date": "12.07.2020",
+            "amount": {
+              "amount": "10000.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "status": "accountEnabled",
+            "account": {
+              "id": 1437461,
+              "rate": "1.00",
+              "value": {
+                "amount": "7893.46",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "availCash": {
+                "amount": "7893.46",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "arrested": false,
+              "showArrestDetail": true
+            },
+            "statusDescription": "Информация о вкладе недоступна. Возможны две причины: задержка получения данных или вклад Вами был закрыт."
+          },
+          {
+            "type": "OTHER",
+            "id": 16860,
+            "name": "HQ<h1> Моя прелесть </h1>",
+            "date": "29.05.2020",
+            "amount": {
+              "amount": "10500.00",
+              "currency": {
+                "code": "RUB",
+                "name": "руб."
+              }
+            },
+            "status": "accountEnabled",
+            "account": {
+              "id": 1437455,
+              "rate": "1.00",
+              "value": {
+                "amount": "500.42",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "availCash": {
+                "amount": "500.42",
+                "currency": {
+                  "code": "RUB",
+                  "name": "руб."
+                }
+              },
+              "arrested": false,
+              "showArrestDetail": true
+            },
+            "statusDescription": "Информация о вкладе недоступна. Возможны две причины: задержка получения данных или вклад Вами был закрыт."
+          }
+        ],
+        "state": "SUCCESS"
+      }
+    }
+  }
+}

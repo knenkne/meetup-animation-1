@@ -1,0 +1,50 @@
+{
+  "_from": "@sbol/stylelint-config@~1.0.3",
+  "_id": "@sbol/stylelint-config@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-fLO5+y8NicKOZTGlVkZbzonmSZo=",
+  "_location": "/@sbol/stylelint-config",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@sbol/stylelint-config@~1.0.3",
+    "name": "@sbol/stylelint-config",
+    "escapedName": "@sbol%2fstylelint-config",
+    "scope": "@sbol",
+    "rawSpec": "~1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "~1.0.3"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/stylelint-config/-/stylelint-config-1.0.3.tgz",
+  "_shasum": "7cb3b9fb2f0d89c28e6531a556465bce89e6499a",
+  "_spec": "@sbol/stylelint-config@~1.0.3",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "JSC SberTech"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Formalized CSS Style Guide",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@sbol/stylelint-config",
+  "peerDependencies": {
+    "stylelint": "^8.2.0"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol/stylelint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}

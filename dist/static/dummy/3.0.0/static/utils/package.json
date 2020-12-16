@@ -1,0 +1,80 @@
+{
+  "_from": "@sbol/utils@0.0.6",
+  "_id": "@sbol/utils@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha1-lZoCliLmjgL2UITchchXpabeQvs=",
+  "_location": "/@sbol/utils",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@sbol/utils@0.0.6",
+    "name": "@sbol/utils",
+    "escapedName": "@sbol%2futils",
+    "scope": "@sbol",
+    "rawSpec": "0.0.6",
+    "saveSpec": null,
+    "fetchSpec": "0.0.6"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@sbol/lib.widgets.core",
+    "/@sbol/lib.widgets.core/@sbol/lib.workflow",
+    "/@sbol/lib.widgets.web",
+    "/@sbol/lib.widgets.web/@sbol/lib.workflow",
+    "/@sbol/lib.workflow"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/utils/-/utils-0.0.6.tgz",
+  "_shasum": "959a029622e68e02f65084dc85c857a5a6de42fb",
+  "_spec": "@sbol/utils@0.0.6",
+  "_where": "/Users/a18338302/git/dummy/node_modules/@sbol/lib.widgets.core",
+  "author": {
+    "name": "JSC SberTech"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Андрей Пономарев",
+      "email": "Ponomarev.A.Andr@sberbank.ru"
+    }
+  ],
+  "dependencies": {
+    "@sbol/lib.vendor": "4.1.0"
+  },
+  "deprecated": false,
+  "description": "WEB SBOL Workflow Utils",
+  "devDependencies": {
+    "@sbol/eslint-config": "2.3.2",
+    "@sbol/webpack-config": "^11.10.0",
+    "babel-eslint": "10.0.1",
+    "cross-env": "5.2.0",
+    "enzyme": "3.8.0",
+    "enzyme-adapter-react-16": "1.8.0",
+    "eslint": "5.12.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "prop-types": "15.6.2"
+  },
+  "engines": {
+    "node": ">=8.8.0",
+    "npm": ">=5.6.0"
+  },
+  "license": "UNLICENSED",
+  "main": "./src/index.js",
+  "name": "@sbol/utils",
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbol_npm_release/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.60:8878/plsbol-libs/utils.git"
+  },
+  "scripts": {
+    "build": "cross-env MODE=module node node_modules/@sbol/webpack-config/bin/build.js",
+    "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .js,.jsx ./src",
+    "eslint:errors": "node ./node_modules/eslint/bin/eslint.js --ext .js,.jsx --quiet ./src",
+    "test": "cross-env NODE_ENV=development MODE=testing TESTING_COVERAGE=false node --max-old-space-size=4096 node_modules/karma/bin/karma start karma.config.js --browsers ChromiumHeadless --single-run",
+    "test:local": "cross-env NODE_ENV=development MODE=testing TESTING_COVERAGE=true node --max-old-space-size=4096 node_modules/karma/bin/karma start karma.config.js --browsers ChromeHeadless --single-run",
+    "test:watch": "cross-env NODE_ENV=development MODE=testing TESTING_COVERAGE=true node --max-old-space-size=4096 node_modules/karma/bin/karma start karma.config.js --browsers ChromeHeadless"
+  },
+  "version": "0.0.6"
+}

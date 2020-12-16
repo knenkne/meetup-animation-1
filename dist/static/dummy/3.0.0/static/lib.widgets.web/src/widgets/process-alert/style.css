@@ -1,0 +1,69 @@
+@import '@sbol/lib.ui/src/utils/styles/media.config.css';
+
+.wrapper {
+    margin: 0 32px 8px;
+
+    .markdown p {
+        margin-bottom: 0;
+    }
+}
+
+.wrapper:first-child {
+    margin-top: 32px;
+}
+
+.wrapper:last-of-type {
+    margin-bottom: 16px;
+}
+
+.in-header {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.in-body {
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-top: 32px;
+}
+
+.in-body:last-of-type {
+    padding-bottom: 32px;
+    margin-bottom: 0;
+}
+
+.status-screen {
+    max-width: 448px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.status-screen:first-child {
+    margin-top: 0;
+}
+
+.status-screen:last-of-type {
+    margin-bottom: 48px;
+}
+
+.wrapper.noIndent {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media (--media-md) {
+    .status-screen {
+        max-width: 352px;
+    }
+}
+
+@media (--media-sm) {
+    .status-screen {
+        max-width: 368px;
+    }
+
+    .in-body {
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "_from": "@sbol/whitelist-config@latest",
+  "_id": "@sbol/whitelist-config@0.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-lNX2Oi6jX5YN9tVU3n2guHyRDs/am4HMhSppGbm/fIOGSHSdQd6x6tDJqJCuqZ70GMtF9Us1ae5w2MbX+nzmVA==",
+  "_location": "/@sbol/whitelist-config",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@sbol/whitelist-config@latest",
+    "name": "@sbol/whitelist-config",
+    "escapedName": "@sbol%2fwhitelist-config",
+    "scope": "@sbol",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/whitelist-config/-/whitelist-config-0.0.9.tgz",
+  "_shasum": "cb57b9b81fa37d35813d1b6b026084f618b2a761",
+  "_spec": "@sbol/whitelist-config@latest",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "ПАО Сбербанк"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Tupitskiy.I.Ni@sberbank.ru"
+    }
+  ],
+  "deprecated": false,
+  "description": "Utils for checking projects with whitelists - configurations",
+  "devDependencies": {
+    "request": "~2.88.2",
+    "request-promise": "~4.2.6"
+  },
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "name": "@sbol/whitelist-config",
+  "publishConfig": {
+    "registry": "http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.21.25.243:8878/sbtsbol/whitelist-config.git"
+  },
+  "scripts": {
+    "advisories": "node scripts/save-npm-advisories"
+  },
+  "version": "0.0.9"
+}

@@ -1,0 +1,137 @@
+{
+  "_from": "@sbol/region.offers@~0.0.5",
+  "_id": "@sbol/region.offers@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha1-05NUNl0kLLZTWifDuSxLTBM1kJE=",
+  "_location": "/@sbol/region.offers",
+  "_phantomChildren": {
+    "@sbol/lib.vendor.classnames": "2.2.6",
+    "@sbol/lib.vendor.lodash": "4.17.11",
+    "@sbol/lib.vendor.react": "16.12.0",
+    "@sbol/lib.vendor.react-dom": "16.12.0",
+    "date-fns": "2.0.0-alpha.7",
+    "eases": "1.0.8",
+    "nanoid": "2.1.11",
+    "raf": "3.4.1",
+    "react-collapse": "5.0.1",
+    "react-height": "3.0.1",
+    "react-modal": "3.4.5",
+    "react-motion": "0.5.2",
+    "react-onclickoutside": "6.9.0",
+    "remarkable": "1.7.4",
+    "text-mask-addons": "3.8.0",
+    "text-mask-core": "5.1.2"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@sbol/region.offers@~0.0.5",
+    "name": "@sbol/region.offers",
+    "escapedName": "@sbol%2fregion.offers",
+    "scope": "@sbol",
+    "rawSpec": "~0.0.5",
+    "saveSpec": null,
+    "fetchSpec": "~0.0.5"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/sbol_npm_group/@sbol/region.offers/-/region.offers-0.0.6.tgz",
+  "_shasum": "d39354365d242cb6535a27c3b92c4b4c13359091",
+  "_spec": "@sbol/region.offers@~0.0.5",
+  "_where": "/Users/a18338302/git/dummy",
+  "author": {
+    "name": "PJSC Sberbank"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "kuznetsov.d.mikhaylo@sberbank.ru"
+    },
+    {
+      "name": "tupitskiy.i.ni@sberbank.ru"
+    },
+    {
+      "name": "leontyeva.t.vladi@sberbank.ru"
+    }
+  ],
+  "dependencies": {
+    "@sbol/lib.app": "3.4.0",
+    "@sbol/lib.ui": "4.7.17",
+    "@sbol/lib.vendor.axios": "0.18.0",
+    "@sbol/lib.vendor.classnames": "2.2.6",
+    "@sbol/lib.vendor.i18next": "15.0.5",
+    "@sbol/lib.vendor.lodash": "4.17.11",
+    "@sbol/lib.vendor.react": "16.12.0",
+    "@sbol/lib.vendor.react-dom": "16.12.0",
+    "@sbol/lib.vendor.react-redux": "5.0.7",
+    "@sbol/lib.vendor.redux": "4.0.1",
+    "@sbol/lib.vendor.redux-form": "7.4.2",
+    "@sbol/lib.vendor.redux-thunk": "2.3.0"
+  },
+  "deprecated": false,
+  "description": "Region implementation for offers",
+  "devDependencies": {
+    "@sbol/brokkr": "0.10.3",
+    "@sbol/common": "2.1.4",
+    "@sbol/dev.server": "0.2.3",
+    "@sbol/eslint-config": "2.6.0",
+    "@sbol/jest-config": "~1.4.2",
+    "@sbol/promo": "~0.2.3",
+    "@sbol/region.scaffold": "1.0.9",
+    "@sbol/region.search": "0.0.8",
+    "@sbol/stylelint-config": "~1.0.3",
+    "@sbol/utils": "~0.0.6",
+    "@sbol/webpack-config": "12.5.0",
+    "@sbol/webpage.provider.bootstrap": "0.13.7",
+    "@sbol/webpage.provider.templates": "0.9.15",
+    "@sbol/whitelist": "~0.8.2",
+    "babel-eslint": "~8.2.6",
+    "cross-env": "~3.1.4",
+    "enzyme": "~3.9.0",
+    "enzyme-adapter-react-16": "~1.12.1",
+    "eslint": "~4.19.1",
+    "eslint-import-resolver-webpack": "~0.8.4",
+    "husky": "~3.0.4",
+    "react-router": "~4.3.1",
+    "redux-devtools-extension": "2.13.8",
+    "reselect": "~4.0.0",
+    "stylelint": "~9.2.1"
+  },
+  "jest": {
+    "preset": "@sbol/jest-config",
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,jsx}",
+      "!**/src/main.jsx",
+      "!**/src/app.jsx"
+    ],
+    "moduleNameMapper": {
+      "@sbol/lib.app": "<rootDir>/src/__mocks__/lib.app.js"
+    }
+  },
+  "license": "UNLICENSED",
+  "main": "./src/index.jsx",
+  "name": "@sbol/region.offers",
+  "publishConfig": {
+    "registry": "http://nexus.sigma.sbrf.ru:8099/nexus/content/repositories/sbol_npm_release/",
+    "always-auth": true
+  },
+  "scripts": {
+    "build": "npm run development && npm run production",
+    "development": "npx cross-env NODE_ENV=development CSS_HASH_MAP=true VIZUALIZER=true node node_modules/@sbol/webpack-config/bin/build.js",
+    "eslint": "npx eslint --ext .js,.jsx .",
+    "eslint:errors": "npx eslint --ext .js,.jsx . --quiet",
+    "eslint:fix": "npx eslint --ext .js,.jsx . --fix",
+    "production": "npx cross-env NODE_ENV=production CSS_HASH_MAP=true VIZUALIZER=true node node_modules/@sbol/webpack-config/bin/build.js",
+    "start": "npx cross-env ENTRY=fixture/index.jsx npx sbol-dev-server --with-open-browser",
+    "stylelint": "npx stylelint \"src/**/*.css\"",
+    "stylelint:errors": "npx stylelint \"src/**/*.css\" --quiet",
+    "stylelint:fix": "npx stylelint \"src/**/*.css\" --fix",
+    "test": "cross-env PKG_ID=catalog NODE_ENV=test TESTING=true jest --ci --coverage",
+    "test:ui": "npx brokkr --target --browsers chrome --chrome-driver-version 2.36",
+    "test:ui:dev": "npx brokkr --debug --browsers chrome --chrome-driver-version 2.36",
+    "test:update": "npm run test -- -u",
+    "whitelist:dv": "npx whitelist --root --check-list depVersions"
+  },
+  "version": "0.0.6"
+}

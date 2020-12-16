@@ -1,0 +1,10 @@
+dist
+reports
+node_modules
+stub
+target*
+cucumber
+
+**/*.spec.js
+**/*.spec.jsx
+tests

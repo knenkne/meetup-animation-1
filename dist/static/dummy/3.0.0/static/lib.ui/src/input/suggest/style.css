@@ -1,0 +1,166 @@
+@import '../../styles/colors.config.css';
+
+.input {
+    position: relative;
+
+    &-with-icon {
+        .input-field {
+            padding-left: 48px;
+        }
+
+        &.search .input-field {
+            padding-left: 48px;
+        }
+    }
+
+    .input-field {
+        padding-right: 48px;
+    }
+
+    body:not(:global(.pointer-events)) &.opened .input-field:focus {
+        border-color: var(--dark-blue-7);
+        box-shadow:
+            0 0 4px 0 var(--no-color),
+            inset 0 0 0 1px var(--no-color);
+    }
+
+    &-icon {
+        position: absolute;
+        top: 16px;
+        left: 20px;
+        z-index: 1;
+
+        .search & {
+            font-size: 16px;
+            left: 16px;
+        }
+    }
+
+    .close {
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        background-color: var(--no-color);
+        border: none;
+        outline: none;
+        padding: 0;
+        display: none;
+    }
+
+    &:hover .close {
+        display: block;
+    }
+}
+
+.dropdown {
+    width: 100%;
+
+    .contents {
+        width: auto;
+        min-width: calc(100% + 2 * 4px);
+
+        &-view {
+            width: auto;
+            max-height: 324px;
+            overflow-y: auto;
+        }
+    }
+}
+
+.img {
+    width: 24px;
+}
+
+.item {
+    height: auto;
+    position: relative;
+
+    &-checked {
+        .text {
+            color: var(--white);
+
+            .marked {
+                color: var(--white);
+                font-weight: normal;
+            }
+        }
+    }
+
+    &-with-icon {
+        .item-title,
+        .item-description {
+            margin-left: 32px;
+        }
+    }
+
+    &-icon {
+        position: absolute;
+        top: 16px;
+        left: 8px;
+        font-size: 24px;
+
+        &-element {
+            vertical-align: baseline;
+
+            & svg {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            .item-icon-fallback &::before {
+                content: attr(data-text);
+                width: 24px;
+                height: 24px;
+                border-radius: 3px;
+                background-color: var(--white);
+                border: 0.5px solid var(--gray-0);
+                font-size: 7px;
+                font-weight: bold;
+                color: var(--gray-3);
+                line-height: 24px;
+                text-align: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+
+    &-title {
+        display: block;
+    }
+
+    &-description {
+        margin-left: 0;
+        display: block;
+        line-height: 18px;
+    }
+}
+
+.loader {
+    position: relative;
+    height: 20px;
+
+    &-point {
+        background-color: var(--dark-blue-9);
+    }
+}
+
+.additional-info {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark-blue-10);
+    text-align: center;
+    padding: 8px 0;
+    transition: background-color 0.17s ease-in-out;
+    cursor: default;
+
+    .message {
+        margin-bottom: 16px;
+    }
+
+    &.attention {
+        background-color: var(--gray-0);
+    }
+}

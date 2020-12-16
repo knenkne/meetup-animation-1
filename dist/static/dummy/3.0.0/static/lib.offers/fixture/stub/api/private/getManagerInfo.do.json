@@ -1,0 +1,14 @@
+{
+  "response": {
+    "status": {
+      "code": 0
+    },
+    "employees": {
+      "employee": {
+        "id": "164646",
+        "name": "Зарубина Анна Евгеньевна",
+        "type": "SBOL_PRO"
+      }
+    }
+  }
+}

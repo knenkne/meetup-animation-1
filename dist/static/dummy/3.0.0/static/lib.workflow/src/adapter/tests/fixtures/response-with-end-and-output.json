@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "body": {
+    "result": "END",
+    "output": {
+      "document": {
+        "documentId": "1504273122489"
+      },
+      "screens": [
+        {
+          "title": "Параметры поездки",
+          "widgets": [
+            {
+              "type": "Product",
+              "properties": {
+                "src": "https://cdn.zeplin.io/59312e1ebdf1da6fc8d37ffb/assets/4D4A8F1A-C99B-45A1-B971-8AC73814F4A5.png"
+              },
+              "title": "Классическая карта «Аэрофлот»",
+              "description": "Для тех, кто путешествует. Карты позволяют накопить и обменять накопленные мили «Аэрофлот Бонус» на премиальный билет Аэрофлота или авиакомпаний альянса SkyTeam",
+              "fields": []
+            }
+          ],
+          "properties": {}
+        }
+      ]
+    }
+  }
+}

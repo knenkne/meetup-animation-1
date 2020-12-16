@@ -1,0 +1,6 @@
+{
+    "api": "stub/api",
+    "templates": "stub/templates",
+    "webpackConfig": "webpack.config"
+}
+

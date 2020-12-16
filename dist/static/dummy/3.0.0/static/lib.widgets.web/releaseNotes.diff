@@ -1,0 +1,82 @@
+##Repo https://sbtatlas.sigma.sbrf.ru/stash/projects/plsbol-libs/repos/lib.widgets.web
+42c05aae8ebafe970ee6cef13118964e5e2a1c43:Реммеле Михаил Александрович<MARemmele@sberbank.ru>1.3.0
+997e63443894da333a7e5d42d148f5a8823ff774:Реммеле Михаил Александрович<MARemmele@sberbank.ru>Pull request #177: [DBSBOLUI-2954] Обновление зависимостей (lib.ui)
+
+Merge in PLSBOL-LIBS/lib.widgets.web from feature/DBSBOLUI-2954 to master
+
+* commit '58c222e6cac03d3cdc602458567074047088d5bf':
+  [DBSBOLUI-2954] updated dependencies
+58c222e6cac03d3cdc602458567074047088d5bf:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] updated dependencies
+960a1a2d4a90c22ac9bb5f7560f7f697d412079a:Реммеле Михаил Александрович<MARemmele@sberbank.ru>Pull request #176: [DBSBOLUI-2954] Новый адресный виджет (ФИАС)
+
+Merge in PLSBOL-LIBS/lib.widgets.web from feature/DBSBOLUI-2954 to master
+
+* commit '4944b1955c99d6162722934d06a39c8757ac83e1': (31 commits)
+  [DBSBOLUI-2954] updated dependencies
+  [DBSBOLUI-2954] replaced optional chaining to lodash get to fix issues with styleguide
+  [DBSBOLUI-2954] added memoization of text fields and checkbox fields calculation
+  [DBSBOLUI-2954] removed lodash usage
+  [DBSBOLUI-2954] moved fields reset to separate function
+  [DBSBOLUI-2954] removed default export
+  [DBSBOLUI-2954] added lib ui offset config usage for widget styles
+  [DBSBOLUI-2954] added new contributor
+  [DBSBOLUI-2954] fixed fias references format
+  [DBSBOLUI-2954] removed masked attrs from fias widget example
+  [DBSBOLUI-2954] added js docs
+  [DBSBOLUI-2954] added tests for fias widget utils
+  [DBSBOLUI-2954] added tests for fias address widget
+  [DBSBOLUI-2954] added tests for address field
+  [DBSBOLUI-2954] added tests for combobox with request
+  [DBSBOLUI-2954] added tests for combobox and checkbox components
+  [DBSBOLUI-2954] renamed advanced address widget to fias address widget
+  [DBSBOLUI-2954] fixed some small errors and removed unnecessary things
+  [DBSBOLUI-2954] updated dependencies
+  [DBSBOLUI-2954] moved cross fields logic from checkbox component to widget to simplify checkbox
+  ...
+4944b1955c99d6162722934d06a39c8757ac83e1:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] updated dependencies
+6bc18f56a29c2a5b82ab0af5b9d81d686eef5bc2:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] replaced optional chaining to lodash get to fix issues with styleguide
+6abc7f5b3d0b5356623a83d129b20cbea16fc746:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added memoization of text fields and checkbox fields calculation
+676e672eebbb88ba58bea2f861810b309f7a55b6:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] removed lodash usage
+7a425b8f0f7a6356e247338722290d5b8586e769:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] moved fields reset to separate function
+3cffd8f09c4c71e4f707d1e58ba8d896deaadaaf:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] removed default export
+4b1d53f2011d2dcf17d12d3ff67a45648b282cc5:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added lib ui offset config usage for widget styles
+b0ba9b4cdd1646cabca0b7b5e5a0a2e7aa5be7b1:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added new contributor
+b859a7505da8ca47e3dae5964c62059301bb00a4:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] fixed fias references format
+5e19c12e41d9f92891f9d1f022ecadcd33d48c50:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] removed masked attrs from fias widget example
+546119039f3fab1423def37fce11d052faad0fa4:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added js docs
+4b6f3ff3592e181fd3e21c65e2c64175dfe17ade:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added tests for fias widget utils
+e67c01d1b49f3efcdb5fc6c4edd815c8877522ec:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added tests for fias address widget
+f76a11fd6ca8238008e9815de3fc8ec4e3c06a97:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added tests for address field
+59fa941869b477370662288192dd1ed8fdadfe15:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added tests for combobox with request
+fee92fc79b0d97af18cbe576dda33b9c26e2ec95:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added tests for combobox and checkbox components
+ea7f5cceec60b331a4d6ea6e97c2efb8e8f5d6c7:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] renamed advanced address widget to fias address widget
+2ee192cdcfbad7617651b71279ac0a9ce4b45c89:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] fixed some small errors and removed unnecessary things
+9754d25439219d881f523694113ca52fb7d1641e:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] updated dependencies
+f27a5e6150f929e1b6ff7572539088cc3e9c6d55:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] moved cross fields logic from checkbox component to widget to simplify checkbox
+ac53f13152c06faaaefce79cee057fab6fa24d53:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] moved fields cleaning logic from combobox component to widget to simplify combobox
+241e02489bd2b3f9351564870476e63ab6c0db02:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] fixed return value type for isDisabled function, moved conditional wrapping to address field component
+9ba6a9f6dd21779531fe852df07d555041fa527b:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] splitted address row component in two separate components: address field and address combobox with request, also moved fields params const out of widget component
+b241951211189851b27f5cb158a5cc9417296b48:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] merged get option functions into one function
+3099e4a3cc0992ed7f67adf133a3a97d0bf33b12:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added initial query building using references
+44c74f11367b55d9a107d30f555fab9c45a8af71:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added recursive parent id search
+49c55c87c714e13519c25af098e3178224937e75:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] merged disable functions for each input into one, refactored widget render by combining all parts into cycle
+5be6e5878c78e8a18db19a711b3e6a6ad7eb39dc:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] moved stub server to separate folder, added example of widget usage with readonly region and apartment number, added parent id omitting in request params if it's empty
+d4a28b45ded30a203d3bcaf3dcbbaf5a3c4d70f4:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added apartment field
+0b5040bf694883e65089c46abef46dd782e1a2dd:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] updated dependencies
+64feceb7fc29eb41c17199f3b313de8ae8fc323a:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-2954] added advanced address widget which can work with new fias api
+68d48695e4ebef9cf336580059b06af5a4e58999:Реммеле Михаил Александрович<MARemmele@sberbank.ru>Pull request #175: [DBSBOLUI-3391] проброс пропсов виджета в dww чтобы получить отступ
+
+Merge in PLSBOL-LIBS/lib.widgets.web from feature/DBSBOLUI-3391 to master
+
+* commit 'd514167d004cfc92126d866b65f760dde631c72a':
+  [DBSBOLUI-3391] updated dependencies
+  [DBSBOLUI-3391] added widget props passing to dww to get offset
+d514167d004cfc92126d866b65f760dde631c72a:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-3391] updated dependencies
+c36b608aa9cb68199d1219748f4e4e5f28765392:Реммеле Михаил Александрович<MARemmele@sberbank.ru>[DBSBOLUI-3391] added widget props passing to dww to get offset
+a6f40a3405323d45c999516c05daa0a4fdf585e8:Скороходов Игорь Максимович<IMSkorokhodov@sberbank.ru>Pull request #174: CBCP-69 Все еще пытаемся взять навигацию по ключу
+
+Merge in PLSBOL-LIBS/lib.widgets.web from feature/CBCP-69 to master
+
+* commit '83fdff3b22a6fab3600a30e59c4d03c1ef44855c':
+  CBCP-69 Все еще пытаемся взять навигацию по ключу
+83fdff3b22a6fab3600a30e59c4d03c1ef44855c:Скороходов Игорь Максимович<IMSkorokhodov@sberbank.ru>CBCP-69 Все еще пытаемся взять навигацию по ключу

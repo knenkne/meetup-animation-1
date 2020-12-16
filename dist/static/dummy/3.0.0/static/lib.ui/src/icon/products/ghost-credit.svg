@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <g fill="none"  fill-rule="nonzero">
+        <circle class="repaint-bg" cx="18" cy="18" r="12" fill="#616E7C"/>
+        <path class="repaint" fill="#FFF" transform="translate(14 14)"
+              d="M5 3h2.003C7.553 3 8 3.444 8 4c0 .552-.453 1-.997 1H5v2.003C5 7.553 4.556 8 4 8c-.552 0-1-.453-1-.997V5H.997A.996.996 0 010 4c0-.552.453-1 .997-1H3V.997C3 .447 3.444 0 4 0c.552 0 1 .453 1 .997V3z"/>
+    </g>
+</svg>

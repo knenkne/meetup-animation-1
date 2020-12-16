@@ -1,0 +1,29 @@
+@import '@sbol/lib.ui/src/utils/styles/media.config.css';
+
+.wrapper {
+    margin-bottom: 8px;
+}
+
+.wrapper:last-of-type {
+    margin-bottom: 24px;
+}
+
+.status-screen:last-of-type {
+    margin-bottom: 48px;
+}
+
+.status-screen {
+    max-width: 448px;
+}
+
+@media (--media-md) {
+    .status-screen {
+        max-width: 352px;
+    }
+}
+
+@media (--media-sm) {
+    .status-screen {
+        max-width: 368px;
+    }
+}

@@ -1,0 +1,1 @@
+export { stubRequest } from './moxios'

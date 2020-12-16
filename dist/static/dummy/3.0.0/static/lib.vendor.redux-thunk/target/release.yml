@@ -1,0 +1,9 @@
+
+name: lib.vendor.redux-thunk
+description: 'AMD redux-thunk vendor module'
+developers:
+
+revision: e0f48740a61b3e33d4bd9fe5b3d69954c7b88ffb
+build: 2
+version: 2.3.0  
+buildDate: 29.04.2019 - 18:56:58

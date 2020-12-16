@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "body": {
+    "status": "LC_ACCEPTED",
+    "system": "REACTIVE",
+    "locales": {
+      "title": "Кредитный потенциал",
+      "description": "Доступно до 150 610 ₽/мес"
+    },
+    "parts": {
+      "available": 150610.35,
+      "used": 95183.65,
+      "reserved": 65000
+    }
+  }
+}

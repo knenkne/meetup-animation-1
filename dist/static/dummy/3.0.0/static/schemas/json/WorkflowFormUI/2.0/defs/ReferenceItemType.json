@@ -1,0 +1,28 @@
+{
+  "id": "WorkflowFormUI/2.0/defs/ReferenceItemType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "ReferenceItemType": {
+      "description": "Primary and additional properties for single reference service item",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": "string",
+          "maxLength": 1024
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "properties": {
+          "$ref": "WorkflowFormUI/2.0/defs/PropertiesType.json#/definitions/PropertiesType"
+        }
+      },
+      "required": [
+        "value",
+        "title"
+      ]
+    }
+  }
+}

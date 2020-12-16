@@ -1,0 +1,19 @@
+{
+    "action.close": "",
+    "checkbox.checked": "",
+    "checkbox.unchecked": "",
+    "product.range.from": "",
+    "product.range.to": "",
+    "request.error": "",
+    "request.no.matches": "",
+    "request.repeat": "",
+    "request.timeout": "",
+    "summary.action.collapse": "",
+    "summary.action.expand": "",
+    "summary.action.rollback": "",
+    "summary.commission.default.error": "",
+    "summary.commission.default.none": "",
+    "summary.commission.default.pending": "",
+    "summary.commission.default.success": "",
+    "go.to.vsp": ""
+}

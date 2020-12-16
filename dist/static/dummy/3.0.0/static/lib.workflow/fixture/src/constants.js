@@ -1,0 +1,1 @@
+export const WORKFLOW_NAME = 'SOME_WORKFLOW'

@@ -1,0 +1,17 @@
+@import '../../style.config.css';
+
+.loader {
+    position: relative;
+
+    &.carousel {
+        height: var(--carousel-height);
+    }
+
+    &.blocks {
+        height: var(--blocks-height);
+    }
+}
+
+.point {
+    background-color: #2d2d2d;
+}

@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "body": {
+    "result": "SUCCESS",
+    "pid": "de9d9380-8f1a-11e7-861c-97ee935a8de4",
+    "flow": "superFlow",
+    "state": "step2",
+    "output": {
+      "document": {
+        "documentId": "1504273122489"
+      },
+      "screens": [
+        {
+          "title": "Параметры поездки",
+          "widgets": [
+            {
+              "type": "Product",
+              "properties": {},
+              "title": "Классическая карта «Аэрофлот»",
+              "fields": []
+            }
+          ],
+          "properties": {}
+        }
+      ],
+      "events": [
+        {
+          "name": "next",
+          "type": "next",
+          "hidden": false,
+          "title": "Продолжить",
+          "description": ""
+        }
+      ],
+      "references": {},
+      "progress": {
+        "range": 7,
+        "remainder": 6
+      }
+    },
+    "history": []
+  },
+  "messages": []
+}

@@ -1,0 +1,131 @@
+@import '../utils/styles/font-sizes.config.css';
+@import '../utils/styles/standard.config.css';
+@import '../styles/colors.config.css';
+@import '../styles/shadows.config.css';
+@import '../styles/radius.config.css';
+
+.actions {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 -8px;
+}
+
+.action {
+    margin: 0 8px;
+    padding: 0;
+    text-decoration: none;
+    background-color: var(--no-color);
+    border: none;
+
+    &.active {
+        cursor: pointer;
+    }
+
+    /* Только для hover устройств + проверка на IE11 */
+    @media (hover), (min-width: 0\0) {
+        &.active:hover .body {
+            box-shadow: var(--common-shadow-hover);
+            transform: translateY(-4px);
+        }
+    }
+}
+
+.body {
+    width: 160px;
+    height: 144px;
+    border-radius: var(--xs-border-radius);
+    box-shadow: var(--common-shadow);
+    background-color: var(--white);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--default-transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.icon-wrapper {
+    background-color: var(--green-0);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    img {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.icon {
+    font-size: 48px;
+    line-height: 48px;
+
+    &-external {
+        font-size: 24px;
+        line-height: 24px;
+        border-radius: 50%;
+        background-color: var(--gray-0);
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+}
+
+.text {
+    text-align: left;
+    position: relative;
+}
+
+.description {
+    margin-top: 4px;
+    max-height: var(--line-height-caption-web);
+    overflow: hidden;
+}
+
+.done {
+    background-color: var(--green-0);
+}
+
+.waiting {
+    background-color: var(--gray-0);
+}
+
+.error {
+    background-color: var(--orange-0);
+}
+
+.info {
+    background-color: var(--violet-0);
+}
+
+.blue {
+    background-color: var(--blue-0);
+}
+
+.green {
+    background-color: var(--teal-0);
+}
+
+.sky-blue {
+    background-color: var(--sky-blue-0);
+}
+
+.aqua {
+    background-color: var(--aqua-0);
+}
+
+.yellow {
+    background-color: var(--yellow-0);
+}
+
+.black {
+    background-color: var(--gray-0);
+}

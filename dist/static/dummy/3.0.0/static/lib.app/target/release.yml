@@ -1,0 +1,22 @@
+
+name: lib.app
+description: 'Core application functionality for sbtsbol modules'
+developers:
+    - Дмитрий Кузнецов <DMKuznetsov.SBT@sberbank.ru>
+    - Станислав Черенков <SACherenkov.SBT@sberbank.ru>
+    - Тупицкий Илья <Tupitskiy.I.Ni@sberbank.ru>
+revision: af9e581be2a0351c20443438feef6d021cebe794
+build: 116
+version: 3.4.0  
+buildDate: 28.09.2020 - 14:41:19
+dependencies:
+    - lib.ui/4.6.0
+    - lib.vendor.axios/0.18.0
+    - lib.vendor.classnames/2.2.6
+    - lib.vendor.i18next/15.0.5
+    - lib.vendor.lodash/4.17.11
+    - lib.vendor.react/16.8.3
+    - lib.vendor.react-dom/16.8.3
+    - lib.vendor.react-redux/5.0.7
+    - lib.vendor.redux/4.0.1
+    - lib.vendor.redux-form/7.4.2

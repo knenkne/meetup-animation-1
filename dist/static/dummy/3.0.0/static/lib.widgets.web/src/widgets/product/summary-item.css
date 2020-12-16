@@ -1,0 +1,21 @@
+@import '@sbol/lib.ui/src/styles/colors.config.css';
+@import '@sbol/lib.ui/src/utils/styles/semantic-palette.config.css';
+
+.item {
+    margin: 8px 16px;
+}
+
+.title {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: var(--gray-55-alpha);
+}
+
+.value {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: var(--text-main-color);
+}

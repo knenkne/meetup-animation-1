@@ -1,0 +1,163 @@
+@import '../styles/colors.config.css';
+@import "../styles/radius.config.css";
+@import '../utils/styles/offsets.config.css';
+@import '../utils/styles/semantic-palette.config.css';
+@import '../utils/styles/standard.config.css';
+
+:root {
+    --block-item-circle-width: 44px;
+    --block-item-width: 48px;
+    --block-item-height: 48px;
+    --block-header-height: 20px;
+    --block-border-radius: 5px;
+    --square-button-width: 112px;
+    --square-button-height: 44px;
+    --item-circle-border-radius: 50%;
+    --table-row-width: 336px;
+    --wrapper-border-radius: 4px;
+    --wrapper-height: 405px;
+}
+
+.style-focus {
+    z-index: 1;
+    position: relative;
+    box-shadow: inset 0 0 0 1px var(--focus-color);
+    color: var(--black-100);
+    outline: none;
+}
+
+.style-main-button {
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black-100);
+    z-index: 0;
+    border: 0;
+    padding: 0;
+    background: none;
+    transition: color, background-color var(--default-transition-duration) var(--default-transition-type);
+
+    &::before {
+        content: '';
+        top: 0;
+        width: var(--block-item-circle-width);
+        height: var(--block-item-circle-width);
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: -1;
+        opacity: 0;
+        transition: color, background-color var(--default-transition-duration) var(--default-transition-type);
+    }
+
+    body:not(:global(.pointer-events)) &:focus {
+        z-index: 1;
+        position: relative;
+        color: var(--black-100);
+        outline: none;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 1;
+            background-color: var(--green-0);
+        }
+
+        &::after {
+            opacity: 0;
+        }
+    }
+
+    &:disabled {
+        color: #8c8c91;
+        cursor: default;
+
+        &:hover {
+            &::after {
+                opacity: 1;
+            }
+
+            &::before {
+                opacity: 0;
+            }
+        }
+    }
+
+    &-now::after {
+        content: '';
+        bottom: 0;
+        width: 6px;
+        height: 6px;
+        opacity: 1;
+        border-radius: 50%;
+        position: absolute;
+        left: calc(50% - 3px);
+        background-color: var(--green-5);
+        transition: color, background-color var(--default-transition-duration) var(--default-transition-type);
+    }
+
+    &:active,
+    &-active {
+        color: var(--white);
+
+        &::before {
+            opacity: 1;
+            background-color: var(--green-5);
+        }
+
+        &::after {
+            display: none;
+        }
+
+        &:hover {
+            &::before {
+                background-color: var(--green-5);
+            }
+        }
+
+        &:disabled {
+            color: var(--white);
+
+            &:hover::before {
+                display: block;
+                opacity: 1;
+                background-color: var(--green-5);
+            }
+        }
+    }
+
+    &-squared {
+        &::before {
+            border-radius: var(--block-border-radius);
+            width: calc(100% + 2 * 16px);
+            height: calc(100% + 2 * 9px);
+            left: -16px;
+            top: -9px;
+        }
+
+        &::after {
+            bottom: -10px;
+        }
+    }
+
+    &-error {
+        color: var(--gray-9);
+
+        &::before {
+            opacity: 1;
+            background-color: var(--orange-0);
+        }
+
+        &:disabled:hover {
+            &::before {
+                opacity: 1;
+                background-color: var(--orange-0);
+            }
+        }
+    }
+}

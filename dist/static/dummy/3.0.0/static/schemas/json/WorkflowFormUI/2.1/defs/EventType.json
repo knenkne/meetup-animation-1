@@ -1,0 +1,38 @@
+{
+  "id": "WorkflowFormUI/2.0/defs/EventType.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "EventType": {
+      "description": "Exposes available event to form step",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cmd": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 64
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 512
+        },
+        "uri": {
+          "type": "string",
+          "maxLength": 512
+        }
+      },
+      "dependencies": {
+        "name": [
+          "cmd"
+        ]
+      }
+    }
+  }
+}

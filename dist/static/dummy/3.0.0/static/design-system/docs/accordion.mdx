@@ -1,0 +1,182 @@
+### Классический accordion
+
+```jsx live
+  var text = `
+    Content Text. Contrary to popular belief, Lorem Ipsum is not simply
+    random text. It has roots in a piece of classical Latin literature
+    from 45 BC, making it over 2000 years old.College in Virginia, looked
+    up one of the more obscure Latin words, consectetur, from a Lorem Ipsum
+    passage, and going through the cites of the word in classical
+    literature, discovered the undoubtable source.College in Virginia,
+    looked up one of the more obscure Latin words, consectetur, from a
+    Lorem Ipsum passage, and going through the cites of the, discovered
+    the undoubtable source.College in Virginia, looked up one of the more
+    obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+    through the cites of the word in classical literature, discovered
+    the undoubtable source.
+    
+    Content Text. Contrary to popular belief, Lorem Ipsum is not simply
+    random text. It has roots in a piece of classical Latin literature
+    from 45 BC, making it over 2000 years old.College in Virginia, looked
+    up one of the more obscure Latin words, consectetur, from a Lorem Ipsum
+    passage, and going through the cites of the word in classical
+    literature, discovered the undoubtable source.College in Virginia,
+    looked up one of the more obscure Latin words, consectetur, from a
+    Lorem Ipsum passage, and going through the cites of the, discovered
+    the undoubtable source.College in Virginia, looked up one of the more
+    obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+    through the cites of the word in classical literature, discovered
+    the undoubtable source.
+`;
+
+
+render(
+    <Accordion a11y={{ id: "example" }}>
+      <Accordion.Item title="Вопрос номер раз? Вопрос номер раз? Вопрос номер раз? Вопрос номер раз? Вопрос номер раз? Вопрос номер раз? Вопрос номер раз?" aria-level="2">
+        {text}
+      </Accordion.Item>
+      <Accordion.Item title="Тут может быть любой контент" aria-level="2">
+        <Input value="Привет" aria-label="Просто поле" />
+        <Markdown.Full content={text} />
+      </Accordion.Item>
+      <Accordion.Item title="Вопрос номер три?" aria-level="2">
+        {text}
+      </Accordion.Item>
+    </Accordion>
+)
+```
+
+### Классический accordion с collapsible
+
+```jsx live
+
+var text = `
+    Content Text. Contrary to popular belief, Lorem Ipsum is not simply random text.
+    
+    Content Text. Contrary to popular belief, Lorem Ipsum is not simply
+    random text.
+`;
+
+
+render(
+    <Accordion a11y={{ id: "example" }} collapsible>
+      <Accordion.Item title="Вопрос номер раз?" aria-level="2">
+        {text}
+      </Accordion.Item>
+      <Accordion.Item title="Вопрос номер два?" aria-level="2">
+        {text}
+      </Accordion.Item>
+      <Accordion.Item title="Вопрос номер три?" aria-level="2">
+        {text}
+      </Accordion.Item>
+    </Accordion>
+)
+```
+
+### Info accordion (mode="info")
+
+```jsx live
+
+var text = `Тестовый текст, очень интересный и познавательный`;
+var text2 = `В целом, сюда можно положить любой свой контент. Кнопки, изображения, таблицы... 
+И самостоятельно отстилизовать его в соответствии с макетами.`;
+
+
+render(
+    <Accordion a11y={{ id: "example2" }} mode="info">
+      <Accordion.Item title="Вопрос номер раз? Вопрос номер раз?" aria-level="2">
+        {text}
+      </Accordion.Item>
+      <Accordion.Item title="В каком объеме можно вносить средства на ИИС?" aria-level="2">
+        {text}
+        <div style={{ display: "flex", width: "100%", padding: "14px 0" }}>
+          {text2}
+        </div>
+      </Accordion.Item>
+      <Accordion.Item title="Тут может быть любой контент" aria-level="2">
+        <Input value="Привет" aria-label="Просто поле" />
+        <Markdown.Full content={text} />
+      </Accordion.Item>
+    </Accordion>
+);
+```
+
+### Description accordion (mode="description", description="Описание" )
+
+```jsx live
+
+var text = `Тестовый текст, очень интересный и познавательный`;
+var text2 = `В целом, сюда можно положить любой свой контент. Кнопки, изображения, таблицы... 
+И самостоятельно отстилизовать его в соответствии с макетами.`;
+
+
+render(
+    <Accordion a11y={{ id: "example3" }} mode="description">
+      <Accordion.Item
+        title="Вопрос номер раз? Вопрос номер два? Вопрос номер раз? Вопрос номер два? Вопрос номер?"
+        description="Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание Описание"
+        aria-level="2"
+      >
+        {text}
+      </Accordion.Item>
+      <Accordion.Item 
+        title="Вопрос номер два?" 
+        aria-level="2"
+        description="Я теперь умею в description"
+      >
+        {text}
+        <div style={{ display: "flex", width: "100%", padding: "14px 0" }}>
+          {text2}
+        </div>
+      </Accordion.Item>
+      <Accordion.Item
+        title="Вопрос номер три?"
+        description="Я теперь умею в description"
+        aria-level="2"
+      >
+        {text}
+      </Accordion.Item>
+    </Accordion>
+);
+```
+
+### Widget accordion, можно открыть несколько блоков (mode="widget", collapsible)
+
+```jsx live
+
+var text = `You can't steal the things that god has given me
+          No more pain and no more shame and misery`;
+var text2 = `В целом, сюда можно положить любой свой контент. Кнопки, изображения, таблицы...`;
+
+
+function WrappedComponent() {
+  return (
+    <div>
+      {500 + 65} <Currency title={"RUB"} mode="symbol" />
+    </div>
+  );
+}
+
+render(
+    <Accordion
+      a11y={{ id: "example4" }}
+      mode="widget"
+      initialValue={"Первый блок"}
+      collapsible
+    >
+      <Accordion.Item
+        title="Первый блок"
+        aria-level="2"
+        as={"Цена, дата, еще что-то"}
+      >
+        {text}
+      </Accordion.Item>
+      <Accordion.Item title="Обязательный платёж внести до 21 марта" aria-level="2" as={WrappedComponent()}>
+        {text2}
+      </Accordion.Item>
+      <Accordion.Item title="Блок с негативным контентом" aria-level="2" warning>
+        {text}
+      </Accordion.Item>
+    </Accordion>
+)
+```

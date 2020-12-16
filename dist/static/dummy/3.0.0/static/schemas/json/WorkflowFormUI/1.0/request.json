@@ -1,0 +1,63 @@
+{
+  "id": "WorkflowFormUI/1.0/request.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Workflow Form UI standard request",
+  "type": "object",
+  "properties": {
+    "document": {
+      "$ref": "#/definitions/DocflowPropertiesType"
+    },
+    "fields": {
+      "$ref": "#/definitions/FieldsKeyValueType"
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "DocflowPropertiesType": {
+      "description": "Set of key-value pairs to transport document flow system properties",
+      "type": "object",
+      "properties": {
+        "flow": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "state": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "documentId": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "templateId": {
+          "type": "string",
+          "maxLength": 256
+        },
+        "srcDocumentId": {
+          "type": "string",
+          "maxLength": 256
+        }
+      },
+      "patternProperties": {
+        "^(?=.{1,256}$)[A-Za-z]+$": {
+          "type": "string",
+          "maxLength": 256
+        }
+      },
+      "additionalProperties": false,
+      "maxProperties": 256
+    },
+    "FieldsKeyValueType": {
+      "description": "Set of key-value pairs to transport business fields",
+      "type": "object",
+      "patternProperties": {
+        "^(?=.{1,256}$)([A-Za-z0-9][A-Za-z0-9:_|-]*)$": {
+          "type": "string",
+          "maxLength": 1024
+        }
+      },
+      "additionalProperties": false,
+      "maxProperties": 1024
+    }
+  }
+}

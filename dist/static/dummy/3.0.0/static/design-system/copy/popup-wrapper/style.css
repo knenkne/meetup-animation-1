@@ -1,0 +1,16 @@
+@import '../utils/styles/colors.config.css';
+@import '../styles/radius.config.css';
+
+:root {
+    --default-popup-width: 400px ;
+}
+
+.popup {
+    position: relative;
+    margin-top: 6px;
+    border: solid 1px var(--gray-1);
+    width: var(--default-popup-width);
+    border-radius: var(--xs-border-radius);
+    box-shadow: 0 12px 24px 0 rgba(45, 73, 88, 0.15);
+    background: var(--white);
+}

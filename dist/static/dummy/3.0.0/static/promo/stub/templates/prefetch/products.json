@@ -1,0 +1,445 @@
+{
+  "status": {
+    "code": 0
+  },
+  "accounts": {
+    "status": {
+      "code": 0
+    },
+    "account": [
+      {
+        "arrested": false,
+        "id": 652641,
+        "balance": {
+          "amount": 0,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "smsName": 8442,
+        "showarrestdetail": false,
+        "rate": 1,
+        "moneyBoxAvailable": true,
+        "closeDate": "01.01.2099",
+        "name": "Сберегательный счет",
+        "state": "OPENED",
+        "number": "40817810838170128442",
+        "availcash": {
+          "amount": 0,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        }
+      }
+    ]
+  },
+  "cards": {
+    "status": {
+      "code": 0
+    },
+    "card": [
+      {
+        "smsName": "0583",
+        "showarrestdetail": false,
+        "statusWay4": "A-ПЕРВИЧНЫЙ ВЫПУСК КАР",
+        "availableLimit": {
+          "amount": 15000,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "blocked",
+        "number": "5484 38•• •••• 0583",
+        "type": "debit",
+        "id": 196559,
+        "description": "MasterCard Gold",
+        "expireDate": "09/2021",
+        "name": "MasterCard Gold",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817810538175446377",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "id": 196560,
+        "smsName": 4711,
+        "showarrestdetail": false,
+        "statusWay4": "O-END-TO-END TESTING",
+        "availableLimit": {
+          "amount": 200100.04,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "description": "MIR",
+        "expireDate": "09/2023",
+        "name": "MIR",
+        "tokenExists": false,
+        "state": "blocked",
+        "number": "2202 20•• •••• 4711",
+        "type": "debit",
+        "isMain": true,
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 1231,
+        "showarrestdetail": false,
+        "statusWay4": "C-КОМПРОМЕТАЦИЯ",
+        "availableLimit": {
+          "amount": 14545,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "blocked",
+        "number": "5484 38•• •••• 1231",
+        "type": "debit",
+        "id": 193325,
+        "description": "MasterCard Gold",
+        "expireDate": "09/2021",
+        "name": "MasterCard Gold",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817810938175446320",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 9227,
+        "showarrestdetail": false,
+        "needRqDeliveryStatus": true,
+        "statusWay4": "X-ПЕРЕВЫП., НЕ ВЫДАНА",
+        "availableLimit": {
+          "amount": 13122,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "active",
+        "number": "5469 38•• •••• 9227",
+        "type": "debit",
+        "id": 193305,
+        "description": "MasterCard Mass",
+        "expireDate": "09/2021",
+        "name": "MasterCard Mass",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817810738175446313",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 2143,
+        "showarrestdetail": false,
+        "needRqDeliveryStatus": true,
+        "statusWay4": "H-НЕ ВЫДАНА КЛИЕНТУ",
+        "availableLimit": {
+          "amount": -3775.2,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "delivery",
+        "number": "5469 38•• •••• 2143",
+        "type": "debit",
+        "id": 196558,
+        "description": "MasterCard Mass",
+        "expireDate": "09/2021",
+        "name": "MasterCard Mass",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817810238175446376",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 8238,
+        "showarrestdetail": false,
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "availableLimit": {
+          "amount": 2990.03,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "active",
+        "number": "4276 01•• •••• 8238",
+        "type": "credit",
+        "id": 196564,
+        "description": "Visa Classic",
+        "expireDate": "10/2021",
+        "name": "Visa Classic",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817810700032145604",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 4877,
+        "showarrestdetail": false,
+        "needRqDeliveryStatus": true,
+        "statusWay4": "H-НЕ ВЫДАНА КЛИЕНТУ",
+        "availableLimit": {
+          "amount": 15000,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "delivery",
+        "number": "4279 38•• •••• 4877",
+        "type": "debit",
+        "id": 199786,
+        "description": "Visa Gold",
+        "name": "Visa Gold",
+        "expireDate": "11/2021",
+        "tokenExists": false,
+        "isMain": true,
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 8144,
+        "showarrestdetail": false,
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "availableLimit": {
+          "amount": 10000,
+          "currency": {
+            "name": "€",
+            "code": "EUR"
+          }
+        },
+        "state": "active",
+        "number": "5469 38•• •••• 8144",
+        "type": "debit",
+        "id": 193071,
+        "description": "MasterCard Mass",
+        "expireDate": "09/2021",
+        "name": "MasterCard Mass",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817978338177800299",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 4791,
+        "showarrestdetail": false,
+        "statusWay4": "O-END-TO-END TESTING",
+        "availableLimit": {
+          "amount": 15000,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "blocked",
+        "number": "4279 38•• •••• 4791",
+        "type": "debit",
+        "id": 196562,
+        "description": "Visa Gold",
+        "expireDate": "09/2021",
+        "name": "Visa Gold",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817810338175446386",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 3172,
+        "showarrestdetail": false,
+        "statusWay4": "U-ПРОВЕРКА ПРАВОМЕРНОСТИ",
+        "availableLimit": {
+          "amount": 6734.16,
+          "currency": {
+            "name": "$",
+            "code": "USD"
+          }
+        },
+        "state": "blocked",
+        "number": "4279 38•• •••• 3172",
+        "type": "debit",
+        "id": 193073,
+        "description": "Visa Gold",
+        "expireDate": "09/2021",
+        "name": "Visa Gold",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817840738177800516",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 6886,
+        "showarrestdetail": false,
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "availableLimit": {
+          "amount": 14172,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "active",
+        "number": "2202 20•• •••• 6886",
+        "type": "debit",
+        "id": 196563,
+        "description": "MIR",
+        "expireDate": "09/2023",
+        "name": "MIR",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817810638175446387",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 4233,
+        "showarrestdetail": false,
+        "needRqDeliveryStatus": true,
+        "statusWay4": "H-НЕ ВЫДАНА КЛИЕНТУ",
+        "availableLimit": {
+          "amount": 0,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "delivery",
+        "number": "4276 38•• •••• 4233",
+        "type": "debit",
+        "id": 199787,
+        "description": "Visa Classic",
+        "name": "Visa Classic",
+        "expireDate": "11/2021",
+        "tokenExists": false,
+        "isMain": true,
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 3502,
+        "showarrestdetail": false,
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "availableLimit": {
+          "amount": 9980,
+          "currency": {
+            "name": "$",
+            "code": "USD"
+          }
+        },
+        "state": "active",
+        "number": "4276 38•• •••• 3502",
+        "type": "debit",
+        "id": 193072,
+        "description": "Visa Classic",
+        "expireDate": "09/2021",
+        "name": "Visa Classic",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817840138177800514",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 7397,
+        "showarrestdetail": false,
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "availableLimit": {
+          "amount": 455,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "state": "active",
+        "number": "4274 32•• •••• 7397",
+        "type": "debit",
+        "id": 196565,
+        "description": "Visa Digital",
+        "expireDate": "09/2021",
+        "name": "Test777",
+        "tokenExists": false,
+        "isMain": true,
+        "cardAccount": "40817810338175446616",
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "id": 223296,
+        "smsName": 9118,
+        "showarrestdetail": false,
+        "statusWay4": "+-КАРТОЧКА ОТКРЫТА",
+        "availableLimit": {
+          "amount": -900,
+          "currency": {
+            "name": "руб.",
+            "code": "RUB"
+          }
+        },
+        "description": "Visa Classic",
+        "expireDate": "02/2022",
+        "name": "Visa Classic",
+        "tokenExists": false,
+        "state": "active",
+        "number": "4276 38•• •••• 9118",
+        "type": "debit",
+        "isMain": true,
+        "options": {
+          "setPINAvailable": false
+        }
+      },
+      {
+        "smsName": 8822,
+        "showarrestdetail": false,
+        "needRqDeliveryStatus": true,
+        "statusWay4": "H-НЕ ВЫДАНА КЛИЕНТУ",
+        "availableLimit": {
+          "amount": 6734.16,
+          "currency": {
+            "name": "$",
+            "code": "USD"
+          }
+        },
+        "state": "delivery",
+        "number": "4279 38•• •••• 8822",
+        "type": "debit",
+        "id": 224868,
+        "description": "Visa Gold",
+        "name": "Visa Gold",
+        "expireDate": "09/2021",
+        "tokenExists": false,
+        "isMain": true,
+        "options": {
+          "setPINAvailable": false
+        }
+      }
+    ]
+  }
+}

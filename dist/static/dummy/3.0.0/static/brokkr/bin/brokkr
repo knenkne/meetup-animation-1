@@ -1,0 +1,79 @@
+#!/usr/bin/env node
+const program = require('commander')
+
+const { version } = require('../package')
+const startWdio = require('../start-wdio')
+
+const setEnv = require('./utils/set-env')
+const updatePortEnv = require('./utils/update-port-env')
+
+const HELP_MESSAGE = `
+Examples:
+  $ brokkr --env dev
+`
+
+program
+    .version(version)
+
+    .usage('[command] [options]')
+
+    .option('--env [type]', 'run test in the environment [dev]', /^(dev|ift|ift_alpha|ift_sigma)$/i, 'dev')
+    .option('--browsers [name]', 'comma separated browsers (chrome,firefox,ie,safari)', 'chrome')
+    .option('--with-head', 'disable headless mode')
+    .option('--debug', 'debug mode (includes --with-head flag)')
+    .option('--target', 'boolean - use ./target bundle path; undefined - use runtime build (for dev only)')
+    .option('--chrome-bin-path [path]', 'chrome bin path')
+    .option('--selenium-version [version]', 'selenium standalone server version', '3.14.0')
+    .option('--chrome-driver-version [version]', 'chrome driver version', '2.46')
+    .option('--gecko-driver-version [version]', 'gecko driver version', '0.24.0')
+    .option('--ie-driver-version [version]', 'ie driver version', '3.14.0')
+    .option('--tag-expression [expression]', 'expression for tag launch (https://docs.cucumber.io/tag-expressions/)', 'not @integration')
+    .option('--wdio-instances [count]', 'number of instances for launch in parallel', '1')
+    .option('--selenium-server [host]', 'remote URL for selenium')
+    .option('--port [port]', 'default port for dev server', '4242')
+    .option('--drivers-mirror [host]', 'mirror for drivers download')
+    .option('--port-retries [count]', 'max retries for getting empty port', '5')
+
+    .on('--help', () => {
+        console.log(HELP_MESSAGE)
+    })
+
+    .parse(process.argv)
+
+setEnv('AUTOTESTING_PLACEMENT', program.env)
+setEnv('BROWSERS', program.browsers)
+setEnv('DEBUG', program.debug)
+setEnv('WITH_HEAD', program.withHead)
+setEnv('CHROME_BIN_PATH', program.chromeBinPath)
+setEnv('TARGET', program.target)
+setEnv('SELENIUM_VERSION', program.seleniumVersion)
+setEnv('CHROME_DRIVER_VERSION', program.chromeDriverVersion)
+setEnv('GECKO_DRIVER_VERSION', program.geckoDriverVersion)
+setEnv('IE_DRIVER_VERSION', program.ieDriverVersion)
+setEnv('TAG_EXPRESSION', program.tagExpression)
+setEnv('WDIO_INSTANCES', program.wdioInstances)
+setEnv('SELENIUM_SERVER', program.seleniumServer)
+setEnv('DEV_SERVER_PORT', program.port)
+setEnv('DRIVERS_MIRROR', program.driversMirror)
+setEnv('CSS_HASH_MAP', true)
+if (program.target) {
+    setEnv('NODE_ENV', 'production')
+}
+
+/* eslint-disable no-process-exit, comment: исторически сложилось, что выкидываем из процесса */
+const resolve = (code) => {
+    process.exit(code)
+}
+const reject = (error) => {
+    console.error('Launcher failed to start the test', error)
+    process.exit(1)
+}
+
+// Пингование данного порта необходимо для наиболее раннего сохранения правильного корня browser.getUrl()
+updatePortEnv('DEV_SERVER_PORT', program.portRetries)
+    // Обратная совместимость с разработанными тестами
+    .then(() => setEnv('PORT_DEV_SERVER', process.env.DEV_SERVER_PORT))
+    .then(() => setEnv('PORT', process.env.DEV_SERVER_PORT))
+    .then(startWdio)
+    .then(resolve)
+    .catch(reject)
