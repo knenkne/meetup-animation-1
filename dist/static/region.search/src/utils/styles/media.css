@@ -1,6 +1,0 @@
-@custom-media --media-desktop-medium (max-width: 1311px);
-@custom-media --media-desktop-small (max-width: 1055px);
-@custom-media --media-desktop-custom (max-width: 1311px);
-@custom-media --media-tablet-big (max-width: 1311px);
-@custom-media --media-tablet (max-width: 1055px);
-@custom-media --media-phone (max-width: 731px);

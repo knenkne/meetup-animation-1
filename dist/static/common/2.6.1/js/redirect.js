@@ -1,1 +1,0 @@
-!function(){var o=window.location.pathname,i=window.location.search,n=window.location.hash;sessionStorage.setItem("redirectPL",o+i+n);var e=(window.config||{}).eribNode||"";e&&(window.location=e+"/PhizIC/private/switchDesignTo.do?design=3")}();

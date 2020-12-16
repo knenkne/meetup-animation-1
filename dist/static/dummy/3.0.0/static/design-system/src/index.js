@@ -1,6 +1,0 @@
-export { Radio, SelectionGroup, Checkbox } from './selection'
-export { Headline1, Headline2, Headline3, Headline4, Headline5, Body1, Body2, Caption } from './typography'
-export { ButtonPrimary, ButtonSecondary, ButtonTertiary, ButtonTransparent } from './button'
-export { Icon, IconLoader } from './icon'
-export { Tabs, Tab } from './tabs'
-export { Tooltip } from './tooltip'

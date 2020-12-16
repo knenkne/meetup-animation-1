@@ -1,9 +1,0 @@
-.header {
-    margin-bottom: 16px;
-    position: relative;
-
-    [data-widget-scheme='common'] {
-        margin-left: -32px;
-        margin-right: -32px;
-    }
-}

@@ -1,5 +1,0 @@
-@import './colors.config.css';
-
-body:global(.pointer-events) :focus {
-    outline: var(--no-color);
-}

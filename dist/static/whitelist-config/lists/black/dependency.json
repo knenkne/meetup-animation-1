@@ -1,8 +1,0 @@
-[
-  "eslint-config-sbtsbol",
-  "stylelint-config-sbtsbol",
-  "@sbol/lib.offers",
-  "@sbol/region.header",
-  "@sbol/region.footer",
-  "@sbol/region.product"
-]

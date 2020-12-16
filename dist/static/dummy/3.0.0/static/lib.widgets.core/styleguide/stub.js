@@ -1,4 +1,0 @@
-window.bootstrap = {
-    navigation: {},
-    config: {},
-}

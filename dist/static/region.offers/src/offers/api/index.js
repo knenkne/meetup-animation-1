@@ -1,6 +1,0 @@
-export { feedback } from './feedback'
-export { getOffers } from './get-offers'
-export { reject } from './reject'
-export { init } from './init'
-export { offersQueryParams } from './url'
-export { getManagerId } from './get-manager-id'

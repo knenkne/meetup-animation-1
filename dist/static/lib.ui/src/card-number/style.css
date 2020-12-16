@@ -1,7 +1,0 @@
-.card-number {
-    white-space: nowrap;
-
-    span {
-        user-select: none;
-    }
-}

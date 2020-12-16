@@ -1,1 +1,0 @@
-    <Input.Suggest.Error onClick={console.log} title="Повторить">Упс</Input.Suggest.Error>

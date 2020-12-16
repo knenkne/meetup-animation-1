@@ -1,1 +1,0 @@
-    <Input.Suggest.Long onClick={console.log} title="Повторить">Долгая загрузка</Input.Suggest.Long>

@@ -1,8 +1,0 @@
-export { default as arrested } from './arrested.svg'
-export { default as badAttention } from './bad-attention.svg'
-export { default as goodAttention } from './good-attention.svg'
-export { default as ready } from './ready.svg'
-export { default as repeat } from './repeat.svg'
-export { default as unknown } from './unknown.svg'
-export { default as waiting } from './waiting.svg'
-export { default as warning } from './warning.svg'

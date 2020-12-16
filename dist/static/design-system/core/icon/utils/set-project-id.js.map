@@ -1,1 +1,0 @@
-{"version":3,"file":"set-project-id.js","sources":["../../../src/icon/utils/set-project-id.js"],"sourcesContent":["import { Icon } from '../icon'\n\nexport const setProjectId = Icon.setProject\n"],"names":["setProjectId","Icon","setProject"],"mappings":";;;;;;;;;IAEaA,YAAY,GAAGC,IAAI,CAACC;;;;"}

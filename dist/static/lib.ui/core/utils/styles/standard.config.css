@@ -1,8 +1,0 @@
-:root {
-    --default-transition-duration: 0.17s;
-    --default-transition-type: ease-in-out;
-    --default-transition-rules: all;
-    --default-transition: var(--default-transition-rules) var(--default-transition-duration) var(--default-transition-type);
-    --rotate-transition-duration: 0.3s;
-    --box-color-transition: border var(--default-transition-duration) var(--default-transition-type), box-shadow var(--default-transition-duration) var(--default-transition-type);
-}

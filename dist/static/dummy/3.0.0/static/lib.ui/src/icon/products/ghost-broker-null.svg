@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
-    <g fill="none" fill-rule="nonzero">
-        <rect class="repaint" fill="#616E7C" width="24" height="17" x="6" y="12" rx="2" />
-        <path fill="#FFF"  d="M15.204 24.707a1 1 0 0 1-1.414-1.414l7.003-7a1 1 0 0 1 1.414 1.414l-7.003 7z" />
-        <path fill="#FFF" d="M20.793 24.707a1 1 0 0 0 1.414-1.414l-7.003-7a1 1 0 0 0-1.414 1.414l7.003 7z" />
-        <path fill="#616E7C" d="M22 8.692c0-.33-.403-.692-.997-.692h-6.006c-.596 0-.997.36-.997.69v1.91h-2V8.69C12 7.206 13.342 6 14.997 6h6.006C22.658 6 24 7.209 24 8.692V10.6h-2V8.692z" />
-    </g>
-</svg>

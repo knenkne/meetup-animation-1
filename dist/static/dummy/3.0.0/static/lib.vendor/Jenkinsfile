@@ -1,5 +1,0 @@
-buildStatic {
-    ENVIRONMENT = 'dev'
-    SUCCESS_MAILTO = 'Kuznetsov.D.Mikhaylo@sberbank.ru'
-    FAILURE_MAILTO = 'Kuznetsov.D.Mikhaylo@sberbank.ru'
-} 

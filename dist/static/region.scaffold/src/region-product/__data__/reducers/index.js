@@ -1,6 +1,0 @@
-export { default as products } from './products-reducers'
-export { default as profile } from './profile'
-export { default as employee } from './employee'
-export { default as manager } from './manager'
-export { default as userProperties } from './user-properties'
-export { default as theme } from './theme'

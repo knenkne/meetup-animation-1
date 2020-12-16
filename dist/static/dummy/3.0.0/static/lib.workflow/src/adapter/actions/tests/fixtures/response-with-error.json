@@ -1,7 +1,0 @@
-{
-  "success": false,
-  "error": {
-    "title": "lib.workflow:unexpected.error.happened",
-    "text": "lib.workflow:try.to.enter.later"
-  }
-}

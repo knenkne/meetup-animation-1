@@ -1,9 +1,0 @@
-
-name: lib.vendor.lodash
-description: 'AMD lodash vendor module'
-developers:
-
-revision: 09df1c0a9286cb7223ca1a663ac333cafcdcf6d1
-build: 6
-version: 4.17.11  
-buildDate: 29.04.2019 - 18:59:14
